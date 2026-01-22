@@ -1,6 +1,6 @@
-<h1 align="center">LLM-in-Sandbox</h1>
+<h1 align="left">LLM-in-Sandbox</h1>
 
-<p align="center">
+<p align="left">
   <a href="https://llm-in-sandbox.github.io">🌐 Project Page</a> •
   <a href="https://arxiv.org/abs/xxxx.xxxxx">📄 Paper</a>
 </p>
