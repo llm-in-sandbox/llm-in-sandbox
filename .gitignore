@@ -1,0 +1,9 @@
+output/
+venv/
+.venv/
+test_env
+__pycache__/
+*.pyc
+*dummy*
+dist/
+demo_page/

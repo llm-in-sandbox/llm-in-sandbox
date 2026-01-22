@@ -1,0 +1,657 @@
+# The State of competition In Australia
+
+### e61 Research Note No. 9
+
+
+-----
+
+#### The state of competition in Australia
+
+##### Authors: Dan Andrews, Elyse Dwyer and Adam Triggs
+
+Over the past 15 years, product markets have become more concentrated in
+Australia. But has there been a corresponding decline in competition?
+
+Dynamic markets are important for competition. Dominant firms in
+concentrated markets may still act competitively if there is some threat
+from new entrants or growing competitors.
+
+In this research note we examine the link between measures of market
+concentration and firm dynamism at a detailed industry level.
+
+First, we find that the largest firms in concentrated industries are less likely
+to be displaced from their positions over time. In addition, as an industry
+becomes more concentrated, the number of new entrants tends to shrink.
+
+Second, we find that concentrated markets often display more anticompetitive behaviour, as measured by infringement notices issued by the
+competition regulator. Petrol stations that operate in environments with
+fewer nearby competitors also tend to charge consumers higher margins.
+
+Overall, these findings raise concerns about the exercise of market power
+by dominant players in concentrated markets, suggesting that the observed
+rise in product market concentration is unlikely to be purely benign.
+
+
+## Summary
+
+
+-----
+
+## Does rising market concentration mean weakening competiton?
+
+
+Likewise, the scarcity of new entrants into concentrated industries suggests a
+lack of external competitive pressure. Our findings indicate there are fewer new
+firms entering an industry after an industry experiences an increase in
+concentration.
+
+Market concentration also becomes a concern if it coincides with anti-competitive
+behaviours, such as when include market leaders intentionally restrict consumer
+choice or prevent suppliers from doing business with other competitors. 6
+
+Our research establishes a correlation between market concentration and anticompetitive behaviours. We find that firms operating in concentrated industries are
+more prone to infringements from the competition regulator.
+
+Finally, we conduct a case study into the anti-consumer effects of local market
+concentration, using microdata on petrol stations. Stations facing limited nearby
+competitors use this advantage by charging higher margins at the pump.
+
+
+Rising industry concentration has recently been observed in many developed
+economies, which raises concerns about the increased power of market leaders
+and the overall state of competition.
+
+An increase in concentration does not necessarily arise from anti-competitive
+behaviour. Some markets have a "winner takes all" dynamic, where the most
+productive company dominates. Technology has made it easier for consumers to
+compare the prices of similar products. If one firm can make a better product at a
+lower price and capture the market, then this may be an efficient outcome.1,2,3
+
+For these markets to remain competitive, they need the ongoing threat of
+obsolescence. This enables consumers to switch to a more innovative or cheaper
+competitor, such as when Apple made Nokia's mobile phones obsolete during the4
+2010s.5
+
+We investigate market concentration in Australia at the industry level and its link
+with measures of market dynamism such as:
+
+
+**Incumbent retention: How long do the top firms stay in their**
+position?
+
+**Net entry: Are there more new entries relative to exits in the**
+industry?
+
+
+**1.**
+
+**2.**
+
+
+Without changes in the ranking of leaders within an industry, it becomes
+challenging to assert that the top firms in concentrated industries face the
+threat of obsolescence. We find that Australian industries with higher
+concentration preserve the position of their top firms more.
+
+
+-----
+
+## Australian industries are more concentrated than the US ...
+
+We examine industry concentration in Australia by
+estimating industries' "CR4" — the market share of the
+top four firms. This indicator is often used as an initial
+assessment for competition authorities. Given likely
+industry-specific level differences, we are then able to
+benchmark estimates to levels in the United States.
+
+Figure 1 shows the (unweighted) average CR4 of 3-digit
+industries within each broad industry division in 2017.
+Besides Retail Trade, in all industry categories,
+Australia exhibits higher levels of concentration than
+the United States. This difference is especially
+significant in the Mining, Utilities and Manufacturing
+sectors.
+
+
+When comparing the distribution of concentration
+levels (CR4) across granular industries, it is evident that
+Australia exhibits a significantly larger right tail in
+comparison to the United States (Figure 2). This
+suggests that Australian industries are more prone to
+high levels of concentration. In 2017, approximately
+7% of industries in Australia had a CR4 exceeding 80%,
+whereas this was only the case for around 1% of
+industries in the United States.
+
+
+Almost half of US industries had a CR4 ratio less than 20% in 2017, whereas this was the case for less
+
+than a third of industries in Australia.
+
+
+-----
+
+## ... and have become increasingly concentrated over time
+
+In addition to the high level of concentration observed
+(relative to similar countries like the US), there has been
+a broad increase in concentration over time in Australia.
+
+Although many industries (49%) did not undergo a
+concentration increase, the average CR4 measure across
+industries from 2007 to 2020 rose by approximately 2.5
+percentage points (Figure 4). 7,8
+
+These findings are primarily driven by a right-skewed
+distribution, with over 30% of industries experiencing a
+concentration increase of more than 5 percentage points,
+while only 25% of industries experienced a corresponding
+decrease (Figure A10).
+
+Furthermore, notable concentration increases were
+observed in industries that initially had a moderate level
+of concentration, such as the retail and transportation
+sectors (Figure 3). These findings align with previous
+studies that have identified the retail sector as a
+significant contributor to the overall concentration rise. 9
+
+9
+
+
+In 3-digit Retail industries, concentration has increased the most in Fuel Retailing, E-commerce and Electronics.
+
+For Transport and Warehousing, concentration has increased the most in Freight Shipping, Passenger Rail and Warehousing Services (Figures A3-A5).
+
+
+-----
+
+## Concentrated industries see market leaders entrenched for longer
+
+Under normal circumstances, industries with intense competition
+would witness turnover among market leaders and the
+emergence of new entrants. High levels of concentration could be
+benign if we still observed this competitive dynamic.
+
+We develop a new measure — "incumbent retention" — to quantify
+the number of firms that remained in the top 4 positions of an
+industry from 2007 to 2021. Our analysis reveals that industries
+with higher concentration levels in 2007 also exhibited a greater
+retention of 2007's top firms in 2021 (Figure 5).
+
+Specifically, industries that in 2021 retained none of their top
+firms from 2007 had a median concentration of 18% in 2007,
+while industries that retained 3 top firms had a median
+concentration of 43%.
+
+
+We extend our analysis by considering the top 10 firms in each
+industry and measure the growth in the number of employing
+firms (Net Entry Rate) from 2007 to 2021 for each industry (Figure
+6). 10
+
+Our findings indicate that industries with higher levels of
+incumbent retention during this period tended to have a lower
+median net entry rate. Additionally, industries with fewer
+incumbents retained were more likely to exhibit high entry rates,
+surpassing 5% per annum.
+
+
+**Industry Examples**
+Small differences in annual net entry rates become cumulatively large. An industry which retained only one top 10
+firm experienced a net entry rate of 0.8% p.a. at the median, translating to 12.7% more firms over 15 years.
+
+In the Air Conditioning Manufacturing industry in 2007, six of the top 10 firms in 2007 remained at the top in
+2021 and the number of firms in the industry declined at a rate of 1% a year over this period.
+In the Scientific Testing and Analysis industry, only one firm remained in the top 10 over the 15 year period
+and the number of firms grew at a rate of 1% p a
+
+
+-----
+
+## Increases in concentration today are linked to lower entry tomorrow
+
+High concentration and lower incumbent displacement are worrisome as they may
+indicate a rise in barriers to entry. This can hamper the emergence of young firms,
+which play a crucial role in exerting pressure on incumbent firms to innovate, and
+provide alternative options for workers seeking new jobs. 11
+
+We analyse the correlation between increases in the market share of the top 10 firms
+(CR10) and the net entry of firms within a specific ANZSIC Group (3-digit code). In this
+context, net entry refers to the average compound annual growth rate of the number
+of employing firms operating within the industry.
+
+While low entry may not be directly tied to incumbent behaviour, by definition it is a
+reduction in the number of firms within the industry, thus mechanically amplifying
+the measure of concentration during the same period. To account for this effect, we
+divide the sample into two distinct periods: 2007-14 and 2015-21. We also aim to
+address the persistent nature of this mechanical effect over time, therefore our
+measure of net entry in the 2015-21 period controls for the net entry rate observed
+in the 2007-14 period.
+
+Our findings suggest that increases in industry concentration during the 2007-14
+period are associated with a lower rate of net entry in the following period (2015-21)
+(Figure 7). It is important to note that we are not inferring causality in this context.
+Instead, we observe that the conditions linked to concentration growth in one period
+are correlated with diminished net entry of firms in the subsequent period.
+
+
+For a 10 percentage point increase in the share of the top 10 firms between 2007
+
+and 2014, the average annual net entry rate in that industry was 0.6 percentage
+
+points lower in 2015-21 after controlling for the net entry rate in 2007-14.
+
+
+-----
+
+## More concentrated industries infringe consumer rules more often
+
+The power dynamics between leading firms and consumers may become imbalanced in
+concentrated markets. To examine this further, we rank industries based on their
+average CR10 ratio from 2007 to 2021. We then estimate the number of consumerrelated infringements and undertakings issued by the ACCC over the past 3 decades. To
+account for varying industry sizes, we calculate infringements per 1,000 firms.
+
+The industries with the highest levels of concentration also tend to have higher rates
+of consumer contraventions (Figure 8). For example, on the ACCC website:
+
+
+There have been 12 infringement notices and enforceable undertakings issued
+over 30 years in the airline industry, which is famously dominated by a small
+number of companies.
+
+By contrast, in the Accommodation industry, which is less concentrated and has
+a higher number businesses, only 4 infringements were issued.
+
+Repeat offences in concentrated industries are a key driver of these results. For
+example, in the Broadcasting industry, a single firm received 10 contraventions
+over the 30 year period (see Figure A11 for more information).
+
+
+**1.**
+
+**2.**
+
+**3.**
+
+
+We also find similar results for competition contraventions mentioned by the ACCC
+(Figure A8). More research is required to establish causality, as the observed
+relationship may also reflect the increased regulatory scrutiny of firms in more
+concentrated industries.
+
+
+-----
+
+## Concentration and prices at the pump: A petrol station case study
+
+To explore the impact of market concentration on pricing behaviour, we undertake a
+case study of the Fuel Retailing sector. Over the period from 2007 to 2021, this12
+industry has witnessed a surge in concentration levels (Figure 9). To analyse this
+phenomenon, we examine publicly available retail and wholesale pricing data.
+
+
+In retail fuel markets, the cost associated with physically seeking out cheaper
+alternatives often leads to a high degree of localisation. Additionally, as we examine
+lower levels of geographical aggregation, we observe an upward trend in market
+concentration (Figure A9). 13
+
+Our analysis reveals that in metro areas where fuel stations faced less competition
+nearby, they tended to charge higher wholesale margins (Figure 10). Importantly, this
+relationship does not appear to be explained by increased transportation costs. Even
+after accounting for the road distance to the Lytton fuel refinery and terminal in
+Brisbane, we still observe this association (Figure A12).
+
+The impact of local concentration on margins varies over time in response to
+fluctuations in wholesale fuel prices. When wholesale prices experience a rise, fuel
+stations in general tend to receive lower margins. This can be attributed to consumers
+being quicker to adjust their expectations and actively seeking out more affordable
+options.14
+
+As wholesale costs rose in 2022 (Figure 11), margins fell at a slower pace for stations in
+more concentrated markets (Figure 12), suggesting a lack of competitors may reduce
+the incentive to absorb a cost increase.
+
+
+-----
+
+## How can policy address a lack of competitive pressure?
+
+As rising concentration elevates concerns about competition, which policy levers are relevant to supporting competition in Australian markets?
+
+While mergers and acquisitions can reallocate corporate resources and address underperforming management practices,  it is crucial to recognise that they can also have15,16
+adverse effects on competition.  In light of these concerns, policymakers are now re-evaluating the adequacy of Australian merger policy to ensure its effectiveness in17,18
+promoting competitive markets.
+
+
+In Australia, the ACCC faces challenges when trying to stop mergers through legal proceedings. They need to provide strong evidence that the merger would
+significantly harm competition in the future, which can be difficult. It involves gathering information from suppliers or consumers who may not be willing to share
+it. Additionally, reversing mergers through forced divestiture can be a complicated process. As a result, the ACCC often has to work within the timelines set by the
+merging companies, as the current rules do not automatically pause the merger while the investigation is ongoing.19
+
+Studying the effects of mergers and acquisitions (M&A) on competition in Australia is challenging because the available data does not cover all transactions. While
+larger M&A deals involving public companies are tracked, many smaller transactions, which can still have a significant impact on competition when combined, go
+unnoticed. This issue is discussed in our concurrent Micro Note **_As the Clock Strikes Midnight._** The reason for this data gap is partly due to Australia's voluntary
+system of disclosing mergers.
+
+
+**1.**
+
+**2.**
+
+
+While merger policy is a key competition policy lever, addressing a range of other regulatory barriers are also important:
+
+|Policy Lever|Description|
+|---|---|
+|Reform Land-Use Policies|When it comes to setting up a physical premises, restrictive zoning regulations and lengthy approval processes can favour established firms. In localised markets, this can make it near impossible for new firms to enter, particularly if incumbent firms lobby the local planning process, as has been documented in OECD countries.20|
+|Review Government Contracts|The value of government contracts has grown from $33 billion in 2014 to over $190 billion in 2022, making it a meaningful participant in markets such as Professional Services. In Political Economy: The Market for Government Contracts and Influence we investigate how the allocation of contracts may be impeding competition by favouring large, incumbent firms.|
+|Rethink Size-Based Policies|A number of regulations kick in at a certain size threshold for firms, which may disincentivise young firms' growth . For example, firms are now potentially subject to a different wage bargaining regime when they hire their 20th worker. In addition, firms face tighter unfair dismissal laws when they hire their 15th employee and greater payroll tax when they hit a certain amount of wages paid.2 1|
+|Lower Barriers to Labour Mobility|For new entrants to scale and become competitive, they must be able to attract new hires. State-level occupational licensing can be an impediment for those wanting to switch occupations or locations. Evidence from the US suggests that licensed occupations have much lower rates of interstate mobility than those with voluntary certifications.2 2 Non-compete clauses also pose a similar impediment to workers wanting to switch firms within an industry. In Australia, 22% of workers are estimated to be covered by a non-compete clause, including workers outside typical expected professional occupations.23|
+
+
+-----
+
+ACCC (2008). Merger Guidelines. ACCC. Canberra.
+
+ACCC (2022). Ex post review of ACCC merger decisions. ACCC.
+
+ACCC (2023). "Fines and penalties." Retrieved 31/03/2023, 2023, from
+https://www.accc.gov.au/business/compliance-and-enforcement/fines-and-penalties.
+
+Adams, N., D. Andrews; J. Auer; E.Dwyer; Z. Hayward; G. Kaplan;G. La Cava; A. Michielsen; M. Nolan.
+(2022). Better harnessing Australia's talent: Five facts for the summit, e61 Institute.
+
+Andrews, D. and J. Buckley (2023) Multi-Employer Bargaining, A Barrier to Firm Growth? e61 Institute.
+
+Andrews, D. and B. Jarvis (2023) The Ghosts of Employers Past: How Prevalent are Non-Compete
+Clauses in Australia? e61 Institute.
+
+Aghion, P. and P. Howitt (1992). "A Model of Growth Through Creative Destruction." Econometrica
+60(2): 323-351.
+
+Autor, D., D. Dorn, L. F. Katz, C. Patterson and J. Van Reenen (2017). "Concentrating on the Fall of the
+Labor Share." The American Economic Review 107(5): 180-185.
+
+Autor, D., D. Dorn, L. F. Katz, C. Patterson and J. Van Reenen (2020). "THE FALL OF THE LABOR SHARE
+AND THE RISE OF SUPERSTAR FIRMS." The Quarterly Journal of Economics 135(2): 645-709.
+
+Azar, J., I. Marinescu and M. Steinbaum (2022). "Labor Market Concentration." The Journal of Human
+Resources 57(S): S167-S199.
+
+Barrios, J. M. and T. G. Wollmann (2022). A New Era of Midnight Mergers: Antitrust Risk and Investor
+Disclosures, National Bureau of Economic Research.
+
+Bosma, N., E. Stam and V. Schutjens (2011). "Creative destruction and regional productivity growth:
+evidence from the Dutch manufacturing and services industries." Small Business Economics 36(4):
+401-418.
+
+
+## References
+
+
+-----
+
+Bresnahan, T. F. (1989). "Empirical studies of industries with market power." Handbook of
+Industrial Organization 2: 1011-1057.
+
+Brynjolfsson, E., W. Jin and X. Wang (2023). "Information Technology, Firm Size, and Industrial
+Concentration." National Bureau of Economic Research Working Paper Series No. 31065.
+
+Byrne, D. P. and N. de Roos (2019). "Learning to Coordinate: A Study in Retail Gasoline." The
+American Economic Review 109(2): 591-619.
+
+Cass-Gottlieb, G. (2023). The role of the ACCC and competition in a transitioning economy
+address to the National Press Club 2023. Canberra, National Press Club.
+
+Cunningham, C., F. Ederer and S. Ma (2021). "Killer acquisitions." Journal of Political Economy
+129(3): 649-702.
+
+De Loecker, J., J. Eeckhout and G. Unger (2020). "The rise of market power and the
+macroeconomic implications." The Quarterly Journal of Economics 135(2): 561-644.
+
+Eliason, P. J., B. Heebsh, R. C. McDevitt and J. W. Roberts (2020). "How Acquisitions Affect Firm
+Behavior and Performance: Evidence from the Dialysis Industry." The Quarterly Journal of
+Economics 135(1): 221-267.
+
+Federal Trade Commission. (2023). FTC Proposes Rule to Ban Noncompete Clauses, Which Hurt
+Workers and Harm Competition.
+
+Fons-Rosen, C., P. Roldan-Blanco and T. Schmitz (2022). The Effects of Startup Acquisitions on
+Innovation and Economic Growth, School of Economics and Finance, Queen Mary University of
+London.
+
+Haltiwanger, J. C., E. Bartelsman and S. Scarpetta (2004). Microeconomic Evidence of Creative
+Destruction in Industrial and Developing Countries, The World Bank.
+
+
+Hambur, J. (2021). Product Market Power and its Implications for the Australian Economy. M. Group.
+Canberra.
+
+Hoberg, G. and G. Phillips (2010). "Product market synergies and competition in mergers and
+acquisitions: A text-based analysis." The Review of Financial Studies 23(10): 3773-3811.
+
+Jensen, M. C. (1988). "Takeovers: Their causes and consequences." Journal of Economic Perspectives
+2(1): 21-48.
+
+Kehrig, M. and N. Vincent (2021). "The Micro-Level Anatomy of the Labor Share Decline." The Quarterly
+Journal of Economics 136(2): 1031-1087.
+
+Lewis, M. S. (2011). "Asymmetric Price Adjustment and Consumer Search: An Examination of the Retail
+Gasoline Market." Journal of Economics & Management Strategy 20(2): 409-449.
+
+OECD (2010). "Land Use Restrictions as Barriers to Entry."
+
+Phillips, G. M. and A. Zhdanov (2013). "R&D and the incentives from merger and acquisition activity."
+The Review of Financial Studies 26(1): 34-78.
+
+Productivity Commission. (1995). Pre-merger notification and the Trade Practices Act 1974 Submission
+to the Treasury. Canberra,
+
+Shambaugh, J. N., Ryan; Breitweiser, Audrey; Liu, Patrick (2018). The state of competition and
+dynamism: Facts about concentration, start-ups, and related policies. Economic Facts. Washington D.C.,
+Brookings Institute.
+
+Sheen, A. (2014). "The Real Product Market Impact of Mergers." The Journal of Finance (New York) 69(6):
+2651-2688.
+
+Sims, R. (2021). Protecting and promoting competition in Australia keynote speech. ACCC
+
+
+-----
+
+## Appendix A
+
+###### Additional charts
+
+This section provides additional analysis and results to those
+presented in the note.
+
+
+-----
+
+-----
+
+-----
+
+## Appendix B
+
+###### Data construction and definitions
+ BLADE data
+
+For estimates of concentration, displacement and incumbent turnover, we use
+firm-level de-identified data from the ABS Business Longitudinal Analysis Data
+Environment (BLADE). BLADE allows linking firm-level data that has been
+submitted to the ATO (Business Income Tax, Business Activity) and the ABS
+(Business Surveys).
+
+For the purposes of this analysis, we use Business Activity Statements (BAS) and
+firm demographics from the Australian Business Register. We use Type of Activity
+Units (TAU) as our firm identifier, which divides large businesses into core
+functions. This is particularly useful for calculating concentration when a large firm
+may be spread across multiple industries (e.g. Wesfarmers).
+
+Financial Year TAU Firm Age
+
+**BAS**
+
+Turnover
+
+Headcount
+
+Financial Year
+
+**Indicative Items**
+
+ANZSIC Class
+
+Firm Age
+
+
+**Construction**
+
+1.We are interested in industries in the private sector, therefore we exclude
+
+industries which fall under Public Administration (ANZSIC Division O)
+
+2.We use data starting from 2007 to avoid issues of changing industry
+
+classification from Australia adopting a new taxonomy of industry classification
+in 2006. We also fix the industry classification of firms to the first reported
+industry to avoid firms changing their industry classification over time.
+
+3 We remove firms with a missing industry classification or measure of turnover
+
+
+###### Variables
+
+**ANZSIC industry definitions (see ABS ANZSIC06 Classifications).**
+To illustrate the different levels, we use retail as an example.
+
+Division - Retailing
+Subdivision / 2-Digit - Food Retailing
+Groups / 3-Digit - Specialised Food Retailing
+Classes / 4-Digit - Liquor Stores
+
+**Firm-level**
+
+Sales: Turnover reported on a Business Activity Statement
+Entry/Exit : An indicator if a firm entered/exited the dataset that year.
+Employing: Indicator if a firm's headcount (reported in BAS) is greater than 0.
+
+**Aggregates**
+
+Industry Sales: Sum of sales at a given ANZSIC level.
+Entry/Exiting Rate: The share of employing firms entering/exiting the sample in an
+industry that year.
+Net entry: The annualised percentage change in the number of firms in an industry.
+Retention: The number of firm ID's (TAU) in the top N of firms (by sales) in a given
+year that remain in the top N of firms in a subsequent year.
+3-Year exit probability: The share of firms in the top N of an industry in a given year,
+which subsequently leave the top after 3 years, averaged across all industries.
+
+**Concentration ratios**
+
+Top 4 Ratio: The share of industry sales attributed to the top four firms.
+Top 10 Ratio: The share of industry sales attributed to the top 10 firms.
+
+
+-----
+
+###### QLD Government fuel data
+
+In Queensland, petrol stations are required by law to notify the state government within
+30 minutes of a fuel price change being posted on their signs.
+
+The legislation requires that the entity responsible for setting prices is the one who
+reports them. For larger brand chains, prices can thus be changed simultaneously across
+store networks, which is often done through bulk data uploads via application
+programming interfaces (API), however this does not necessitate that the prices are
+changed to the same level or that all stations are changed at the same time.
+
+These prices are then available to consumers via various third-party apps which access
+the information via API. Precise locations of each station can be obtained as store coordinates are supplied in the dataset.
+
+Daily weekday wholesale prices for unleaded petrol each capital city are accessed via the
+Australian Institute for Petroleum's website:
+https://aip.com.au/pricing/terminal-gate-prices.
+We use the previous Friday's price to estimate weekend wholesale prices.
+
+**Construction**
+
+
+In this analysis, we primarily use the Top 4 Ratio to distinguish between industries
+where there are four or fewer very large firms, as opposed to the Top 10 commanding
+a large but evenly spread market share. There are some instances where the Top 10
+Ratio is used as to not identify individual firms in the sample.
+
+We acknowledge that there are other ways of measuring concentration, i.e. the
+Herfindahl–Hirschman Index, however we do not use this due to its ability to
+potentially identify individual firms.
+
+###### US Census data
+
+To access the latest data on concentration in the US, we use information from the
+economic census, which can be accessed here:
+
+https://data.census.gov/table?
+q=concentration&y=2017&tid=ECNSIZE2017.EC1700SIZECONCEN&hidePreview=true
+
+We use a level of North American Industry Classification, which is of similar granularity
+to ANZSIC Classes for our comparisons.
+
+###### ACCC data
+
+To construct industry measures of consumer infringements, the ACCC public register of
+infringements and enforceable undertakings was compiled into machine-readable
+format. To view ACCC infringement notices, see:
+https://www.accc.gov.au/public-registers/infringement-notices.
+
+For each infringement, information on the company and the date and nature of the
+infringement are recorded. Each infringement notice was then assigned an indicator as
+to whether it was anti-consumer or anti-competitive conduct (based on the section of
+the law supplied), as well as an industry subdivision identifier.
+
+
+1.
+2.
+
+3.
+
+
+We use data from 2019 onwards, the first complete year in the dataset.
+Prices are not always updated daily. When a daily price is not available, we use the
+latest available price posted by the station. When a price has been updated multiple
+times during the day, we take the average price.
+To abstract from transportation costs and lower turnover, we restrict our analysis to
+stations within 60km of either the Brisbane or Gold Coast CBD.
+
+
+-----
+
+The results of these studies are based, in part, on Australian Business Register (ABR)
+data supplied by the Registrar to the Australian Bureau of Statistics (ABS) under A New
+Tax System (Australian Business Number) Act 1999 and tax data supplied by the
+Australian Taxation Office (ATO) to the ABS under the Taxation Administration Act
+1953. These require that such data are only used for the purpose of carrying out
+functions of the ABS. No individual information collected under the Census and
+Statistics Act 1905 is provided back to the Registrar or ATO for administrative or
+regulatory purposes.
+
+Any discussion of data limitations or weaknesses is in the context of using the data for
+statistical purposes, and is not related to the ability of the data to support the ABR or
+ATO's core operational requirements. Legislative requirements to ensure privacy and
+secrecy of this data have been followed. Only people authorised under the Australian
+Bureau of Statistics Act 1975 have been allowed to view data about any particular firm
+in conducting these analyses. In accordance with the Census and Statistics Act 1905,
+results have been confidentialised to ensure that they are not likely to enable
+identification of a particular person or organisation.
+
+
+## Disclaimer
+
+###### BLADE data
+
+
+-----
+

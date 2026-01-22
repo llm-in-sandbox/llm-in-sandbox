@@ -1,0 +1,13 @@
+Create a cute birthday countdown video!
+
+【Requirements】
+- Count down from 10 to 1, then display "Happy Birthday, {name}!" at the end
+- Duration: ~12 seconds
+- Resolution: 1280x720
+- Style: Kawaii/cute aesthetic with pastel colors, add fun decorations like stars ⭐, hearts 💖, or confetti 🎉
+- Make it feel celebratory and joyful!
+- **Important**: Make sure all text is clearly visible and not blocked by decorations or other elements!
+- Output: `birthday_countdown.mp4`
+
+【Input】
+- theme.json: Color theme and the birthday person's name

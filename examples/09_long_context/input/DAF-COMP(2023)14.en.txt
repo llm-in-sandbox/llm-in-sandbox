@@ -1,0 +1,2923 @@
+Organisation for Economic Co-operation and Development
+
+**DAF/COMP(2023)14**
+
+**Unclassified** **English - Or. English**
+
+**27 November 2023**
+
+**DIRECTORATE FOR FINANCIAL AND ENTERPRISE AFFAIRS**
+**COMPETITION COMMITTEE**
+
+**Cancels & replaces the same document of 3 November 2023**
+
+**Out-of-Market Efficiencies in Competition Enforcement - Background Note**
+
+**- by the Secretariat -**
+
+6 December 2023
+
+This document was prepared by John Davies as the background note for item 12 of the 141[st] meeting
+of the Competition Committee on 5-6 December 2023.
+
+The opinions expressed and arguments employed herein do not necessarily reflect the official views of
+the Organisation or of the governments of its member countries.
+
+More documentation related to this discussion can be found at:
+www.oecd.org/daf/competition/out-of-market-efficiencies-in-competition-enforcement.htm
+
+Mr Antonio CAPOBIANCO
+Email: Antonio.Capobianco@oecd.org
+
+**JT03532657**
+OFDE
+
+**_This document as well as any data and map included herein are without prejudice to the status of or sovereignty over any territory to the_**
+
+
+-----
+
+**2**  DAF/COMP(2023)14
+
+## Foreword[*]
+
+1. In most jurisdictions, claims of efficiencies to be set against findings of anticompetitive harm are
+
+largely or wholly restricted to effects in the market where that harm occurs. This paper is about out-ofmarket (OOM) efficiencies, particularly when acceptance of an OOM efficiency claim could cause an
+otherwise prohibited merger or agreement to be accepted, or at least remedies to be modified. It is
+therefore concerned only with a more permissive approach; not whether competition law enforcement
+should be tougher as a result of any OOM effects. In practice, all jurisdictions will seek remedies that keep
+the efficiencies and avoid the harm but this paper is concerned with the rare difficult cases in which a
+choice must be made.
+
+2. Jurisdictions’ approaches to OOM claims vary, partly reflecting the overall goals of their
+
+competition laws. For example, jurisdictions applying some kind of total welfare standard are generally
+open to OOM efficiencies claims but the converse is not true: not all jurisdictions applying a consumer
+welfare standard reject such claims. Non-welfare standards that are based on protecting competition in
+itself rather than some overall welfare assessment are in principle the least compatible with OOM claims.
+For example, upstream monopsonistic harm to a labour market may result in lower prices to endconsumers downstream, but for example in the US the latter could be excluded as being out-of-market,
+reflecting an overall aim to prevent harm from anticompetitive conduct, not maximise consumer welfare.
+
+3. All jurisdictions in practice focus on preventing some specific conduct’s harm to competition to
+
+some extent. Even those open to OOM claims would not conduct general equilibrium modelling of whether
+on balance benefits exceed the costs across the economy.
+
+4. Applying an out-of-market rule can imply accepting or rejecting efficiency claims rather arbitrarily
+
+following the analytical process of market definition. Some agencies nowadays might define markets more
+narrowly than they used to, this rules out more efficiency claims, perhaps unintentionally. Furthermore,
+market boundaries are often defined less rigidly, for the purposes of competitive assessment, but this is
+not compatible with an ‘in or out’ distinction for efficiency claims. A future benefit to compensate for current
+harm might be ruled out, as being in a separate market (this is particularly important for environmental
+claims).
+
+5. OOM efficiency claims are subject to at least the same procedural barriers as in-market claims,
+
+which are rarely accepted by competition authorities. However, most jurisdictions go further in restricting
+or entirely ruling out such claims. For example, in the US court precedents largely rule out considering
+OOM efficiency claims in mergers and agreements and the existing limited agency prosecutorial discretion
+
+-  This paper was written by John Davies (Member of the UK Competition Appeal Tribunal) working as a consultant for
+the OECD Competition Division. The views expressed here are personal ones and in no way reflect the Tribunal’s
+position. The author was previously a consulting economist, in which capacity he advised and was instructed by various
+clients in matters relating to the issues discussed here, notably claimants in interchange fee payment card litigation
+and both complaining and investigated parties in abuse of dominance investigations of digital platforms. Ori Schwartz,
+Antonio Capobianco, Federica Maiorano and Cristina Volpin, OECD Competition Division, provided comments on the
+Background Note.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  3
+
+to consider them is being removed in the latest draft Merger Guidelines. In the EU, efficiencies must fully
+compensate harmed consumers, so OOM efficiencies can be considered only if the consumers in the other
+market are ‘substantially the same’ as those in the harmed market. However, some jurisdictions such as
+Australia, Germany and the UK do permit such claims in some circumstances. Abuse of dominance and
+vertical cases often consider harm in one market against benefits in another but rarely treat them
+specifically as OOM efficiencies.
+
+6. The use of market definition to decide eligibility of efficiency claims has been particularly
+
+problematic in multi-sided markets, especially for payment card interchange fees. As the OECD has
+discussed, whether two sides of a two-sided market are in the same market or in separate markets may
+not be crucial for the competitive assessment, as long as the links between the two are recognised.
+However, a competition authority or court treating the two as separate markets may be unable fully to
+consider those links, if OOM efficiencies are excluded, for example when prices fall on one side of the
+market and rise on the other.
+
+7. The argument for taking account of OOM efficiencies claims is straightforward: everyone’s welfare
+
+counts, so why not? There are various counter-arguments:
+
+1. Protection of competition in itself as a goal, which is implicit or explicit in most jurisdictions, so
+
+competitive harm cannot be compensated elsewhere.
+
+2. The ‘slippery slope’ towards monopolisation, as anti-competitive mergers are approved, because
+
+of their pro-competitive effects in other markets. However, this will rarely be the case (and
+competition authorities would normally have discretion to stop it).
+
+3. Additional complexity and resource costs in evaluating such claims. This seems the most relevant
+
+objection: most authorities already spend more time and resources than ever investigating cases.
+
+4. Relatedly, because of this complexity, competition authorities and courts could mistakenly approve
+
+more anticompetitive mergers and conduct.
+
+
+8. Several commentators have proposed loosening the rule prohibiting OOM efficiency claims in
+
+general, mainly in the US. Criteria proposed for eligibility include demand-side complementarities between
+markets, joint production which makes carving-out remedies impossible, vertical markets and a specific
+exemption for multi-sided markets. However, in the latest draft Merger Guidelines, the US agencies are
+tightening rather than loosening the rule.
+
+9. Several competition authorities in Europe have proposed an explicit exemption for OOM claims in
+
+some sustainability agreements, especially those relating to climate change. They cite the urgency and
+importance of such policies, as well as the ethical argument that ‘harmed’ consumers are often imposing
+high pollution externalities on others, and society. Society’s interests should come first, but the OOM rule
+would exclude them and the rule that harmed consumers should be compensated is a ‘polluter’s veto’
+Others, notably the EC, see no reason for any different treatment, holding to the rule that harmed
+consumers must be compensated, for example if they are ‘substantially the same’ as the people benefitting.
+
+10. In principle, there is no reason to be more welcoming of environmental OOM efficiencies claims
+
+than other OOM claims. All the arguments against are at least as strong and the concern about additional
+complexity (and consequent ‘greenwashing’) greater. There is also a principled question as to whether and
+how competition authorities and courts can weigh the benefits of an agreement raising standards above
+the legal minimum, against its costs, when governments could presumably have decided to set a higher
+minimum. Furthermore, there is little if any evidence on the environmental effectiveness or harm to
+competition from such agreements.
+
+11. Turning to practical matters, assessing OOM efficiencies such as environmental and social
+
+outcomes can require analytical tools outside competition authorities’ expertise such as assessing shadow
+prices for pollutants or long-run discount rates. However, other public bodies often have such measures
+already, so this need not result in an unduly complex task.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**4**  DAF/COMP(2023)14
+
+12. This paper concludes with some suggestions, while recognising that the EU and US at least have
+
+established their positions. These are:
+
+
+1. If there were to be any movement towards loosening the restrictions on OOM claims, criteria could
+
+be widened to include both demand-side and supply-side considerations.
+
+2. Perhaps the rule could be redefined to reflect ‘consumer groups’ rather than ‘markets’, to avoid the
+
+eligibility of claims depending on the analytical process of market definition.
+
+3. Failing that, competition authorities could consider a specific exemption for multi-sided markets, as
+
+the analytical process of market definition in such cases is particularly unlikely to lead to clear
+boundaries for what is ‘in’ and what ‘out’.
+
+4. Some _ex post evidence on environmental benefits from anti-competitive agreements would be_
+
+useful, to move the debate on (this requires some agreements to be allowed).
+
+5. Competition authorities that can consider OOM environmental and social claims should make use
+
+of other public bodies’ expertise in assessing them.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  5
+
+
+## Table of contents
+
+##### Foreword 2
+
+ 1. Introduction 7
+
+ 2. Efficiency claims in and out of the affected market 9
+
+2.1. Treatment of efficiencies in general 9
+
+2.2. OOM efficiencies and welfare standards 10
+
+2.3. The scope of OOM efficiency claims and some limited exceptions to excluding them 11
+
+2.3.1. Abuse of dominance and vertical agreements: OOM efficiencies part of assessment in
+the round, rather than explicit efficiency defences 11
+
+2.3.2. Mergers 11
+
+2.3.3. Horizontal agreements 13
+
+2.4. The role of market definition and its effect on substantive decisions 15
+
+2.4.1. Future markets 16
+
+2.4.2. Upstream markets: monopsony power and labour markets 16
+
+2.5. When is an efficiency claim ‘out of market’ for a multi-sided market? 16
+
+
+##### 3. The pros and cons of OOM efficiency claims 19
+
+3.1. Why restrict or exclude OOM efficiency claims? 19
+
+3.1.1. Non-welfare objectives (competition as a value in itself) 19
+
+3.1.2. The slippery slope 20
+
+3.1.3. Pragmatic concern for competition authority resources and advantages for investigated
+firms. 20
+
+3.2. Proposals for liberalisation in jurisdictions excluding OOM claims 21
+
+3.2.1. Economies of scope 21
+
+3.2.2. Upstream and downstream markets within the same supply chain 21
+
+3.2.3. Multi-sided platforms 22
+
+3.2.4. Complements in demand 22
+
+##### 4. Should out-of-market environmental efficiency claims be treated differently? 23
+
+4.1. Existing practice 23
+
+4.1.1. Mergers and the public interest 23
+
+4.1.2. Agreements and abuse of dominance 24
+
+4.2. Should competition authorities consider environmental efficiencies as a reason for allowing
+anti-competitive agreements that would otherwise be prohibited? 26
+
+4.2.1. Principles: is a competition authority well-placed to decide when environmental benefits
+justify allowing anti-competitive harm to some consumers? 27
+
+4.2.2. Practice: would taking account of environmental and similar OOM efficiencies in
+competition law enforcement really help the environment or competition? 28
+
+4.2.3. Which OOM efficiencies to exempt? – The role of externalities 29
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**6**  DAF/COMP(2023)14
+
+4.2.4. Should the welfare of anyone outside the national jurisdiction be considered? 30
+
+4.3. Practical aspects of taking account of environmental OOM efficiencies 30
+
+4.3.1. Evaluating environmental benefits 30
+
+4.3.2. Discounting 31
+
+
+##### 5. Conclusions 33
+
+ Endnotes 35
+
+ References 41
+
+**Boxes**
+
+Box 2.1. OOM efficiencies in US merger control: Philadelphia National Bank and its consequences 12
+
+Box 2.2. The ‘fair share’ in the EU and consumers who are ‘substantially the same’ 14
+
+Box 4.1. Accepting OOM environmental benefits claims – EC practice before 2003 25
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  7
+
+
+### Introduction
+# 1.
+
+13. Competition authorities often face claims of efficiencies resulting from some allegedly
+
+anticompetitive conduct (or merger), acceptance of which could cause them to permit that conduct or
+amend any remedy for it. However, in many jurisdictions, efficiencies arising in markets other than those
+in which harm to competition occurs are not considered or will be considered only in narrowly-defined
+circumstances. This background paper supports the OECD Competition Committee’s discussion of this
+topic.
+
+14. A competition authority that is open to claims of out-of-market efficiencies might take some very
+
+different decisions from one that does not, as the following examples demonstrate:
+
+-  Multi-market merger. Two merging firms each sell products that are produced together (such as air
+travel services), into several markets (routes, for example). Suppose there are competition
+concerns in only one market, but the parties claim the merger will produce cost-reducing
+efficiencies across their entire businesses. Then overall, consumers of the firms’ products would
+gain from the merger, but it may be that consumers of the overlap product could lose. A competition
+authority that can accept out-of-market efficiencies might approve the merger; one that does not
+might block it. Both, of course, might seek market-specific remedies, if available.
+
+-  Two-sided market. Suppose a competition authority is investigating potentially abusive practices
+by a platform operating on both sides of a two-sided market, such as a newspaper offering content
+to paying users and space to paying advertisers. If the practice results in a more efficient offer
+across the two-sided market, but raises prices to one of these sides, then again, that practice will
+be dealt with differently by competition authorities depending on their approach to out-of-market
+efficiencies. The decision will also, of course, depend on whether they define the two sides as part
+of a single two-sided market or as two separate markets.
+
+-  Suppose a collusive agreement aims to reduce greenhouse gas emissions among participating
+firms by eliminating the cheapest, highest-carbon products from each firm’s range. Then
+consumers of those products will be harmed, but consumers in other markets (or more widely,
+‘people’ across the competition authority’s jurisdiction and even globally) will benefit.
+
+15. Cases involving two-sided markets, especially interchange fees, and increasing interest in
+
+environmental benefits have led to renewed interest in this topic. Several competition authorities have
+issued guidance on sustainability agreements, taking very different approaches from one another. It is
+therefore timely for the Competition Committee to consider this topic.
+
+16. The OECD has considered related topics before, for example in discussing:
+
+-  welfare standards (OECD, 2023[1])
+
+-  environmental considerations in competition enforcement (OECD, 2021[2])
+
+-  efficiency claims (OECD, 2012[3]).
+
+17. There are also minor overlaps with discussions of
+
+-  payment cards and systems (OECD, 2006[4]; 2012[5])
+
+-  multi-sided markets (OECD, 2018[6])
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**8**  DAF/COMP(2023)14
+
+-  competition and labour markets (OECD, 2020[7])
+
+-  others relating to environmental and extra-territorial considerations in competition policy.
+
+18. Definitions will rarely be universally applicable, but to establish some conventions at the start of
+
+this paper:
+
+-  In this paper ‘efficiencies’ refers to any beneficial effect arising from anti-competitive conduct or a
+competition-harming merger. This includes rivalry-enhancing efficiencies, which counteract anticompetitive effects (especially from a merger) as well as ‘consumer (or other) benefits’, which do
+not arise through their effects on competition and compensate for, rather than counter-act, anticompetitive effects. The ‘benefits’ considered here are not necessarily limited to those received by
+consumers because (i) in jurisdictions applying a total welfare standard others could benefit and
+(ii) environmental benefits are not usually considered to accrue to consumers (except in the trivial
+sense that everyone is a consumer of something).
+
+-  Consumer efficiencies, price reductions or other gains, accruing to direct customers or indirectly
+end-consumers of a product are different from producer efficiencies: increased profits from that
+product.
+
+-  Out-of-market (OOM) efficiencies are those arising in a market other than the market in which anticompetitive harm is found to occur. This ‘harmed’ market or markets need not, of course, be the
+market in which anti-competitive conduct (or a merger) takes place. For example, a merger
+upstream between two suppliers of inputs could harm intermediate producers directly through
+higher input prices and downstream consumers indirectly through higher final product price. In this
+case an efficiency claim would be ‘out of market’ if it affected neither of those harmed groups.
+When jurisdictions’ rules require that efficiencies largely or fully compensate harmed consumers,
+that compensation should be understood to be required for all consumers harmed by the anticompetitive action, possibly across several separate or linked markets.
+
+19. The topic is limited to efficiencies and therefore concerns whether competition authorities should
+
+take a more permissive approach to otherwise anti-competitive mergers or conduct. This paper does not
+consider the wider questions of whether competition authorities should consider harms other than through
+a loss of competition or should consider non-competition objectives in other ways.
+
+20. The rest of the background note is organised as follows. Section 2. discusses how OOM efficiency
+
+claims fit within the wider process of assessing competition violations. Section 3. sets out the arguments
+in favour and against considering OOM efficiency claims. Section 4. considers arguments for and against
+a specific exemption for OOM environmental efficiencies. Section 5. concludes.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  9
+
+### Efficiency claims in and out of the
+# 2.
+### affected market
+
+21. This section discusses how OOM efficiency claims fit within the wider process of assessing
+
+competition violations under the following headings:
+
+1. the treatment of efficiencies in general, in-market and out
+
+2. relationships between the treatment of OOM efficiencies claims and welfare standards
+
+3. the scope of OOM efficiency claims under existing approaches, internationally
+
+4. the role of market definition
+
+5. OOM efficiency claims in multi-sided markets.
+
+22. Topics specific to environmental efficiency claims are discussed in Section 4., but the principles
+
+here apply to those claims too.
+
+**2.1. Treatment of efficiencies in general**
+
+23. Competition authorities considering OOM efficiency claims subject those claims to the same high
+
+bars that they apply to in-market efficiency claims. Practice on such claims is fairly common across
+jurisdictions. To take as an example Brazil’s merger guidelines, as an illustration of the common elements:
+CADE will accept efficiency claims only if:
+
+-  They are likely and verifiable.
+
+-  They enhance consumer welfare, in that a significant share of the benefits are provided to
+consumers.
+
+-  They are specific to the merger, CADE’s guidelines being more explicit than most in noting that
+efficiencies which could be achieved in less than two years through plausible alternatives and
+involving less competitive restraints are not to be considered specific.[1]
+
+24. Most competition authorities have similar conditions in merger guidelines[2], the EU for example
+
+stating that “the efficiencies have to benefit consumers, be merger-specific and be verifiable”[3]. However,
+some authorities also consider benefits other than consumer welfare.[4]
+
+25. In applying such frameworks, competition authorities place the burden of proof squarely on the
+
+parties. This reflects concern that the asymmetry of information always present between parties under
+investigation and competition authorities will be particularly acute for efficiency claims, because such
+claims relate mainly to the parties’ own businesses, not to the market. Partly as a result of this burdenshifting, even in-market efficiency claims are rarely accepted.[5]
+
+26. Similar procedural barriers also apply to OOM efficiency claims in jurisdictions that allow such
+
+claims and would, presumably, also apply to any OOM efficiency claims in a jurisdiction which changed its
+policy to be more open to them.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**10**  DAF/COMP(2023)14
+
+**2.2. OOM efficiencies and welfare standards**
+
+27. The treatment of OOM efficiencies can require answers to fundamental questions about what it is
+
+competition policy is trying to achieve.
+
+28. Most jurisdictions apply some form of consumer welfare standard; others such as Canada, Norway
+
+and (through their authorisation regimes) Australia and New Zealand include some ‘total welfare’
+considerations.[6] A total welfare approach puts more weight on efficiencies, because efficiencies which
+increase profits in the market under investigation but do not directly benefit consumers in that market can
+be considered. However, in practice categories like ‘total welfare’ and ‘consumer welfare’ are not black
+and white. All competition jurisdictions favour consumers to some extent; none simply seeks to ‘maximise
+economic welfare’ weighing everything up equally, in the sense that an abstract economic model might.
+
+29. In such an abstract model, Williamson (1968[8]) showed that cost savings resulting from a merger
+
+do not need to be of a similar size to price rises for the merger to increase total welfare. For example,
+Williamson calculated that a merger increasing prices by 20% would increase total welfare if cost
+efficiencies were as small as 4%, although this assumes a merger from a competitive market to monopoly,
+which might overstate the case. More generally, his simple static framework excluded dynamic effects that
+might lead to greater efficiencies in the long run, or conversely a greater loss of competition, for example
+through innovation effects.
+
+30. _The Antitrust Paradox (Bork, 1978[9]) is generally regarded as having led calls for competition law_
+
+enforcement to recognise such ‘total welfare’ considerations. To the confusion of generations of legal and
+economics students, Bork called his proposed approach a ‘consumer welfare standard’. He was doing so
+in part to contrast it to a standard based not at all on welfare but also because producers are consumers
+too, so increased profits ultimately flow to consumption elsewhere. Arguably, Bork was not advocating
+adding up consumer and producer welfare in the single market under examination, but rather consumer
+welfare across all markets.[7 8 9]
+
+31. This suggests a broad equivalence between applying a total welfare standard and accepting ‘out
+
+of market efficiencies’ (but the converse does not apply: openness to OOM benefits need not involve
+accepting a total welfare standard). This equivalence seems borne out by competition authority practice.
+Jurisdictions more open to producer efficiency claims (operating something closer to a total welfare
+standard) do not seem to limit such claims to the affected market.
+
+32. For example, Canada, Australia and New Zealand all seem to allow such claimed efficiencies to
+
+arise anywhere, although in some cases explicitly excluding any such gains achieved abroad.[10] However,
+illustrating the principle that a consumer welfare standard need not imply rejecting such claims, some
+jurisdictions that explicitly apply a consumer welfare standard do allow claims of OOM efficiencies, as the
+UK for example does in not limiting claims of ‘consumer benefits’ in mergers to the harmed market.
+
+33. Including ‘total welfare’ considerations in enforcement should not be thought of as simply adding
+
+add up all of the pluses and minus that could result from some merger or conduct – with harm to competition
+just one of the minuses. Instead, the assessment starts with the harm to competition, then considers
+whether anything else might justify it, possibly with a high procedural bar to any efficiency claims.
+Jurisdictions vary in what kinds of justification they can consider and what weight to place upon them but
+they are not in general indifferent between anti-competitive harm and missed opportunities for other
+benefits, as a purely mechanical approach to aggregate welfare maximisation would be.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  11
+
+**2.3. The scope of OOM efficiency claims and some limited exceptions to**
+**excluding them**
+
+34. OOM efficiency claims could in principle arise in any area of a competition authority’s work but in
+
+practice are most explicitly made in investigations of mergers and horizontal agreements, so this paper’s
+focus is on those, after a brief discussion of why abuse of dominance and vertical agreements are largely
+excluded.
+
+**_2.3.1. Abuse of dominance and vertical agreements: OOM efficiencies part of_**
+**_assessment in the round, rather than explicit efficiency defences_**
+
+35. Jurisdictions’ formal positions on OOM efficiency claims in abuse of dominance and vertical
+
+agreements are usually no different from those for other types of cases. For example, the EU, in its
+_Guidance on enforcement priorities for abuse of dominance cases, requires for an ‘objective necessity’_
+defence that “the likely efficiencies brought about by the conduct outweigh any likely negative effects on
+competition and consumer welfare in the affected markets”[11]. However, it can be hard to distinguish an
+OOM efficiencies claim in such cases from core concerns, such as inter-market leveraging. In practice
+such cases do often involve consideration of effects across markets.
+
+36. The assessment of abuse of dominance often requires consideration of effects for several different
+
+groups of consumers, whether separated in time (as in predatory pricing cases, in which existing
+consumers while future consumers suffer reduced competition) or in product space (as in tying cases,
+when restrictions in one market can promote competition in another). Similarly, vertical restraints cases
+often deal with trade-offs between inter-brand markets in which manufacturers compete and intra-brand
+markets in which retailers compete. These are not usually treated as OOM efficiencies, but rather involve
+an assessment of effects in the round.
+
+37. For example, in the US, the Topco decision is sometimes discussed as prohibiting consideration
+
+of OOM effects, when the Supreme Court condemned an agreement assigning territorial exclusivity, citing
+its “inability to weigh, in any meaningful sense, destruction of competition in one sector of the economy
+_against promotion of competition in another sector”[12]_
+
+38. However, the ‘weighing’ exercise the Court was rejecting in this judgment was between intra-brand
+
+and inter-brand competition, which became standard practice in the US following the later _Sylvania_
+judgment, as it is in most jurisdictions in which vertical restraints or related abuse of dominance cases are
+assessed on the basis of the rule of reason or ‘effects’.[13]
+
+39. This paper will therefore not consider abuse of dominance cases or vertical agreements, as
+
+competition authorities rarely consider cross-market effects as OOM efficiency claims in such cases, and
+more generally such cross-market effects have been debated extensively.
+
+**_2.3.2. Mergers_**
+
+40. In a merger investigation, a claim of OOM efficiencies (if considered at all) would normally be
+
+considered only after an initial finding of harm to competition and could in principle either outweigh that
+finding, overturning it, or result in modified remedies.
+
+41. Except for those operating explicit total welfare standards, many jurisdictions entirely exclude any
+
+such claims or allow them only in very strictly limited circumstances (for instance, see Box 2.1 below). This
+reflects various concerns about the consequences of being open to such claims, as will be discussed below
+in Section 3., but may also reflect a fundamental concern that merger control should prevent anticompetitive harm to consumers. An OOM efficiencies claim will only be relevant when a competition
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**12**  DAF/COMP(2023)14
+
+authority expects such harm to occur – and by definition such efficiencies will not prevent such harm in the
+affected market.
+
+**Box 2.1. OOM efficiencies in US merger control: Philadelphia National Bank and its**
+**consequences**
+
+In Philadelphia National Bank (“PNB”), merging banks made two efficiency claims, both rejected for
+several reasons including the fact that the efficiencies were outside the Philadelphia area affected by
+the merger. First, the banks claimed that together they would be able to offer loans to larger customers,
+in competition with New York banks, in a national market. Rejecting this, the US Supreme Court noted:
+
+“If anticompetitive effects in one market could be justified by procompetitive consequences in another,
+_the logical upshot would be that every firm in an industry could, without violating § 7, embark on a series_
+_of mergers that would make it, in the end, as large as the industry leader.”_
+
+Second, the banks claimed their merger would benefit the economy in Philadelphia more generally, on
+which the Court found:
+
+“We are clear, however, that a merger the effect of which “may be substantially to lessen competition”
+_is not saved because, on some ultimate reckoning of social or economic debits and credits, it may be_
+_deemed beneficial. A value choice of such magnitude is beyond the ordinary limits of judicial_
+_competence, […]”_
+
+The PNB decision has therefore been taken to rule out OOM efficiency defences in mergers, although
+(Werden, 2017[3]) disputes such a rigid reading, noting the other reasons given for rejection of the
+merger as well as uncertainties about the market definition. Other US merger cases have cited PNB to
+rule out taking account of OOM efficiencies.
+
+In practice, even though at times US merger guidelines have allowed limited exceptions as a matter of
+the agencies’ prosecutorial discretion but, as Baker (2019[10]), comments “but under Philadelphia
+_National Bank, which still controls, courts cannot follow suit.” The agencies have removed these_
+exceptions in the 2023 draft Merger Guidelines.
+
+Sources: United States v. Phila. Nat’l Bank, 374 U.S. 321 (1963), Werden (2017[11]), Cross-market Balancing of Competitive Effects: What
+[Is the Law, and What Should It Be, https://jcl.law.uiowa.edu/sites/jcl.law.uiowa.edu/files/2021-08/Werden_Final_Web.pdf, Baker, (2019[10]),](https://jcl.law.uiowa.edu/sites/jcl.law.uiowa.edu/files/2021-08/Werden_Final_Web.pdf)
+The Antitrust Paradigm
+
+42. There have, however, been limited exceptions to such rules, which are hard to generalise in
+
+principle but reflect different ways in which jurisdictions have allowed some flexibility within their specific
+merger processes.
+
+_Limited exception 1: markets that are inextricably linked, so remedies cannot separate_
+_the harm from the efficiencies?_
+
+43. Most competition authorities, confronted with a merger with anti-competitive effects but cogent
+
+efficiencies claims, will seek the best of both worlds: tailoring a remedies package to deal with the harm
+while preserving the gains. However, in some cases the markets will not be sufficiently distinct for this to
+be possible, for example when national production efficiencies might have anti-competitive effects in just
+a few local markets.
+
+44. Those markets could be said to be ‘inextricably linked’, providing a limited exception to the
+
+exclusion of OOM efficiency claims, as for example in the current US Horizontal Merger Guidelines (US
+DoJ, 2010[12]), unchanged from the version cited in the US agencies 2006 Commentary on a decision not
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  13
+
+to challenge a merger of two bakeries, where the “merger-specific efficiencies would benefit all customers,
+_and the restaurant and institutional customers potentially of concern accounted for only about 20% of the_
+_companies’ sales.”[14]_ However, this exception has been removed in the US agencies’ draft _Merger_
+_Guidelines issued in 2023 (DoJ and FTC, 2023[13])._
+
+45. In principle, such a rule is not an ‘exception’ to a general prohibition on considering OOM efficiency
+
+claims at all. If anti-competitive mergers that result in net benefits to consumers overall are allowed
+whenever no tailored remedy is available, that is no different from what a competition authority generally
+open to OOM efficiency claims would do: seek a remedy that preserved the gains, while remedying any
+harmed markets, if possible. So, if widely applied, such an exception would simply allow consideration of
+OOM efficiency claims. However, as the example of the bakeries shows, the condition was in fact
+interpreted as applying only in exceptional circumstances, when the agencies considered the efficiency
+gains to be large and in practice it was certainly treated as a rare exception.
+
+_Limited exception 2: distinctions between competition-enhancing efficiencies and_
+_consumer benefits?_
+
+46. Efficiencies can either result in enhanced competition, or in non-competition benefits that could
+
+compensate for lost competition. The distinction is not very relevant to in-market efficiencies, as a
+competition-enhancing effect would presumably be taken into account in the substantive assessment
+(Substantive Lessening of Competition - SLC, for example). However, when considering out of market
+efficiencies, the two do have distinct effects and a competition authority might put more weight on a procompetitive efficiency gain in another market than a merely compensatory gain.[15]
+
+47. A few jurisdictions do appear to draw such a distinction, such as Switzerland where the law
+
+explicitly limits efficiency considerations to those improving competition in markets other than those
+harmed by a merger (presumably because efficiencies within the market would simply be taken into
+account in the main assessment). In the Gateway Basel North joint venture merger case in 2019, the
+Commission found that although the JV would eliminate competition in some container services, it would
+enhance competition in others, and cleared the JV on this basis.[16] In Germany, the Bundeskartellamt[17]
+may clear a merger “if the companies prove that the concentration will also have pro-competitive effects
+on a different market ("improved market"). The improvements must outweigh the negative effects on the
+market in which dominance is created or strengthened ("impaired market").”[18] This condition applies only
+to out-of-market efficiencies of a structural nature leading to increased competition in the improved market.
+The Bundeskartellamt has, for example, cleared a merger that likely would have anti-competitive effects in
+the cable TV market, because of pro-competitive effects in other telecoms markets.[19]
+
+**_2.3.3. Horizontal agreements_**
+
+48. Efficiency claims could also be brought to exempt or justify horizontal agreements between firms
+
+that would otherwise be prohibited as anti-competitive. In principle, the same considerations apply as for
+mergers: a defined group of consumers may be harmed by the agreement (and for the purposes of this
+paper, it will be assumed they are) but the agreement could produce benefits, some of which may relate
+to different markets. This will be considered (if the jurisdiction allows for it) in a different legal framework
+from mergers.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**14**  DAF/COMP(2023)14
+
+**Box 2.2. The ‘fair share’ in the EU and consumers who are ‘substantially the same’**
+
+In the EU, Article 101(3) TFEU imposes four conditions, all of which must hold, to consider a restrictive
+agreement to generate objective economic benefits that outweigh the negative effects of the restriction
+of competition, and exempt those agreements from the general prohibition:
+
+1. it must contribute to improving the production or distribution of goods or to promoting technical
+
+or economic progress;
+
+2. consumers must receive a fair share of the resulting benefits;
+
+3. the restrictions must be essential to achieving these objectives; and
+
+
+4. the agreement must not give the parties any possibility of eliminating competition in respect of
+
+substantial elements of the products in question.
+
+Condition 2, the fair share, does not specify whether those consumers need be in-market consumers
+but the EC’s general Guidelines on exempting horizontal agreements from the Article 101 prohibition,
+clarify that: “Negative effects on consumers in one geographic market or product market cannot
+_normally be balanced against and compensated by positive effects for consumers in another unrelated_
+_geographic market or product market. However, where two markets are related, efficiencies achieved_
+_on separate markets can be taken into account provided that the group of consumers affected by the_
+_restriction and benefiting from the efficiency gains are substantially the same”._
+
+This rules out most OOM efficiency claims, although in any event, the EC has not formally accepted
+any Article 101(3) efficiencies claims, in-market or out of market since the 2004 Guidelines (but not
+primarily because of the fair share criterion), as (Brook, 2022[11]) notes.
+
+In 2023, the EC issued new Guidelines that confirm this language, including for agreements relating to
+sustainability benefits, as will be discussed in Section 4.
+
+Source: Brook, (2022[14]), Non-Competition Interests in EU Antitrust Law: An Empirical Study of Article 101 TFEU.
+
+49. Again, international practice varies widely as to whether OOM efficiencies can be considered to
+
+permit horizontal agreements. Guidance and decisions do not always clearly distinguish in-market and
+OOM effects. Further complicating the picture, competition authorities can decide to balance OOM and
+non-competition objectives through decisions on which cases to pursue at all, so their approach need not
+show up directly in casework.
+
+50. Some jurisdictions, such as the US, allow no such exemptions. Many, particularly in Europe,
+
+require that harmed consumers should receive a ‘fair share’ of the gains from efficiencies, which has
+generally been taken to require full compensation for harm suffered. The only exemption is when
+consumers in the harmed market and that benefitting from the efficiency are “substantially the same”
+(Box 2.2). This criterion has been much debated lately, with reference to sustainability agreements, as will
+be discussed in Section 4.
+
+51. Outside the EU, the UK’s Guidance on Horizontal Agreements, updated in 2023 requires a ‘fair
+
+share’ but does not use language of ‘substantially the same’.[20] Turkey’s guidelines on horizontal
+agreements make clear that its approach is aligned with the EU’s, requiring that “the consumer group
+_affected by the restrictions and the efficiency gains is substantially the same.”[21]_
+
+52. Japan’s Guidelines for Exclusionary Private Monopolization under the Antimonopoly Act state that
+
+"the efficiency improvements will be taken into account when […] it is deemed that outcomes such as a
+_decline in the prices of products, an improvement of product's quality, and a supply of new products are_
+_returned to users due to the said improvement of efficiency, and the welfare of users is improved.” This_
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  15
+
+appears to rule out OOM efficiency claims unless the in-market effects are sufficient to compensate
+users.[22] In Mexico, the Federal Economic Competition Law requires “the net contributions to consumer
+_well-being derived of such practices outweigh their anticompetitive effects", which again presumably_
+implies full compensation.[23]
+
+53. Again, jurisdictions applying standards closer to a total welfare standard are more likely to consider
+
+such OOM efficiency claims in agreements, but rarely identify them as such, since the task is more to
+assess the agreement in the round. The ACCC, for example, approved an agreement among electricity
+purchasers to pool their demand for renewable electricity on the grounds that any harm to competition was
+minimal given the low market shares of the companies involved and the environmental benefits from
+increased use of renewables.[24]
+
+**2.4. The role of market definition and its effect on substantive decisions**
+
+54. In jurisdictions that exclude OOM efficiency claims, the market definition exercise determines the
+
+scope of efficiencies that can be considered. However, approaches to market definition have changed over
+the years, implicitly changing the approach to OOM efficiencies. This can profoundly affect the scope of
+efficiency claims, in jurisdictions restricting such claims to an affected relevant market.
+
+55. One change may be that markets are often more narrowly defined than they used to be. For
+
+example, a market definition boundary may be drawn around just customers harmed by price
+discrimination, which could lead to the exclusion of any compensating gains to other consumers. In the
+US specifically, supply-side substitutes are no longer considered to be in the relevant market but rather
+considered an entry constraint. Commentators such as Werden (2017[11]) and Wilson and Klovers (2021[15])
+suggest that what the courts considered to be in-market in the foundational PNB case ruling could be
+considered OOM today.
+
+56. There is nothing necessarily wrong with this evolution in market definitional practice, but it may
+
+imply that OOM efficiency claims have become harder arbitrarily, rather than as a deliberate policy choice.
+
+57. Furthermore, many jurisdictions place less weight on market definition than they used to. Market
+
+definition is a tool, not an end in itself and the use of techniques such as Upward Pricing Pressure (UPP)
+can allow assessment of competitive constraints without defining sharp market boundaries. For the
+assessment of SLC (or another competition matter) it may not matter precisely where the boundaries of
+the market are drawn, so long as all competitive constraints are properly considered.[25] However, if OOM
+efficiency claims are absolutely ruled out, then any sharp line drawn by market definition will be
+determinative.
+
+58. For example, the EU’s draft Notice on Market Definition states that the Commission “may leave
+
+_the market definition open” and that when it does so, the Commission usually carries out the competitive_
+_assessment for all plausible alternative market definitions [...].”[26] It is not clear how jurisdictions that leave_
+the market definition open would deal with a later efficiency claim that might or might not be out-of-market,
+depending on the precise market definition. For example, should the market definition be reassessed, to
+crystalise it?
+
+59. This less ‘bright line’ approach to market definition would be consistent with adopting a more
+
+flexible approach to accepting OOM efficiency claims, but in practice those jurisdictions that exclude such
+claims have not done so.
+
+60. A related concern is that decision-makers in jurisdictions in which OOM claims are excluded may
+
+seek to reverse-engineer a wide market definition, to avoid being prevented by the any-market rule from
+taking those claims into account.[27] (Salop et al (2022[16]) believe that this is precisely what the US Supreme
+Court did in a case involving two-sided markets, as will be discussed in Section 2.5.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**16**  DAF/COMP(2023)14
+
+**_2.4.1. Future markets_**
+
+61. Markets are defined in time as well as in space and by products. In principle, therefore, future
+
+benefits could be treated as an OOM efficiency when considering present anti-competitive harm and viceversa.
+
+62. In predatory pricing cases, existing consumers typically receive benefits, while future consumers
+
+pay the cost. Other exclusionary abuses might have little or no effect ‘today’ but might harm competition in
+future, as would for example a ‘killer acquisition’ of a small innovative company not presently in the same
+market as the large digital firm acquiring it. An innovation theory of harm in any merger supposes costs on
+future consumers, but could involve efficiency claims today.
+
+63. In practice, such cases are not treated usually as comparing welfare in two markets. The gap
+
+between ‘now’ and the future is usually envisaged as no more than a few years. However, as the time over
+which consumers are assumed to wait for the future benefits lengthens, it becomes more and more
+plausible to treat the two periods as separate markets (or to consider that the two groups of consumers
+involved are no longer ‘substantially the same’). Thus, imminent efficiencies might be treated as in-market,
+while more distant future benefits might be considered out-of-market and ruled out of consideration in many
+jurisdictions. Again, this creates a bright-line distinction between what can be considered as efficiencies
+and what cannot, based on what may be an uncertain market definition.
+
+64. When it comes to some environmental efficiencies in particular, the effects may persist over very
+
+long periods of time, raising a question of whether future consumers should be considered OOM and also,
+as a practical matter, whether their welfare should be given equal weight to existing consumers. Such long
+run considerations will be discussed in Section 4.3.2.
+
+**_2.4.2. Upstream markets: monopsony power and labour markets_**
+
+65. Through monopsony power, firms may be able to purchase labour and other inputs at below
+market prices. When such harm to labour markets is considered by competition authorities and courts, the
+question arises about possible downstream consumer benefits from lower prices.
+
+66. However, as (Alexander and Salop (2023[17]) point out, drawing on Hemphill and Rose (2017[18]),
+
+such benefits are out-of-market and even though they accrue to ‘consumers’, these should no more be
+weighed against the harmed parties’ interests than any other OOM benefits (and therefore disregarded
+entirely in jurisdictions in which such claims are excluded).[28]
+
+67. Jurisdictions differ on whether they consider upstream harm to be a competition concern in itself,
+
+or whether they require evidence of resulting consumer harm – but a jurisdiction’s approach to OOM
+efficiency claims seems a rather arbitrary way of deciding this fundamental policy question.
+
+**2.5. When is an efficiency claim ‘out of market’ for a multi-sided market?**
+
+68. As discussed by the OECD (2018[6]), a multi-sided market (or for simplicity from now on, a two
+sided market) is a market in which a firm acts as a platform and sells different products to different groups
+of consumers, while recognising that the demand from one group of customer depends on the demand
+from the other group(s). Pricing and other costs and benefits to users across the two sides will usually be
+linked. Quite often, the operator of the two-sided market will end up, either by choice or through competitive
+pressures, imposing different prices on the two sides. Changes in competitive conditions, whether from a
+merger or from conduct, will change the structure of prices, compared to a counterfactual without the
+merger or conduct. This will often result in prices increasing on one side of the market and decreasing on
+the other.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  17
+
+69. There are many types of two-sided markets and some – such as newspapers which carry
+
+advertising – have been around for a long time. However, two kinds of two-sided market have been
+particularly prominent in competition enforcement in recent years: interchange fees on payment card
+purchases and digital platforms.
+
+70. The OECD’s introduction to the 2017 discussion rightly states that “One might ask whether it really
+
+_matters whether we define a two-sided market or two ‘interrelated’ markets, as long as we identify that_
+_these each require an analysis of the interrelationship, and hence recognise that each differs from a_
+_traditional one-sided market. For the purposes of a competitive assessment that is right.”[29] This reflects a_
+widespread view among economists that either approach works as long as the links between the two sides
+are properly considered. The same document goes on to note “However, whether the relevant market is
+_two-sided or consists of two interrelated markets may make an important difference in a legal sense in_
+_some jurisdictions.”_
+
+71. In any jurisdiction that restricts OOM efficiency claims, changes in the balance of cost and benefits
+
+across the two sides of a two-sided market are likely to be treated asymmetrically, unless it is defined as
+a single market.
+
+72. This could apply to any multi-sided market, such as digital platforms. Platform providers, such as
+
+Apple, argue that their control of app stores is necessary to benefit all users, even if they impose costs on
+some app developers.[30] As of now there have not been cases involving digital platforms in which the
+combination of market definition decisions with OOM efficiencies doctrine has been determinative.
+However, this combination has been important for interchange fees on payment cards, a two-sided market
+in which merchants (usually) effectively pay fees when accepting cards, fees that flow to issuer banks or
+cardholders.[ 31]
+
+-  When the EC assessed Mastercard’s multilateral interchange fees on merchants (and thence
+possibly passed to end-consumers), benefits to the latter or to the payment system as a whole
+were not considered to justify this practice, in part because two separate markets were defined:
+services to merchants and services to cardholders[.32]
+
+-  In the US, the Supreme Court allowed American Express’s (hereafter Amex’s) charges to
+merchants, in part because it took account of wider benefits, in what it defined as a single credit
+card market encompassing both sides of the market.[33]
+
+73. There are many other differences between the two cases, or course (Mastercard’s is a 4-party
+
+scheme involving agreements with banks, while Amex’s is not) but on the face of it, a different approach
+to market definition led to entirely different outcomes.[34]
+
+74. As Rochet and Tirole (2011[19]) showed, interchange fees can promote efficiency by compensating
+
+for externalities arising from the use of payment cards. This will raise prices to some (usually merchants)
+and decrease them for others (usually issuer banks and cardholders), compared to a no-agreement world.
+
+75. Decision-makers and commentators have taken very different positions on the substantive issue
+
+at stake here: whether interchange fees paid by merchants are (in one view) premium prices illegally
+resulting from a collusive agreement or (in the opposite view) efficient outcomes of a system which benefits
+all participants overall, as well as all shades of opinion in-between. These views need not coincide with
+views on out-of-market efficiencies, but they often do.
+
+76. In the EU, the decision to define two markets led to a focus on the merchants paying higher fees
+
+than they would have done, Advocate General Mengozzi ‘s opinion stating that: “It is the consumers that
+_suffer the harm caused by the restrictive effects of the agreement at issue that must, in principle, be_
+_allowed, as compensation for that harm, the fair share of the benefit resulting from the agreement referred_
+_to in article 81(3) EC.”[35]_
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**18**  DAF/COMP(2023)14
+
+77. As the UK Supreme Court noted, in an appeal relating to follow-on damages claims from that
+
+judgment: _“The merchants are the consumers of the services which are subject to the restriction of_
+_competition, and are therefore the consumers which the second condition is presumably intended to_
+_protect. If the merchants are not fully compensated for the harm inflicted on them by the restrictive_
+_measure, it is difficult to see how they can be said to receive a “fair” share of the resultant benefits.”_ [36]
+
+78. The ECJ in Mastercard left open the possibility of consumers receiving “appreciable objective
+
+advantages” (para 234), which may be less than “full compensation”.[37] However, it concluded that any
+advantages for the consumers on the connected market cannot in themselves sufficiently compensate for
+the restrictive effects, unless consumers in both markets are substantially the same.
+
+79. In contrast to this assessment, the 5-4 majority US Supreme Court decision in Amex found the two
+
+sides of Amex’s payment card business to be part of the same market, so harm to merchants resulting
+from Amex’s ‘anti-steering’ restrictions could be traded off against resulting benefits to cardholders or the
+efficiency of the payment card system more generally. The Court concluded that the two sides should be
+in the same market because: (1) activity on the two sides was always joint, simultaneous, and in fixed
+proportions; (2) the two sides were connected by “more pronounced” network effects and interrelation of
+demand and pricing; and (3) “[o]nly other two-sided platforms can compete with a two-sided platform for
+_transactions”[38] (US Supreme Court, 2018[20])._
+
+80. The four justices supporting a dissenting opinion, authored by Justice Breyer, made clear that
+
+market definition and the treatment of OOM efficiencies was at the root of the split decision, arguing that
+the appealed Decision had correctly identified a market just for merchant-related services.[ 39]
+
+81. Defining a single relevant market for both sides of a ‘transaction market’ is reasonably mainstream
+
+among economists, as set out for example by Filistrucchi et al (2013[21]).[40] However, that general
+consensus does not mean that economists are signed up to the Court’s three conditions quoted above:
+there are numerous counter-examples that meet some or all of the Court’s conditions but are clearly
+separate markets, or non-transaction markets that meet the criteria and so on.
+
+82. Salop et al (2022[16]) and other commentators have suggested that the market definition was
+
+contrived in order to be able to consider both sides of the market. Whether the Court’s decision was right
+or wrong, market definition works best as a useful analytical tool and it is not useful if it is retro-fitted to
+allow a given approach to assessing efficiencies.
+
+83. A hard line against accepting OOM efficiencies places great weight on the definition of the relevant
+
+market. Unfortunately, for many two-sided markets, as the OECD noted, economic principles do not
+unambiguously lead to a clear answer on that and – analytically speaking – it really should not matter very
+much. Such weight may be more than the analytical framework can bear.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  19
+
+### The pros and cons of OOM
+# 3.
+### efficiency claims
+
+
+84. Should OOM efficiency claims be allowed, or at least allowed in certain circumstances? The
+
+argument in favour is obvious: everyone’s welfare counts[41], so why not? The answer to that ‘why not’
+question is where the debate lies and there are several reasons, which this section will explore. Some
+jurisdictions have made a unique exemption to their general prohibition on OOM efficiency claims, for
+agreements relating to environmental outcomes and that will be discussed in Section 4. .
+
+**3.1. Why restrict or exclude OOM efficiency claims?**
+
+85. Competition authority guidelines and cases across jurisdictions vary greatly in how they address
+
+the question of OOM efficiencies. They do not always deal with them explicitly – and case law is often
+lacking, not least because it is so rare for mergers or anti-competitive agreements to be approved on the
+grounds of any kind of efficiency claim.
+
+86. For the reasons noted above, explicit restrictions on considering OOM efficiency claims are mostly
+
+found in jurisdictions applying some kind of consumer welfare standard, or those that accord a particularly
+heavy weight to competition itself, as a process of rivalry. It is very common for guidelines and legal
+precedents to reject in principle the idea that harm to consumers from lost competition in one market can
+be compensated by gains to other consumers, in another market. Various reasons have been advanced
+for this restriction, which could be summarised as:
+
+1. non-welfare objectives (competition as a value in itself);
+
+2. the ‘slippery slope to monopolisation’
+
+3. pragmatic objections about complexity and the cost in competition authority resources; and
+
+4. related to the above, a concern that investigated parties’ information asymmetry would be
+
+strengthened, leading to anti-competitive conduct being cleared.
+
+**_3.1.1. Non-welfare objectives (competition as a value in itself)_**
+
+
+87. A competition authority or court applying a pure ‘do no harm to competition’ standard would be
+
+consistent in excluding any OOM efficiencies. Even in jurisdictions with a welfare standard of some sort,
+the process favours a ‘do no harm’ default. Excluding OOM efficiencies can be seen as part of that stance.
+
+88. However, a rigid ‘do no harm’ approach is very limiting for a policymaker. Some might argue that
+
+competition authorities, lacking the legitimacy of general government, _should be so limited – as will be_
+important when considering environmental benefits. In practice competition authorities and courts have to
+decide on winners and losers to some extent.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**20**  DAF/COMP(2023)14
+
+**_3.1.2. The slippery slope_**
+
+89. One of the two most commonly-applied arguments against taking account of OOM benefits is the
+
+‘slippery slope’ that to do so will lead to widespread monopoly, or at best duopoly, as the US Supreme
+Court stated in its PNB decision: “the logical upshot would be that every firm in an industry could, without
+_violating § 7, embark on a series of mergers that would make it, in the end, as large as the industry leader”._
+
+90. This ‘slippery slope’ argument arises from a worldview in which being large or achieving monopoly
+
+rents in one market necessarily creates a more effective competitor in others. However, the circumstances
+in which it will this is true will be rare. Economies of scale are by no means universal and even if when
+they are present, they do not trump all other factors. Facing an efficiencies claim arising from economies
+of scale, a competition authority would always conduct a balancing exercise in which harm to competition
+in one market is assessed against increased competition arising from scale in others. There is no reason
+to think that this balancing exercise would remain positive all the way through a sequence of mergers that
+would leave the industry as a duopoly.[42]
+
+91. The argument is reminiscent of the ‘national champions’ idea that by monopolising the home
+
+market, a firm can become more competitive abroad, which has been widely discredited: there is more to
+economic success than economies of scale and scope.
+
+92. A similar argument could be made in a dynamic context. We could imagine firms claiming that by
+
+merging they would enhance innovation, to the benefit of all consumers in the future. However, competition
+authorities can be expected to be sceptical of that, too. Many would find it more plausible that lost
+competition would lead to reduced innovation.[43] Again, although on a case-by-case basis there may be
+occasional reasons for such a story to be plausible, it is not of general applicability, so there is no reason
+to think that it would lead to widespread monopolisation.
+
+**_3.1.3. Pragmatic concern for competition authority resources and advantages for_**
+**_investigated firms._**
+
+93. This leaves the pragmatic argument: the task of assessing and weighing such benefits would be
+
+difficult, to the detriment of the competition system. This added complexity could harm enforcement in two
+ways:
+
+-  It could use competition authority resources, that could be deployed to benefit consumers in other
+cases and activities.[44]
+
+-  It could provide advantages for investigated firms, increasing the scope for them to benefit from
+their asymmetric information against the investigating competition authority.[45]
+
+94. Some commentators such as Rybnicek and Wright (2014[22]) dismiss this as an out-of-date
+
+concern, expressing faith in the ability of modern methods of economic analysis to deal with such
+complexity, stating “This criticism also no longer holds in light of the antitrust agencies’ experience and the
+_modern economic toolkit available to evaluate efficiency claims.”[46]_
+
+95. In retrospect, this confidence in empirical techniques seems premature. Modern economic
+
+techniques have not turned the tasks faced by competition authorities into simple mechanical exercises,
+nor have they reduced the complexity or the controversy involved in competition decisions. Case duration,
+decision length and the duration of legal appeal have generally increased, not decreased, since 2014. [47]
+Competition authorities and courts continue to find efficiencies arguments difficult to evaluate, as the
+assessment of such arguments usually involves predictions about the supply side that the parties are in a
+better position to evaluate than the competition authority itself (hence the practice of putting the burden of
+proof onto those parties). The objection that taking account of OOM benefits would add to the complexity
+that competition authorities face therefore seems still to stand.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  21
+
+96. Equally, however, taking account of such benefits need not lead to a huge uplift in the demand for
+
+resources or to competition authorities being overwhelmed. Some commentators opposed to considering
+OOM efficiencies seem to overstate the complexity that is involved. (Baker, 2019[10]) suggests “[…] there
+_may be no principled stopping point short of undertaking what is unrealistic if not impossible: a general_
+_equilibrium analysis of harms and benefits throughout the entire economy.” However, in practice opening_
+up to OOM claims does not equate to maximising welfare overall; instead, it involves considering one or a
+few additional reasons to reconsider a finding of harm, putting the burden of proof on the parties to provide
+evidence. Competition authorities and courts in the UK and Germany, which firmly apply consumer welfare
+standards but are open to OOM efficiency claims in some respects, do not conduct anything resembling a
+general equilibrium analysis.
+
+97. The overall state of competition and the structure of the economy in jurisdictions that are more
+
+open to such claims for OOM consumers[48] do not seem notably different from those that exclude them,
+perhaps because few efficiency claims of any sort succeed and perhaps because such claims are treated
+as rare exceptions, not the extension of analysis beyond limit feared by some opponents of OOM claims.
+
+**3.2. Proposals for liberalisation in jurisdictions excluding OOM claims**
+
+98. A proposal simply to treat OOM efficiencies the same as in-market efficiencies is unlikely to catch
+
+the mood of the times: it would involve clearing more mergers and approving more conduct. As Baker
+(2019[10]) concludes: “Given that today’s dominant error-cost problem is the reverse – insufficient
+_deterrence of anti-competitive conduct – and given the need to protect political support for antitrust, there_
+_is now even less reason to revise antitrust law’s general prohibition against cross-market welfare trade-_
+_offs.”[49]_
+
+99. However, there are some proposals for limited exceptions to the general rule, particularly in the
+
+US (in Europe, the debate is more around whether environmental benefits should receive special
+treatment, as will be discussed in the next section). Yun (2022[23]) provides a comprehensive set of
+proposals which can serve to structure the discussion, although others have proposed some similar
+changes. He suggests four circumstances in which OOM efficiency claims should be considered:
+
+-  where there are economies of scope in production,
+
+-  upstream and downstream markets within the same supply chain,
+
+-  multisided platforms with indirect, cross- group network effects,
+
+-  between markets for products which are complements in demand.[50]
+
+**_3.2.1. Economies of scope_**
+
+100. The first of these can be seen as a generalisation of the concept of ‘inextricability’: when products
+
+are produced under conditions of economies of scope, it will be inefficient to separate production of them
+and in an extreme case the two may be inextricable. As noted above, in principle this is not different from
+accepting OOM efficiencies claims in general (as it would always be preferable to impose remedies carving
+out the harm whenever that is possible), but in practice this could be a limited exception, when the lost
+efficiencies from prohibiting the merger would be large.
+
+**_3.2.2. Upstream and downstream markets within the same supply chain_**
+
+101. The second condition is presented by Yun as a recognition that vertical cases frequently involve
+
+gains at one level and harm at another and in practice competition authorities already consider such tradeoffs, even though these are rarely considered out of market’ efficiencies.[ 51] However, the proposal is not
+simply an endorsement of existing practices. Although the language of OOM efficiencies is rarely used to
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**22**  DAF/COMP(2023)14
+
+describe such vertical cases, in practice most competition authorities require that gains at an intermediate
+level must lead to overall gains to end-consumers. Furthermore, as noted above, some have argued that
+competitive losses upstream in the supply chain should not be traded off even against gains to endconsumers.[52]
+
+**_3.2.3. Multi-sided platforms_**
+
+102. Yun suggests explicitly allowing OOM efficiencies when considering two-sided platforms,
+
+essentially to avoid the stark effects of market definition exhibited in the interchange fee cases described
+above. In this, he is not alone, as noted above: several commentators have argued for a limited exception
+to be made to the rules against OOM efficiencies, to avoid cases involving multi-sided platforms turning on
+market definition. Ducci (2016[24]) makes a similar argument in the EU context, suggesting that it makes
+little sense to disregard benefits on one side of a two-sided platform and generalising from this to argue
+that consumer welfare overall should be the goal, implying a wider acceptance of OOM efficiency claims.
+
+**_3.2.4. Complements in demand_**
+
+103. Like Orszag and Smith (2016[25]), Yun suggests that OOM efficiencies should be considered when
+
+the products in question are complements in demand. This is perhaps the most radical of Yun’s proposals
+as to some extent it brings in the EU (and other jurisdictions’) concept of substantial similarity in the
+customer base.
+
+104. This equivalence can be seen most easily in the extreme case of products that can only be
+
+consumed together, such as phone handsets and telecommunications services. Some conduct might raise
+the prices of handsets, for example by reducing competition in handset production, but through efficiencies
+reduce the prices of telecommunications services, for example because of synergies between the handset
+technology and the services that technology receives. In this case, the two price changes are indeed
+interdependent, so harm to handset buyers could be counterbalanced by benefits to substantially the same
+people.
+
+105. Even in the weaker case when complementary products can be consumed apart or together, there
+
+is likely to be overlap in the customer base but if the provider can price discriminate, it will solely be those
+consumers who use both that are targeted for price cuts. Allowing OOM efficiencies claims for products
+that are complements in demand would therefore often be similar to requiring that the consumers of both
+be substantially the same. An equivalent policy would therefore be to focus on net harm to groups of
+consumers, across markets.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  23
+
+### Should out-of-market
+# 4.
+### environmental efficiency claims be treated differently?
+
+106. All of the previous discussion applies to environmental OOM claims, as much as it does to more
+
+standard efficiencies reducing prices, raising quality and so on. Such environmental claims will almost
+always involve gains outside the harmed market, particularly when the benefits accrue, in effect, to
+everyone. Several competition authorities have put out guidelines or statements creating or suggesting a
+specific exemption from a general requirement that harmed consumers be fully compensated, for certain
+kinds of environmental benefits in horizontal agreements. Evaluating environmental and some other social
+benefits may also be more difficult for competition authorities than the already difficult task of evaluating
+more traditional efficiency claims.
+
+107. For all of these reasons, it is worth separately examining the treatment of environmental and
+
+related OOM efficiencies. After a brief overview of existing practices, this section discusses whether there
+is a case for an environmental exemption, in jurisdictions otherwise hostile to OOM efficiency claims, and
+how such claims could in practice be treated.
+
+**4.1. Existing practice**
+
+108. Efficiency claims are not restricted to price or similar direct benefits, so there has been scope for
+
+claiming efficiencies related to environmental and other broader gains, whether in-market accruing to
+affected consumers or, in those jurisdictions allowing it, out of market. However, in recent years there has
+been more debate over such as approach, whether as a result of more pressing environmental concerns
+or a view that competition law enforcement is too narrow and needs to be more aligned with society’s
+interests.
+
+109. Considering OOM efficiencies can be a part of that process, albeit a part limited to approving
+
+otherwise anti-competitive conduct or at least modifying the remedies for such conduct.[53]
+
+**_4.1.1. Mergers and the public interest_**
+
+110. In principle, claimed environmental benefits need be treated no differently from any other efficiency
+
+claim. Some jurisdictions, open to OOM efficiencies claims within the normal merger assessment
+framework, can consider environmental claims in that same framework. For example, in 2023 the ACCC
+in Australia authorised a merger in the electricity sector, with behavioural commitments, despite its
+longstanding policy of resisting vertical integration, because it accepted the claim that the merger would
+lead to a faster and more comprehensive transition to renewable generation than would have been the
+case without it.[54]
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**24**  DAF/COMP(2023)14
+
+111. However, in many jurisdictions such matters are dealt with through public interest considerations
+
+that may not be integrated into the competition authority’s merger review process. The OECD’s discussion
+of public interest considerations in merger control found that jurisdictions differed in:
+
+-  Substance: what factors can be considered, including for example: national defence in many
+countries, exports in Australia, media plurality in the UK, industrial development in France,
+employment and the interests of previously disadvantaged groups in South Africa.
+
+-  Decision process: whether these factors modify a competition decision or are assessed in parallel.
+
+-  The institutional arrangements, as some jurisdictions consider these factors as part of the
+competition assessment, by the competition authority, as in the People’s Republic of China, while
+in others they are matters for other public bodies, over-riding competition authority decisions (in
+Germany or the UK) or even pre-empting them (such as in Israel, Hungary and Canada), or in
+some cases acting concurrently.[55]
+
+112. The background paper to that roundtable found that many of these public interest interventions
+
+acted as acceptance of “efficiencies” arguments to allow a merger and most of the examples imply these
+efficiencies were outside the market affected. For example, German and Spanish approvals of energy
+mergers to create national champions, against the advice of competition authorities, were presumably held
+to benefit the economy as a whole, while likely harming domestic energy consumers through reducing
+competition.[56]
+
+113. A minority of such interventions involved the opposite: blocking mergers that would otherwise have
+
+been cleared – this is particularly the role of investment reviews. These are out of scope of the present
+paper.[57]
+
+**_4.1.2. Agreements and abuse of dominance_**
+
+114. Other public policies can also affect otherwise anticompetitive agreements and abuse of
+
+dominance concerns. In particular, most if not all jurisdictions permit conduct that is mandated or
+authorised by a law or regulation, or which is (strictly) necessary in order to comply with a law or regulation.
+State action of this sort is beyond the scope of this paper. Here, we are concerned with claims of OOM
+efficiencies relating to environmental factors, that could cause agreements to be exempt from being in
+breach of competition law.
+
+115. In a chapter on sustainability (environmental) agreements in EU 2023 Guidelines, the EC has
+
+confirmed retaining its ‘substantially the same’ language defining the only exception to its general exclusion
+of OOM efficiency claims.[58] Consequently, efficiencies produced by sustainability agreements can only be
+accepted if they fully compensate harmed consumers (but see earlier EC practice, Box 4.1). This might
+occur if either the benefits arose in-market or if the harmed consumers were also the substantially the
+same as those benefitting, even if the benefits arise in a different market. However, the new Guidelines
+therefore rule out accepting a sustainability agreement in which the harmed consumers are not fully
+compensated, on the grounds of benefits to other consumers or citizens more generally.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  25
+
+**Box 4.1. Accepting OOM environmental benefits claims – EC practice before 2003**
+
+Before the entry into force of Council Regulation (EC) No. 1/2003 the EC frequently accepted
+efficiencies claims for exemption on a wide range of non-competition grounds.
+
+In CECED (1999), the EC allowed an agreement between the makers of washing machines to increase
+standards for energy efficiency beyond regulatory requirements. The decision dealt with efficiencies in
+two sections. First, it found that purchasers of the initially more expensive machines would pay less for
+electricity and concluded that this would quickly pay back higher costs of machines. This is an in-market
+efficiency. However, it separately considered environmental benefits from reduced emissions of gases
+contributing to acid rain, concluding:
+
+“On the basis of reasonable assumptions, the benefits to society brought about by the CECED
+_agreement appear to be more than seven times greater than the increased purchase costs of more_
+_energy-efficient washing machines. Such environmental results for society would adequately allow_
+_consumers a fair share of the benefits even if no benefits accrued to individual purchasers of machines”._
+
+The inclusion of the phrase ‘even if no benefits accrued to individual purchasers of machines’ in principle
+implies an OOM efficiency: the interests of the wider population could outweigh harm to the purchasers
+of more expensive washing machines. In practice, the EC also found that harmed consumers gained
+directly from lower energy costs, so the agreement was exempted on within-market grounds.
+
+The EU’s subsequent 2004 Guidelines ruled out such balancing, except in circumstances when the
+consumers are “substantially the same”.
+
+Source: 2000/475/EC: Commission Decision of 24 January 1999 relating to a proceeding under Article 81 of the EC Treaty and Article 53
+of the EEA Agreement (Case IV.F.1/36.718.CECED).
+
+116. This approach is controversial. Legal commentators disagree on whether the TFEU _enables the_
+
+EU to balance competition against non-competition objectives[59] but this EU specific legal debate is not
+relevant to the wider international community. However, the debate on principles is relevant. Some
+competition authorities in Europe have taken a different approach, on the principle that full compensation
+of harmed consumers should not be required of the efficiencies produced by certain kinds of environmental
+agreements:
+
+-  The ACM in the Netherlands, in its Policy Rule on when it will pursue action on sustainability
+agreements, draws a distinction between most kinds of sustainability agreements and
+‘environmental-damage’ agreements, which are defined as agreements that contribute efficiently
+to compliance with an international or national standard or to the achievement of a specific policy
+objective to prevent environmental damage, noting that the latter may involve consumption that
+produces negative externalities. The ACM has set a specific prioritisation regime for environmental
+damage agreements, by which it will not further investigate if such agreements meet certain criteria,
+including that the total benefits must outweigh the negative effects and the consumers in the
+relevant market receive an ‘appreciable and objective’ advantage of the benefits. This is a change
+to the ACM’s position in previous draft Guidelines, which did not specify that consumers in the
+relevant market must receive an ‘appreciable and objective’ advantage of the benefits from such
+agreements. Consequently, ACM does not require those consumers to be compensated fully. This
+is because their consumption imposes costs on the rest of society (following the ‘polluter pays’
+principle). At the same time, OOM benefits can be taken into account for the total benefits. In this
+way, the ACM (indirectly) provides more room for OOM benefits and thus also for potentially
+anticompetitive environmental damage agreements.[60 ]
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**26**  DAF/COMP(2023)14
+
+-  The FCA in Austria issued Sustainability Guidelines following amendment of the cartel law to create
+a unique ‘sustainability exemption’ for domestic cartels, when considering OOM efficiency claims.
+This deems consumers to enjoy a ‘fair share of the benefits’ if ‘those benefits contribute
+substantially to an ecologically sustainable or climate-neutral economy.’[ 61]
+
+-  The HCC in Greece has not issued sustainability guidelines, but it has published a staff paper
+setting out its thinking on sustainability agreements. Citing Lianos (2018[26]), the staff paper sets
+out some very broad considerations for competition law application and suggests that the existing
+EU ‘fair share’ criterion “may still work as long as it is carried out looking at the affected users as a
+whole and not just a subset of those, i.e., directly affected by the restrictions of competition.”[ 62]
+
+-  Outside the EU, the CMA in the UK issued guidelines relating to sustainability agreements in
+October 2023. In discussing ‘the fair share’ these guidelines require that consumers be
+‘substantially the same’ for most agreements, and even for environmental agreements in general
+but explicitly modify this position for climate change agreements (which the draft defines). For those
+the CMA considers it appropriate to “exempt such agreements if the ‘fair share to consumers’
+condition can be satisfied taking into account the totality of the benefits to all UK consumers arising
+from the agreement, rather than apportioning those benefits between consumers within the market
+affected by the agreement and those in other markets.”.[63]
+
+117. Outside Europe, the JFTC in Japan published Guidelines Concerning the Activities of Enterprises,
+
+_etc. Toward the Realization of a Green Society Under the Antimonopoly Act[64] in March 2023, providing a_
+thorough guide to the forms of agreements that would breach the law and those that would not, for several
+types of agreement such as joint ventures, R&D co-operation and so on, along with advice on when and
+how to consult the JFTC. The Guidelines do not appear specifically to deal with OOM efficiencies but refer
+several times to the interests of ‘general consumers’, for example in benefitting from emissions reductions
+and the case examples seem to indicate some weighing of direct harm against general benefits.[ 65] This
+suggests that OOM efficiencies can be taken into account, but that the interests of directly harmed
+consumers are given more weight than consumers outside the directly affected market.
+
+118. The remainder of this section discusses whether there is a case for an ‘environmental exception’
+
+for sustainability agreements, under which OOM efficiencies are taken into account and harmed in-market
+consumers need not be fully compensated. This is a live policy topic at the time of writing: the ACM and
+CMA issued their final documents only in October 2023. The ACM’s 2023 Policy Rule is a much shorter
+document than its earlier two draft Guidelines and substantively different in some ways as it follows
+publication of the EU’s Guidance and seeks to align the ACM’s position with that Guidance. The rest of
+this section makes use of some ACM documents that have been superseded and clarified by the final
+Policy Rule, as those documents illustrate the principles even if they no longer reflect ACM’s approach.
+
+**4.2. Should competition authorities consider environmental efficiencies as a**
+**reason for allowing anti-competitive agreements that would otherwise be**
+**prohibited?**
+
+119. On the face of it, the arguments against considering OOM efficiency claims in general, set out in
+
+Section 3. above (competition as a value in itself, the ‘slippery slope’ to monopolisation and practical
+difficulties that could consume resources and tilt the assessment in the investigated parties’ favour) apply
+just as much to environmental benefits as to others. Indeed, concerns about practical difficulties arising
+from the complexity of the analysis required are probably greater. So OOM environmental efficiencies are
+no easier to accommodate than others; the question is rather whether there should be a specific exemption
+because of their importance.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  27
+
+120. The dilemma can often be avoided. Most agreements will not create any consumer harm, others
+
+may provide such large or focused environmental efficiencies that all consumers are better off, including
+those harmed by lost competition. Furthermore, some agreements could be altered to provide the benefits
+without causing the harm. Others may meet the criterion of the harmed and benefitting consumers being
+substantially the same. For example, climate change improvements benefit everyone, so the harmed
+consumers will benefit to some degree and if those harmed consumers are also ‘everyone’, or nearly so
+(for example in agreements in the fuel or electricity markets) then the two groups are substantially the
+same.
+
+121. However, this will not be true for an agreement relating to products causing disproportionately high
+
+emissions, consumed by a few people (such as business class air travel), as the proportion of benefits
+received by those few people is unlikely to compensate them for higher prices.[66]
+
+122. Sometimes, therefore, the dilemma cannot be avoided: an agreement will produce general
+
+benefits, perhaps to consumers overall, but cause anti-competitive harm to _some consumers. Then_
+someone must decide whose interests will prevail. It is only these rare, difficult conflicts that this paper
+considers, discussing in turn:
+
+1. **Principles: whether competition authorities are well-placed to make such a trade-off.**
+
+
+2. **Practice: whether taking account of environmental and similar OOM efficiencies improves**
+
+outcomes – for the environment or for competition.
+
+3. The role of externalities; and
+
+4. **Geographic scope: the treatment of foreign consumers or citizens.**
+
+**_4.2.1. Principles: is a competition authority well-placed to decide when_**
+**_environmental benefits justify allowing anti-competitive harm to some_**
+**_consumers?_**
+
+123. A decision either to accept or reject any OOM efficiencies claim will often result in some people
+
+gaining at the expense of others. This raises a question of what it is proper for a competition authority to
+decide. An agreement on minimum environmental or social standards, for example, must go beyond the
+standards required by regulation since no collusive agreement is usually required to comply with the law.[67]
+If government has already chosen not to impose such higher standards, how could a competition authority
+decide whether the costs of going beyond government-mandated are justified?
+
+124. As first-year economists all learn, an easy resolution to this dilemma is to make judgements only
+
+about ‘Pareto-improving’ policies, which benefit at least someone and harm no one. Unfortunately, this
+provides no guide to practical policy making: it implies that any group harmed by a policy, no matter how
+small or disreputable, has a veto over it. In economics, the utilitarian principle of maximising welfare even
+when it over-rides some peoples’ interests is given effective form in the Kaldor-Hicks or ‘compensation’
+criterion which suggests that a policy is justified if the gainers from it could compensate the losers, whether
+they do or not. However, this is hardly a guide to good policy either, as for most it goes too far in the
+opposite direction, allowing all manner of welfare-neutral or improving transfers (such as monopolisation
+by a perfectly-price-discriminating monopolist who can capture all consumer surplus).[68]
+
+125. The compensation criterion also says nothing about _who should be empowered to take such_
+
+decisions. Central governments have many more instruments at their disposal to compensate ‘losers’ from
+some environmentally focused policy and are therefore much better placed to deal with distributional
+matters. A competition authority asked to approve an anti-competitive agreement that reduced emissions
+and raised energy prices, for example, would not be able to put in place support for vulnerable households
+but a government could.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**28**  DAF/COMP(2023)14
+
+126. There is also a question of legitimacy. Someone needs to decide which policy goals to pursue.
+
+Many competition experts are in favour of competition authorities supporting their governments’ policy to
+reduce greenhouse gas emissions. Very few of them would be in favour of supporting those same
+governments’ policy, when that policy is to promote national champions.[69] No doubt there would be broad
+consensus among competition experts that climate change policy is right and policy to promote national
+champions or protectionism wrong, but in democratic societies that is not for us to decide. Competition
+authorities too make interpersonal comparisons, but they do so in a narrow space defined by properly
+constituted authority, which in OECD Member states and many others derives from democratic elections.
+
+
+127. How far that delegated discretion should extend is a matter of personal opinion. Lianos (2018[26])
+
+discusses a very wide scope of intervention, which would extend to tackling structural inequalities, systemic
+resilience and abuse of regulation, while noting that he _“does not argue for the transformation of_
+_competition law into the ‘law of everything’”. In an example of a contrary position, Thomas (2020[27]) argues_
+that competition law should pursue only competition goals, arguing that “Otherwise, the substantive tests
+_to be applied by the respective authorities become opaque, and the enforcers are subjected to perplexing_
+_and potentially irreconcilable tasks.”_
+
+128. Opinions will differ as to where the balance of principled considerations should lie but these
+
+considerations suggest that any exceptional treatment for environmental or social factors as OOM
+efficiencies should be defined in advance by proper authority and specifically justified as a strictly limited
+exception to the rule.
+
+129. Indeed, this is the approach taken by jurisdictions considering a specific exemption for
+
+environmental OOM efficiencies. The CMA and ACM both explicitly cite climate change agreements (and
+in the ACM’s case, ministerial policy) to support a ring-fenced exemption from the general principle that
+harmed consumers must be fully compensated. In Austria the FCA’s environmental exemption for domestic
+cartels is mandated by law.
+
+**_4.2.2. Practice: would taking account of environmental and similar OOM_**
+**_efficiencies in competition law enforcement really help the environment or_**
+**_competition?_**
+
+130. Most of this debate concerns the principle of whether it is right or wrong for competition authorities
+
+to consider environmental OOM efficiency claims. However, there are also practical questions about
+whether allowing such claims would be effective.
+
+131. Do horizontal agreements between firms in fact promote environmental goals effectively? When
+
+would it be more effective to pursue such goals in this way than through regulation? Is the harm to
+competition from such agreements significant, in practice? There is very little evidence indeed to answer
+such questions and in fact they are often not even asked. Proponents of extending the goals of competition
+law such as Ezrachi (2017[28]) and Lianos (2018[26]) generally argue on the basis that these goals are
+important, taking it as given that including such goals in competition law will help achieve them.[70]
+
+132. In practice, such questions are usually raised by authors opposed to such broader goals, such as
+
+Schinkel and Treuren (2021[29]) who note that regulatory information asymmetry might provide a reason to
+prefer a policy of allowing companies to propose agreements, over direct regulatory action. A private
+company might know the costs and benefits of its own emissions reduction possibilities better than does
+government. However, they conclude that this will rarely be beneficial because this same information
+asymmetry makes it more likely that such an approach will enable corporate ‘greenwashing’ of substantial
+anti-competitive behaviour for little if any environmental gain.
+
+133. Schinkel and Spiegel (2016[30]) use an algebraic example to demonstrate how agreements on
+
+minimum environmental or social standards can diminish investment incentives leading to lower output
+and lower sustainability benefits.[71] Collusive agreements could also provide rents from which private firms
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  29
+
+can afford to make contributions to sustainability: in effect, offering public good provision in exchange for
+cartel profits. Schinkel and Tóth (2020[31]) note that this is unlikely to result in a good deal, providing several
+examples and a model to demonstrate that private motives incentivise cartels to provide the minimum
+social benefits for the maximum overcharge to consumers. They conclude that _“Just the availability of a_
+_‘green cartel’-exemption then undermines deterrence.”[72]_
+
+134. Many other commentators have argued that competition law enforcement itself will become
+
+weaker, the broader its goals become. In the self-explanatory “Competition Law is not a stopgap!”,
+Peeperkorn (2021[32]) argues that competition law should remain focused on cases, not policy, for various
+reasons including the uncertainty and complexity produced by considering broader goals, but also out of
+concerns about greenwashing and the effectiveness of competition enforcement.[73] Citing the Tinbergen
+principle that each policy goal requires its own instrument,[ 74] he argues that pursuing wider goals _“[…]_
+_would make the application of competition law not only more complex, more costly, slower and less certain,_
+_it would also change the nature of competition policy and turn it into a defunct form of market monitoring_
+_and market regulation.”_
+
+135. The literature on this topic at present lacks any empirical analysis, for example of the effects of
+
+any such horizontal agreements on achieving emissions reductions, or any resulting anti-competitive harm
+to groups of consumers. Admittedly, some such factors are difficult to measure but perhaps the increased
+willingness of some competition authorities to consider them will enable ex-post assessment.
+
+**_4.2.3. Which OOM efficiencies to exempt? – The role of externalities_**
+
+136. In its Policy Rule, and more extensively in the debate leading up to it, the ACM has cited
+
+externalities from environmental damage agreements, as part of its justification for considering OOM
+efficiencies for those, but not other agreements. Before either the ACM or |EU guidelines on sustainability
+agreements were finalised, ACM Chair Martijn Snoep set out the reasons for this distinction: “why do
+_business class travellers need to be fully compensated for the harms inflicted by a hypothetical agreement_
+_between airlines that requires to take into account the negative externalities of flying? Therefore in the_
+_case of agreements that aim to redress these negative externalities, there is no sensible justification for_
+_requiring that the consumers need to be compensated in full for, in essence, not contributing to climate_
+_change.” [75]_
+
+137. The point here is largely an ethical one but relies upon economic principles too: the agreement
+
+should not be regarded as a benefit to the out-of-market consumers, that needs to be justified, but rather
+as merely the ending of an unjustified harm to them. Such an agreement could be economically efficient,[76]
+in that it eliminates an externality, potentially raising prices towards the social optimum, rather than above
+them as we normally think of cartels as doing.
+
+138. Although ethically appealing, this principle does not directly deal with the largely pragmatic
+
+objections to considering OOM benefits. All agreements resulting in net overall gains from OOM benefits
+are efficiency-improving, in that they maximise welfare, so it is hard to see that this justifies acceptance of
+environmental OOM efficiencies claims, while preserving a prohibition on other OOM efficiencies claims.
+For example, an efficiency claim based on a pro-competitive effect in another market, for example by
+making entry more likely, would also remove a market failure. In any event, a collusive agreement is usually
+a bad solution to a market failure.
+
+139. The use of externalities therefore seems useful mainly as a reminder of where responsibility lies,
+
+as part of an ethical argument for treating certain environmental agreements differently, than a practical
+means to determine which OOM efficiencies should be considered or how.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**30**  DAF/COMP(2023)14
+
+**_4.2.4. Should the welfare of anyone outside the national jurisdiction be_**
+**_considered?_**
+
+140. What of benefits accruing to foreign consumers? In general, competition authorities do not formally
+
+consider either costs or benefits to people outside their jurisdictions in their case work and some
+jurisdictions even explicitly permit export cartels.[77]
+
+141. Discussing the treatment of global greenhouse gas emissions reduction specifically, the ACM
+
+concluded “It goes without saying that limiting the allocation of the global benefits of CO2 reduction to the
+_in-market EU consumers’ share of those benefits would make the application of 101 (3) TFEU to CO2-_
+_reducing agreements among European producers unfeasible.”[78]_
+
+142. As a matter of principle, economic and social objectives are best met when the costs and benefits
+
+are calculated on the same basis. Often, all costs and benefits will be within the jurisdiction, as is the case
+with most matters in front of competition authorities. However, many environmental agreements will have
+broader effects. There are nonetheless cases where most competition authorities’ approach of ignoring
+benefits to foreigners might be appropriate, such as:
+
+-  When the firms are making products consumed globally, as the costs as well as the benefits are
+likely to be shared globally. If so, disregarding the interests of non-residents ignores a proportion
+both of the costs and the benefits. If those are roughly proportional (and they might not be), this
+would be correct.
+
+-  When the firms are participating in a global agreement with firms outside the jurisdiction, then
+again, disregarding both costs and benefits for non-residents might be a reasonable proxy for the
+full global assessment.
+
+143. It therefore may not always be appropriate to count global benefits (or at least to do so without
+
+counting global costs). A concern of the sort raised by the ACM would be most serious when: the pollutant
+is global; the affected consumers live within the EU; and the agreement is only between firms located within
+the EU. In this case, there would be a severe mismatch between the geographic costs and benefits, if no
+account is taken of the welfare of people outside the EU.
+
+144. In any event, of course, it would be inconsistent of the EU or any other jurisdiction to consider
+
+environmental benefits outside its geographic reach, when in general it does not permit the consideration
+of OOM efficiencies at all, so in practice this concern is subsumed in the wider disagreement on this matter.
+
+**4.3. Practical aspects of taking account of environmental OOM efficiencies**
+
+145. Competition authorities considering an environmental efficiency claim for an otherwise prohibited
+
+agreement may need to trade off environmental gains against harms over two different time periods and
+for two different groups of people. As noted above, this is one reason to reject even considering such
+claims, as the competition authority might expend excessive resources, make errors and even be taken in
+by ineffective and anti-competitive ‘greenwashing’ if it does so.
+
+146. Competition authorities and competition courts are not expert in such matters, but they can draw
+
+upon other expertise within their own jurisdictions and need not ‘re-invent the wheel’. Indeed, OECD itself,
+outside its competition functions has useful guidance, on such matters, such as (OECD, 2018[33]), Cost_Benefit Analysis and the Environment: Further Developments and Policy Use._
+
+**_4.3.1. Evaluating environmental benefits_**
+
+147. In evaluating environmental benefits, just as for other broader social and similar benefits,
+
+competition authorities will often have to rely on non-market estimates of value, as prices are not available
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  31
+
+either because the benefits are hypothetical or, more fundamentally, because the benefits arise as
+externalities or public goods and therefore are not offered in market transactions.
+
+148. The EU and other competition authorities have made explicit recognition of non-use benefits (such
+
+as the feeling of satisfaction one might feel from environmentally conscious consumption) and collective
+benefits (which arise when a group of people might benefit from a restriction on their individual choice as
+long as all do so), in sustainability guidelines. However, assessing these is difficult.
+
+149. The economic literature on evaluating willingness-to-pay for environmental or social public goods
+
+is vast. Fortunately, the ACM and HCC have provided a public good to the competition community by
+commissioning a _Technical Report on Sustainability and Competition, by Inderst, Sartzetakis and_
+Xepapadeas on this topic.[79] After discussing relevant principles of welfare economics, the report sets out
+different methods of assessing willingness to pay, including revealed preferences through purchasing
+behaviour, where available, as well as several forms of stated-preference (survey) designs.
+
+150. One basic problem in assessing environmental or other benefits is that survey respondents are
+
+unlikely to report accurate information. Unsophisticated respondents may not understand or care what
+value to declare in response to rather abstract questions, while sophisticated respondents may respond
+strategically: overstating their preferences to influence the results in their preferred direction. [80] The report
+discusses several approaches (such as conjoint analysis) to minimise such problems, as does Watson
+(2021[34]) in her contribution to the OECD Competition Committee’s discussion of the topic.
+
+151. Another basic problem is the sheer complexity of some environmental analysis, such as the
+
+damage functions required to estimate the shadow price (the implicit market valuation to achieve a social
+optimum) of pollutants such as greenhouse gases.
+
+152. In practice, however, it will rarely be a sensible use of resources for competition authorities to
+
+assess these things themselves, because more expert bodies will already have done so. [81] This will
+certainly be the case for the more prominent environmental problems. Governments often define shadow
+prices for important pollutants such as acid emissions and greenhouse gases. Most OECD member states’
+governments have climate change related programmes or build emissions costs into the cost and benefit
+assessment of policy. There are also market-based estimates, provided from tradable permit markets,
+although as public institutions competition authorities are more likely to want to rely on government
+valuations.
+
+153. If these measures are all already used by other public bodies it is hard to see why a competition
+
+authority would not simply adopt them rather than itself attempting to assess them. These difficulties may
+therefore be less of a problem in practice than is sometimes claimed. Using such public measures also
+improves the predictability and transparency of competition law enforcement. That leaves to the
+competition authority the assessment of whether and by how much a proposed agreement would in fact
+contribute to such wider goals but there, presumably competition authorities considering such claims could
+continue to apply procedural barriers, putting the burden on the proposing parties to provide evidence. The
+competition authority also, of course, must assess any loss of competition.
+
+**_4.3.2. Discounting_**
+
+154. Many competition law decisions involve comparison of costs and benefits at different points in
+
+time. It is in principle appropriate to use discounting to compare these, although in practice for fairly shortterm horizons, competition authorities rarely bother. The EU’s guidelines on Article 101(3), for example,
+note that “The discount rate applied must reflect the rate of inflation, if any, and lost interest as an indication
+_of the lower value of future gains.”_
+
+155. Environmental benefits, however, can involve consideration of much longer periods of time. Thus,
+
+it becomes more relevant to apply a discount rate and that discount rate may be different from the one
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**32**  DAF/COMP(2023)14
+
+applied in the short term. The HCC, in its staff discussion paper on sustainability, takes issue with this
+clause, arguing that “This approach discounts future benefits and costs, and may be considered as biasing
+_the analysis in favour of the present versus the next generations, unless the entire focus is put on effects_
+_on (sustainable-centred) innovation.”[82]_
+
+156. However, this all depends on what discount rate is chosen. When considering the welfare of a
+
+specific group of consumers, a competition authority or a court will normally use a market rate of interest,
+as this reflects those consumers’ opportunities for altering the profile of their welfare over time. However,
+for OOM efficiency claims relating to society more widely, a social discount rate will usually be more
+appropriate. As the HCC’s concern expresses, social discount rates are generally much lower than market
+interest rates, precisely because they take into account the interests of future generations.
+
+157. Fortunately, once again help is at hand. Most governments have a standard social discount rate
+
+to apply to public sector cost benefit analysis and some may have a lower rate for the longer term.
+Furthermore, shadow prices for pollutants derived from damage functions in most cases already
+incorporate a discounted assessment of future benefits. The finance ministry, environmental ministry or
+statistical service of the central government in OECD member states can usually advise on these matters.
+Again, therefore, competition authorities themselves probably need not themselves wrestle with questions
+of long-run discounting, but can align with existing government policy.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  33
+
+
+### Conclusions
+# 5.
+
+158. What at first sight seems a limited, technical question – having assessed harm within a relevant
+
+market, should competition authorities and courts take account of benefits outside it? – turns out to have
+anything but a simple answer. It raises ethical issues on which reasonable people might disagree, as well
+as constitutional, institutional and legal considerations that will be very specific to each jurisdiction. It is
+therefore no surprise that practice varies internationally, and it will no doubt continue to do so.
+
+159. Nonetheless, some basic principles are clear:
+
+-  Any assessment starts by considering harm within a market and removing or avoiding that harm is
+the principal aim of all competition authorities. Any claims of efficiencies, in or out of market, that
+could modify this assessment have to surmount procedural barriers. So, considering OOM
+efficiencies does not require a competition authority to lose focus on the competition harm and
+instead seek to optimise some abstract aggregate welfare sum.
+
+-  As a result, most jurisdictions draw some distinction between in-market and OOM efficiencies in
+their formal rules, and perhaps all do in practice. Some draw a particularly sharp distinction so that
+OOM efficiencies are considered only in exceptional circumstances. Broadly speaking, these
+reflect either inextricably linked markets (for which it might be difficult to find a remedy to carve out
+the harm) or common consumers.
+
+-  Market definition can therefore play an important role, creating a boundary between permissible
+and impermissible efficiencies claims, which runs against the prevailing approach of avoiding
+dependence on the precise position of the relevant market boundary in the analysis of competitive
+effects. This seems particularly problematic for multi-sided markets, for which the Hypothetical
+Monopolist Test (HMT) test does not unambiguously lead to ‘the right’ market definition.
+
+-  Environmental and similar efficiencies are often ‘out of market’. Several competition authorities
+have vigorously argued that environmental crises are so severe and urgent that environmental
+efficiencies deserve special treatment. Against this, others have concerns about the effectiveness
+of this approach, both in achieving environmental goals and its effects on competition.
+
+160. In principle, allowing OOM efficiencies claims could profoundly change the assessment of mergers
+
+and agreements in jurisdictions presently restricting such claims. In practice, it probably would not. First,
+acceptance of any kind of efficiency claim is very rare indeed and most jurisdictions allowing OOM claims
+impose procedural barriers that are at least as high as for in-market claims, and usually implicitly higher.
+Second, where there is harm to some consumers but benefits elsewhere, remedies can often be designed
+to separate the two. Business and the economy do not seem to work so very differently between those
+jurisdictions allowing such claims and those that do not. In practice, decisions to strengthen a prohibition
+on such considerations or to liberalise them are unlikely to affect many cases.
+
+161. Nonetheless, competition authorities might consider whether their approach to OOM efficiency
+
+claims needs modifying:
+
+-  If there were to be any move towards more consideration of OOM efficiencies in general, there is
+logic in considering both the demand side and the supply side in defining the rare circumstances
+in which OOM claims might be considered, as discussed in Section 3.2, above. However,
+international practice does not seem to be moving in this direction.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**34**  DAF/COMP(2023)14
+
+-  It may be worth considering rephrasing any restriction on efficiency claims to refer to ‘outside the
+harmed group’, rather than using the relevant market as the criterion. This would allow greater
+consistency of treatment of within-market and out-of-market distributional effects and would
+diminish the rather arbitrary effects of market definition on whether or not to count efficiencies, as
+discussed in Section 2.4. It may be necessary to adjust the overall stance about ‘outside the
+harmed group’ efficiencies as a result (and to find a better name).[83]
+
+-  If not, consider an exception for multi-sided markets, so that the market definition does not
+determine the assessment. Market definition in such markets is not straightforward and there is no
+reason to think that its analytical outcome should also define whose welfare is considered in the
+overall assessment, as discussed in Section 2.5.
+
+-  Evidence is needed on whether approving otherwise anti-competitive agreements can effectively
+promote environmental goals, as discussed in Section 4. Proponents of such exemptions at
+present largely take such effectiveness as given, while opponents disagree largely on principled
+grounds. Empirical evidence of the effects of a specific sustainability agreement would be useful.
+If any such agreement is approved (for example outside the EU, or within the EU if the agreement
+meets the ‘substantially the same’ criterion), it would be worth building in monitoring to enable an
+ex-post study.
+
+-  As a purely practical matter, as discussed in Section 4.3, competition authorities may want to avoid
+devoting resources to themselves estimating efficiencies in most environmental agreements.
+Published measures of shadow prices already exist and are used in other public sector decisions.
+Even where they do not exist, it may be better to ask the relevant Ministry for an opinion on the
+environmental outcomes in a particular case, while of course reserving for the competition authority
+or court the final decision weighing them against competition effects.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  35
+
+## Endnotes
+
+1 _Guide_ _for_ _Horizontal_ _Merger_ _Review,_ at [https://cdn.cade.gov.br/Portal/centrais-de-](https://cdn.cade.gov.br/Portal/centrais-de-conteudo/publicacoes/guias-do-cade/GUIDE%20FOR%20HORIZONTAL%20MERGER%20REVIEW.pdf)
+
+[conteudo/publicacoes/guias-do-cade/GUIDE%20FOR%20HORIZONTAL%20MERGER%20REVIEW.pdf](https://cdn.cade.gov.br/Portal/centrais-de-conteudo/publicacoes/guias-do-cade/GUIDE%20FOR%20HORIZONTAL%20MERGER%20REVIEW.pdf)
+
+2 To take one example among a great many, Ireland’s require that the efficiency “(a) is merger-specific,
+and (b) is verifiable, and (c) benefits consumers. (CCPC Merger Guidelines,
+
+https://www.ccpc.ie/business/wp-content/uploads/sites/3/2017/04/CCPC-Merger-Guidelines-1.pdf).
+
+3 EU Guidelines on the assessment of horizontal mergers under the Council Regulation on the control of
+concentrations between undertakings (2004/C31/03)
+
+4 For example, Korea’s Guidelines list production efficiencies as well efficiencies benefitting the national
+economy, before going on to require efficiency claims to be merger-specific, imminent and “proven with
+near certainty beyond a mere expectation or wish” (KFTC ‘Guidelines for Combination of Enterprises
+Review’,
+https://www.ftc.go.kr/eng/cop/bbs/selectBoardList.do?key=2857&bbsId=BBSMSTR_000000003634&bbs
+TyCode=BBST11).
+
+5
+(Hovenkamp, 2016[35]): “[E]fficiency claims . . . are often raised but almost never found to justify a merger
+_that has been shown to be prima facie unlawful”. (Kuoppamäki and Torstila, 2015[36]) examine all mergers_
+assessed by the EC from 1991 to 2014 and find “In critical cases, however, efficiency arguments appear
+_to never have been decisive in Commission practice.” FedEx/TNT in 2016 was a later exception (but they_
+also found sufficient competitive constraints). For agreements, (Brook, 2022[14]) notes: “Since the
+_Commission has not accepted an Article 101(3) TFEU defence since May 2004, it has not had the_
+_opportunity to accept non-economic benefits as the basis for an exception.”_
+
+6
+See (OECD, 2023[1]).
+
+7 As Meese (2012[52]) puts it, in an article broadly supporting Bork’s position “Thus, instead of involving a
+_conflict between “producers” and “purchasers” in a single market, transactions that both raise prices and_
+_create efficiencies require antitrust policy to resolve a conflict between purchasers in the original market,_
+_on the one hand, and those in other markets, on the other.“_
+
+8
+As Werden (2014[38]) discusses.
+
+9 Although Bork was highly sceptical of the ability of courts to do any welfare maximisation: he argues for
+general presumptions, not suggesting courts should try to reproduce that analysis case by case. See
+(Crane, 2015[39]).
+
+10 Although Canada is discussing potential amendments to its Competition Act including, among others,
+efficiencies in merger control.
+
+11 Guidance on enforcement priorities for abuse of dominance cases, 2009, para 30. [https://eur-](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A52009XC0224%2801%29)
+[lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A52009XC0224%2801%29](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A52009XC0224%2801%29)
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**36**  DAF/COMP(2023)14
+
+12 United States v. Topco Assocs., Inc., 405 U.S. 596 (1972).
+
+13
+Cont’l T.V., Inc. v. GTE Sylvania Inc., 433 U.S. 36, 49 (1977). See (Werden, 2017[11]), for example.
+
+14
+(DoJ and FTC, 2006, p. 57[40]).
+
+15 A literal reading of the UK’s Merger Assessment Guidelines is that the UK takes the opposite approach,
+distinguishing in-market rivalry-enhancing efficiencies from customer benefits that could arise in any
+market in the UK. However, there is presumably nothing to stop those customer benefits arising from
+enhanced rivalry in those other markets, so this position is equivalent to one of being open to OOM claims
+(albeit they are rarely accepted, as the Guidelines note).
+
+16 Switzerland CompCo _Annual_ _Report_ 2019, page 6.
+
+[https://www.weko.admin.ch/dam/weko/en/dokumente/2020](https://www.weko.admin.ch/dam/weko/en/dokumente/2020/jahresbericht_2019.pdf.download.pdf/Annual%20Report%202019.pdf)
+[/jahresbericht_2019.pdf.download.pdf/Annual%20Report%202019.pdf](https://www.weko.admin.ch/dam/weko/en/dokumente/2020/jahresbericht_2019.pdf.download.pdf/Annual%20Report%202019.pdf)
+
+17 Broader economic benefits can also be considered, but by the relevant Minister, in a different procedure,
+not by the BkA.
+
+18 _[Guidance on Substantive Merger Control, at https://www.bundeskartellamt.de/SharedDocs/Publikation](https://www.bundeskartellamt.de/SharedDocs/Publikation/EN/Leitlinien/Guidance%20-%20Substantive%20Merger%20Control.pdf?__blob=publicationFile&v=6)_
+[/EN/Leitlinien/Guidance%20-%20Substantive%20Merger%20Control.pdf?__blob=publicationFile&v=6](https://www.bundeskartellamt.de/SharedDocs/Publikation/EN/Leitlinien/Guidance%20-%20Substantive%20Merger%20Control.pdf?__blob=publicationFile&v=6)
+
+19 Bundeskartellamt, Case B7-200/07 – KFG /Orion, decision of 3.4.2008, at 36, 270
+
+20 [https://www.gov.uk/government/publications/guidance-on-horizontal-agreements Subsequent draft](https://www.gov.uk/government/publications/guidance-on-horizontal-agreements)
+guidance on sustainability agreements provide a limited exemption for certain environmental agreements,
+as will be discussed in Section 4.
+
+21 [https://www.rekabet.gov.tr/Dosya/guidelines/7-pdf](https://www.rekabet.gov.tr/Dosya/guidelines/7-pdf)
+
+22 [https://www.jftc.go.jp/en/legislation_gls/imonopoly_guidelines_files/191217GL.pdf. But new guidelines](https://www.jftc.go.jp/en/legislation_gls/imonopoly_guidelines_files/191217GL.pdf)
+issued in March 2023 seem to indicate some limited exceptions, particularly relating to environmental
+benefits, as will be discussed in Section 4.
+
+23 Article 55,
+https ://www.cofece.mx/wp-content/uploads/2018/03/Federal_Economic_Competition_Law.pdf.
+
+24 [https://www.accc.gov.au/about-us/media/media-updates/accc-authorises-renewable-energy-buying-](https://www.accc.gov.au/about-us/media/media-updates/accc-authorises-renewable-energy-buying-groups-in-victoria-and-western-australia)
+
+[groups-in-victoria-and-western-australia](https://www.accc.gov.au/about-us/media/media-updates/accc-authorises-renewable-energy-buying-groups-in-victoria-and-western-australia)
+
+25 The UK is one of the most prominent jurisdictions espousing this view, the latest version of its Merger
+Guidelines relegating market definition almost to an afterthought. However, as noted above, the same
+guidelines clear that the CMA can consider customer benefits in any market in the UK, so the effects of
+any fuzzy market boundaries it might choose are not so important – in principle affecting only a claim for
+‘rivalry enhancing’ efficiencies, which must be within the same ‘market’.
+
+26 Draft revised Notice on Market Definition, 2022, available at [https://competition-](https://competition-policy.ec.europa.eu/public-consultations/2022-market-definition-notice_en)
+
+[policy.ec.europa.eu/public-consultations/2022-market-definition-notice_en](https://competition-policy.ec.europa.eu/public-consultations/2022-market-definition-notice_en)
+
+27
+Werden (2023[37]), objecting to the removal of any consideration of OOM efficiencies in the 2023 draft
+MGs puts it pithily “A trial judge who believes that the efficiencies should be given weight will be able make
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  37
+
+that happen. The court could define a relevant market broad enough to assure that the efficiencies are in
+the relevant market. The quality of the competitive analysis would suffer as a consequence.”
+
+28
+Hovenkamp (2019[41]) notes that the consumer welfare standard in the US covers upstream harmed
+parties, even if the word ‘consumer’ is not ideal. “What we really want is a name for some class of actors
+_who is injured by either the higher buying price or the lower selling price that attends a monopolistic output_
+_reduction.”_
+
+29
+(OECD, 2018[6]).
+
+30 The author has worked for Spotify, Match.com, Epic Games and others on app store cases.
+
+31 The author was instructed as an expert witness by lawyers acting for UK retailers, in follow-on litigation
+against Mastercard’s interchange fees, in front of the UK Competition Appeal Tribunal. The last claimants
+in this action (Asda and Morrisons) settled with Mastercard just before trial, in January 2023.
+
+32 MasterCard Inc v European Commission (Case C-382/12 P) (2014) 5 CMLR 23.
+
+33 138 S. Ct. 2274 (2018)
+
+34 An alternative interpretation is that in each case authorities defined the market, in effect, to suit their
+preferred approach to analysing the effects of the conduct.
+
+35 As quoted by the UK Supreme Court judgment in Sainsbury's Supermarkets Ltd and Others v
+[MasterCard Incorporated and Others (2020) UKSC. https://www.supremecourt.uk/cases/docs/uksc-2018-](https://www.supremecourt.uk/cases/docs/uksc-2018-0154-judgment.pdf)
+[0154-judgment.pdf](https://www.supremecourt.uk/cases/docs/uksc-2018-0154-judgment.pdf)
+
+36 UK Supreme Court judgment in Sainsbury's Supermarkets Ltd and Others v MasterCard Incorporated
+and Others (2020) UKSC.
+
+37 C-382/12 P - MasterCard and Others v Commission.
+
+38 Amex, quoted and discussed in Alexander et al (2022).
+
+39 The dissent also considers that the majority opinion would be wrong even were the two sides in the
+same market, because Amex increased merchant fees and did not fully compensate for this with lower
+payments to cardholders.
+
+40
+Although see Niels (2019[42]) for an opposing view.
+
+41 Except foreigners, in most jurisdictions, but again this is controversial for global environmental benefits,
+as discussed in Section 4.2.4, below.
+
+42
+See (Crane, 2015[39]) and (Werden, 2017[11]) for more details of this criticism.
+
+43
+See (OECD, 2023[48]).
+
+44
+For example, (Crane, 2015[39]): “the most convincing justification for a market-specificity rule is that
+_balancing pro- and anticompetitive effects across market boundaries unduly increases the complexity of_
+_antitrust decision making.”_
+
+45
+Hemphill and Rose (2017[18]) argue this concern, were the US process more open to OOM claims.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**38**  DAF/COMP(2023)14
+
+46
+(Rybnicek and Wright, 2014[22]).
+
+47 For the EU, for example, see [https://www.compasslexecon.com/wp-content/uploads/](https://www.compasslexecon.com/wp-content/uploads/2021/04/CL_Expert-Opinion_Analysing-EC-Merger-Decisions_April-2021.pdf)
+
+[2021/04/CL_Expert-Opinion_Analysing-EC-Merger-Decisions_April-2021.pdf The author worked at](https://www.compasslexecon.com/wp-content/uploads/2021/04/CL_Expert-Opinion_Analysing-EC-Merger-Decisions_April-2021.pdf)
+Compass Lexecon until May 2023.
+
+48 That is, excluding consideration of jurisdictions operating a total welfare standard – which is a more
+fundamental difference than the OOM stance.
+
+49
+(Baker, 2019, p. 193[10]).
+
+50
+(Yun, 2022[23]). I have reordered the four conditions, better to suit the narrative structure of this paper.
+
+51 Yun describes this as “more for completeness than a presentation of a new idea” and considers it to
+reflect supply side interdependencies although arguably it also reflects his proposal to consider
+complements in demand, because products in a vertical supply chain are complements in demand.
+
+52
+Alexander and Salop (2023[17]) in relation to monopsony power, especially over labour markets.
+
+53 This may sound negative, but this is the only relevance of OOM efficiencies to environmental or social
+issues. There are many ways in competition policy to promote such objectives; this paper’s scope is limited
+to doing so by permitting more anti-competitive conduct to go ahead.
+
+54 “Taking into account the conditions specified in the authorisation, the ACCC is satisfied in all the
+circumstances that the Proposed Acquisition would result, or be likely to result, in a benefit to the public
+that would outweigh the detriment to the public that would result, or be likely to result, from the Proposed
+Acquisition.” [https://www.accc.gov.au/public-registers/mergers-registers/merger-authorisations-](https://www.accc.gov.au/public-registers/mergers-registers/merger-authorisations-register/brookfield-lp-and-midocean-proposed-acquisition-of-origin-energy-limited)
+
+[register/brookfield-lp-and-midocean-proposed-acquisition-of-origin-energy-limited](https://www.accc.gov.au/public-registers/mergers-registers/merger-authorisations-register/brookfield-lp-and-midocean-proposed-acquisition-of-origin-energy-limited) Although this
+
+authorisation was within the ACCC’s existing powers, it was regarded as unusual and caused comment,
+illustrating the conclusion that competition authorities open to OOM efficiencies claims do not, in fact,
+usually behave very differently in practice from those that are not.
+
+55
+All examples as in (OECD, 2016[43]) and not updated for any subsequent developments.
+
+56
+(OECD, 2016[43]) box 5, citing (Geradin and Girgenson, 2011[44]).
+
+57 A recent hearing of the OECD Competition Committee dealt with the interplay between merger control
+and investment reviews.
+
+[https://www.oecd.org/daf/competition/the-relationship-between-fdi-screening-and-merger-control-](https://www.oecd.org/daf/competition/the-relationship-between-fdi-screening-and-merger-control-reviews-2022.pdf)
+[reviews-2022.pdf](https://www.oecd.org/daf/competition/the-relationship-between-fdi-screening-and-merger-control-reviews-2022.pdf)
+
+58 Guidelines on the applicability of Article 101 of the Treaty on the Functioning of the European Union to
+horizontal co-operation agreements (2023/C 259/01) Hereafter “EU 2023 Guidelines”
+
+59
+See, for example, (Holmes, 2020[49]) for arguments in favour and (Loozen, 2019[45]) against.
+
+[60 ACM Sustainability Guidelines paragraph 48. https://www.acm.nl/sites/default/files/documents/second-](https://www.acm.nl/sites/default/files/documents/second-draft-version-guidelines-on-sustainability-agreements-oppurtunities-within-competition-law.pdf)
+[draft-version-guidelines-on-sustainability-agreements-oppurtunities-within-competition-law.pdf](https://www.acm.nl/sites/default/files/documents/second-draft-version-guidelines-on-sustainability-agreements-oppurtunities-within-competition-law.pdf)
+
+61 [https://www.bwb.gv.at/fileadmin/user_upload/AFCA_Sustainability_Guidelines_English_final.pdf](https://www.bwb.gv.at/fileadmin/user_upload/AFCA_Sustainability_Guidelines_English_final.pdf)
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  39
+
+62 [https://www.epant.gr/files/2020/Staff_Discussion_paper.pdf](https://www.epant.gr/files/2020/Staff_Discussion_paper.pdf)
+
+63 CMA draft Sustainable Agreements guidelines para 6.4.
+
+[64 Available in English at https://www.jftc.go.jp/en/pressreleases/yearly-2023/March/230331.html](https://www.jftc.go.jp/en/pressreleases/yearly-2023/March/230331.html)
+
+65 Such as Case Example 14 which concludes that an agreement to reduce greenhouse gas emissions
+that involves a small increase in container costs would be acceptable.
+
+66 Perhaps those consumers themselves value the emissions reduction highly – but if so, there is no
+collective action problem so no need for an agreement. They (we) can simply choose not to fly.
+
+67 The ACM’s response to the EC consultation on its draft horizontal guidelines identified an exception:
+when such agreements are necessary to support legal standards that are inadequately enforced, for
+example in some developing countries. See [https://www.acm.nl/system/files/documents/response-acm-](https://www.acm.nl/system/files/documents/response-acm-public-consultation-horizontal-block-exemptions-and-guidelines.pdf)
+[public-consultation-horizontal-block-exemptions-and-guidelines.pdf](https://www.acm.nl/system/files/documents/response-acm-public-consultation-horizontal-block-exemptions-and-guidelines.pdf)
+
+68 More generally, although some economists would dismiss transfers of welfare as ethically neutral
+(“merely a shift of income between two classes of consumers.”, as Bork put it) the same is not usually said
+of theft. If society believes that the coercive use of market power is wrong, then it will not be neutral when
+those who exercise market power gain.
+
+69 As the French and German governments did over the proposed merger of Siemens and Alstom, for
+example.
+
+70
+As I have discussed more generally elsewhere. Davies (2019[46]) notes that proponents of pursuing
+broader goals in competition enforcement usually argue on the basis of the importance of those goals, and
+the relative unimportance of narrower competition goals, rather than showing that such an approach
+actually works. It may well do, but economic policy is rife with unintended consequences so this cannot be
+taken as given. There is very little published evidence to show – for example - that taking account of
+employment considerations actually reduces unemployment.
+
+71
+Schinkel, Spiegel and Treuren, 2022[50]) (2022[50]) updates this analysis, extending it to cover
+investments leading to marginal cost reductions (removing the perverse finding from the earlier paper that
+collusive agreements on output itself could benefit consumers through higher investments in sustainability).
+
+72
+(Schinkel and Tóth, 2020[31]).
+
+73 Peeperkorn is particularly concerned that if positive environmental externalities are taken into account
+in OOM efficiency claims then negative externalities must be considered too, so competition authorities
+would have to take action even when there are no competition concerns. However, this symmetry does
+not seem necessary: allowing OOM efficiency claims as justification only in the face of competitive harm
+seems consistent with how competition law is presently applied and it is hard to see why it should inevitably
+result in ‘OOM harms’ being considered. Jurisdictions that do allow OOM efficiency claims do not consider
+OOM harms in this way.
+
+74 The Tinbergen principle is named for Jan Tinbergen, the first recipient of the Nobel Memorial Prize for
+economics. Attempting to use interest rates to control both inflation and the exchange rate, for example,
+must fail for at least one. There is an analogous institutional dimension: that independent agencies should
+be charged with a specific objective.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**40**  DAF/COMP(2023)14
+
+75 [https://www.acm.nl/en/publications/speech-acm-what-fair-and-efficient-face-climate-change.](https://www.acm.nl/en/publications/speech-acm-what-fair-and-efficient-face-climate-change) The
+
+speech related to the first draft Guidelines, but the language to which Snoep objected remains in the final,
+gazetted version.
+
+76
+As could an agreement that compensated the business travellers, as Coase (1960[51]) points out, but
+this polluter’s veto is not the principle on which most environmental policy is based.
+
+77 A topic the OECD’s Competition Committee has discussed without resolution, despite the vigorous
+advocacy of its Chair for such cartels to be stopped because of the harm they cause to low-income
+consumers and countries.
+
+78 _Response from the Netherlands Authority for Consumers & Markets (2022) to the Public consultation on_
+_the_ _draft_ _revised_ _Horizontal_ _Block_ _Exemption_ _Regulations_ _and_ _Horizontal_ _Guidelines,_
+
+[https://www.acm.nl/system/files/documents/response-acm-public-consultation-horizontal-block-](https://www.acm.nl/system/files/documents/response-acm-public-consultation-horizontal-block-exemptions-and-guidelines.pdf)
+[exemptions-and-guidelines.pdf](https://www.acm.nl/system/files/documents/response-acm-public-consultation-horizontal-block-exemptions-and-guidelines.pdf)
+
+79 Available at [https://www.acm.nl/sites/default/files/documents/technical-report-sustainability-and-](https://www.acm.nl/sites/default/files/documents/technical-report-sustainability-and-competition_0.pdf)
+
+[competition_0.pdf and the HCC web site.](https://www.acm.nl/sites/default/files/documents/technical-report-sustainability-and-competition_0.pdf)
+
+80 The author once worked at a small consulting firm, which conducted an email survey of its 25 employees
+(all in one shared space) asking them to vote for their preferred office temperature. Several respondents
+voted for zero or one hundred degrees Celsius, the minimum and maximum available in the voting form,
+presumably to push the result down or up a bit. The exercise was abandoned and the final temperature
+determined undemocratically by management.
+
+81 As the technical report sponsored by HCC and ACM also notes, providing for example links to sources
+on shadow prices for CO2.
+
+82 Positive discount rates exist for several reasons, including impatience but also because of the possibility
+that the activity in question will not exist in the future and because of economic growth. For very long-term
+discounting, the appropriate rate may be very low, indeed arguably only the expectation of growth justifies
+treating future generations’ welfare as any less important than our own (because they will be richer). The
+climate change literature, summarised by the IPCC for example at
+
+[https://archive.ipcc.ch/ipccreports/tar/wg3/index.php?idp=281 or (Stern, 2006[47]) generally indicates](https://archive.ipcc.ch/ipccreports/tar/wg3/index.php?idp=281)
+discount rates far below market rates but does not go as far as the HCC staff paper in regarding any
+positive rate as inequitable.
+
+83
+Tatos and Singer (2022[53]) propose something similar, in an article arguing that only efficiencies that
+compensate harmed consumers should be taken into account, regardless of market definition (especially
+for interchange fees and other multi-sided markets).
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  41
+
+
+## References
+
+Alexander, L. and S. Salop (2023), “Antitrust worker protections: The rule of reason does not
+
+allow counting of out-of-market benefits”, University of Chicago Law Review, Vol. 90/273,
+https://perma.cc/UN4V-9GKR.
+
+
+
+[17]
+
+
+Baker, J. (2019), The Antitrust Paradigm, Harvard University Press. [10]
+
+Bork, R. (1978), The Antitrust Paradox: A Policy at war with itself, New York: Basic Books. [9]
+
+
+
+[14]
+
+[51]
+
+[39]
+
+[46]
+
+[13]
+
+[40]
+
+[24]
+
+
+Brook, O. (2022), Non-Competition Interests in EU Antitrust Law: An Empirical Study of Article
+
+_101 TFEU, Cambridge University Press, https://doi.org/10.1017/9781108946674._
+
+Coase, R. (1960), “The problem of social cost”, The journal of Law and Economics, Vol. 3, pp. 1
+44.
+
+Crane, D. (2015), “Balancing Effects Across Markets”, Antitrust Law Journal, Vol. 80/2, pp. 391
+411, https://repository.law.umich.edu/articles/1773/.
+
+Davies, J. (2019), Means and Ends in Competition Law Enforcement,
+
+https://awards.concurrences.com/en/awards/2020/academic-articles/means-and-ends-incompetition-law-enforcement.
+
+DoJ, U. and FTC (2023), Draft Horizontal Merger Guidelines,
+
+https://www.justice.gov/atr/d9/2023-draft-merger-guidelines.
+
+DoJ, U. and FTC (2006), Commentary on the Horizontal Merger Guidelines,
+
+https://www.justice.gov/d9/383663.pdf.
+
+Ducci, F. (2016), “Out-of-Market Efficiencies, Two-Sided Platforms and Consumer Welfare: A
+
+Legal and Economic Analysis”, Journal of Competition Law and Economics, Vol. 12/3,
+pp. 591-622, https://ssrn.com/abstract=2767246.
+
+
+Ezrachi, A. (2017), “Sponge”, Journal of Antitrust Enforcement, Vol. 5/1, pp. 49-75. [28]
+
+
+
+[21]
+
+[44]
+
+[18]
+
+
+Filistrucchi, L. et al. (2013), “(2013) “Market Definition in Two-Sided Markets: Theory and
+
+Practice”, TILEC Discussion Paper No. 2013-009, Tilburg Law School Research Paper No.
+_09/2013, https://doi.org/10.2139/ssrn.2240850._
+
+Geradin, D. and I. Girgenson (2011), “Industrial policy and European Merger Control – A
+
+reassessment”, TILEC Discussion paper No. 2011 – 053.
+
+Hemphill, C. and N. Rose (2017), “Mergers that harm sellers”, The Yale Law Journal,
+
+Vol. 127/2078, https://www.yalelawjournal.org/pdf/HemphillRose_m2dfkbhr.pdf.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**42**  DAF/COMP(2023)14
+
+Holmes, S. (2020), “Climate Change and Competition Law”, Best Practise Roundtables on
+
+_Competition Policy, https://one.oecd.org/document/DAF/COMP/WD(2020)94/en/pdf._
+
+
+
+[49]
+
+[29]
+
+[41]
+
+
+Holmes, S., D. Middelschulte and M. Snoep (eds.) (2021), Green Antitrust: (More) Friendly Fire
+
+_in the Fight against Climate Change, Concurrences, https://www.zbw.eu/econis-_
+archiv/bitstream/11159/464278/1/EBP078229758_0.pdf.
+
+Hovenkamp, H. (2019), “Is Antitrust’s Consumer Welfare Principle Imperiled? U of Penn, Inst for
+
+Law & Econ Research Paper No. 18-15”, Journal of Corporation Law, Vol. 45, p. 101,
+https://ssrn.com/abstract=3197329.
+
+
+Hovenkamp, H. (2016), “Appraising Merger Efficiencies”, George Mason Law Review 24. [35]
+
+
+
+[36]
+
+
+Kuoppamäki, S. and P. Torstila (2015), “Is There a Future for an Efficiency Defence in European
+
+Merger Control?”, http://dx.doi.org/10.2139/ssrn.2727171.
+
+
+Lianos, I. (2018), “Polycentric competition law”, Current Legal Problems, Vol. 71/1, pp. 161-213. [26]
+
+
+
+[45]
+
+[52]
+
+[42]
+
+[1]
+
+[48]
+
+[2]
+
+[7]
+
+[33]
+
+[6]
+
+[43]
+
+[5]
+
+
+Loozen, E. (2019), “Strict Competition Enforcement and Welfare: A Constitutional Perspective
+
+Based on Article 101 TFEU and Sustainability”, Common Market Law Review, Vol. 56,
+pp. 1265-1302, https://cadmus.eui.eu/bitstream/handle/1814/65734/COLA2019102.pdf.
+
+Meese, A. (2012), “Reframing the (False) Choice Between Purchaser Welfare and Total
+
+Welfare”, Fordham L. Rev., Vol. 81/5, p. 2197.
+
+
+Niels, G. (2019), “Transaction versus Non-Transaction Platforms: A False Dichotomy in Two
+Sided Market Definition”, https://doi.org/10.2139/ssrn.3438913.
+
+OECD (2023), The Consumer Welfare Standard - Advantages and Disadvantages Compared to
+
+_Alternative Standards, OECD Competition Policy Roundtable Background Note,_
+http://www.oecd.org/daf/competition/consumer-welfare-standard-advantages-anddisadvantages-to-alternativestandards-2023.pdf.
+
+OECD (2023), “The Role of Innovation in Competition Enforcement”, Best practise roundtables in
+
+_competition policy, https://www.oecd.org/competition/the-relationship-between-competition-_
+and-innovation.htm.
+
+
+OECD (2021), Environmental considerations in competition enforcement, OECD Competition
+
+_Committee Discussion Paper, https://www.oecd.org/daf/competition/environmental-_
+considerations-in-competitionenforcement.htm.
+
+OECD (2020), “Competition and Labour Markets”, Best Practise Roundtables on Competition
+
+_Policy, https://www.oecd.org/competition/competition-in-labour-markets-2020.pdf._
+
+OECD (2018), Cost-Benefit Analysis and the Environment: Further Developments and Policy
+
+_Use, https://doi.org/10.1787/9789264085169-en._
+
+
+OECD (2018), Rethinking Antitrust Tools for Multi-Sided Platforms,
+
+http://www.oecd.org/competition/rethinking-antitrust-tools-for-multi-sided-platforms.htm.
+
+OECD (2016), Public Interest Considerations in Merger Control,
+
+https://one.oecd.org/document/DAF/COMP/WP3(2016)3/En/pdf.
+
+OECD (2012), Competition and Payment Systems,
+
+https://www.oecd.org/daf/competition/PaymentSystems2012.pdf.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+DAF/COMP(2023)14  43
+
+[3]
+
+[4]
+
+
+OECD (2012), The Role of Efficiency Claims in Antitrust Proceedings,
+
+https://www.oecd.org/daf/competition/EfficiencyClaims2012.pdf.
+
+OECD (2006), Competition and Efficient Usage of Payment Cards,
+
+https://www.oecd.org/daf/competition/39531653.pdf.
+
+
+
+[25]
+
+[32]
+
+[19]
+
+[22]
+
+[16]
+
+[30]
+
+[50]
+
+[31]
+
+
+Orszag, J. and L. Smith (2016), “Toward a More Complete Treatment of Efficiencies in Merger
+
+Analysis: Lessons from Recent Challenges”, The Antitrust Source October,
+https://www.americanbar.org/content/dam/aba/publishing/antitrust-magazineonline/oct16_full_source.pdf.
+
+Peeperkorn, L. (2021), “Competition Policy is not a Stopgap!”, Journal of European Competition
+
+_Law & Practice, Vol. 12/6, pp. 415-418._
+
+
+Rochet, J. and J. Tirole (2011), “Must-take cards: merchant discounts and avoided costs”,
+
+_Journal of the European Economic Association, Vol. 9/3, pp. 462–495,_
+http://www.jstor.org/stable/25836076.
+
+Rybnicek, J. and J. Wright (2014), “Outside In or Inside Out?: Counting Merger Efficiencies
+
+Inside and Out of the Relevant Market”, https://doi.org/10.2139/ssrn.2411270.
+
+
+Salop, S. et al. (2022), Rebuilding Platform Antitrust: Moving on from Ohio v. American Express,
+
+https://scholarship.law.georgetown.edu/facpub/2414.
+
+Schinkel, M. and Y. Spiegel (2016), “Can Collusion Promote Sustainable Consumption and
+
+Production?”, International Journal of Industrial Organization, Amsterdam Law School
+Research Paper No. 2015-49, Amsterdam Center for Law & Economics Working Paper No.
+2015-02, pp. 371-398, https://doi.org/10.2139/ssrn.2704259.
+
+
+Schinkel, M., Y. Spiegel and L. Treuren (2022), “Production agreements, sustainability
+
+investments, and consumer welfare.”, Economics Letters, Vol. 216/110564.
+
+Schinkel, M. and L. Tóth (2020), “Compensatory public good provision by a private cartel”,
+
+_Tinbergen Institute Discussion Paper 2019-086/VII, https://doi.org/10.2139/ssrn.3509062._
+
+
+Stern, N. (2006), Stern Review on the Economics of Climate Change. [47]
+
+
+
+[53]
+
+[27]
+
+
+Tatos, T. and H. Singer (2022), “The Abuse of Offsets as Procompetitive Justifications: Restoring
+
+the Proper Role of Efficiencies after Ohio v. American Express and NCAA v. Alston.”, Georgia
+_State University Law Review, Vol. 38/4._
+
+Thomas, S. (2020), “Normative Goals in Merger Control: Why Merger Control Should Not
+
+Attempt to Achieve ’Better’ Outcomes than Competition”,
+https://doi.org/10.2139/ssrn.3513098.
+
+
+US DoJ (2010), Horizontal Merger Guidelines. [12]
+
+US Supreme Court (2018), Ohio v. Am. Express Co., 138 S. Ct. 2274, 201 L. Ed. 2d 678. [20]
+
+
+
+[34]
+
+[37]
+
+
+Watson, N. (2021), “Measuring environmental benefits in competition cases”, Presented at the
+
+_OECD Roundtable on Environmental Considerations in Competition Enforcement,_
+https://one.oecd.org/document/DAF/COMP(2021)14/en/pdf.
+
+
+Werden, G. (2023), “,Comments on Draft Merger Guidelines (August 12)”,
+
+https://doi.org/10.2139/ssrn.4540166.
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+
+**44**  DAF/COMP(2023)14
+
+Werden, G. (2017), “Cross-market Balancing of Competitive Effects: What Is the Law, and What
+
+Should It Be”, The Journal of Corporation Law, Vol. 43/119,
+https://jcl.law.uiowa.edu/sites/jcl.law.uiowa.edu/files/2021-08/Werden_Final_Web.pdf.
+
+
+
+[11]
+
+[38]
+
+[8]
+
+[15]
+
+[23]
+
+
+Werden, G. (2014), “Antitrust’s Rule of Reason: Only Competition Matters”, Antitrust Law Journal
+
+79, pp. 713-723.
+
+Williamson, O. (1968), “Economies as an Antitrust Defense: The Welfare Tradeoffs”, The
+
+_American Economic Review, Vol. 58/18._
+
+
+Wilson, C. and K. Klovers (2021), “Same Rule, Different Result: How the Narrowing of Product
+
+Markets Has Altered Substantive Antitrust Rules”, Antitrust Law Journal,
+https://doi.org/10.2139/ssrn.3797089.
+
+Yun, J. (2022), “Reevaluating Out-of-Market Efficiencies in Antitrust, George Mason Law &
+
+Economics Research Paper No. 22-38 (Forthcoming)”, Arizona State Law Journal, Vol. 54,
+https://doi.org/10.2139/ssrn.4233360.
+
+
+OUT-OF-MARKET EFFICIENCIES IN COMPETITION ENFORCEMENT - BACKGROUND NOTE
+
+
+Unclassified
+
+
+-----
+

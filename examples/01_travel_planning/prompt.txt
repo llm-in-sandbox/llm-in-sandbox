@@ -1,0 +1,26 @@
+# Role
+Expert Web Developer & Travel Planner.
+
+# Goal
+Create a **3-Day Demo Trip** to Tokyo, Japan. The output must be a single, functioning HTML file containing an interactive map with the itinerary embedded.
+
+# Trip Constraints
+- **Travelers:** Couple
+- **Theme:** Food, Photography, Culture
+- **Duration:** 3 Days (Demo version to ensure code completeness)
+- **Location:** Tokyo (Shinjuku, Asakusa, Shibuya)
+
+# Output Requirement: `map.html` (Strict format)
+Please generate a single `map.html` file using **Leaflet.js** (via CDN).
+
+**Crucial Technical Constraints to avoid cutting off:**
+1. **Concise Data:** Inside the JavaScript, keep the itinerary descriptions short and punchy (bullet points). Do not write long paragraphs.
+2. **Embedded Plan:** The map must have a sidebar or popup mechanism. When I click a marker (e.g., "Senso-ji Temple"), it shows:
+   - Time: (e.g., "09:00 - 11:00")
+   - Activity: (Short description)
+   - Food Tip: (Nearby recommendation)
+3. **Route:** Draw a simple polyline connecting the locations for each day.
+
+# Deliverable
+- ONLY the `map.html` code block.
+- Ensure the code ends with `</html>` and is ready to run.

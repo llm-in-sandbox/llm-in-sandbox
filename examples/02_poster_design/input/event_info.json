@@ -1,0 +1,63 @@
+{
+  "event": {
+    "name": "AGI Summit 2026",
+    "slogan": "Shaping the Future of Intelligence"
+  },
+  "datetime": {
+    "date": "March 15-16, 2026",
+    "time": "09:00 AM - 06:00 PM",
+    "timezone": "PST"
+  },
+  "location": {
+    "venue": "Moscone Center",
+    "address": "747 Howard St, San Francisco, CA 94103",
+    "hall": "Hall A & B"
+  },
+  "speakers": [
+    {
+      "name": "Dr. Wei Zhang",
+      "title": "Chief AI Scientist",
+      "company": "DeepMind",
+      "topic": "The Road to AGI"
+    },
+    {
+      "name": "Dr. Sarah Chen",
+      "title": "Research Director",
+      "company": "Anthropic",
+      "topic": "AI Safety & Alignment"
+    },
+    {
+      "name": "James Li",
+      "title": "CTO",
+      "company": "OpenAI",
+      "topic": "Scaling Language Models"
+    },
+    {
+      "name": "Prof. Emily Wang",
+      "title": "Professor",
+      "company": "Stanford University",
+      "topic": "Embodied AI: Latest Advances"
+    }
+  ],
+  "highlights": [
+    "20+ Industry Leader Keynotes",
+    "AI Demo Experience Zone",
+    "Panel: Opportunities & Challenges of AGI",
+    "Startup Pitch Competition",
+    "Networking Reception"
+  ],
+  "registration": {
+    "url": "https://agi-summit-2026.com/register",
+    "early_bird_price": "$499",
+    "regular_price": "$799",
+    "deadline": "February 28, 2026"
+  },
+  "organizers": {
+    "host": ["Association for AI", "SF Tech Council"],
+    "sponsors": ["Google", "Microsoft", "NVIDIA", "Meta"]
+  },
+  "contact": {
+    "email": "info@agi-summit-2026.com",
+    "twitter": "@AGISummit2026"
+  }
+}

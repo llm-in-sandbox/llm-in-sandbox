@@ -1,0 +1,9 @@
+{
+  "name": "Luna",
+  "colors": {
+    "background": "#FFF0F5",
+    "primary": "#FFB6C1",
+    "secondary": "#87CEEB",
+    "accent": "#FFD700"
+  }
+}

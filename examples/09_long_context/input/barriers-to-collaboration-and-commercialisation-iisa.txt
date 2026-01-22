@@ -1,0 +1,2924 @@
+# Barriers to collaboration and commercialisation
+
+### Industry Innovation and Science Australia
+
+
+-----
+
+#### Contact
+
+Office of Industry Innovation and Science Australia
+Department of Industry, Science and Resources
+Ngunnawal Country
+GPO Box 2013
+Canberra ACT 2601
+Email: secretariat@iisa.gov.au
+
+#### Copyright
+
+**© Commonwealth of Australia 2023**
+
+**Ownership of intellectual property rights**
+
+Unless otherwise noted, copyright (and any other intellectual property rights, if any) in this publication is
+owned by the Commonwealth of Australia.
+
+**Creative Commons licence**
+
+**Attribution**
+
+**CC BY**
+
+All material in this publication is licensed under a Creative Commons Attribution 4.0 International
+Licence, save for content supplied by third parties, logos, any material protected by trademark or
+otherwise noted in this publication, and the Commonwealth Coat of Arms.
+
+Creative Commons Attribution 4.0 International Licence is a standard form licence agreement that
+allows you to copy, distribute, transmit and adapt this publication provided you attribute the work.
+A summary of the licence terms is available from https://creativecommons.org/licenses/by/4.0/
+
+The full licence terms are available from https://creativecommons.org/licenses/by/4.0/legalcode
+
+Content contained herein should be attributed as Barriers to collaboration and commercialisation,
+_Industry Innovation and Science Australia._
+
+#### Disclaimer
+
+The Australian Government as represented by the Department of Industry, Science and Resources has
+exercised due care and skill in the preparation and compilation of the information and data in this
+publication. Notwithstanding, the Commonwealth of Australia, its officers, employees, or agents
+disclaim any liability, including liability for negligence, loss howsoever caused, damage, injury, expense
+or cost incurred by any person as a result of accessing, using or relying upon any of the information or
+data in this publication to the maximum extent permitted by law. No representation expressed or implied
+is made as to the currency, accuracy, reliability or completeness of the information contained in this
+publication. The reader should rely on their own inquiries to independently confirm the information and
+comment on which they intend to act. This publication does not indicate commitment by the Australian
+Government to a particular course of action.
+
+
+-----
+
+## Acknowledgement of Country
+
+Industry Innovation and Science Australia recognises the First Nations people and their ongoing
+cultural and spiritual connections to the lands, waters, seas, skies and communities.
+
+We acknowledge First Nations people as the Traditional Custodians and Lore Keepers of the oldest
+living culture and pay respects to their Elders past and present. We extend that respect to all First
+Nations people.
+
+
+-----
+
+## Table of contents
+
+**Barriers to collaboration and commercialisation ........................................................................... 1**
+
+**Acknowledgement of Country ...................................................................................................... 3**
+
+**Chair’s foreword .......................................................................................................................... 5**
+
+**Executive summary ...................................................................................................................... 6**
+
+Key findings and recommendations ................................................................................................. 10
+
+**Section 1: Market dynamics and innovation................................................................................ 17**
+
+Recommendations and policy considerations .................................................................................. 27
+
+**Section 2: Business composition, absorptive capacity and capability ........................................... 28**
+
+Recommendations and policy considerations .................................................................................. 36
+
+**Section 3: Efficiencies of innovation process ............................................................................... 37**
+
+Recommendations and policy considerations .................................................................................. 42
+
+**Appendix ................................................................................................................................... 44**
+
+Appendix 1: Methodology ................................................................................................................ 44
+
+Appendix 2: Glossary of terms .......................................................................................................... 46
+
+Appendix 3. Revealed Comparative Advantage – top 20 competitive subsectors, 2021. ................ 48
+
+Appendix 4: Industry collaboration with research and higher education institutes ........................ 49
+
+Appendix 5: Composition of Government Expenditure on R&D by socio-economic objective and
+distribution of R&D refundable tax offset in priority areas .............................................................. 50
+
+**Reference materials ................................................................................................................... 51**
+
+
+-----
+
+## Chair’s foreword
+
+**The Hon Ed Husic MP**
+Minister for Industry and Science
+Parliament House
+Canberra ACT 2600
+
+Dear Minister
+
+I am pleased to present our report on barriers to industry-research collaboration and
+commercialisation. You requested this advice through Industry Innovation and Science Australia’s
+Statement of Expectations dated 1 December 2022.
+
+Australia is well-known for its world class research performance. However, this is not translating to
+commercialisation outcomes to grow and diversify the economy and deliver secure well-paid jobs.
+Our insights are grounded in the context of the Australian innovation ecosystem including industry
+structure.
+
+Industry Innovation and Science Australia (IISA), with its expertise and connections to businesses and
+academia across the economy, has investigated the complex challenges faced in the pursuit of
+innovation and commercialisation outcomes. These include the practical challenges of engaging with
+research entities, and the barriers within the innovation process in the context of the Australian
+industry structure, market dynamics and policy landscape.
+
+In preparing our advice, we have focused on the Australian Government’s overarching policy
+objectives of industrial and economic transformation, sustainable value creation, high-value job
+creation and economic diversification. We have also considered related reviews and strategies such
+as the University Accord review.
+
+Our report provides recommendations and practical actions for your consideration. The actions we
+propose are harmonious with the design and implementation of flagship initiatives such as the
+National Reconstruction Fund and the Industry Growth Program. We include policy advice to reflect
+what is required to build industry capability and capacity to innovate, collaborate and
+commercialise.
+
+On behalf of the IISA Board, we look forward to working with you and the department on
+implementing these important actions to strengthen business productivity in growing markets and
+support the creation of well-paid jobs through the transformation and diversification of Australia’s
+economy. Finally, my appreciation to IISA members Ms Lauren Stafford and Dr Doron Samuell for
+leading this work and my sincere thanks to the Office of IISA for their ongoing support.
+
+Yours sincerely
+
+**Andrew Stevens**
+Chair
+Industry Innovation and Science Australia Board
+25 September 2023
+
+
+-----
+
+## Executive summary
+
+This report, through its analysis, provides a new perspective on barriers to industry-research
+collaboration and commercialisation. It complements policy discussions that have primarily focused
+on supply-side barriers and accompanying strategies designed to increase university research push.[1]
+Public policy debate around industry-research collaboration has emphasised supply-side policy
+instruments. These include indirect and direct Government Expenditure on R&D (GERD) and other
+investments to foster collaboration between the private sector and research institutions.[2]
+
+Our analysis reframes the problem. First and foremost, barriers to collaboration and achieving
+commercialisation outcomes should be grounded in an understanding of the need or demand for
+these outcomes. This report highlights key barriers on the demand side in the context of Australia’s
+industry structure, market dynamics and business characteristics.
+
+Barriers in the market for innovation manifest due to the dynamics of supply, demand and
+interventions.
+
+#### Focusing on innovation and commercialisation outcomes
+
+Our investigation on barriers to commercialisation and collaboration was conducted in the context
+of the Australian Government’s broader policy objectives to:
+
+ increase collaboration and commercialisation to grow revenue and build industry
+
+competitiveness, and
+
+ develop a diversified industrial base with the scale and economic complexity to create and
+
+sustain secure well-paid jobs.
+
+Commercialisation is the process, or method, of bringing new products and services to market. The
+broader act of commercialisation entails production, distribution, marketing, sales, customer
+support and other key functions critical to achieving the commercial success of the new product or
+service.
+
+Innovation and commercialisation are major levers to increase the commercial success of businesses
+through differentiation and competitiveness and thus, at a national level, to diversify, increase
+resilience and grow the economy. Creation of secure well-paid jobs occurs where businesses on the
+frontier of productivity meet a growing market.
+
+For Australian businesses, commercialisation is likely to be stimulated by increasing aggregate
+demand, predominantly from both export markets and transforming internal and emerging markets
+that align with decarbonisation, environmental and social objectives.
+
+Research is integral to successful commercialisation. Our ability to leverage relevant, high-quality
+research at low risk and friction is instrumental in realising a viable commercial enterprise with the
+potential for scale.
+
+1 Department of Education (2022) University Research Commercialisation Action Plan, Australian Government, accessed 25
+August 2023
+2 See Appendix 5 for detail on the changes in the composition of Commonwealth Government expenditure on research
+and development by socio-economic objective between 1993 and 2021.
+
+
+-----
+
+#### Our current state
+
+Despite Australia’s relatively high standing in science and research performance, and focused policy
+effort to support collaboration and commercialisation, industry-research collaboration and
+commercialisation outcomes remain low.[3] Other related metrics, including productivity, industrial
+resilience and economic complexity, have also lagged international peers.
+
+Australia ranks as the 93[rd] most complex country in
+the Harvard Economic Complexity Index (ECI).
+Compared to a decade prior, Australia’s economy
+has become less complex, falling 12 positions in
+the ECI ranking. Australia’s worsening complexity is
+reflected in its lack of diversification of exports.
+Australia is less complex than expected for its
+income level.
+
+Complexity: more complex products tend to
+support higher wages.
+
+**_Source: Harvard Atlas of Economic Complexity (2023)_**
+
+The past decades have seen insufficient business investment in research, development and
+innovation. This has arguably contributed to Australian businesses falling further behind the global
+productivity frontier.[4] Labour productivity growth in Australia is at its slowest in 60 years.[5]
+
+**Chart 1: Average labour productivity growth in Australia – by decade and 60 years’ average**
+
+Source: Productivity Commission, 5-year Productivity Inquiry: Advancing Prosperity Inquiry report, Volume 1
+
+3 Australia ranks last amongst OECD nations for industry-research collaboration. See Appendix 4.
+4 Quinn M (20 June 2019) Keeping Pace with Technological Change: The Role of Capabilities and Dynamism [speech],
+Organisation for Economic Co-operation and Development (OECD) Global Forum on Productivity, 2019, last accessed 23
+November 2023.
+5 Productivity Commission (2023) 5-year Productivity Inquiry report, Volume 1: Advancing Prosperity, Productivity
+Commission, page 1, last accessed 23 November 2023.
+
+
+-----
+
+Australia’s manufacturing landscape has simplified over the same period, in part due to our reliance
+on primary industry and globalisation with the replacement of local manufacturing by imported
+goods. The reduction in manufacturing has, in turn, reduced Australia’s industry capabilities.
+Australia shows one of the highest levels of import penetration and lowest levels of competitive
+industrial performance among OECD countries.[6]
+
+**Chart 2: United Nations Industrial Development Organization (UNIDO)’s Competitive Industrial**
+**Performance Index vs Manufacturing Import Penetration in OECD countries, 2018**
+
+
+0.50
+
+0.45
+
+0.40
+
+0.35
+
+0.30
+
+0.25
+
+0.20
+
+0.15
+
+0.10
+
+0.05
+
+0.00
+
+
+DEU
+
+KOR USA
+
+JPN IRL
+
+NLD
+
+FRA
+
+BEL AUT GBR
+
+SWE CZE
+ESP CAN
+
+MEX DNK
+
+POL
+
+FIN HUN
+
+ISR
+
+PRT **_AUS_** NOR
+
+LTU
+
+GRC LUX LVA
+
+NZL
+
+COL CHL ISL
+
+
+10 20 30 40 50 60 70 80 90
+
+
+**Import penetration (%)**
+
+Source: UNIDO and OECD Trade in Value statistics
+added
+
+#### Our approach to analysing barriers
+
+
+In developing our advice on barriers to industry-research collaboration and commercialisation, we
+have framed the problem to better understand the forces impacting business innovation and
+commercialisation. We have taken a market model approach, examining the factors through a
+framework of supply, demand, and efficiency of the innovation process.
+
+The Australian Government is supporting conditions to de-risk innovation and commercialisation
+through supply-side initiatives such as concessional finance and patient capital, advisory services and
+grants. Although this contributes to supporting industry transformation and competitiveness,
+equally important is boosting demand for innovation in industries that currently do not perceive the
+need to innovate, or have the risk appetite, capacity or capability to undertake transformative
+activities. We have applied this market model approach in the context of Australia’s industry
+structure.
+
+
+6 UNIDO’s Competitive Industrial Performance Index measures each country’s effectiveness in engaging with industrial
+production and can serve as a rough proxy for a country’s industrial capabilities. The Index includes six indicators that cover
+three dimensions: a) Capacity to produce and export manufactures, b) Technological deepening and upgrading, and c)
+World impact.
+
+
+-----
+
+Australia’s industry structure comprises 1,004,180 employing businesses of which 93% are small
+enterprises of 1 to 19 employees and 6% are medium-sized enterprises of 20 to 199 employees.[7]
+
+**Chart 3: Number and proportion of employing business by size – all industries, June 2023**
+
+
+800,000
+
+700,000
+
+600,000
+
+500,000
+
+400,000
+
+300,000
+
+200,000
+
+100,000
+
+
+70%
+
+23%
+
+6%
+
+0.5%
+
+
+1–4 5–19 20–199 200+
+
+**Size of business by number of employees**
+
+
+Source: ABS (2023) Counts of Australian Businesses, including Entries and Exits, Cat. No 8165.0. Table 1
+
+By international comparisons, Australia’s industry structure is heavily skewed toward micro
+businesses employing 1 to 4 people. Comparable data from the OECD shows that 94% of businesses
+in Australia employed 1 to 9 people in 2017. For the same employment range, this was 62% in
+Germany, 64% in Canada and 67% in the USA.[8] Limitations in data standardisation make direct
+international comparisons difficult. However, available data also indicates that Australia has a lower
+proportion of businesses in the 20 to 49 employment size than other jurisdictions. In addition, the
+proportion of medium-sized businesses (20 to 49 employment size) decreased in Australia between
+2006 and 2017, while in it increased in Germany and remained stable in the UK, Canada and the
+USA.[9]
+
+
+We have also focused on understanding the growth trajectory of businesses and the value added
+generated by businesses of different sizes. Australia’s small and medium-sized businesses are not
+growing and generate less value added than the OECD average. The implications of this trend on
+capacity and capability to innovate are discussed in detail in Section 2 of the report.
+
+Revealed Comparative Advantage is one of several analyses that we have undertaken. The analysis
+contributes to the understanding of how industry structure and dynamics impact competitiveness
+and the need or impetus for innovation in different priority areas of the economy. In addition to
+economic and market analysis, insights were drawn from interviews and direct engagement with
+business leaders and international experts in manufacturing, industry-research collaboration and
+policy development. A detailed methodology is provided at Appendix 1.
+
+
+7 As at 2022–23, Australia had a total of 2,589,873 registered businesses, of which 1,585,693 were non-employing (i.e.,
+sole traders and partnerships without employees). Of the employing businesses, 703,467 businesses employ 1 to 4 people;
+231,259 businesses employ 5 to 19, 64,559 businesses employ 20 to 199, and 4,895 employ more than 200 people. ABS
+(2023), Counts of Australian Businesses, including Entries and Exits, Table 1. Cat. No 8165.0, last accessed 24
+November 2023.
+8 Data drawn from Organisation for Economic Co-operation and Development (OECD) Enterprises by business size, OECD
+website, accessed 24 November 2023.
+9 Organisation for Economic Co-operation and Development (OECD) Enterprises by business size, OECD website, accessed
+24 November 2023.
+
+
+-----
+
+#### Key findings and recommendations
+
+The following recommendations are based on our findings of the practical challenges to
+collaboration and commercialisation, and the barriers within the innovation process in the context
+of the Australian industry structure, market dynamics and policy landscape.
+
+Our overarching recommendations reflect what we consider is required to build industry capability
+and capacity to collaborate and commercialise, grounded in an understanding of Australia’s
+economic, research and industry context. We recommend the Government develop policy and
+interventions across these four critical areas to shift the dial in capability and capacity, which will
+benefit Australia’s economic complexity and resilience.
+
+#### Demand-side barriers
+
+Many government programs and interventions assume businesses’ motivation for innovation, risk
+appetite, capability and capacity, which is underdeveloped or may not exist – and the
+competitiveness of businesses and sectors continues to decline.
+
+##### Few businesses have the need or risk appetite to innovate.
+ Australia’s economy is dominated by primary industry with high reliance on its unique natural
+
+resources advantage. Operations in these sectors are exposed to high levels of risk in terms of
+safety and regulatory compliance, capital intensity, weather dependency and workforce
+variability. Risk saturation and a regulatory environment that imposes high penalties for noncompliance constrain the appetite for innovation.
+
+ Not all businesses have the need or risk appetite to innovate to achieve their objectives.
+
+Research shows that only 5% to 15% of business leaders of small and medium enterprises (SMEs)
+have the desire to grow to be multinational businesses; the majority are lifestyle businesses.[10]
+
+ The scale of the obtainable market for innovative enterprises is perceived to be small. The
+
+domestic market represents subscale reward relative to the risk profile. Businesses seeking to
+service global markets from Australia face barriers such as accessibility and cost competitiveness
+that render these markets unobtainable, particularly on tangible product-only value
+propositions.3
+
+ Businesses servicing domestic markets with adequate current demand may not need to engage
+
+in new-to-market or new-to-world innovation or undertake high-risk, high-reward
+collaborations.
+
+10 Professor Goran Roos, interview conducted by IISA 18 August 2023. In addition, see:
+ICS Ltd. (2010) Review of the Innovation Readiness of SMEs. A Short Study Undertaken for the Danish Agency for Science,
+_Technology and Innovation, Copenhagen, Denmark._
+Brnjas Z, Vulićević V and Čanaićević, D (2015) ‘Importance and role of fast-growing companies–Gazelles in modern
+economies’, Economic analysis, 48(3-4):44-61.
+Ferrantino MJ, Mukim M, Pearson A and Snow ND (2012) ‘Gazelles and Gazillas in China and India’, Office of Economics
+Working Paper/US International Trade Commission, available at
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2167303.
+
+
+-----
+
+##### Australia’s industry structure has implications for the capacity and capability to adopt and scale innovation.
+
+ Australia's industry structure is dominated by small businesses (93% of Australian businesses)
+
+with low levels of free cash flow and human resourcing. These characteristics limit the capacity
+to invest in adopting and scaling innovation. The “missing middle” (low number of medium-sized
+businesses) means that the scaling of innovation and realisation of commercial benefits either
+fails or is taken offshore.
+
+ Management experience necessary to steward risky and innovative enterprises is developed
+
+through operating businesses in dynamic and highly competitive markets. In recent decades,
+domestic industry conditions have led to an atrophy in this skill set.
+
+ Small and medium-sized businesses have reduced absorptive capacity. The nature of Australia’s
+
+industrial base also leads to a reduction in demand for innovation.
+
+#### Recommendation: Demand-side drivers and the need to innovate
+
+###### 1. Effectively identify businesses with the need to innovate and focus
+ interventions on the barriers specific to that sector. 
+
+ Actions could include:
+1.1 Selectively support businesses with the need and risk appetite to innovate to deliver novel
+
+products and/or services for growing domestic and international markets.
+
+1.2 Design incentive programs that target businesses and industries critical to Australia’s
+
+industry policy objectives and align business and funding risk-taking in both direction and
+magnitude. For example, design funds and guidelines to filter applications based on business
+motivation and ambition, and provide advice, connections and resources specific to their
+needs to de-risk their opportunity.
+
+1.3 Focus government interventions on businesses seeking to service growing export market
+
+opportunities and transitioning internal markets with innovative new-to-market products or
+services that over time will contribute to improving Australia’s economic complexity.
+
+1.4 Effectively aggregate demand for innovation through coordination of whole-of-government
+
+policies, such as the transition to a net-zero economy, and the development of sovereign
+advanced manufacturing capabilities required to meet domestic and global needs. This will
+create competitive, dynamic markets for innovation in priority areas.
+
+
+-----
+
+#### Supply-side barriers
+
+Australia has a shrinking middle band of businesses in its industry structure. We have a scale-up
+problem, not a start-up problem. This is impacting the absorptive capacity and capability of our
+industrial base.
+
+##### Australia’s industry structure has implications for the capacity and capability to create and develop innovation.
+
+ The dominant Australian innovation policy discourse is that universities and research institutions
+
+are the source and supply of innovation. This is not the case. Small and medium enterprises
+(SMEs) are the engine room of innovation in most economies. Unlike publicly funded
+institutions, SMEs participate in the commercial environment in which innovation outcomes are
+incentivised.
+
+ Australia's industry structure is dominated by small businesses (93% of Australian businesses)
+
+with low levels of free cash flow and human resourcing. These characteristics limit the capacity
+to invest in creating and developing innovation.
+
+##### Limited competition and misalignment of incentives
+
+ Incentives of tertiary education and research institutions are not aligned with commercialisation
+
+outcomes. Funding mechanisms do not produce the conditions that manifest the need to
+collaborate with industry to produce innovation. Despite this fact, universities and research
+institutions have a near-monopolistic supply of government-supported innovation initiatives.
+
+ Activities of universities, including knowledge discovery, dissemination, and education, occur on
+
+a different cadence and paradigm to commercial endeavours:
+
+ Businesses engage in rapid (weekly or monthly), low-cost, iterative testing of relevant
+
+assumptions on market scale, product performance and business model viability.
+
+ By contrast, tertiary institutions engage in activities that are conducted over years and have
+
+few cycles, if any, focused on customer validation for value or relevance.
+
+ Initiatives designed to support industry-research collaboration presuppose the requirement to
+
+work with universities. Outcomes and commercialisation performance have been unsatisfactory.
+
+
+-----
+
+#### Recommendation: Build absorptive capacity and capability for industry transformation.
+
+###### 2. Create the policy environment to attract and grow medium enterprises in
+ targeted industries.
+
+ Actions could include:
+2.1 Restricted tax reform or similar levers that change risk–reward evaluations of businesses
+
+currently based in Australia and attract and build businesses with the management
+experience, capacity, and capability for innovation, and increase competition and business
+dynamism.
+
+2.2 Recalibrate government interventions to focus on building capabilities to de-risk market
+
+adoption and develop innovative business models. Programs currently focus primarily on
+technical readiness or product feasibility risk, while neglecting crucial elements of building
+competitive businesses.
+
+
+-----
+
+#### Efficiencies of innovation process 
+
+Similarly, research push initiatives and interventions assume businesses’ motivation for innovation,
+risk appetite, capability and capacity which may not exist – and their outcomes and indeed our
+research commercialisation performance has been unsatisfactory. To be effective, interventions
+aimed at boosting collaboration and commercialisation will need to explicitly address businesses’
+motivation for innovation, risk appetite, capability and capacity barriers, as well as the resulting
+misalignment and market inefficiencies in the marketplace for industry-research collaboration.
+
+##### Maximising funding impacts
+
+ A lack of cohesion and coordination between innovation incentive programs both across and
+
+within state and federal government levels results in dilution of resources, reduction in
+competition, delay in paths to market and an overall reduction in the likelihood of commercial
+success. Further consideration of effective national strategy development, design and resourcing
+is required to achieve transformative outcomes.
+
+ Government policy directs most resources to physical sciences and tangible product innovation.
+
+Limited support is available for de-risking innovation in services, business model or market
+adoption and growth. Programs and incentives are focused on addressing the technical risk of
+tangible products. There is an absence of interventions addressing the development of
+competitive business strategies.
+
+ The marketplace for the supply and demand for innovation in Australia is opaque. There is
+
+under-serviced market-making between those supplying and demanding innovation. The
+pathways for forming relationships necessary for successful industry-research collaboration are
+limited and inefficient. The business models for the engagement of facilitators and market
+makers have not been optimised to maximise markets.
+
+ Industrial transformation is a decadal endeavour. Strategies must be well framed and target
+
+clear outcomes over specified timeframes. Programs must be adequately resourced, frequently
+evaluated and responsive to industry changes to achieve national outcomes through electoral
+cycles.
+
+
+-----
+
+#### Recommendation: Improve efficiencies of innovation processes. 
+
+###### 3. Increase competition on the supply side of innovation and harness
+ alignment of incentives found in SMEs. 
+
+ Actions could include:
+3.1 De-coupling the requirement for industry to engage publicly funded research organisations
+
+to be eligible for government innovation support programs will open the market and
+increase competition for funds available to achieve commercialisation outcomes. This will
+not exclude universities and research institutions but will effectively filter those aligned to
+address relevant questions for industry to advance innovation and commercialisation
+outcomes.
+
+3.2 Review models for engaging providers of advisory services in existing and emerging funding
+
+programs to assure successful outcomes.
+
+3.3 Review and update supply-side funding guidelines to support researchers interested in
+
+working within industry and developing commercial acumen and entrepreneurial mindsets.
+
+3.4 Investigate market-making brokerage services to improve opportunities for successful
+
+industry-research engagement. Brokerage services unaligned to specific institutions could
+lower friction costs between industry and academia.
+
+3.5 Examine other jurisdictions for models of efficient research-industry IP and patenting
+
+arrangements, such as Singapore or universities in the USA where there are very low or no
+licencing fees, in preference for equity to entrepreneurial researchers and students spinning
+out IP in partnership with industry. This could increase the alignment of incentives for the
+research supply side and better alignment of both parties focusing on commercial outcomes
+in the market.
+
+
+-----
+
+#### Measuring what matters
+
+Metrics on the outcomes of investments in innovation are not sufficiently standardised across the
+government’s investments in science, research and innovation. Inputs to science, research and
+innovation are more robustly defined, collected and benchmarked than the outputs and outcomes
+(including commercialisation, business growth, revenue and profit metrics).
+
+ Reporting and measurement of public investments in science, research and innovation do not
+
+adequately align to business competitiveness outcomes.
+
+ There is insufficient transparency and detail on the outputs and outcomes from innovation and
+
+collaboration to enable a meaningful evaluation of the performance of policy and investment.
+
+#### Recommendation: Measure the things that matter to drive economic complexity, resilience and societal outcomes.
+
+###### 4. Design and implement the measurement of commercialisation outcomes
+ and industry impacts over the appropriate timeframes. 
+ Actions could include:
+4.1 Measure growth in revenue, productivity and resilience. Ensure public investments in
+
+research translation activities visibly realise industrial transformation, business
+competitiveness and growth, sovereign capability, productivity and higher value jobs in
+industry, alongside equally important improved health, environmental and social outcomes
+for Australians.
+
+4.2 Supplement existing self-reported survey instruments with hard data to measure
+
+commercialisation and industry transformation outcomes.
+
+
+-----
+
+## Section 1: Market dynamics and innovation
+
+Economic diversification is a process of transforming a country's economic structure toward the
+production and export of more complex and value-added products. Currently, Australia’s economic
+complexity and export profile is comparable to that of developing countries.
+
+It is well known that the increased prominence of resource-oriented activities in the last fifty years
+has brought benefits to Australia’s economy. This was accompanied by a decline in the
+manufacturing industry’s contribution to Australia’s Gross Domestic Product and an increase in the
+level of import penetration in the manufacturing sector. The erosion of Australia’s industrial
+capabilities (as shown in Chart 2) has consequences for the productive knowledge and the knowhow business leaders need to enable improvements and innovation in the manufacturing industry.[11]
+
+Australian manufacturing in priority areas of the economy is strongly focused on cost efficiency and
+adaption of products and processes to the small and fragmented domestic market.[12] This can affect
+the willingness of business leaders to undertake the innovations necessary to scale up and compete
+in international markets. The decline in management skills has also limited the innovation
+capabilities in manufacturing businesses.
+
+The development of economic complexity is slow for countries with productive structures geared
+toward low-productivity and low-wage activities, producing mostly low-value-add commodities or
+agricultural products.[13] Conversely, development is fast in countries with productive structures
+geared toward high-productivity and high-wage activities.
+
+The ambition to accelerate and diversify the economy requires targeted actions to generate the
+conditions that support greater complexity and industry innovation. The Australian Government is
+supporting conditions to de-risk innovation and commercialisation through supply-side initiatives
+that provide concessional finance, patient capital, business advice and grants. The government also
+provides support to encourage businesses to undertake research and development activities
+through the R&D Tax Incentive.[14] Although this contributes to creating an environment conducive to
+industrial transformation, equally important is creating the conditions for boosting demand for
+desired innovations.
+
+11 United Nations Industrial Development Organisation (UNIDO) (2022) Building socio-economic resilience through
+industrial capabilities, UNIDO website, last accessed 24 November 2023.
+12 Organisation for Economic Cooperation and Development (OECD) (2015) Australian manufacturing in the global
+_economy [PDF 4.7MB], study for the Australian Government Department of Industry, Innovation, Science, Research and_
+Tertiary Education, OECD website, last accessed 23 November 2023.
+13 Felipe J, Kumar U, Abdon A and Bacate M (2012) ‘Product complexity and economic development’, Structural change and
+_economic dynamics, 23(1):36–68._
+14 See Appendix 5 for detail on the distribution of the R&D refundable tax offset by manufacturing activities related to the
+National Reconstruction Fund priority areas.
+
+
+-----
+
+The productive structures required to drive transformation and diversification involve two key
+processes: (i) how countries develop new products through novel combinations of the capabilities
+they already have, and (ii) how countries accumulate new capabilities and combine them – through
+collaboration – with the existing capabilities to develop new products and/or services.[15]
+
+Our analysis highlights that, to be effective, interventions must address capability and capacity
+shortfalls across Australia’s industrial base. A significant challenge will be shifting industries that may
+not currently have the capability, capacity, risk appetite or “burning platform” to undertake
+transformative innovation and collaboration. This is due to the nature of our industry structure and
+market dynamics that impact business and management strategy.
+
+_Despite the need to innovate (commercialise and collaborate) to address low_
+
+_competitiveness, representative elements of the Australian economy we studied do_
+
+_not demonstrate the required levels of innovation, commercialisation or_
+
+_collaboration activity to transform._
+
+15 Hidalgo CA and Hausmann R (2009) ‘The building blocks of economic complexity’, Proceedings of the National Academy
+_of Sciences, 106(26):10570–10575._
+
+
+-----
+
+Figures 1 and 2 below (and Appendix 3) illustrate the contrasting profiles of economies with low and
+high complexity.
+
+**Figure 1: Australia’s export complexity in 2023 (ECI Ranking = 93rd of 133)**
+
+**Figure 2 Germany’s export complexity in 2023 (ECI Ranking = 4th of 133)**
+
+
+-----
+
+#### Impact of market dynamics on business strategy, risk appetite and pursuit of new-to-market innovation
+
+Our Revealed Comparative Advantage analysis indicates that many subsectors or products that fall
+within priority areas of the economy have low international competitiveness. Many face high import
+penetration and others focus on servicing Australia’s small domestic market.
+
+Businesses that Australia needs to innovate the most, thereby driving industrial transformation, may
+lack the need or incentive to actively pursue and execute new-to-market or disruptive innovations.
+
+Revealed Comparative Advantage (RCA) is an index calculated using exports. It is widely used to
+measure the competitiveness of industries. It provides a measure of the relative specialisation of a
+country’s export activities in an industry. RCA is the proportion of a country’s exports in that industry
+divided by the proportion of world exports in that industry. If the RCA is greater than one, a
+**_comparative advantage is “revealed.” If the RCA is less than one, the country has a comparative_**
+**_disadvantage in that industry._**
+
+Our analysis, illustrated in Chart 4, overlays import penetration data to highlight market dynamics in
+each of the four identified quadrants. The discussion of findings that follows illustrates the different
+market conditions and the likely type of innovation required to achieve industry transformation and
+diversification for industries in each of the corresponding quadrants.
+
+
+-----
+
+_Industrial transformation_
+
+_requires priority areas_
+
+_moving to QI & QII_
+
+
+-----
+
+**Chart 4 illustrates the different market conditions and the likely corresponding innovation required**
+to achieve industry transformation and diversification. It is our view that stable transformation
+arises by making a strategic choice for economic development based on high value rather than low
+cost. High-value strategies create and extend markets while low-cost approaches invite
+commoditisation and insecurity. Relevant policy may include nudging businesses to move toward a
+focus on high-value products in niche and growing markets (Quadrant II).
+
+ **Quadrant I – includes businesses operating in industries that are already competitive.**
+
+ At a minimum, these businesses would need to continuously pursue and adopt incremental
+
+new-to-business innovations to maintain their competitiveness.
+
+-  Examples of these are food processing manufacturing and wool scouring (both part of
+the value-add in agriculture priority area) and primary metal manufacturing such as
+copper refining which is critical input for renewable technologies (part of the value-add
+in resources priority area).
+
+-  In food processing, for instance, incremental innovations such as line extensions,
+packaging changes, new flavours and other operational improvements could simplify
+supply chains, enhance sustainability and reduce costs. In contrast, new-to-market
+innovation would involve investment in disruptive innovations to address social issues
+such as hunger and accommodate emerging markets, such as plant-based meats, insect
+protein bars, synthetic fat replacers and precision fermented milk proteins.
+
+ **Quadrant II – includes businesses that are highly competitive, specialised in niche markets and**
+
+**facing intense competition.**
+
+ At a minimum, these businesses would need to pursue and adopt incremental innovations
+
+to remain competitive in their niche markets; for example, differentiating through product
+quality and technological advancements.
+
+-  Iron and steel casting is the only subsector that falls within this category. This subsector
+manufactures cast iron and steel components based on a technique that allows
+manufacturers to produce components with complex geometries, tailored to customer
+requirements and specific markets. Cast iron and steel components are used in wind
+turbine systems, aircraft engine parts and defence equipment, among other uses and
+markets.
+
+ **Quadrant III – includes businesses operating in low competitiveness industries that face no to**
+
+**moderate import competition and are focused on the domestic market.**
+
+ These businesses would require disruptive innovations to scale up and compete in
+
+international markets. Examples of these are transport equipment manufacturing (vehicle
+body and trailer manufacturing), boat building and pharmaceutical products. For example,
+the domestic manufacturing of vehicle body and trailer manufacturing is mainly oriented
+toward the production of caravans and trailers for domestic household consumption.
+
+-  Pharmaceuticals also fall within this quadrant. This is because imports satisfy around
+50% of Australian domestic market, and Australian exports represent 0.7% and 0.4% of
+total Australian and global exports, respectively.[16] The COVID-19 pandemic highlighted
+
+16 Export shares sourced from unpublished Department of Industry, Science and Resources data. Export shares refer to
+2021 year. Import penetration based on Australian Bureau of Statistics (ABS) (2023) (reference period 2020-21 financial
+year) Australian National Accounts: Input-Output Tables [data set], ABS website, accessed 24 November 2023.
+
+
+-----
+
+Australia’s dependence on global pharmaceutical supply chains. Despite this, exports of
+medicinal and pharmaceutical products have increased at a faster pace than overall
+Australian exports in the last two decades. Over the period 2000 to 2022, the annual
+average growth rate of pharmaceutical exports was 9.1%, while Australian total exports’
+annual average growth rate was 8.4%.[17] This is consistent with patent activity, which
+shows that applications for pharmaceuticals patents have been on a growth trajectory
+since 2014, growing from 1,834 patent filings in 2014 to 4,465 in 2022.[18] Australia has a
+comparative advantage in certain pharmaceutical products, including medicaments,
+vitamins and alkaloids.
+
+ **Quadrant IV – includes businesses that operate in industries that are not internationally**
+
+**competitive and face significant import competition.**
+
+ These businesses would require disruptive innovations to support capability building to
+
+compete on value rather than cost or price. Sectors in this quadrant include medical
+equipment manufacturing (for example personal protective equipment, hospital bed
+manufacturing and other manufactured consumables). In 2021, the medical equipment
+industry shares of total Australian and global exports were 0.3% and 0.6% respectively.[19] IISA
+interviews with businesses highlighted the difficulty businesses face in commercialising
+medical devices in international markets due to lack of product testing in Australia’s small
+domestic market. The medical equipment industry is largely fragmented, based on
+specialised manufacturers that require a highly skilled workforce and ongoing investment in
+R&D to be competitive.[20] Australia has a comparative advantage in certain medical devices
+such as therapeutic respiration apparatus, breathing appliances and gas masks.
+
+#### Risk-taking in pioneering enterprises for global markets
+
+Australia’s industrial transformation relies on businesses improving their performance in priority
+areas of the economy (Quadrants III and IV). We recommend that policy address market dynamics
+and business strategy to invigorate collaborative innovation.
+
+Businesses operating in domestic-market-focused sectors with no significant import competitive
+pressures (Quadrant III) can meet domestic demand without innovation, disincentivising external
+collaboration to pursue radical innovations.[21] A similar case is evident in those low-competitive
+domestic-market-focused sectors that face significant import competition (Quadrant IV). Import
+competition may create dilemmas for businesses in low-competitive sectors to choose between
+short-term low-cost strategies or high-risk innovation strategies. Our observation is that businesses
+will respond to importation pressures by reducing research and development efforts.[22] Additional
+evidence reinforces the observation that management responds to import competition by
+competing on cost and price.
+
+17 Australian Bureau of Statistics (Reference period: 2000 to 2022) ‘Table 12a. Australia’, International Trade in Goods and
+_Services, Australian Bureau of Statistics, accessed 23 November 2023._
+18 IP Australia (2023) Australian Intellectual Property Report 2023: Patents, IP Australia, last accessed 24 November 2023.
+19 Unpublished data, Department of Industry, Science and Resources
+20 IBISWorld (2023) C2412 – Medical and Surgical Equipment Manufacturing in Australia, IBISWorld, last accessed 24
+November 2023.
+21 Cuervo-Cazurra A and Rui H (2017) ‘Barriers to absorptive capacity in emerging market firms’, Journal of World Business,
+52(6):727–742.
+22 Nobuaki and Isamu (2017), ‘Innovation responses of Japanese firms to Chinese import competition’, The World Economy,
+43(1):60–80.
+
+
+-----
+
+This interpretation is supported by Australian Bureau of Statistics data on business attitudes toward
+risk, innovation strategy and market competition. Data shows that only approximately 30% of
+businesses in priority areas took a proactive approach to market competition, and 8% engaged in
+high-risk projects (Chart 5). A low-innovation approach appears to be a rational business strategy if
+the businesses are predominantly servicing domestic markets with low import competition.
+
+**Chart 5. Business inclination regarding high risk-reward projects in government priority areas**
+
+
+Took a pro-active approach to market competition
+
+Continually sought out new partners to collaborate
+
+with
+
+Had an innovation strategy as part of its business plan
+
+Had the capacity to acquire and exploit
+
+information/knowledge external to the business
+
+Were usually the first in the market to innovate
+
+Initiated change upon which its competitors reacted
+
+Often got involved in high risk/reward projects
+
+
+28.5
+
+22.6
+
+16.3
+
+15.1
+
+10.5
+
+9.6
+
+7.7
+
+
+0.0 5.0 10.0 15.0 20.0 25.0 30.0
+
+
+Source: IISA customised data request (unpublished) from the ABS Business Characteristics Survey collaboration and
+commercialisation, Characteristics of Australian Business, 2020-21.
+
+Few Australian businesses are accustomed to the type of high-risk, high-reward innovation that is
+required to transform and diversify the economy. Only 1% to 2% of Australian businesses innovate in
+ways that are new to the world.[23]
+
+Australian industry shows a greater propensity with new-to-business innovation. This includes
+adopting already proven technology or adopting and implementing new business processes, rather
+than new-to-world or new-to-market innovation.
+
+Australia performs relatively well among the OECD (8[th] out of 27 countries) in overall introduction of
+innovation. More than 80% of these innovations are new to the business, in other words, adoptions
+or adaptations from other businesses’ innovations (Chart 6).
+
+23 Productivity Commission (2023) 5-year Productivity Inquiry report, Volume 5: Innovation for the 98%, Productivity
+Commission, page iv, accessed 24 November 2023.
+
+
+-----
+
+**Chart 6: Percentage of businesses introducing innovation – Australia ranks 8[th] out of 27 OECD**
+**countries.**
+
+90.0
+
+80.0
+
+70.0
+
+60.0
+
+50.0
+
+**%**
+
+40.0
+
+30.0
+
+20.0
+
+10.0
+
+
+0.0
+
+
+Source: Organisation for Economic Cooperation and Development (OECD) (2021) Business
+_innovation statistics and indicators, OECD website, last accessed 24 November 2023._
+
+Australian businesses lag on commercialisation of new-to-market innovations (26[th] out of 34 OECD
+countries). Only 11% of Australian businesses undertake this type of innovation (Chart 7).
+
+
+**Chart 7: Percentage of businesses introducing new-to-market goods and services innovation –**
+**Australia ranks 26[th] out of 34 OECD countries.**
+
+30.0
+
+
+25.0
+
+20.0
+
+
+15.0
+
+10.0
+
+
+5.0
+
+0.0
+
+
+Source: Organisation for Economic Cooperation and Development (OECD) (2021) Business innovation
+_statistics and indicators, OECD website, last accessed 24 November 2023._
+
+
+-----
+
+Australian businesses that pioneer new-to-market products often do so by combining growth
+ambition with strategic collaboration and the acquisition of capability to execute high-risk, highreward innovation.
+
+**Case study: Redarc’s high-risk, high-reward innovation approach drives global growth.**
+
+REDARC has grown from a small vehicle ignition manufacturer in South Australia, to a world-class,
+advanced electronics manufacturer. It now employs over 350 people across Australia, New Zealand,
+North America and Europe.
+
+REDARC today is a group of technology-based companies with a focus on innovation, designing and
+manufacturing advanced, integrated on-board vehicular power solutions for defence, transport and
+logistics, marine, medical, mining and industrial applications. Success is evidenced by REDARC
+growing more than 20% per annum over two decades servicing both domestic and international
+markets.
+
+REDARC 's business model is centred around a commitment to innovation driven by in-house
+research and development capabilities along with strategic partnerships. Partnerships with
+international product developers and customers enables REDARC to undertake calculated risks,
+employing a fast-fail and stage-gated approach to introduce new-to-market or disruptive
+innovations.
+
+**_REDARC has transitioned from lower-risk, single-customer, single-problem products to innovations_**
+**_that proactively anticipate mass market demands, informed by horizon scanning._**
+
+This approach necessitates both technical and business model innovation. While the risk associated
+with achieving product-market fit may be higher, the rewards for successful projects are significantly
+greater, as they have the potential to scale into adjacent markets and regions.
+
+REDARC 's collaboration with universities is mutually beneficial, with the company gaining valuable
+capabilities while also contributing insights and guidance through its participation in advisory
+councils that inform teaching curricula. Furthermore, REDARC demonstrates its commitment to
+innovation through a skunkworks program, which explores technologies and markets unrelated to its
+core competence.
+
+**_REDARC stands as an exemplary outlier, highlighting the importance of calculated risk-taking and_**
+**_strategic execution required to compete in high-value global markets._**
+The company's unique ability to scale has empowered it to establish internal systems, capabilities,
+and resources that enable the exploration and exploitation of high-value opportunities.
+
+Further exploration of the significance of firm and absorptive capacity will be detailed in the
+subsequent section.
+
+
+-----
+
+#### Recommendations and policy considerations
+
+ Demand-side drivers and the need to innovate
+
+###### 1. Effectively identify businesses with the need to innovate and focus interventions
+ on the barriers specific to that sector. 
+
+ Actions could include:
+1.1 Selectively support businesses with the need and risk appetite to innovate to deliver novel
+
+products and/or services for growing domestic and international markets.
+
+1.2 Design incentive programs that target businesses and industries critical to Australia’s industry
+
+policy objectives and align business and funding risk-taking in both direction and magnitude. For
+example, design funds and guidelines to filter applications based on business motivation and
+ambition, and provide advice, connections and resources specific to their needs to de-risk their
+opportunity.
+
+1.3 Focus government interventions on businesses seeking to service growing export market
+
+opportunities and transitioning internal markets with innovative new-to-market products or
+services that over time will contribute to improving Australia’s economic complexity.
+
+1.4 Effectively aggregate demand for innovation through coordination of whole-of-government
+
+policies, such as the transition to a net-zero economy, and the development of sovereign
+advanced manufacturing capabilities required to meet domestic and global needs. This will
+create competitive, dynamic markets for innovation in priority areas.
+
+
+-----
+
+## Section 2: Business composition, absorptive capacity and capability
+
+The composition of businesses, in terms of size, is related to the capability and capacity of industries
+to innovate, collaborate, and commercialise new products, technologies and services. We undertook
+an analysis of business size composition to understand barriers to collaboration and
+commercialisation.
+
+The proportion of different business sizes in an industry can affect its ability to transform through
+acquiring and assimilating new external knowledge. For example, evidence suggests that SMEs – the
+most common type of business in the manufacturing industry – have insufficient time and resources
+to focus on innovation and business strategies. Generally, SMEs have limited management
+capabilities (in terms of volume and experience in larger businesses), which impedes their ability to
+engage in new-to-market innovations and fully realise the benefits of collaboration.[24] SMEs are less
+likely to have the information, skills and financial resources to identify and to undertake an optimal
+program of innovation, and are also less likely to have the ability to diversify risks.[25]
+
+The structure of Australian industry is a barrier to higher levels of innovation in at least some cases.
+We analysed business-size composition in priority areas of the economy as a reflective microcosm of
+business-size distribution. Most businesses in priority areas of the economy are small businesses –
+93% of total businesses in priority areas have 1 to 19 employees (Chart 8).
+
+The high participation of small businesses across the Australian economy, and their limited capacity
+to innovate and establish innovative collaboration networks, has implications for the wider
+economy. Evidence suggests that the diversity of collaborating partners is positively related to
+innovation performance. The presence of diverse types of organisations in collaborative networks
+can provide complementary resources, competencies and information flows, which accelerate the
+innovation process.
+
+Collaboration provides large businesses with agility and SMEs with expanded reach. For smaller
+businesses, entering the value chains of larger businesses allows them to be exposed to larger
+markets, including international markets. This provides them opportunities to de-risk scaling up to
+meet established market demand. Collaboration with multinational businesses can diffuse foreign
+knowledge and global connections. Larger businesses can also benefit from integrating small
+businesses into their supply chains; for example, they can gain economies of scope by working with a
+range of highly specialized small businesses.[26]
+
+24 Productivity Commission (2023) 5-year Productivity Inquiry report, Volume 5: Innovation for the 98%, Productivity
+Commission, page 33–34, accessed 24 November 2023.
+25 Professor Goran Roos, interview conducted by IISA 18 August 2023.
+26 In an economy of scope, a business diversifies its product offerings. See Etemad H, Wright RW and Dana LP (2001)
+‘Symbiotic International Business Networks: Collaboration Between Small and Large Firms’, Thunderbird International
+_Business Review 43(4):481–499._
+
+
+-----
+
+**Chart 8. Composition of business size, value add and employment across government priority areas.**
+
+L: 0.4% **VA Agriculture,**
+M: 6.9% **forestry and**
+
+**fisheries**
+
+S: 92.7%
+
+L: 0.4%
+
+**Enabling**
+
+M: 4.9%
+
+**Capabilities**
+
+S: 94.7%
+
+L: 1.2% **VA in**
+M: 7.7% **Resources** L: 1.5%
+
+M: 17.6%
+
+S: 91.1%
+
+S: 80.9%
+
+L: 1.4%
+
+**Transport** M: 13.3%
+
+**RLET**
+
+S: 85.3%
+
+L: 0.9%
+M: 8.0%
+S: 91.1%
+
+**Medical Science**
+
+
+100,000 200,000 300,000 400,000 500,000 600,000 700,000 800,000 900,000
+
+
+80,000
+
+70,000
+
+
+60,000
+
+50,000
+
+
+40,000
+
+30,000
+
+
+20,000
+
+10,000
+
+
+**Employment**
+
+Source: ABS, Australian Industry
+L = Large; M = Medium; S = Small; RLET = Renewables and Low Emission Technologies
+
+
+-----
+
+#### Australia’s industry base has a shrinking band of medium-sized businesses.
+
+During the last 14 years, Australia’s manufacturing industry experienced a dramatic contraction in
+the number of medium and large businesses (a decline of 37% and 29% respectively), while the
+number of small businesses remained relatively stable (an increase of 1%).[27] The declining mix of
+business sizes across priority areas poses challenges to the success of collaborative networks and
+constrains small businesses’ ability to acquire complementary capabilities to innovate and scale up.
+Improving our capacity to be resilient, to thrive, and to grow the Australian economy requires an
+industry structure with greater numbers of commercially sustainable medium-sized businesses.
+
+Medium-sized businesses were 15 times more likely to shrink or stagnate than grow in FY2017–18
+(increasing to 26 times during COVID FY 2020–21). Pre-COVID, in the FY2017–18, the ratio of
+medium-sized businesses (20 to 199 employees) that shrank to those that grew was 15:1. The same
+ratio for a small business (5 to 19 employees) was 3:1.[28]
+
+**Table 1: Change in the number of Australian businesses, 2008 to 2022.**
+
+|Industry % Small Medium Large Agriculture, Forestry and Fishing -14.3 -54.6 -64.6|Col2|Col3|Col4|
+|---|---|---|---|
+|Mining 11.8 -16.7 58.7||||
+|Manufacturing 0.8 -37.4 -28.9||||
+|Electricity, Gas, Water and Waste Services 50.3 26.4 42.6||||
+|Construction 28.3 -16.9 -38.7||||
+|Wholesale Trade 9.9 -28.1 -5.2||||
+|Retail Trade 14.6 -44.4 -32.5||||
+|Accommodation and Food Services 56.5 -30.1 -32.3||||
+|Transport, Postal and Warehousing 60.1 -29.5 -6.4||||
+|Information Media and Telecommunications 44.0 -27.6 -41.6||||
+|Financial and Insurance Services -18.7 -29.4 -54.1||||
+|Rental, Hiring and Real Estate Services 30.5 -47.3 -40.9||||
+|Professional, Scientific and Technical Services 43.2 -2.1 -20.6||||
+|Administrative and Support Services 63.9 -16.0 -34.5||||
+|Public Administration and Safety -4.6 -36.6 -21.1||||
+|Education and Training 71.1 33.7 32.0||||
+|Health Care and Social Assistance 93.9 19.1 21.2||||
+|Arts and Recreation Services 35.3 -29.8 -2.0||||
+|Other Services 48.1 -40.0 -44.8||||
+|Average|32.9|-21.4|-16.5|
+
+
+
+Source: ABS Counts of Australian Businesses, including Entries and Exits, June 2008 and June 2020
+
+27 Calculations based on Australian Bureau of Statistics data collection Counts of Australian Businesses, including
+Entries and Exits (various years), Cat. No 8165.0, last accessed 24 November 2023.
+28 Calculations based on Australian Bureau of Statistics data collection Counts of Australian Businesses, including Entries
+_and Exits_ (various years), Data cube 1, Table 14a, Cat. No 8165.0, last accessed 24 November 2023.
+
+
+-----
+
+#### Australia has a scale-up problem. 
+
+Medium-sized businesses in Australia lag OECD averages for the contribution to employment and
+value added. Large changes in Australia’s productivity and wages could be leveraged by incremental
+improvements in the number and performance of medium-sized businesses.
+
+
+**Chart 9: Contribution of the SME sector and large businesses in Australia and OECD average[29]**
+
+50.00
+
+
+40.00
+
+30.00
+
+
+20.00
+
+10.00
+
+
+0.00
+
+
+**Employment** **Value added** **OECD**
+
+
+Source: Organisation for Economic Cooperation and Development (OECD) (2021) SME and
+_Entrepreneurship Outlook: Country Profiles [PDF 3.3MB], OECD, last accessed 24 November 2023._
+
+Medium-sized businesses are trying to innovate but are not growing. Medium-sized businesses have
+the highest rate of innovation-active businesses (at 71%) among Australian businesses of all sizes –
+even higher than large businesses. Growing medium-sized businesses will be critical to the
+transformation of the industrial base. Growing medium-sized businesses will have a transformative
+impact in several ways. For example:
+
+
+ Medium-sized businesses are more likely to have in place structures and systems for the
+
+accumulation of resources and capabilities, and the absorptive capacity to support collaboration
+to exploit existing or new market opportunities.
+
+
+ Small businesses may have the need, but not the capability and capacity, to innovate. More
+
+medium-sized businesses will provide adjacent small businesses with a greater source of
+capabilities to draw upon as they scale.
+
+
+
+Medium-sized and large businesses are more likely to operate in bigger domestic and
+
+international markets. Therefore, small businesses can benefit from collaborating with mediumand large-sized partners with business networks and a larger customer base. This could enable
+smaller businesses to scale up more rapidly, rather than scaling up independently.
+
+The larger the business, the more likely it is to innovate and export, be digitally active and have
+higher productivity levels than smaller businesses. Larger businesses also employ more high-skilled
+
+_Profiles [PDF 3.3MB], OECD, last accessed 24 November 2023._
+
+
+_SME and Entrepreneurship Outlook: Country_
+, OECD, last accessed 24 November 2023.
+
+
+-----
+
+workers and capable managers and pay higher wages. We note that there are few instances of
+start-ups becoming large businesses. This implies a strategic risk for policy that assumes economic
+transformation based on the success of start-ups.
+
+Academic literature suggests that there is strong correlation between business size and capacity to
+implement innovation. This is mainly attributed to the availability of resources to fund, manage and
+execute R&D projects.[30]
+
+While the number of medium-sized businesses compared to population is slightly higher than the
+OECD average,[31] the Australian data on medium-sized businesses illustrates considerable
+opportunity for scaled growth that has not been realised.
+
+Medium-sized businesses in Australia face difficulties growing into large businesses. This is captured
+by Mark Cully, former chief economist of DISR, in his paper Stuck in the Middle analysing pre-COVID
+data.[32] Since then, growth has become even more difficult for medium-sized businesses. Based on
+ABS data, of the 56,252 medium-sized businesses operating at the start of FY2020-21:
+
+ 79.0% (44,439 businesses) stayed as medium-sized businesses;
+
+ 0.6% (375 businesses) grew to a large business; and
+
+ 17.5% (9,877 businesses) shrank to smaller-sized businesses.
+
+In other words, the ratio of shrinkers to growers in the FY2020–21 was roughly 26:1 compared to
+20:1 in FY2016–17 and 15:1 in FY2017–18.[33]
+
+Some of the characteristics of medium-sized business are illustrated below:
+
+ Medium-sized businesses have the highest rate of innovation-active businesses (at 71%) among
+
+Australian businesses of all sizes – even higher than large businesses. However, this is not the
+case in manufacturing. For example, the rate of goods and services innovation in large
+manufacturing businesses is almost double that of medium-sized manufacturing businesses: 60%
+and 32%, respectively.
+
+ 80% undertake new-to-business innovation (adoptions of innovations from other businesses).
+
+ One in six indicated that they had the capacity to acquire and exploit information or knowledge
+
+external to the business.
+
+ 8% often got involved in high-risk, high-reward projects, compared to 7% for large businesses.
+
+ 6% target overseas markets for the most significant innovation of the business.
+
+ 43% consider that collaboration is not important at all for innovation, compared to 17% in large
+
+businesses.
+
+25(1):25–32.
+
+
+See for example Shefer D and Frenkel A (2005) ‘R&D, Firm Size and Innovation: An Empirical Analysis’, Technovation,
+
+‘Stuck in the middle? Mid-sized enterprises in Australia,’ Speech at the Global Access
+Partners 8th Annual Economic Summit on Midsize Business, Global Access Partners, last accessed 24 November 2023.
+
+‘Stuck in the middle? Mid-sized enterprises in Australia,’ Speech at the Global Access
+
+
+Partners 8th Annual Economic Summit on Midsize Business, Global Access Partners, last accessed 24 November 2023.
+_Counts of Australian Businesses, including Entries_
+Data cube 1, Table 14a, Cat. No 8165.0, last accessed 24 November 2023.
+
+
+-----
+
+The evidence suggests that there is a significant gap between medium-sized and large businesses not
+only in the scale of operations but in the capabilities needed to grow and diversify. Another factor
+the data highlights is the lack of awareness or resources to understand the competitive
+environment, including opportunities to grow and build capabilities.
+
+Commercialisation is of little to no relevance to innovation, according to 72% of medium-sized
+businesses. This sentiment reveals business preferences to adopt innovation from other businesses
+rather than engage in high-risk, self-driven innovation projects that introduce new-to-world, new-toindustry or new-to-Australia goods, services, processes or a combination of these. Similarly, about
+55% of medium-sized businesses regard technological advancements as not important at all or of
+small importance for innovation. Given the crucial importance of new technological developments,
+such as artificial intelligence, to industry, this may suggest that medium-sized businesses have
+limited appetite to embrace technical change that could shape opportunities for growth. This is
+confirmed by the Australian Bureau of Statistics survey on the use of information technologies (IT)
+that shows that most small and medium-sized businesses are limited users of the most advanced
+IT.[34]
+
+##### Collaboration for building capabilities and supply chains
+
+Typically, innovation is the outcome of interaction between individuals, businesses, and different
+types of organisations.[35] Australian businesses in the most internationally competitive sectors are
+significant collaborators with publicly funded research organisations. We note that leading
+businesses in the mining and agriculture sectors have developed systems to identify, engage and
+establish productive collaborations with research organisations.[36]
+
+These systems vary across organisations and sectors. In agriculture, the unique model of Rural
+Research and Development Corporations (RDCs) uses partnerships to decide research prioritisation,
+and a levy system of shared funding contributions. The RDC model has increased the productivity of
+Australian agriculture by supporting the introduction and diffusion of incremental innovation.
+However, we have less confidence that this model is the most appropriate to realise more
+transformative innovations because it may prevent greater multidisciplinary research and
+collaboration to address more complex environmental and social objectives, such as food security.[37]
+
+Effective systems for developing capabilities through collaboration are rooted in joint problem
+solving both at short- and long-term horizons, backed by joint risk. Innovation literature[38]
+emphasises the importance of ensuring that capabilities are incorporated into the business’s
+routines, so they are transformed into “learned competences” that the business uses to advance its
+competitive position. For most trade-exposed Australian businesses, leveraging and embedding
+themselves in supply chains provides the appropriate structure in which problems and opportunities
+can shape productive collaborative opportunities. Supply chains (or value chains) are powerful
+mechanisms for industry to upgrade and scale up. This is driven by the need to collaborate to
+achieve a common objective of providing value to final customers.
+
+Press, online, http://www.jstor.org/stable/j.ctt1gxp7cs.
+
+patenting and co-patenting data provided by IP Australia.
+
+, ABS website, last accessed 24 November 2023.
+
+_National Systems of Innovation: Toward a Theory of Innovation and Interactive Learning, Anthem_
+.
+_ABS Business Characteristics Survey data collection and customised analysis of unpublished_
+
+ABARES support for innovation policy 140922’, Rohan Nelson, YouTube, last
+
+accessed 24 November 2023.
+
+_organisations, social systems and governance, Oxford University Press, Oxford._
+
+
+Winter SG (2008) ‘Dynamic Capability as a Source of Change’, in Beck N and Ebner A (eds) The institutions of the market:
+, Oxford University Press, Oxford.
+
+
+-----
+
+##### Policy focussed on medium-sized businesses – international comparisons
+
+Medium-sized businesses have attracted policy interest as a group of economic importance that
+supports supply chains in export-oriented industries and the economy in general. This is the case for
+Germany’s medium-sized businesses (referred to as the Mittelstand). The Mittelstand is the
+backbone of Germany’s economy, accounting for almost 60% of the country’s employment and 34%
+of national revenues. Of note, the Mittelstand displays a significantly higher diversity of businesses
+compared with similar-sized businesses in Australia.[39]
+
+Germany’s model for manufacturing has relied on world-class, internationally competitive
+businesses in a range of manufacturing sub-areas, underpinned by a strong, highly productive
+network of medium-sized businesses that operate in niche areas to maintain a strong market
+position. This, along with encouraging collaboration, has allowed Germany to be a world-leading
+exporter of high-value manufacturing goods, which account for approximately 18% of GDP and GVA
+(as of 2021).
+
+The Mittelstand includes over 99% of all businesses in Germany.[40] The approach of the Mittelstand
+model is to encourage large numbers of diverse SMEs that can produce high-quality goods in niche
+areas, thereby maintaining their manufacturing capabilities and capturing a strong market share in
+those specialised areas.
+
+Germany has also minimised barriers to scale by making the necessary investments to retain their
+role as a differentiated manufacturing destination. High investment in innovation (for example,
+process innovation, technology and digitisation) has allowed SMEs to remain competitive.
+Businesses typically link their production networks with their R&D. This close proximity and
+investment has created productivity gains and closer collaboration between businesses and
+innovation activity. German SMEs also have strong engagement with larger businesses and customer
+relationships to build their supply chains and implement innovation and complex products and
+services. This is due to their status as a market leader.
+
+|Table 2. Measures to support SMEs in Germany|Col2|Col3|
+|---|---|---|
+|Competence Centres Provide training for SMEs, facilitate collaboration between SMEs, primes and research organisations (i.e., Fraunhofers). Inter-company vocational training centres targeted at apprentices. “Mittelstand 4.0” provides knowledge and examples of best practice in adoption of digital technology.|Fraunhofer-Gesellschaft Network of institutes that perform contract research for industry, especially SMEs, to bridge the gap between applied research and industry- specific product or process improvements. Each institute specialises in a sector e.g., manufacturing, battery technology (see case study below).|ZIM: “Central Innovation Programme” Funding programme that aims to foster the innovative capacity of SMEs. It launches several thousand new projects every year, making it the country’s largest innovation programme for SMEs. ZIM funds innovative companies in Germany to develop new or significantly improve existing products, processes or technical services. It has a budget of EUR 2.2 billion (USD 2.6 billion).41|
+
+
+
+that employ between 50 and 249 persons, as opposed to 20 to 199 in Australia.
+
+Germany’s definition of “Mittelstand” (SMEs) differs compared to Australia’s. Medium-sized firms in Germany are those
+
+_Shares of small and medium-sized enterprises in selected variables, 2021,_
+
+Destatis website, last accessed 24 November 2023.
+
+Alert, last accessed 24 November 2023.
+
+
+_Germany: modification of Central Innovation Programme (ZIM) for SMEs, Global Trade_
+
+
+-----
+
+##### Support for medium-sized business through national innovation systems
+
+The Fraunhofer-Gesellschaft (Fraunhofer) is one of the world’s leading applied research
+organisations. Founded in 1949, it currently operates 76 institutes and research units throughout
+Germany. Fraunhofer is a particularly important supplier of innovative know-how for small and
+medium-sized enterprises. At an organisation-wide level, Fraunhofer identifies trending technologies
+with major market potential and advances them through in-house research programs. Each
+individual Fraunhofer institute develops its own business units and core areas of expertise based on
+its immediate market environment, and they operate as separate profit centres.
+
+**_Fraunhofer Research Institution for Battery Cell Production FFB[42]_**
+
+To ensure that production in Germany can provide new battery technologies more efficiently
+and of the highest quality in the future, the German federal government and the state of North
+Rhine-Westphalia have funded the establishment of a Fraunhofer institute to develop a factory
+for battery production. The 680-million-euro commitment provides the infrastructure with
+which companies can test, implement, and optimise the near-series production of new
+batteries. Small, medium-sized and large companies can access the infrastructure. This
+Fraunhofer aims to become the centre for developing scalable battery cell production for
+Germany and Europe.
+
+Fraunhofer has a research budget of approximately €3.0 billion. Of this, €2.6 billion is derived from
+contract research with industry and other external sources.[43] The German federal government
+contributes around a third of base funding. More than 25% of Fraunhofer revenue is from direct
+industry contracts. Half of contract research comes from large businesses, while the other half is
+from SMEs. Fraunhofer’s criteria for success is the share of funding coming from external project
+revenue as a barometer of continued relevance and impact within industry.
+
+Another distinguishing feature of the Fraunhofer model is researcher mobility and the movement of
+researchers into industry after a set period. This has been implemented through a policy that
+ensures 60 percent of researchers work for contracts of 3 to 5 years. Subsequently they seek or are
+placed into jobs in industry. Many Fraunhofer alumni keep contact with Fraunhofer, leading to
+collaboration with the businesses the researchers now work for.[44]
+
+The CSIRO, like Fraunhofer, is an internationally regarded science and technology research
+organisation. An opportunity exists to further develop CSIRO’s linkages with industry, drawing upon
+relevant features of other national innovation systems. For instance, encouraging CSIRO researcher
+mobility and placements within industry, and incentivising revenue generation from industry as part
+of annual budget targets, could be important levers to enable the creation of new industries and
+
+direct result of private sector contracts.[45]
+
+Battery Cell Production FFB, last accessed 24 November 2023.
+
+strengthening of existing ones. In contrast to Fraunhofer, CSIRO’s revenue model is skewed toward
+government funding (over 60% of CSIRO’s budget is from government funding), while only 5.5% is a
+
+[45]
+
+_About Us, Fraunhofer Research Institution for_
+
+_Annual Report 2022, Fraunhofer-Gesellschaft, last accessed 24 November 2023._
+
+45 CSIRO (2022) Annual report 2021–22, CSIRO, last accessed 24 November 2023.
+
+
+Intarakumnerd P and Goto A (2018) ‘Role of public research institutes in national innovation systems in industrialized
+_Research Policy 47(7):1309–1320._
+, CSIRO, last accessed 24 November 2023.
+
+
+-----
+
+Research competitiveness is not a function solely of investment on the supply side, but also of
+sharpening the demand side.[46] Innovative businesses are more likely to grow and transition to a
+larger size. However, as indicated above, adoptions or imitations of other businesses’ innovations do
+not appear to be an effective source of growth for most medium-sized businesses. Another issue is
+the selection sorting effect. This refers to fact that the best and more qualified employees, including
+managers, select the best-run businesses, which not only pay more but may be more interesting
+workplaces. This usually happens in larger businesses.
+
+Medium-sized businesses are a potential source of growth and a pathway to diversify the economy.
+Most medium-sized businesses are not lifestyle businesses – they aspire to grow. However, as the
+data indicates, they struggle to sustain momentum. Policy can support medium-sized businesses in
+several ways:
+
+ Building capabilities in identifying technological and market opportunities
+
+ Improving technological awareness
+
+ Attracting talent
+
+ Renewing focus on novel forms of innovation (beyond adoption of other businesses’
+
+innovations) including commercialisation of new products and services
+
+ Undertaking collaboration – both business-to-business and business-to-research – as a pathway
+
+to build capabilities
+
+ Reducing the barriers to accessing and commercialising research both in the private and
+
+education sectors.
+
+#### Recommendations and policy considerations
+
+ Build absorptive capacity and capability for industry transformation.
+
+###### 2. Create the policy environment to attract and grow medium enterprises in
+ targeted industries.
+
+ Actions could include:
+2.1 Restricted tax reform or similar levers that change risk–reward evaluations of businesses
+
+currently based in Australia and attract and build businesses with the management experience,
+capacity, and capability for innovation, and increase competition and business dynamism.
+
+competitive businesses.
+
+Recalibrate government interventions to focus on building capabilities to de-risk market
+
+adoption and develop innovative business models. Programs currently focus primarily on
+technical readiness or product feasibility risk, while neglecting crucial elements of building
+
+
+perspectives and options’, Flinders University, last accessed 24 November 2023.
+
+
+Australian sovereign capability and supply chain resilience:
+’, Flinders University, last accessed 24 November 2023.
+
+
+-----
+
+## Section 3: Efficiencies of innovation process 
+
+The existing market for industry-research collaboration compounds barriers created by market
+dynamics and industry structure. This market is inefficient and ineffective and does not align with
+the needs of industry, particularly small to medium-sized businesses. Industry engagement has
+identified significant issues impacting the effective operation of collaboration and commercialisation
+supported by publicly funded research entities.
+
+#### Intellectual property
+
+Intellectual property (IP) arrangements present a significant barrier to commercialisation. Research
+entities are inclined to control IP and often have outcomes misaligned with those of industry.
+Friction over IP control hinders the ability of business to efficiently exploit IP, such as by forming
+additional business partnerships to penetrate new markets. Friction over IP control also acts as a
+barrier for capital growth, inhibiting business finance from private markets. Private markets are
+disinclined to fund businesses that do not wholly own or control their IP. Businesses need certainty
+of IP ownership, its secure long-term use or exclusivity of IP rights, to reduce risk of return on
+investment in commercialising that IP.
+
+Businesses interviewed as part of our analysis report that the terms being offered to them by
+universities continue to deteriorate (see Appendix 1 for list of industry interviews). The following
+sentiment was expressed by businesses:
+
+ _Universities dictate the terms of program partner agreements, determined to take maximum_
+
+_grant funding and IP._
+
+ _Universities demand ownership of IP in partner agreements, which if agreed to by the business_
+
+_partner, would adversely impact the business’s book value and ability to raise capital._
+
+ _No one wants to invest in a spin-out [or start-up] that only has a licence to IP._
+
+ _Shift incentives of owning IP from the research sector to the industry sector. Research sector_
+
+_retains rights to use (publish) but not own IP from publicly funded research. By research_
+_organisations owning the IP, the opportunity for business to access venture capital is lost._
+
+ _If universities relinquished control of IP, Australia would achieve better results._
+
+Industry submissions responding to the Department of Education, Skills and Employment
+consultation paper on the Higher Education Research Commercialisation Intellectual Property (IP)
+_Framework (2021) also suggested that university IP is usually in a very early stage of development._
+Further, the submission suggested that commercialisation pathways should better recognise the
+significant investment and risk that an industry partner will take to successfully translate university
+IP to a commercial product, service or process.[47]
+
+47 See for example: Business Council of Australia (2021) Submission made to the HERC IP Framework first consultation
+
+[Submission responding to the Department of Education, Skills and Employment consultation paper on the Higher
+_Education Research Commercialisation Intellectual Property Framework], Australian Government Department of Education_
+website, last accessed 24 November 2023; and Rio Tinto (2021) Submission made to the HERC IP Framework first
+_consultation [Submission responding to the Department of Education, Skills and Employment consultation paper on the_
+_Higher Education Research Commercialisation Intellectual Property Framework], Australian Government Department of_
+Education website, last accessed 24 November 2023.
+
+
+-----
+
+Despite the introduction of a voluntary research commercialisation IP framework, IP arrangements
+persist as a significant barrier to commercialisation. Trends in co-patent data also suggested a
+structural and business model shift that appears to have further entrenched barriers emanating
+from the research supply side. Co-patenting data (Chart 10) reveals a significant downward trend,
+suggesting businesses are moving away from research entities as a source of co-invention.
+Conversely, the trend may also signal the changing business model of research entities, focussed on
+revenue generation through licencing. The downward trend may reflect research organisations’
+technology transfer offices’ close-hold management approach of IP.
+
+**Chart 10. Australian businesses patent co-filing applications with the research sector as**
+**percentage of all Australian business filings**
+
+
+3.0
+
+2.5
+
+
+2.0
+
+1.5
+
+
+1.0
+
+0.5
+
+
+0.0
+
+
+Co-filed with all research entities
+
+Co-filed with Australian research entities
+
+Co-filed with non-Australian research entities
+
+
+Source: IISA customised data request IP Australia, unpublished.
+
+Australia should examine other jurisdictions for models of more efficient research-industry IP and
+patenting arrangements, such as Singapore or universities such as Stanford in the USA. In these
+cases, there are very low or no licencing fees in preference for equity to entrepreneurial researchers
+and students spinning out IP in partnership with industry. This increases the alignment of incentives
+for the research supply side and the alignment of both parties focusing on commercial outcomes in
+the market.
+
+
+#### Work practices 
+
+The cadence of work at tertiary institutions does not align with that of commercial enterprises. This
+
+
+is especially evident for small to medium-sized businesses where cash flows are particularly
+constrained. The speed at which industry and research entities operate is misaligned. There is a
+fundamental mismatch between the research/academic mindset and delivering outcomes for
+business partners. This often makes collaboration with universities difficult. Although the quality of
+the research may be good, the trade-off in terms of timeliness and relevance is too great. The
+perceived difficulty is a strong disincentive to businesses considering research collaboration.
+
+
+-----
+
+In 2021, CSIRO and RMIT reported barries to SME–research collaboration in Australia.[48] The report’s
+literature review identified similar barriers related to work practices:
+
+ SMEs perceive that university traditions and working environments are premised on more long
+term approaches with flexible timelines to delivery. Conversely, academics regard SMEs as
+being too rigid on timelines and too focused on quick results that may be unattainable.
+
+ SMEs view academics as in pursuit of research outcomes of less interest to them, while
+
+academics are concerned that collaborations with SMEs do not yield important academic
+outputs.
+
+ Limited institutional support and uncertainty about the role of collaboration in career paths
+
+matters when competencies are evaluated through documented research or teaching
+experience, and, to a limited extent, SME collaboration.
+
+ SMEs have a lack of confidence in the ability of university and research institutes to understand
+
+the day-to-day problems that businesses face or how to solve them.
+
+There is an opportunity to improve the framework within the university system to better incentivise
+and reward research-industry collaboration based on the commercial outcomes achieved, including
+via promotion and recognition pathways.
+
+Funding guidelines may further support researchers interested in being deployed into an industrial
+setting and encouraging others to adopt customer-focused and agile work practices and business
+acumen to align with the needs of industry.
+
+#### Lack of competition in the brokerage and delivery of effective industry-research partnerships beyond research collaboration
+
+Improving innovation outcomes will require expansion, creating multiple pathways toward forming
+relationships necessary for successful research collaboration. This could be facilitated by an
+enhancement of market-making brokerages to improve opportunities for successful industryresearch engagement. Brokerage services unaligned to specific institutions could substantially lower
+friction costs between industry and academia.
+
+Our analysis has concluded that monopolistic research supply conditions have led to market barriers.
+These barriers may be addressed by an increase in competition for funds available to researchindustry collaboration. Support for partnerships should extend beyond publicly funded research
+entities and be opened to private research organisations to increase competitiveness to address
+current default settings in programs.
+
+Insights from a business sentiment survey (responses of 453 businesses) conducted by the Office of
+
+research sector for the purpose of innovation (Chart 12).
+
+
+Industry Innovation and Science Australia for this report found that only a third of surveyed
+businesses agreed or strongly agreed they have a robust method to calculate the cost-to-benefit
+**Chart 11). Further, most businesses agreed or**
+strongly agreed they required a third-party advisor to identify and facilitate collaboration with the
+**Chart 12).**
+
+
+_SME Barriers and Enablers to Collaboration, CSIRO website, accessed 1 June 2023._
+
+
+-----
+
+**Chart 11: Many businesses lack a robust method to calculate the cost benefit of collaboration.**
+
+40.0
+
+
+35.0
+
+30.0
+
+
+25.0
+
+20.0
+
+
+15.0
+
+10.0
+
+
+5.0
+
+0.0
+
+
+Strongly disagree Disagree Neutral Agree Strongly agree
+
+Source: OIISA business survey data, August 2023, unpublished.
+
+
+**Chart 12: Need for a third-party advisor to identify and facilitate collaboration with research**
+**sector.**
+
+35.0
+
+
+30.0
+
+25.0
+
+
+20.0
+
+15.0
+
+
+10.0
+
+5.0
+
+
+0.0
+
+
+Source: OIISA business survey data, August 2023, unpublished.
+
+
+Disagree Neutral Agree Strongly agree
+
+
+-----
+
+#### Measuring the things that matter 
+
+The framework for measuring commercialisation outcomes is flawed and is not measuring the things
+that matter to achieve the outcomes of commercialisation. The definition of commercialisation
+appears to have been stretched and distorted, and various definitions are applied according to the
+party involved in the process.
+
+Commercialisation outcomes appear differently for the actors in the innovation ecosystem –
+research, industry and government. For example, licencing intellectual property is considered
+commercialisation by the research sector, whilst business would define commercialisation as taking
+a new or improved product, service or process based on that intellectual property to market.
+Governments also measure, value and drive different yet complementary commercialisation
+outcomes, serving the complexity and diversity of actors in the innovation ecosystem and wider
+community expectations of government, research and businesses to innovate. The introduction of a
+Universities Accord, the National Reconstruction Fund and the Industry Growth Program present an
+opportunity to reset national commercialisation outcome metrics and methodology through the lens
+of industrial transformation and growth of sovereign capabilities.
+
+Better coordination of the measurement of commercialisation outcomes is required. The starting
+point should be measuring the growth in industry revenue. Commercialisation outcomes do not end
+at the licence, option, assignment, start-up or spin-out of intellectual property (existing approach to
+reporting outcomes). Public investments in research must more visibly realise industrial
+transformation, business competitiveness and growth, sovereign capability, productivity and higher
+value jobs in industry, alongside equally important improved health, environmental and social
+outcomes for Australians.
+
+The commercialisation policy narrative over recent decades has focussed on improving our
+performance on international benchmarking indices such as the World Intellectual Property
+Organization Global Innovation Index.[49] It is our view that this is a flawed approach. Australian policy
+may better serve and benefit more Australians by refocussing on outcomes particular to
+transforming and lifting the competitiveness of our industries and businesses, instead of chasing
+international benchmarking metrics.
+
+While there is an agreed OECD definition of “collaboration,” there is no agreed international
+definition of “commercialisation” to collect and benchmark Australia’s performance. Benchmarking
+data for Australia is also outdated or missing/not available. Inputs to innovation, including
+collaboration, are more robustly defined, collected and benchmarked than the outputs and
+outcomes of innovation (including commercialisation). Further, in standardising data to make
+countries comparable, Australian data undergoes considerable change, distorting Australian industry
+structure and making comparisons less relevant.
+
+
+WIPO Global Innovation Index benchmarks 132 countries across 14 metrics under the “knowledge and technology
+outputs” indicator, including but not limited to: Patents by origin, Scientific and technical articles, Citable documents H-
+index, new businesses/thousand pop, Intellectual property receipts, % total trade.
+
+
+-----
+
+Our consultation and observation of submissions to the Universities Accord indicate a desire to
+supplement or replace existing self-reported survey instruments (the ABS Business Characteristics
+Survey, innovation module; the Australian Research Council, Engagement and Impact Assessment
+and the Survey of Commercial Outcomes from Public Research administered by Knowledge
+Commercialisation Australasia). It is an opportune time for Government to drive and embrace the
+uptake of open access to research data, big data and digital adoption to automate data collection
+and reporting, including gleaning “hard data” from related national data collections (labour mobility,
+trade and taxation data, for example).
+
+A precondition for developing successful policy that supports innovation is that we measure
+innovation well and report on it regularly as part of an ongoing national conversation.[50] If the
+Australian Government does not focus on the right metrics for Australia, there is a significant risk
+that these metrics, that we rely on to inform policy, will result in suboptimal outcomes.
+
+#### Recommendations and policy considerations
+
+ Improve efficiencies of innovation processes 
+
+###### 3. Increase competition on the supply side of innovation and harness alignment of
+ incentives found in SMEs. 
+
+ Actions could include:
+3.1 De-coupling the requirement for industry to engage publicly funded research organisations to be
+
+eligible for government innovation support programs will open the market and increase
+competition for funds available to achieve commercialisation outcomes. This will not exclude
+universities and research institutions but will effectively filter those aligned to address relevant
+questions for industry to advance innovation and commercialisation outcomes.
+
+3.2 Review models for engaging providers of advisory services in existing and emerging funding
+
+programs to assure successful outcomes.
+
+3.3 Review and update supply-side funding guidelines to support researchers interested in working
+
+within industry and developing commercial acumen and entrepreneurial mindsets.
+
+3.4 Investigate market-making brokerage services to improve opportunities for successful industry
+research engagement. Brokerage services unaligned to specific institutions could lower friction
+costs between industry and academia.
+
+3.5 Examine other jurisdictions for models of efficient research-industry IP and patenting
+
+market.
+
+arrangements, such as Singapore or universities in the USA where there are very low or no
+licencing fees, in preference for equity to entrepreneurial researchers and students spinning out
+IP in partnership with industry. This could increase the alignment of incentives for the research
+supply side and better alignment of both parties focusing on commercial outcomes in the
+
+“What you measure, you optimise.” Department of Industry, Science and Resources (DISR) (2022), Final report:
+
+
+_improving innovation indicators, DISR, page 6, accessed 24 November 2023._
+
+
+, DISR, page 6, accessed 24 November 2023.
+
+
+-----
+
+#### Measure the things that matter to drive economic complexity and industry outcomes.
+
+###### 4. Design and implement the measurement of commercialisation outcomes and
+ industry impacts over the appropriate timeframes. 
+
+ Actions could include:
+4.1 Measure growth in revenue, productivity and resilience. Ensure public investments in research
+
+translation activities visibly realise industrial transformation, business competitiveness and
+growth, sovereign capability, productivity and higher value jobs in industry, alongside equally
+important improved health, environmental and social outcomes for Australians.
+
+4.2 Supplement existing self-reported survey instruments with hard data to measure
+
+commercialisation and industry transformation outcomes.
+
+
+-----
+
+## Appendix
+
+#### Appendix 1: Methodology
+
+##### Revealed Comparative Advantage and import penetration
+This report uses the Relative Comparative Advantage (RCA) index and the level of import
+penetration to understand the competitive position of Australian manufacturing industries related
+to priority areas. The RCA is sourced from calculations by Analysis and Insights Division in the
+Department of Industry, Science and Resources based on UN Comtrade data and import penetration
+sourced from the Australian Bureau of Statistics Input-Output (I-O) tables. The RCA is based on 2021
+trade data and import penetration for the FY2020–21. The RCA data is calculated by ANSZIC 4-digit
+code which facilitates correspondence with I-O Product Group classification.
+
+##### Composition of business size across priority areas
+This report used ABS – 8165.0 Counts of Australian Businesses, including Entries and Exits, June 2018
+to June 2022 and ABS – 8155.0 Australian Industry to calculate the business size composition, value
+added and employment across priority areas. The Priority Area Declaration was used as a reference
+point. The definition of manufacturing is broader than that of the ABS, and includes developing
+products, providing logistics, distributing products, selling products, after-market services and
+maintaining products. There are particular areas, such as Enabling Capabilities and Renewables and
+Low Emission Technologies, that add complexity to the correspondence with the ANZSIC framework
+as there are no industry codes for these sectors. Bearing this in mind, we note that overestimation of
+business population, employment and value add is likely in these sectors.
+
+##### Commissioned ABS Business Characteristics data for priority areas
+IISA commissioned the ABS to produce business characteristics data for priority areas with the
+purpose of understanding and obtaining further insights on business attitudes and innovation
+activity.
+
+##### Industry and whole of government consultation: targeted interviews 
+The Office of IISA and IISA interviewed leaders in Australian business and research, and senior
+officials across whole of government. Please see Reference materials for a full list of businesses
+interviewed.
+
+##### Industry consultation: industry survey 
+The Office of Industry Innovation and Science Australia conducted an online survey of businesses in
+priority areas. We received 453 validated responses and 2 invalid responses. Responses provide data
+on business size, competitiveness and innovation, collaboration, and research commercialisation to
+help validate hypotheses using sentiment analysis.
+
+|There was a strong response from medium-sized businesses (as compared to the proportion of medium-sized businesses in the Australian economy):|Col2|
+|---|---|
+|All survey responses received, by business size (FTE) Count||
+|Small (1–19 FTE) 231||
+|Medium (20–199 FTE) 211||
+|Large (200+ FTE) 13||
+|TOTAL|455|
+
+
+**There was a strong response from medium-sized businesses (as compared to the proportion of**
+
+**Count**
+
+231
+
+211
+
+13
+
+
+455
+
+
+-----
+
+|All responses by government priority (ANZSIC) and business size:|Col2|Col3|Col4|
+|---|---|---|---|
+|Priority Small Medium Large||||
+|Resources 10 8 0||||
+|Agriculture 25 36 2||||
+|Transport 1 8 0||||
+|Medical 21 13 0||||
+|Renewable Energy 4 3 0||||
+|Enabling Technologies 59 39 1||||
+|Not aligned|111|104|10|
+
+
+-----
+
+#### Appendix 2: Glossary of terms
+
+ **Absorptive Capacity the ability of a business to recognise the value of new, external**
+
+information, assimilate it, and apply it to commercial ends.[51]
+
+ **Building scale and “scale up” refer to business growth. Recognising that business growth is a**
+
+process with varying phases (including steady growth, stagnation, high growth and declines),
+increasing business scale encompasses “high-growth businesses” including transformation of
+startups into larger enterprises, as well as growth in established medium and large
+manufacturers.
+
+ **Business model and Business model innovation (BMI) refers to the logic underpinning how**
+
+businesses create and deliver value for customers and how they generate revenue streams. BMI
+refers to key changes in how a business creates and delivers value or generates revenue.
+
+ **Collaboration is any arrangement where entities work together for mutual benefit and share**
+
+some of the technical and commercial risks. For example, consultancies, research contracts, joint
+research collaborations, licensing of intellectual property and staffing placements. It explicitly
+excludes fee for service and franchise arrangements. Collaboration involves a degree of trust
+and interdependence.
+
+ **Commercialisation is the process through which ideas or research can be exploited by**
+
+businesses and researchers themselves to generate economic and social value and industrial
+development.[52] It involves a process of introducing an innovation into commerce – making a
+new or improved product or service available in the market. Proxies for research
+commercialisation are registered intellectual property rights, designs, trademarks and patents.
+
+ **Competing on value refers to a business’s ability to compete on the higher value of their**
+
+products, rather than simply on their cost. It involves a shift in focus to increasing sales of
+high-quality outputs rather than reducing costs to achieve scale, particularly through pre- and
+post-production activities.
+
+ **Global value chain refers to** how the different functions of design, production, marketing and
+
+services occur across different countries to produce a product.
+
+ **Innovation is a new or improved product or process (or combination thereof) that differs**
+
+significantly from the unit’s previous products or processes and that has been made available to
+potential users (product) or brought into use by the unit (process).
+
+ **Intangible assets are non-physical, non-monetary resources that can be expected to deliver a**
+
+future economic benefit to a business. These include marketing, branding, business processes,
+managerial capabilities, patents and trademarks.[53]
+
+refers to higher-order capabilities that help a business expand, change
+
+or improve its ordinary or operational capabilities to lift performance and competitiveness.[54]
+
+Cohen WM and Levinthal DA (1990) ‘Absorptive capacity: a new perspective on learning and innovation’, Administrative
+35(1):128—152. (Special Issue: Technology, Organizations, and Innovation (Mar. 1990))
+_Commercialising Public Research: New Trends and Strategies, OECD Publishing, Paris, page 18._
+‘Accounting Standards, 138’, AASB, accessed 24
+_Capitalism without Capital: The rise of the intangible economy,_
+
+
+Princeton University Press, Princeton.
+
+
+Adapted from Kale P and Singh H (2007) ‘Building firm capabilities through learning: the role of the alliance learning
+_Strategic Management Journal 28(10):981–1000._
+
+
+-----
+
+ **New to the world (business) innovation. It is the highest threshold for innovation in terms of**
+
+novelty referring to a the first-time a new product or service has been introduced into the
+market by a business or other organisation.
+
+ **New to firm (business) innovation. It is the lowest threshold for innovation in terms of novelty**
+
+referring to a first time use or implementation by a business. An example of a new to firm
+innovation is when adopting existing products or business processes – as long as they differ
+significantly from what the business offered or used previously – with little or no modification.[55]
+
+ **Non-R&D Innovation: The type of (technological) innovation that is achieved without investing**
+
+in research and development.[56]
+
+ **Revealed Comparative Advantage (RCA) Revealed comparative advantage (RCA) is an index**
+
+calculated using exports, providing a measure of relative specialisation of a country’s export
+activities in an industry. It is widely used to measure the competitiveness of industries. The RCA
+is calculated as the proportion of a country’s exports in that industry divided by the proportion
+of world exports in that industry: If the RCA is greater than one, a comparative advantage is
+“revealed.” If the RCA is less than one, the country has a comparative disadvantage in that
+industry.
+
+ **Skills generally encompass specialist knowledge and core competencies, sourced through on-**
+
+the-job training and formal qualifications, associated with particular occupations.[57]
+
+ **Talent encompasses a wider range of intangible attributes. Talent includes vision, leadership,**
+
+commercial and strategic nous, creativity, entrepreneurship and experience.[58]
+
+ **Tangible assets are physical, non-monetary resources that can be expected to deliver a future**
+
+economic benefit to a business. These include plant, property and equipment.[59]
+
+ **Value creation refers to the processes by which businesses efficiently combine diverse tangible**
+
+and intangible assets, such as skills, knowledge, technology and physical capital, to turn inputs
+into high quality outputs of goods and services that meet consumer demands.
+
+ **Value differentiation refers to** sources of value creation for customers beyond product cost,
+
+such as product leadership, reputation, reliability, flexibility and service offering.
+
+NSC, last accessed 24 November 2023.
+
+Based on Organisation for Economic Cooperation and Development (OECD) (2018) Oslo Manual 2018: Guidelines for
+, OECD, last accessed 24 November 2023.
+_The Role of Non-RD Expenditures in Promoting Innovation in Europe,_
+available at SSRN: https://ssrn.com/abstract=4215981 or http://dx.doi.org/10.2139/ssrn.4215981.
+
+The National Skills Commission has developed ‘Skill Clusters’ to show groups of similar specialist transferable skills to
+describe day-to-day work within an occupation. See National Skills Commission (NSC) (n.d.), Australian Skills Classification,
+
+_Cross-cutting challenges facing Australian manufacturing businesses:_
+
+accessed 24 November 2023.
+
+
+, report to IISA, unpublished.
+‘Accounting Standards, 116’, AASB, last
+
+
+-----
+
+#### Appendix 3. Revealed Comparative Advantage – top 20 competitive subsectors, 2021.
+
+
+Coal Mining (19.7) Gold Ore Mining (16.5)
+(29.1)
+
+Alumina Production (21.0) Other Grain
+
+Sheep Farming (29.1) Wood Chipping (4.5)
+
+Growing (4.3)
+
+Beef Cattle
+Farming (5.8)
+
+Meat Processing
+
+Silver-Lead-Zinc (4.2) Cotton Ginning (4.0)
+Ore Mining (9.2) Other Basic Non-
+
+Ferrous Metal
+
+Other
+
+Manufacturing (5.8)
+
+Metal Ore
+
+Copper Ore
+
+Mining
+
+Mining (3.8) Aluminium
+
+(2.8)
+
+Smelting
+(3.2)
+
+Nickel Ore Mineral Sand Oil and Gas
+
+Iron Ore Mining (26.4) Bauxite Mining (20.9) Mining (6.7) Mining (5.1) Extraction (3.2) Other Non-Metallic Mineral
+
+Mining and Quarrying
+
+
+-----
+
+#### Appendix 4: Industry collaboration with research and higher education institutes
+
+
+Source: Organisation for Economic Cooperation and Development (OECD) (2021) Business innovation statistics and indicators, OECD website, last accessed 24 November 2023.
+
+
+-----
+
+#### Appendix 5: Composition of Government Expenditure on R&D by socio- economic objective and distribution of R&D refundable tax offset in priority areas
+
+**Government Expenditure on R&D by socio-economic objective**
+
+**1992-93** **2020-21**
+
+Source: ABS Research and Experimental Development, Government and private Non-Profit organisations, Australia 2020-21 and
+
+
+1992-93 Australian Bureau of Statistics (ABS) (1994) (reference year 1992-93) Research and experimental development: general
+_government and private non-profit organisations Australia, ABS website,_ accessed 24 November 2023; and Australian Bureau of
+Statistics (ABS) (reference year 2020-21) (2022) Research and Experimental Development, Government and Private Non-Profit
+_Organisations, Australia, Data cube: Government expenditure on R&D, by Socio-Economic Objectives, 2020-21, Table 1, ABS_
+website, last accessed 24 November 2023.
+
+|R&D Refundable tax offset in some manufacturing sectors related to NRF priority areas.|Col2|Col3|Col4|Col5|
+|---|---|---|---|---|
+|R&D Share of Average Median Priority Refundable all ($) ($) tax offset ($) economy|||||
+|Medical science 85,791,146 28,597,049 39,764,396 3.1%|||||
+|Value-add in Agriculture, Food, Forestry 81,107,402 1,655,253 482,532 3.0%|||||
+|Renewables & Low Emissions Technologies 66,043,323 11,007,221 7,697,958 2.4%|||||
+|Transport 42,212,414 4,690,268 4,940,151 1.5%|||||
+|Value-add in resources 37,035,238 1,543,135 679,703 1.4%|||||
+|Enabling capabilities|24,842,252|8,280,751|6,684,187|0.9%|
+
+
+
+Source: Australian Taxation Office (ATO) (reference year 2020-21 financial year) Company – Table 4, ATO website, accessed
+24 November 2023.
+
+
+-----
+
+## Reference materials
+
+##### Australian Government materials
+Industry Innovation and Science Australia
+(2021) Investment, innovation and success:
+_how Australian businesses are creating value_
+_(un-published), Department of Industry,_
+Science and Resources, Australian
+Government
+
+Industry Innovation and Science Australia
+(2021) Driving effective Government
+_investment in innovation, science and_
+_research,_ Department of Industry, Science and
+Resources, Australian Government
+
+Industry Innovation and Science Australia
+(2020) Stimulating business investment in
+_innovation, Department of Industry, Science_
+and Resources, Australian Government
+
+Industry Innovation and Science Australia
+(2017) Australia 2030: prosperity through
+_innovation, Department of Industry, Science_
+and Resources, Australian Government
+
+Office of the Chief Scientist (2018) Global
+_Production Sharing and Australian_
+_Manufacturing, Department of Industry,_
+Science and Resources, Australian
+Government
+
+Office of the Chief Economist (2020)
+_International entrepreneurship: evidence on_
+_Australian-born global firms,_ Department of
+Industry, Science and Resources, Australian
+Government
+
+Office of the Chief Economist (2020) Market
+_power and entrepreneurship change: the_
+_case for Australia, Department of Industry,_
+Science and Resources, Australian
+Government
+
+Office of the Chief Economist (2020) Impact
+_of Commercialisation Australia on business_
+_performance, Department of Industry,_
+Science and Resources, Australian
+Government
+
+
+Office of the Chief Economist (2020) Business
+_performance of Enterprise Connect_
+_participants_ Department of Industry, Science
+and Resources, Australian Government
+
+Office of the Chief Economist (2019) Updates
+_on entrepreneurship dynamics in Australia,_
+Department of Industry, Science and
+Resources, Australian Government,
+
+Office of the Chief Economist (2019) _Do_
+_manufacturing entrepreneurs in Australia_
+_have (or develop) a productivity_
+_advantage?, Department of Industry, Science_
+and Resources, Australian Government
+
+Office of the Chief Economist (2019) _The_
+_characteristics and performance of 457_
+_migrant visa sponsoring businesses,_
+Department of Industry, Science and
+Resources, Australian Government,
+
+Office of the Chief Economist (2019) Trends in
+_Market Concentration of Australian Industries,_
+Department of Industry, Science and
+Resources, Australian Government
+
+Office of the Chief Economist (2018) The
+_impact of persistent innovation on business_
+_growth, Department of Industry, Science and_
+Resources, Australian Government
+
+Office of the Chief Economist (2016)
+_Australian geography of innovative_
+_entrepreneurship, Department of Industry,_
+Science and Resources, Australian
+Government, accessed 25 August 2023
+Department of Industry, Science and
+Resources (2023) National Science and
+
+
+_Research Priorities and National Science_
+_Statement, Australian Government_
+
+Department of Industry, Science and
+
+_Impact_
+
+Resources (2019) Business Research
+_Collaboration User Centred Design Project,_
+Australian Government
+
+
+-----
+
+Department of Industry, Science and
+Resources and Department for Education
+(2013) Discussion paper: Boosting the
+_commercial returns from research, Australian_
+Government
+
+Department of Industry, Science and
+Resources (2018) Partnering with Australia on
+_Innovation, Science and Research profiles,_
+Australian Government
+
+Department of Industry, Science and
+Resources (2015) Survey of Research Service
+_Providers registered under the R&D Tax_
+_Incentive Programme, Australian Government_
+
+Department of Industry, Innovation, Science,
+Research and Tertiary Education (2012)
+_Australian Small Business Key Statistics and_
+_Analysis, Australian Government_
+
+Department of Education (2022) University
+_Research Commercialisation Action Plan,_
+Australian Government
+
+Department of Education (2021) University
+_Research Commercialisation Consultation_
+_Paper, Australian Government_
+
+Department of Education (2023) Universities
+_Accord Discussion paper, Australian_
+Government, accessed 25 August 2023
+
+Department of Education (2021) 2021 NRI
+_Roadmap public consultation paper on_
+_industry engagement, Australian Government_
+
+Department of Education (2021) _2021 NRI_
+_Roadmap industry engagement ideas jam_
+_summary report, Australian Government_
+
+Department of the Treasury (2022) Reaching
+_for the stars: Australian businesses and the_
+_global productivity frontier, Australian_
+Government, accessed 25 August 2023
+
+Department of the Treasury (2017) Australian
+_productivity trends and the effect of structural_
+_change, Australian Government_
+
+
+Productivity Commission (2020) Can Australia
+_be a productivity leader?, Department of the_
+Treasury, Australian Government
+
+Noble, David; Charles, Michael B.; Keast,
+Robyn. Australian Economic Papers March
+_2023:_ _Valuing intangible outcomes of_
+_Cooperative Research Centres_ _Vol. 62 Issue 1,_
+Department of the Treasury, Australian
+Government
+
+Australian Consumer Competition
+Commission (24 April 2023) Submission to the
+_Australian Parliament, House of_
+_Representatives Inquiry into Promoting_
+_Economic Dynamism, Competition and_
+_Business formation, Department of the_
+Treasury, Australian Government
+
+Australian National Audit Office (2023)
+_Potential Audit of the Administration of the_
+_Government Business Enterprise (GBE)_
+_governance and accountability framework,_
+Australian Government
+##### Reports for the Australian Government
+Acil Allen (2023) Cooperative Research Centres
+_Program impact evaluation,_ report to the
+Australian Government, Department of
+Industry, Science and Resources
+
+Acil Allen (2021) Industry Growth Centres
+_Initiative: initial impact evaluation, report to_
+the Australian Government, Department of
+Industry, Science and Resources
+
+Allen + Clarke Consulting (2020) Medical
+_Research Commercialisation Landscape,_
+report to the Australian Government,
+Department of Health
+
+
+##### Federal Parliamentary enquiries and submissions 
+Australian Senate (2022) Senate Economics
+_References Committee: The Australian_
+
+_Australian_ _manufacturing industry, Australian_
+
+Government
+
+Australian Senate (2022) Enquiry into the
+
+
+_Australian manufacturing industry: submission_
+
+
+-----
+
+_from the Advanced Manufacturing Growth_
+_Centre, Australian Government_
+Australian Senate (2022) Enquiry into the
+_Australian manufacturing industry: joint_
+_submission Ai Group and Engineers Australia,_
+Australian Government
+
+Australian Senate (2022) Enquiry into the
+_Australian manufacturing industry: submission_
+_from the Productivity Commission, Australian_
+Government
+
+Australian Senate (2022) Enquiry into the
+_Australian manufacturing industry: submission_
+_from the Department of Industry, Science,_
+_Energy and Resources, Australian Government_
+##### International institutions and government reports
+Dan Breznitz (2022) Innovation in real Places:
+_Strategies for Prosperity in an Unforgiving_
+_World, OECD accessed 25 August 2023_
+
+OECD (2021) The missing entrepreneurs:
+_policies for inclusive entrepreneurship and_
+_self-employment_
+
+OECD (2019) University-Industry Collaboration
+
+_- New Evidence and Policy Options_
+
+OECD (2013) Commercialising Public Research:
+_New trends and strategies_
+
+World Economic Forum (2015) Collaborative
+_Innovation – Transforming Business, Driving_
+_Growth_
+
+World Intellectual Property Organisation
+(2022) Global Innovation Index 2022: What is
+_the future of innovation driven growth?_
+
+Department for Business, Energy & Industrial
+Strategy (2019) Business Basics Programme
+_progress report, United Kingdom Government_
+
+The Royal Academy of Engineering (2012)
+_Bridging the valley of death: improving the_
+_commercialisation of research: The Royal_
+_Academy of Engineering, Institute of Chemical_
+_Engineers, The Institute of Engineering and_
+
+Nous Group, for the Queensland Department
+of Tourism, Innovation and Sport (2022)
+_Macro-level Evaluation 2 of Advance_
+_Queensland, Final Report_
+
+##### Association and institute reports
+
+_Technology and Engineer UK response, United_
+Kingdom
+
+
+##### Reports by State and Territory governments
+South Australian Productivity Commission
+report (2023) Turning Research into Economic
+_Competitiveness, South Australian_
+Government
+
+South Australian Productivity Commission
+report (2023) Productivity Commission 5 Year
+_Review: Advancing Prosperity_ _(Volume 3: A_
+_competitive, dynamic and sustainable and_
+_Volume 5: Innovation for the 98%), South_
+Australian Government
+
+Accelerating R&D in NSW Advisory Council
+(2021) Turning ideas into jobs: Accelerating
+_R&D in NSW Action Plan_ _, NSW Government_
+
+NSW Chief Scientist & Engineer (2022) NSW
+_20-year R&D Roadmap, NSW Government_
+
+NSW Chief Scientist & Engineer (2023) NSW
+_20-year R&D Roadmap Supplement, NSW_
+Government
+
+Investment NSW (2018-2022) _NSW Innovation_
+_and Productivity Scorecards, NSW_
+Government
+
+Investment NSW (2022) _NSW Modern_
+_Manufacturing Taskforce I Making it in NSW_
+_Report, NSW Government_
+
+NSW Innovation and Productivity Council
+(2019) Business Size Report, NSW Government
+
+Investment NSW (2018) The Innovation
+_Economy: Implications and Imperatives for_
+_States and Regions, NSW Government_
+
+Nous Group, for the Queensland Department
+of Tourism, Innovation and Sport (2022)
+_Macro-level Evaluation 2 of Advance_
+_Queensland, Final Report_
+
+##### Association and institute reports
+
+
+, United Australian Banking Association (2022) SME
+
+_Lending Report_
+
+
+-----
+
+The Australia Industry Group (2016) The
+_Australian Industry Group: Joining Forces –_
+_Innovation Success Through Partnerships,_
+
+Small Business Association of Australia (2023)
+_Pre-Budget Submission_
+
+Council of Small Business Organisations of
+Australia (2023) National Reconstruction Fund
+_Submission_
+
+Business Council of Australia (2023)
+_Australia’s investment drought and what to do_
+_about it_
+
+NSW Business Chamber (2014) NSW Business
+_Chamber: Industry Research Collaboration_
+_Discussion Paper_
+
+COSBOA (2022) Beyond Survival: Small
+_business development and growth in the post-_
+_pandemic world. A snapshot of three policy_
+_and program issues_
+
+COSBOA (2022) Submission to the NSW Small
+_Business Strategy 2022-2025_
+
+CEDA (2023) Dynamic Capabilities: how
+_Australian firms can survive and thrive in_
+_uncertain times_
+
+CEDA (2021) Submission to the University
+_Research Commercialisation scoping work_
+
+The Australia Institute (2022) A Fair Share for
+_Australian Manufacturing: manufacturing_
+_renewal for the post-COVID economy,_
+
+The Grattan Institute (2022) The next
+_industrial revolution: transforming Australia to_
+_flourish in a net-zero world_
+
+The Grattan Institute (2017), Stagnation
+_Nation? Australian investment in a low-_
+_growth world_
+
+InnovationAus (2022) The Innovation Papers
+##### Private sector reports
+
+Australian National University (2022)
+
+_Stagnation_ _Marramarra murra (creating pathways) First_
+
+_Nations Wealth Forum and Economic_
+_Development Symposium_
+
+_The Innovation Papers_ Universities Australia (2019) Universities
+
+_Australia: Clever collaborations – the strong_
+
+PwC (2022) PWC Connecting Australian
+_Research with the World_
+
+
+Nous Group (2019) _Policy directions to_
+_increase business investment in innovation_
+
+Nous Group (2023) Summary of submissions
+_on priorities for the Australian Universities_
+_Accord_
+
+AlphaBeta Advisors (2020) Australian business
+_investment in innovation, levels, trends and_
+_drivers_
+
+McKinsey (2020) Digital collaboration for a
+connected manufacturing workforce
+
+Deloitte (2021) Deloitte The path forward for
+_commercialising university research_
+
+Deloitte Access Economics (2014) The
+_Collaborative Economy_
+
+The Boston Consulting Group (2013)
+_Optimizing Collaboration’s Strategic Potential,_
+accessed 25 August 2023
+PwC (2008) _Managing the risks and rewards_
+_of collaboration: Industry Views, technology_
+_executive connections_
+
+##### CSIRO and university reports
+CSIRO and RMIT (2021) Enablers and barriers
+_to industry-research collaboration, an SME_
+_perspective_
+
+CSIRO (2023) CSIRO Collaboration Readiness
+_Levels (online tool and PDF report available on_
+the webpage)
+
+CSIRO and Business Council of Australia
+(2021), _Unlocking the innovation potential of_
+_Australian companies,_
+
+Australian National University (2022)
+_Marramarra murra (creating pathways) First_
+_Nations Wealth Forum and Economic_
+_Development Symposium_
+
+Universities Australia (2019) Universities
+_Australia: Clever collaborations – the strong_
+
+
+_business case for partnering with universities,_
+
+
+-----
+
+##### Academic papers
+Roos, G and Pike S (2011) The relationship
+between university and firm innovation, The
+_Institute of Chartered Accountants in Australia_
+_& Centre for Accounting, Governance and_
+_Sustainability, University of South Australia_
+
+Roos, G (2010) Review of the Innovation
+Readiness of SMEs, Danish Agency for Science,
+_Technology and Innovation, Copenhagen,_
+Denmark
+
+Brnjas, Z., Vulićević, V., & Čanaićević, D.
+(2015) Importance and role of fast-growing
+companies–Gazelles in modern economies,
+_Institute of Economic Sciences 48(3-4), 44-61_
+
+Ferrantino, M. J., Mukim, M., Pearson, A., &
+Snow, N. D. (2012) Gazelles and Gazillas in
+China and India, Available at SSRN 2167303.
+##### Newspaper articles
+Voelker N (22 March 2023) Victoria drops the
+ball on research _The Australian_
+
+Gittins R (28 February 2018) Why outgoing
+competition boss Rod Sims fears for the
+future of the market economy _The Sydney_
+_Morning Herald_
+
+Smith P (7 June 2023) Start-ups face walking
+dead scenario _Australian Financial Review,_
+##### OIISA interviews 
+Industry Innovation and Science Australia
+interview with Fortescue Future Industries,
+conducted on 1 August 2023
+
+Industry Innovation and Science Australia
+interview with Archer, conducted on
+2 August 2023
+
+Industry Innovation and Science Australia
+interview with FLINTPro, conducted on
+2 August 2023
+
+
+Industry Innovation and Science Australia
+interview with Tindo Solar, conducted on
+3 August 2023
+
+Industry Innovation and Science Australia
+interview with Professor Ken-Tye Young
+conducted on 4 August 2023
+
+Industry Innovation and Science Australia
+interview with Nexxis, conducted on
+4 August 2023
+
+Industry Innovation and Science Australia
+interview with Redarc, conducted on 7 August
+2023
+
+Industry Innovation and Science Australia
+interview with Aria Research, conducted on
+8 August 2023
+
+Industry Innovation and Science Australia
+interview with Robotic Systems, conducted on
+10 August 2023
+
+Industry Innovation and Science Australia
+interview with VitalTrace, conducted on
+10 August 2023
+
+Industry Innovation and Science Australia
+interview with Uniquest, conducted on
+17 August 2023
+
+Industry Innovation and Science Australia
+interview with Micro-X, conducted on
+17 August 2023
+
+Industry Innovation and Science Australia
+interview with Boeing Australia, conducted on
+18 August 2023
+
+Industry Innovation and Science Australia
+
+
+interview with Professor Goran Roos,
+conducted on 18 August 2023
+
+
+-----
+

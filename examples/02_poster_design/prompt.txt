@@ -1,0 +1,58 @@
+Please design a promotional poster for a tech conference based on the event information in the input directory.
+
+【Poster Specifications】
+- Size: A2 (420mm x 594mm), or proportionally scaled
+- Resolution: Suitable for screen display (usable for social media)
+- Orientation: Portrait
+- Format: SVG (vector) + PNG (raster)
+
+【Design Requirements】
+
+1. **Visual Style**:
+   - Tech-forward, futuristic
+   - Use gradients (purple → blue → cyan)
+   - Geometric elements: circles, lines, grids
+   - Can include abstract AI/tech elements
+
+2. **Information Hierarchy** (top to bottom):
+   - Conference logo/title (most prominent)
+   - Theme tagline
+   - Date and location
+   - Featured speakers (with photo placeholder frames)
+   - Session highlights
+   - QR code + registration link
+   - Organizer/sponsor logo section
+   
+   **Important**: Ensure all text has sufficient contrast and is not obscured by background elements or decorations!
+
+3. **Typography Suggestions**:
+   - Titles: Bold sans-serif font
+   - Body: Clean, readable sans-serif font
+   - Can use system fonts or web-safe fonts
+
+4. **Color Scheme**:
+   ```
+   Primary: #6366F1 (Purple)
+   Secondary: #0EA5E9 (Blue)
+   Accent: #22D3EE (Cyan)
+   Background: #0F172A (Dark navy)
+   Text: #FFFFFF (White)
+   ```
+
+【Technical Implementation】
+Use one of the following approaches:
+- Write SVG code directly (recommended, scalable vector)
+- Python PIL/Pillow for raster generation
+- CairoSVG or similar libraries
+
+【Output Files】
+
+1. `poster.svg` - Vector format poster
+2. `poster.png` - PNG format (1920px height)
+3. `design_specs.md` - Design specification document
+   - Color codes used
+   - Fonts and sizes
+   - Layout dimensions
+4. `social_media_versions/` - Versions for different platforms
+   - `instagram.png` (1080x1080)
+   - `twitter.png` (1200x675)

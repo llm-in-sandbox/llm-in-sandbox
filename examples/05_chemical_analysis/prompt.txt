@@ -1,0 +1,8 @@
+How is this IUPAC chemical name represented in SMILES language?1-amino-7-[(2E)-2-[(2E)-2-[2-chloro-3-[(E)-2-(3,3-dimethyl-1-pentylindol-1-ium-2-yl)ethenyl]cyclohex-2-en-1-ylidene]ethylidene]-3,3-dimethylindol-1-yl]heptan-2-one
+
+A. CCCCC[N+]1=C(C(C2=CC=CC=C21)(C)C)/C=C/C3=C(/C(=C/C=C/4\C(C5=CC=CC=C5N4CCCCCC(=O)CN)(C)C)/CCC3)Cl
+B. CCCCC1[N+](C(C2=CC=CC=C2N1)(C)C)/C=C/C3=C(C=/C(C=C/4\C(C5=CC=CC=C5Cl)N4CC)(C)C)CCC(=O)CC
+C. CCCCCC1=C(C(=C2/C=C/C(=C/C(=C/3\C(C4=CCCCC(=C4Cl)N3)CCCCCC(=O)CO)/C)C=C2)C(C)(C)N1)C
+D. CCCCN1C(C2=CC=CC=C2N1CCCCCC(=O)C)C/C=C/C3=CC(=CC=C3Cl)/C=C/C4=C(C5=CC=CC=C45)C(C)C
+
+Please show your choice in the answer field with only the choice letter, e.g., "answer": "C".

@@ -1,0 +1,1932 @@
+[Contents lists available at ScienceDirect](https://www.elsevier.com/locate/techfore)
+
+# Technological Forecasting & Social Change
+
+[journal homepage: www.elsevier.com/locate/techfore](http://www.elsevier.com/locate/techfore)
+
+## Industrial design rights and the market value of firms[✩]
+
+David E. Andersson [a][,][∗], Anton Ekman [b], Anton Huila [c], Fredrik Tell [d]
+
+a Department of Business Studies, Box 513, S-751 20 Uppsala University, Sweden
+b Deloitte, Sweden
+c EY, Sweden
+d Department of Business Studies, Uppsala University, Sweden
+
+
+A R T I C L E I N F O
+
+_JEL classification:_
+O34
+L25
+O32
+
+_Keywords:_
+Industrial design rights
+Patents
+Trademarks
+R&D
+Intellectual property
+Market value
+Tobin’s q
+
+**1. Introduction**
+
+
+A B S T R A C T
+
+This paper studies how investments in design affect the market value of firms, using European Registered
+Community Designs and national Swedish design rights data combined with R&D, patent and trademark data,
+for the period 2003–2013. This paper is the first large-scale quantitative study using industrial designs rights
+to measure design. Nonlinear least-squares regressions are used to investigate the association between these
+variables and the market value of Swedish firms. The results show that industrial designs rights have a positive
+and significant relationship to the market value of firms. It provides both new evidence on the effect of
+industrial design rights on the market value of firms and internationally comparable results for other intangible
+assets such as patents, trademarks and R&D. Theoretically, the paper contributes to the understanding of design
+knowledge and the valuation of design rights.
+
+
+and Vezzani, 2020; Sandner and Block, 2011) and important theoretical implications for innovation research in particular with respect to
+market innovations (Castaldi and Dosso, 2018; Castaldi, 2020; Castaldi
+and Mendonça, 2022), there is still a dearth of studies that assess the
+relative importance of IDRs for the market value of firms. Admittedly
+less common than patents and trademarks, Alcacer et al. (2017) still
+estimate that close to 1 million IDR applications (937.000) were submitted worldwide in 2013. IDR applications had then doubled in ten
+years and constituted about a fifth of global trademark applications
+(4.87 million) and less than half of patent applications (2.57 million).
+The increased use of IDRs is indeed remarkable as ‘‘...growth in the use of
+_IP tools has outpaced growth in both GDP and trade. Interestingly, industrial_
+_design applications which were lower in absolute terms than applications for_
+_the more-favored IP tools of patents and trademarks have grown even faster_
+_than FDI for substantial parts of the decade’’ (Alcacer et al., 2017, p. 166)._
+
+Fig. 1 exhibits a similar growth pattern in the EU for IPR applications for the period 2003–2016, albeit with patents dominating
+and a larger proportion of IDR applications relative to trademarks.
+
+
+As other intellectual property rights (IPR), Industrial Design Rights
+(IDRs) are knowledge assets that have been suggested to serve as important drivers in the contemporary global economy (Alcacer et al., 2017;
+Montresor and Vezzani, 2020). In general, there is substantial value
+accumulations associated with IPR and the U.S. Chamber of Commerce
+Global Innovation Policy Center 2022 suggests that ‘‘America’s IP is
+_worth $6.6 trillion, more than the nominal GDP of any other country in_
+_the world’’. At the same time, while there is variegation of intellec-_
+tual property rights into patents, trademarks and IDRs (WIPO, 2003;
+Galindo-Rueda and Millot, 2015; Pinate et al., 2022), until recently
+research has been relatively one-sided in its focus on using patents
+to assess the value of firms’ knowledge assets (Czarnitzki et al., 2006;
+Hall, 2007; Hall and MacGarvie, 2010; Hall and Oriani, 2006; Toivanen
+et al., 2002; Chen and Chang, 2010; Lee and Lee, 2017).
+While a recent stream of literature has provided analyses of trademarks in relation to patents that show both their economic value (Dosso
+
+
+✩ Acknowledgments: We thank Shinjinee Chattopadhyay, Per Ekman, Philip Kappen, Jung H. Kwon, Yunchen Sun and Ivo Zander for helpful comments as
+well as participants of session 12 at DRUID19 (Copenhagen Business School, Denmark). We are grateful to the Swedish Patent and Registration Office (PRV) for
+giving us access to their trademark and design databases. Maximilian Gustafsson provided excellent research assistance.
+Funding: This work was supported by Vinnova (grant number 2017-04473), Torsten Söderbergs Stiftelse (grant number E58/17) and Jan Wallanders och Tom
+Hedelius Stiftelse samt Tore Browaldhs Stiftelse (grant number P20-0286).
+∗ Corresponding author.
+_[E-mail address: david.andersson@fek.uu.se (D.E. Andersson).](mailto:david.andersson@fek.uu.se)_
+
+[https://doi.org/10.1016/j.techfore.2023.122827](https://doi.org/10.1016/j.techfore.2023.122827)
+Received 18 February 2022; Received in revised form 11 August 2023; Accepted 3 September 2023
+
+Available online 16 September 2023
+[0040-1625/© 2023 The Authors. Published by Elsevier Inc. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).](http://creativecommons.org/licenses/by/4.0/)
+
+
+-----
+
+and D’Ippolito, 2017; Montresor and Vezzani, 2020); the importance
+of design for innovation performance in service and product markets (Candi and Saemundsson, 2011; Fjællegaard et al., 2019; Ghisetti
+and Montresor, 2019); and indicated challenges for firms to use and
+defend their holdings of IDRs to appropriate rents when rights are
+contested (Filitz et al., 2015; Filippetti and D’Ippolito, 2017; Heikkilä
+and Peltoniemi, 2019).
+These and other studies suggest that design constitutes an important
+innovation capability for firms and that IDRs analogous with patents
+and trademarks should have the potential to serve as an indicator for
+specific knowledge assets (Filippetti et al., 2019; Ghisetti et al., 2021)
+that are valued by investors and financial markets. Therefore, the aim
+of the study presented in this paper is to investigate: How does ownership
+_of IDRs relate to firms’ market value?_
+Using the market value approach of knowledge assets using Tobin’s
+q suggested by Zvi Griliches and Bronwyn Hall with colleagues, later
+amended by Sandner and Block (2011) to include IPR portfolios, we
+seek answers to this question by analyzing a novel dataset covering
+Swedish firms’ ownership of IPRs (patents, trademarks, IDRs), accounting data, and stock prices between 2003–2013. More specifically, we
+evaluate IDRs both in comparison to and combined with R&D, patents
+and trademarks. We collected and analyzed data on IDRs, patents and
+trademarks, publicly available from the Swedish Patent and Registration Office (PRV), the European Patent Office (EPO) and the EUIPO.
+The results show that, in general, financial markets tend to reward
+companies that invest in IDRs. Our study also reveals that, in line with
+previous research, patents, R&D and trademarks also indicate a positive
+relationship to the firm’s market value.
+This study zooms in on a specific set of knowledge assets (IDRs)
+in a specific context (Swedish firms). In light of this focus (with
+its associated benefits and limitations), we suggest that our findings
+make important empirical and theoretical contributions. Empirically,
+to our knowledge, the study is the first of its kind to demonstrate
+the firm market value of an (increasingly) important IPR, namely
+IDRs. In line with previous research on the market value of patents
+and trademarks, the study shows that financial markets value also
+IDRs. Moreover, not only is the absolute value of IDRs indicated by
+the study (by an increment of 0.126), but this effect is also put in
+relation to the valuation of patents and trademarks for the same dataset.
+Finally, while Sweden has been singled out as one of the most designintensive countries in the world (Filitz et al., 2015; Galindo-Rueda and
+Millot, 2015), valuation of Swedish firms’ design activities emanating in
+IDRs has not yet been examined in previous research, which contrasts
+with studies in other prominent European design countries such as
+the UK (e.g. Bascavusoglu-Moreau and Tether, 2011); Germany (e.g.
+Filitz et al., 2015); Italy (e.g. Filippetti and D’Ippolito, 2017); Denmark (e.g. Galindo-Rueda and Millot, 2015; Fjællegaard et al., 2019)
+and Finland Heikkilä and Peltoniemi (2019).
+Theoretically, we contribute to the understanding of design knowledge and valuation of design rights by financial markets. Even though
+IDR in theory appear a relatively weak form of IPR, this study show
+that despite the uncertainty surrounding the quality of IDRs financial markets evaluate them positively. We suggest three explanations
+for this observation. First, a particular characteristic of IDRs as an
+IPR is their explicit product connection (Walsh, 1996). Second, assuming that design capability is an unobservable antecedent of IDRs,
+such innovative capabilities are attributable to firms competitive advantage (as expected by shareholders). Drawing upon the knowledge
+based view of the firm (KBV), our findings lend support to prior
+theoretical conjectures that design is a distinguishable innovative capability that firms can use to reap competitive advantage (d’Ippolito,
+2014; Galindo-Rueda and Millot, 2015; Ghisetti, Montresor, and Vezzani, 2021). Third, design is more coupled with embodied aesthetic
+knowledge (Ewenstein and Whyte, 2007).
+In the following, the paper is organized accordingly. Section 2
+
+summarizes the legal background of IDRs in Europe and positions
+
+
+**Fig. 1. Industrial design right, trademark and patent applications, 2003–2016.**
+_Notes: This figure depicts applications filed at the EPO and EUIPO._
+_Source: WIPO Statistics Database and EUIPO Open data._
+
+Yearly Registered Community Designs (RCD)-applications filed with
+the EUIPO grew by 160% between 2003 and 2016. The number of
+IDRs filings is approaching the numbers of other IPRs. Following the
+establishment of the RCD in 2003, in 2018, approximately 1.1 million
+applications had been filed and it has become one of the largest IDR
+registers in the world, for users both outside and within the EU and
+is seen as a quick and relatively cheap way to obtain protection in
+the EU (Heneghan, 2016). As design rights are under a registration
+system in Europe while patent applications undergo pre-examination,
+the relative holdings of granted design rights relative to patents are
+even higher than for applications.
+Illustrating the value firms put on their IDRs and that they are
+prepared to enforce them aggressively, in May 2018, a judge in California ordered Samsung to pay Apple US$533.3 million in damages
+for infringement of Apple’s EU Registered Community Design (RCD)
+for the iPad and several of Apple’s original iPhone and iPad design
+patents.[1] The ruling had its origins in a 2011 court case in which Apple
+accused Samsung of infringements of several design patents and utility
+patents in several countries. Following the 2018 ruling, Apple’s issued
+an official statement saying that it ‘‘believe[d] deeply in the value of
+_design’’.[2]_ Another lawsuit, in February 2018, had a different outcome;
+the European General Court upheld the decision by the European Union
+Intellectual Property Office (EUIPO) to revoke Crocs Inc.’s RCD No.
+257001-0001. The RCD protected the well-known footwear producer’s
+design, which had generated more than US$1 billion in yearly sales
+since its launch in 2002.[3] Crocs Inc. also lost in a major infringement
+litigation case heard in the Delhi High Court against seven Indian
+footwear manufacturers over its Indian industrial design rights (Ghosh
+and Khan, 2018).
+Accordingly, there have been calls for more research into the aesthetic dimension of innovation and the role of IDRs (Filitz et al., 2015;
+Galindo-Rueda and Millot, 2015; Filippetti et al., 2019; Holgersson
+and van Santen, 2018). Recent research has demonstrated that firms
+– in-house or in collaboration with specialized design suppliers – integrate design when innovating (Candi and Gemser, 2010; Filippetti
+
+1 In total, Samsung was obliged to pay $538.6 million, of which
+$5.3 million was for infringing Apple’s utility patents. See USA Today,
+[at https://eu.usatoday.com/story/tech/2018/05/24/samsung-must-payapple-](https://eu.usatoday.com/story/tech/2018/05/24/samsung-must-payapple-539-million-copying-iphone-patents/623908002/)
+[539-million-copying-iphone-patents/623908002/ (last accessed: 19 February](https://eu.usatoday.com/story/tech/2018/05/24/samsung-must-payapple-539-million-copying-iphone-patents/623908002/)
+2020).
+2 See Footnote 1.
+[3 Novagraaf, at https://www.novagraaf.com/en/insights/what-croc-crocs-](https://www.novagraaf.com/en/insights/what-croc-crocs-eu-design-revoked)
+[eu-design-revoked (last accessed: 19 February 2020).](https://www.novagraaf.com/en/insights/what-croc-crocs-eu-design-revoked)
+
+
+-----
+
+the study as a knowledge-based approach to analyzing IDRs and firm
+value. Section 3 introduces the data and elaborate the methodological
+approach. Section 4 presents the results from the empirical analysis,
+while Section 5 provides a concluding discussion entailing limitations,
+further research, contributions and implications.
+
+**2. Industrial design rights: What are they and do they matter for**
+**firm value?**
+
+_2.1. Legal definition and development of industrial design rights in Europe_
+_and Sweden_
+
+The World Intellectual Property Office (WIPO) refers to different
+
+types of IPR: trademarks, patents and IDRs. A trademark is a registered
+distinctive sign that identifies a certain good or service, produced or
+provided by an individual or a company; a patent is an exclusive right
+granted for a technical invention; an IDR protects a design in the form
+of ornamental or aesthetic aspects (Galindo-Rueda and Millot, 2015;
+Pinate et al., 2022). Design can include three-dimensional features such
+as shape and texture, or two-dimensional features such as patterns,
+lines and color (WIPO, 2003). Previous research suggests that designs
+contribute to firm value through their connection and complementarity
+to other types of innovation (Walsh, 1996). Unlike patents, designs are
+not required to include an inventive step to be granted. At the same
+time, designs are less general than trademarks, in the sense that the
+granting of an IDR requires the design to be novel and individual in
+character, as well as associated with a product or service.
+
+In Europe, the legal foundations of IDRs developed in two stages
+
+(Filitz et al., 2015). The European Council passed an EU directive in
+1998, requiring all EU members to have a formal IDR registration
+process to harmonize national protection. This directive established
+a definition of IDRs as ‘the appearance of the whole or a part of a
+product resulting from the features of, in particular, the lines, contours,
+colors, shape, texture and/or materials of the product itself and/or
+its ornamentation’ (Directive 98/71/EC). That is, a design needs to
+be new and distinguishable from other existing designs. The second
+step involved the passing of Community Design Regulation in 2002
+(Regulation EC 6/2002), resulting in two types of IDRs across the EU:
+the registered community design (RCD), and the unregistered community design (UCD) which provides automatic protection throughout
+Europe three years after disclosure. In line with The Hague System
+(initiated in 1925), owners of IDRs can also register them with the
+World Intellectual Property Office (WIPO). Registering through WIPO
+means that the owner of the IDR needs only to apply to WIPO to
+receive protection in several European countries. However, for the
+period covered in this study (2003–2013) a vast majority (ca. 80%–
+90%) of European IDRs were filed using domestic patent offices, and
+almost all US and Chinese IDRs were filed domestically (Alcacer et al.,
+2017, pp. 183–184; 189). In contrast to patents, there is no examination
+before granting an RCD (i.e. a registration system). However, since
+third parties can file oppositions to challenge the validity of European
+design rights, applicants may still be careful in registering designs
+that do not meet the individuality and novelty criteria (Fjællegaard
+et al., 2019). The maximum protection time is 25 years, and requires a
+renewal fee to be paid every five years (Alcacer et al., 2017, p. 191).
+
+At the national level, Swedish industrial design law originated in
+
+the 10 July 1899 law on ‘protection of specific patterns and models’
+(Swedish code of Statutes 1899/59). However, this law applied only
+to the metal working industries and granted protection for only five
+years from the filing date of the application. Current Swedish IDRs are
+regulated by the industrial design law passed in 1970 (Law 1970:485)
+and are granted in increments of one to five years to a maximum of
+25 years. The applicant can choose to apply for several increments
+at the same time or renew every five years. National Swedish IDRs
+is administered by the Swedish PRV. Table 1 presents an overview of
+different IPRs.
+
+
+_2.2. Industrial design rights as knowledge assets_
+
+Broadly defined, knowledge assets include knowledge about orga
+nizational processes, organizational routines and structural arrangements, as well as formal and legally binding documents confirming the
+firm’s rights to the intellectual output produced by the organization and
+its members. Teece (2000, p. 35) notes that: ‘‘[Knowledge] assets include
+_tacit and codified know-how, both technical and organizational, whether or_
+_not protected by the instruments of intellectual property such as trade secrets,_
+_copyrights and patents’’. Following Teece’s 2000 distinction, and drawing_
+upon Ewenstein and Whyte (2007, pp. 690–692) demarcation between
+aesthetic knowledge as embodied competency and symbolic style, we
+conceptually separate two knowledge asset properties attributable to
+IDRs. First, IDRs are a result of firms’ design capabilities, that is,
+often tacit and embodied know-how that differs from other R&D-based
+knowledge (see Section 2.2.1). Second, an IDR is a codified intellectual
+property right (IPR) expressing a certain style represented in symbolic
+and non-verbal expressions associated with specific and distinguishable
+jurisdictions and legal procedures (see Section 2.2.2).
+
+_2.2.1. Industrial design as capability_
+
+While IDRs are conferred to holders as legal rights, they emanate
+
+from design activities undertaken by firms seeking to innovate and gain
+competitive advantage in the marketplace by appealing to aesthetic
+emotions of customers through form and functionality of products
+and services. WIPO defines industrial design as ‘‘the creative activity of
+_achieving a formal or ornamental appearance for mass-produced items that,_
+_within the available cost constraints, satisfies both the need for the item to_
+_appeal visually to potential consumers, and the need for the item to perform_
+_its intended function efficiently’’ (WIPO, 2004, p. 112). Thus conceived,_
+design activities are exemplars of organizational routines that encapsulate firm-specific organizational knowledge (Nelson, 1991). In line
+with arguments put forward in knowledge based theories of firms and
+competitive advantage (Grant, 1996; Kogut and Zander, 1992; Teece,
+1982), if such design knowledge is idiosyncratic to the firm and difficult
+to imitate for competitors while at the same time being conducive to
+deliver value to customers, investments in design activities serve as a
+source for competitive advantage.
+
+Design capability specifically designates aesthetic knowledge (Filitz
+
+et al., 2015; Walsh, 1996). Several conditions can be fulfilled by design
+capabilities to contribute to firm performance and sustainable competitive advantage (Barney, 1991; Barney and Hesterly, 2010). By being
+uniquely tied to products and services design appeals to tactile and
+symbolic experience and evoke emotions among its users, thereby delivering value to them (Sisodia, 1992). Design capabilities are rare when
+they are embodied in designers in specific contexts that are unevenly
+distributed among firms and not readily transferable to competitors.
+The embodied and tacit nature of aesthetic knowledge (Ewenstein and
+Whyte, 2007) also makes it difficult for competitors to identify and
+imitate required capabilities. Moreover, as much aesthetic knowledge
+takes long time to master and may require apprenticeship practices,
+there are time compression diseconomies (Dierickx and Cool, 1989)
+associated with them that further hinder the copy of design capabilities.
+Finally, it is difficult to organize and integrate design capabilities as it
+requires both (a) ‘‘knowledge integration by design’’; that is, creative
+acts of knowledge generation and conception afforded by the design
+process in itself; (b) ‘‘knowledge integration of design’’, that is, design
+knowledge to be articulated, systematized and integrated in relation
+to other knowledge assets (Åman et al., 2017), (see also Gemser and
+Leenders, 2001; d’Ippolito, 2014; Montresor and Vezzani, 2020).
+
+Indeed, there is growing evidence that design pay dividends in terms
+
+of innovation and firm performance. For instance, empirical research
+has utilized country-specific (e.g. Marsili and Salter, 2006, for the UK),
+industry and country specific (e.g. Alegre et al., 2012, for ceramic
+tile industry in Italy and Spain), regional and sector specific (e.g.
+Candi and Saemundsson, 2011, for new technology based firms in the
+
+
+-----
+
+**Table 1**
+Overview of intellectual property rights.
+_Source: PRV, EUIPO, EPO, WIPO._
+
+Intellectual property right Type Jurisdiction Time Administration
+
+National Design Industrial Design Right National 25 years[b] National
+Registered Community Design (RCD) Industrial Design Right EU 25 years EUIPO
+Unregistered Community Design (UCD) Industrial Design Right EU 3 years EUIPO
+International Design (Hague system)[a] Industrial Design Right National 25 years WIPO
+National Patent Patent National 20 years National
+European Patent[a] Patent EU 20 years EPO
+Patent (PCT)[a] Patent National 20 years WIPO
+National Trademark Trademark National No limit National
+Community Trademark (CTM) Trademark EU No limit EUIPO
+International Trademark (Madrid system)[a] Trademark National No limit WIPO
+
+_Notes: This table presents an overview of different types of industrial design rights, trademarks and patents and the corresponding jurisdictions_
+and administration levels.
+a Denotes national IPR applied for through a common application process administered by EPO or WIPO.
+
+b US design patents are only valid for 14 years.
+
+
+Nordic countries), or cross-industry and cross-country (e.g. Montresor
+and Vezzani, 2020, for European firms) survey data. These and other
+studies demonstrate that design knowledge resulting in successful new
+features of products and services give rise to competitive advantage in
+the marketplace. At the same time, this and much other empirical work
+focus on firm investments in design knowledge and design activities,
+but not specifically any outcomes that may be granted in terms of IDRs
+and their potential value as knowledge assets.
+
+_2.2.2. IDRs as IPR_
+
+In addition to capability-based sources associated with competitive
+
+advantages, IPRs serve as important means for appropriating rents
+from knowledge assets (Grant, 1991; Teece, 2000; Filitz et al., 2015;
+Filippetti and D’Ippolito, 2017). IPRs are formal devices for appropriating value and protecting against imitation (e.g. Teece, 1986; Arundel,
+2001). By providing monopoly right to specific knowledge, IPRs protect
+its owner against the extraction of transaction value from the innovation by others, thereby allowing for value capture. As illustrated in
+Table 1, there are different IPRs that also are granted and enforced
+under varying jurisdictions.
+
+In the case of IDRs as IPRs, a key feature is the conversion of
+
+design knowledge into ornamental or aesthetic features of functional
+products or services that can be illustrated in two-dimensional (2D) or
+three-dimensional (3D) representations. Theoretically, there are rival
+arguments when it comes to the relative strength of IDRs as an IPR
+device for appropriating returns. Due to the product-specificity of IDRs,
+they can be conceived as strong IPRs, as arguably it is on product
+markets competition between different value propositions to consumers
+take place (Roberts, 1999). In comparison to other IPRs emanating from
+R&D, IDRs differ. Patents cover the right to an invention, that is, a
+solution to a specific problem in a field of technology and the most
+important criteria for patentability is usefulness and novelty — not its
+encapsulation in a product (WIPO, 2004, p. 17). Trademarks, on the
+other hand, refers to ‘‘any sign that individualizes the goods of a given
+_enterprise and distinguishes them from the goods of its competitors’’ (WIPO,_
+2004, p. 68). Accordingly, trademarks more so than design rights apply
+more generally to firms.
+
+On the other hand, formally IDRs appear as a rather weak form of
+
+IPR. Opportunities for specification of both individual distinctiveness
+and novelty is limited by its format (also allowing for filing multiple
+designs in one application). The European IDR system is a registration
+system where examination of distinctiveness is not scrutinized in relation to prior art. This means that de facto verification is taking place
+ex post, relying on appeals and infringement litigation as mechanisms.
+Moreover, in addition to being a relatively expensive, localized and
+time-consuming process, empirical evidence suggests that it is difficult
+to uphold IDRs in court (Alcacer et al., 2017; Filitz et al., 2015;
+Filippetti and D’Ippolito, 2017; Heikkilä and Peltoniemi, 2019). This
+suggests that while IDRs are being increasingly used their benefits for
+appropriating rents are highly uncertain. So what is the value of IDRs?
+
+
+_2.2.3. Market value of IDRs_
+
+IDRs are observable knowledge assets that firms that when owned
+
+by firms whose shares are publicly traded on stock markets are valued
+– together with its other assets – by shareholders, where expectations
+about future profits are reflected in stock prices (Griliches, 1981; Hall,
+1999; Nesta and Saviotti, 2006). Holdings by a firm of IDRs signal
+themselves as IPRs (being assessed as stronger or weaker in its potential
+to appropriate rents). IDRs also signal unobservable design innovation
+capabilities whose potential both for current value capture as well as for
+value creation for the future is evaluated and reflected in shareholder
+expectations about future profits of firms.
+
+In research, IDRs have been used as a proxy for design innovations
+
+as an outcome measure (Fjællegaard et al., 2019) or as a measure of
+specifically ‘‘green designs’’ and their impact on innovation (measured
+by ‘‘green’’ patents) (Ghisetti et al., 2021). Still, especially in comparison with patents and, more recently, trademarks, empirical evidence
+collected and analyzed regarding the market value of firms owning
+IDRs is scarce. There are some exceptions which include studies of
+UK and Australian IDRs. For instance, Bosworth and Rogers (2001)
+include IDRs in their study of IPR and the market value of Australian
+firms in the mid-1990s. Griffiths et al. (2011) investigate profits in
+relation to IDRs for Australian firms, but find scant evidence of a
+linkage. Bascavusoglu-Moreau and Tether (2011), in the case of the UK,
+examine IDRs and firm sales and find a positive relationship especially
+for national IDRs. Given the recent attention that design has attracted
+in innovation studies, and the rapidly increasing use of IDRs by firms,
+the aim of this paper is therefore to examine further how ownership of
+IDRs relate to firms’ market value.
+
+_2.3. Estimating market value of firms_
+
+
+To estimate the economic value of IPRs and the returns from
+
+innovation-generating activities we use Tobin’s q (Montgomery and
+Wernerfelt, 1988). The first method using values based on Tobin’s 1969
+formulation of the variable q – the ratio of the market value to the
+replacement cost – was developed by Lindenberg and Ross (1981).
+Using this method, the firm’s market value includes both its physical
+and intangible assets. Investors in financial markets evaluate the future
+returns for various companies and these evaluations form the basis for
+the valuations reflected eventually in stock prices. On the assumption
+of an efficient market, the stock price is equal to all future cash
+flows generated by the company (Fama, 1970). Therefore, the market
+value can be seen as a leading indicator of the firm’s future performance (Hall, 1999). Hall et al. (2007) suggest that the market value
+approach assumes that firms are composed of assets; this approach,
+assumes, also, that the company’s value is a function of its component
+assets, determined by the financial markets. These component assets
+include both physical and intangible assets. According to Griliches
+
+
+-----
+
+(1981) and Hall (1999) assets can be estimated in a typical linear
+market value equation (Eq. (1)).
+
+_𝑉𝑖𝑡(𝐴𝑖𝑡, 𝐾𝑖𝑡) = 𝑞𝑖𝑡(𝐴𝑖𝑡_ + 𝛾𝐾𝑖𝑡)[𝜎] (1)
+
+with
+
+_𝑞𝑖𝑡_ = exp(𝑦𝑡 + 𝑚𝑙 + 𝑢𝑖𝑡) (2)
+
+where 𝑉𝑖𝑡 is the value of company 𝑖 at time 𝑡. 𝐴 is tangible assets
+and 𝐾 is knowledge assets. Knowledge assets include R&D, patents,
+trademarks and IDRs. The value of the company is the sum of the value
+of its tangible and knowledge assets.[4] _𝜎_ captures returns to scale and
+_𝜎_ = 1 indicates returns proportionate to scale (Pemberton and Rau,
+2011). 𝛾 is the marginal contribution value of one additional unit spent
+on knowledge assets and, if 𝜎 = 1, represents the shadow value of the
+firm’s knowledge assets relative to its tangible assets (Hall and Oriani,
+2006). Consequently, the product of 𝑞𝑖𝑡 and 𝛾 reflects the absolute
+shadow value of investors’ expectations about knowledge assets. In line
+with previous studies, despite the loss of accuracy, we keep 𝛾 fixed
+to prevent variation across time (Hall and Oriani, 2006; Sandner and
+Block, 2011). The shadow value is understood as the implicit market
+outcome of the interaction between the company and its investment
+activity and between investors and their evaluation of the company in
+the financial market. The shadow value should not be understood as a
+structural parameter (Hall, 1999; Hall and Oriani, 2006). The valuation
+coefficient, 𝑞𝑖𝑡, comprises factors that represent the valuation effects of
+time 𝑡, industry 𝑙 and individual disturbances 𝑢𝑖𝑡, and captures factors
+affecting the valuation in a multiplicative way (see Eq. (2)) (Hirsch and
+Seaks, 1993). These factors may include individual risk as well as the
+market conditions (Griliches, 1981). The general effects of these factors
+on the valuation are represented by 𝑦𝑡 and 𝑚𝑙.
+
+As already noted, R&D investments and patents can represent
+
+knowledge assets 𝐾 (Hall et al., 1993; Hall and Oriani, 2006) and
+several studies include both (Cockburn and Griliches, 1988; Griliches
+et al., 1991; Toivanen et al., 2002; Hall et al., 2005; Hall and MacGarvie, 2010). Hall et al. (2005) found that simple patent counts have
+less explanatory power than citation-weighted patent stocks, which
+accounts for much of the unequally distributed values of patents. In the
+present study we include IDRs, patents and trademarks in the market
+value equation.
+
+_2.4. Adding intellectual property into the market value equation_
+
+
+By treating the different asset types symmetrically, we assume that
+
+the firm can choose to invest in any of these assets. 𝛾𝐼 is the relative
+shadow value of one additional unit of investment in the IPR portfolio
+to physical assets. By including logarithms to account for returns to
+scale, the estimation equation becomes:
+
+_𝑙𝑛_ ( 𝑉𝐴𝑖𝑡𝑖𝑡 ) = 𝑙𝑛𝑞𝑖𝑡 + (𝜎 −1)𝑙𝑛𝐴𝑖𝑡 + 𝜎𝑙𝑛 (1 + 𝛾𝐾 _𝐾𝐴𝑖𝑡𝑖𝑡_ + 𝛾𝐼 _𝐴𝐼𝑖𝑡𝑖𝑡_ ) (5)
+
+**3. Methods and data**
+
+_3.1. Data_
+
+
+We analyze IDRs and other IPRs owned by Swedish firms. Few, if
+
+any, previous studies estimating IPR, and more specifically IDRs, and
+market value of firms use Swedish data. In general, Sweden repeatedly
+ranks as one of the world’s most innovative countries, with high levels
+of R&D input, output and efficiency (Cornell et al., 2017). With respect
+to design, Galindo-Rueda and Millot (2015, p. 11) estimate that the
+Swedish design industry was the fifth largest in Europe in 2011 (after
+the UK, Italy, Germany and France, all countries with at least five
+times the population of Sweden and except for Italy at least five times
+the size of GDP). Examining RCD registrations and relating them to
+GDP, Filitz et al. (2015, p. 1196) single out Sweden with Austria,
+Denmark and Switzerland as particularly strong countries. Moreover,
+ownership of shares in companies quoted on Swedish stock exchanges
+is fairly international, the proportion of non-Swedish ownership rose
+from 34% in 2003 to 41% in 2013 (Statistics Sweden, 2022). To
+further highlight the relative spread of opportunities for investment
+in Swedish companies, several of the major Swedish engineering-based
+multinationals are also listed on overseas stock exchanges. We therefore
+submit that the Swedish financial context and Swedish firms is suitable
+for a study of the value of design rights, despite the relative small
+number of observations that can be obtained.
+
+We collected international patent data from EPO’s PATSTAT Online
+
+Autumn 2017 edition and use EUIPO’s Open Dataset to gather EUwide IDR and trademark data. For data on Swedish IDRs, patents
+and trademarks, we obtained information from the Swedish Design
+Database, the Swedish Patent Database, and the Swedish Trademark
+Database via the PRV. Firm level and financial accounting data were
+collected from Thomson Reuters Eikon database, and time-series data
+on inflation rates were obtained from Statistics Sweden. To further
+validate our calculated IPR stock, obtain qualitative insight into IPR
+management and explain the results of the regressions, we conducted
+five interviews with representatives of some of the companies in our
+sample.
+
+The market value equation needs input in the form of market
+
+value, we therefore consider only publicly traded companies. Eikon
+is used to identify firms listed as large cap, mid cap, and small cap
+on the NASDAQ Stockholm Exchange during the years 2003–2013.
+Since the aim is to represent all companies listed on the NASDAQ
+Stockholm Exchange, we impose no restrictions on specific industries.
+More specifically, we extract total revenue, enterprise value, cash and
+cash equivalents, total assets, total debt, R&D expenditure and the
+standard industry classification. We conducted a random sample check
+of company annual reports to validate the Eikon financial data. We
+deflated SEK (Swedish krona)-values to year 2003 prices imputed from
+Statistics Sweden’s yearly consumer price index.
+
+The data extracted from the PATSTAT and EUIPO databases extend
+
+to applications originating in 2017 not all of which had been processed
+or granted. Since the number of applications in process increases for
+more recent years, granted registered rights decrease. As we are interested only in granted applications, we truncate the data to include
+only those applications granted no later than end 2013. We set the end
+of our observation period to 2013 to minimize the effect of potential
+truncation bias due to the lag between application submission and
+grant. PRV and EUIPO data suggest that 97% of submitted applications
+
+
+We include IDRs, patents and trademarks in the market value equa
+tion in two ways. First, we assume that IPRs are a type of knowledge
+assets. In the market value equation, we include a separate term for IPR
+portfolio, which is in line with previous studies using this method (see
+Bosworth and Rogers, 2001; Greenhalgh and Rogers, 2007; Hall and
+Oriani, 2006; Sandner and Block, 2011). In our analysis, IPR portfolios
+consist of design, patent and trademark assets. Functionally, we assume
+that all three asset classes can be treated similarly to R&D. In Eq. (3),
+we include IPR portfolio as an additional additive term, 𝐼. Beside
+IPRs, knowledge assets are not listed on balance sheets. We therefore
+operationalize knowledge assets as R&D separately from IPRs and let
+R&D represent 𝐾. In Eq. (4), 𝐼 includes design assets (𝐷), patent assets
+(𝑃 ) and trademark assets (𝑇𝑀). Consequently, we reformulate the
+market value equation by including IPR portfolios.
+
+_𝑉𝑖𝑡(𝐴𝑖𝑡, 𝐾𝑖𝑡, 𝐼𝑖𝑡) = 𝑞𝑖𝑡(𝐴𝑖𝑡_ + 𝛾𝐾 _𝐾𝑖𝑡_ + 𝛾𝐼 _𝐼𝑖𝑡)[𝜎]_ (3)
+
+where
+
+_𝐼𝑖𝑡_ = 𝐷𝑖𝑡 + 𝑃𝑖𝑡 + 𝑇𝑀𝑖𝑡 (4)
+
+4 If there are important complementarities or synergies between tangible
+and intangible assets the value can be larger than the sum of the separate
+assets.
+
+
+-----
+
+are decided after four years, which results in a negligible effect on the
+2013 cohort.[5] This approach has the advantage that it uses actual IPR
+stocks rather than assumptions for the later years in the observation
+period, which avoids truncation bias.
+
+The extracted Swedish data reflect all available historically granted
+
+IPRs for the firms in our sample, registered at the PRV. Our Swedish
+IDR data with legal entities as applicants, are from 1993, the first year
+when these statistics are available. We track patents from 1984, the
+earliest year when a patent would still be valid in 2003, the start of our
+observation period. Our Swedish trademark data are from 1884, which
+is the earliest year in the dataset. Following the rationale applied to
+Swedish data, we collected European IDR data from the Open Dataset
+provided by EUIPO starting in 2003. As noted above, the RCD came
+into force in 2002 and introduced EU-wide IDRs. Thus, there are no IDR
+data for Europe before 2003. European Community trademarks (CTM)
+were collected from 1996 onwards; EUIPO began operations in 1996,
+hence, there are no CTMs prior to that year. Global data on patents from
+PATSTAT Online is collected from 1984 to 2016 based on the filing
+date. This allows us to build accurate asset stocks for the companies in
+our sample.
+
+_3.2. Variables_
+
+
+_3.2.2. Knowledge assets_
+
+Knowledge assets are not listed on balance sheets. We operationalize
+
+the knowledge assets of interest as both R&D and IPR, but distinct
+from each other. R&D expenses tend not to be entered on balance
+sheets due to the uncertain value of many R&D investments (Ross,
+1983). However, we estimate knowledge assets based on R&D expenses.
+We use historical R&D expenditure and a declining-balance formula to
+calculate knowledge stock (Eq. (7)) (Hall et al., 2005; Hall, 2007). We
+use a fixed depreciation rate, set to 15%, to account for obsolescence,
+in line with e.g., Hall (2007).
+
+_𝑅𝐷𝑡[𝑠𝑡𝑜𝑐𝑘]_ = 𝑅𝐷𝑡[𝑓𝑙𝑜𝑤] + (1 − _𝛿)𝑅𝐷𝑡[𝑠𝑡𝑜𝑐𝑘]−1_ (7)
+
+Because our financial data go only to 2002, we assume that R&D
+
+stocks grew at a constant annual growth rate, 𝑔, of 8% which allows us
+to compute initial R&D stock for the first observed year (Eq. (8)).
+
+1
+_𝑅𝐷0[𝑠𝑡𝑜𝑐𝑘]_ = _𝛿_ + 𝑔 _[𝑅𝐷]0[𝑓𝑙𝑜𝑤]_ (8)
+
+Disclosure of R&D expenses is loosely regulated (Hall et al., 2007)
+
+and the decision to disclose it is arbitrary. Some companies consider
+that this information should be reserved to internal use and choose
+not to disclose it (Toivanen et al., 2002), which could cause sample
+selection bias (Belcher et al., 2002) because the calculation of R&D
+stocks requires uninterrupted historical data of R&D expenditures. We
+assign an R&D dummy variable to companies lacking R&D expenditures
+or with partial R&D histories. Missing values are coded 0 in line with
+earlier research (Hall, 2007; Sandner and Block, 2011).
+
+_3.2.3. Industrial design rights_
+
+We use the declining-balance formula to calculate IDR stock, 𝐷,
+
+(Eq. (9)), and use the IDR application date to define yearly flows. We
+let IDR stocks depreciate because IDRs have a life span of maximum
+25 years. In addition, as mentioned above, an IDR can be related to
+technical inventions that have become obsolete. No other studies consider depreciating IDR stocks; therefore, there is no agreed appropriate
+depreciation rate. However, since the underlying innovative activity
+of IDRs can be said to share similar traits as with R&D and other
+industrial activities (Walsh, 1996; Filitz et al., 2015), we use the same
+depreciation rate, 𝛿.
+
+_𝐷𝑡[𝑠𝑡𝑜𝑐𝑘]_ = 𝐷𝑡[𝑓𝑙𝑜𝑤] + (1 − _𝛿)𝐷𝑡[𝑠𝑡𝑜𝑐𝑘]−1_ (9)
+
+We do not calculate initial stocks since Swedish national IDR data
+
+goes back to 1979, but RCDs were introduced only in 2003.
+
+_3.2.4. Patents_
+
+We use the methodology applied to IDR stocks to calculate patent
+
+family stocks (Eq. (10)).
+
+_𝐹𝑡[𝑠𝑡𝑜𝑐𝑘]_ = 𝐹𝑡[𝑓𝑙𝑜𝑤] + (1 − _𝛿)𝐹𝑡[𝑠𝑡𝑜𝑐𝑘]−1_ (10)
+
+We calculate patent family stocks because they represent the un
+derlying inventions protected by the patents, and apply a 15% yearly
+depreciation rate to write down this stock (Hall, 2007; Sandner and
+Block, 2011). The firm-specific yearly flow of patents is determined
+based on the priority application and filing year in each simple patent
+family. We do not compute initial stocks since the time starts in 2003
+and data were collected from PATSTAT starting in 1984. The pure
+patent stock has limited explanatory power because patent value is
+not normally distributed (Harhoff et al., 1999, 2003). To ensure that
+we capture patent quality, we can consider measures such as citations,
+family size and oppositions. We calculate citations in line with prior
+research (Bloom and Van Reenen, 2002; Hall et al., 2005; Hall, 2007;
+Sandner and Block, 2011).
+
+We calculate family-to-family citations in simple families, which
+
+comes closest to one invention citing another invention. In this study,
+we consider citations within three years after publication to capture the
+bulk of the patent citations during each patent’s lifetime (Marco, 2007;
+
+
+We chose to calculate all assets as stock variables rather than flow
+
+variables because stock variables capture all annual inflows into the
+stock up to a specific point in time 𝑡, whereas flow variables capture
+annual inflows in year 𝑡. For instance, if a company’s IDR stock in
+_𝑡_ −1 is 50 IDRs, and it files for five more IDRs in year 𝑡, the stock
+in year 𝑡 will be 55 IDRs. Obsolescence is accounted for by letting
+the stock of 𝑡 −1 depreciate (Hall, 2007). A company is valued by
+the discounted future cash flows generated by its assets (Fama, 1970).
+The knowledge used for current product development is assumed to be
+based on experience of past investment in, for instance, R&D. Although
+this experience-based knowledge depreciates over time, it influences
+investors’ estimations of future company performance and valuation.
+Our approach is in line with Sandner and Block (2011), who use stock
+variables to account for R&D, patents and trademarks. Observations
+with no IDRs, patents, trademarks or R&D are coded 0 and accounted
+for by a corresponding dummy variable.
+
+_3.2.1. Tobin’s q_
+
+Our dependent variable is the natural logarithm of Tobin’s q — see
+
+Eq. (6), defined as the ratio of the company’s market value, 𝑉, to the
+book value of its total assets, 𝐴 (Greenhalgh and Rogers, 2006; Hall
+and Oriani, 2006; Sandner and Block, 2011).
+
+_𝑙𝑛𝑞𝑡_ = 𝑙𝑛 _𝐴[𝑉][𝑡]𝑡_ (6)
+
+The firm’s market value is the aggregate equity and debt market
+
+value. We proxy the equity value by the firm’s market capitalization
+plus preferential stock and minority interests. Market capitalization is
+defined as the number of shares times the share price. We proxy the
+market value of debt by the book value of total debt, which is equal
+to the short-term plus the long-term debt (Blundell et al., 1992, 1999;
+Hall and Oriani, 2006). The total assets book value is the total assets
+recorded in the balance sheet.[6]
+
+5 In general however, trademarks and IDRs are granted much quicker than
+patents.
+6 Researchers in corporate finance have developed advanced estimates of
+Tobin’s q (e.g. Perfect and Wiles, 1994), but it is always a trade-off between
+precision and sample size (DaDalt et al., 2003).
+
+
+-----
+
+Mehta et al., 2010; Sandner and Block, 2011). Also, a constant time
+limit of three years reduces the risk of truncation issues regarding year
+of application. To measure the quality of firm-specific patent stock, we
+weight each patent by the number of citations. The stock of citations
+can be written as:
+
+_𝐶𝑡[𝑠𝑡𝑜𝑐𝑘]_ = 𝐶𝑡[𝑓𝑙𝑜𝑤] + (1 − _𝛿)𝐶𝑡[𝑠𝑡𝑜𝑐𝑘]−1_ (11)
+
+_3.2.5. Trademarks_
+
+To compute stock of trademarks, we apply the same methodology
+
+as used to estimate IDR and patent stocks. We calculate the flow of
+trademarks in any specific year, based, in most cases, on trademark
+registration date apart from EUIPO data which do not have registration dates. In this case, we use the date the trademark was filed for
+registration. Since around 90% of trademarks are published within 11
+weeks of filing (EUIPO, 2011), this has little effect on our calculated
+trademark stock. In contrast to our computation of R&D asset stock,
+we do not depreciate trademark stock. R&D assets are likely to lose
+their value over time, due to obsolescence and new technological
+developments and patents have a restricted lifetime. We therefore apply
+a depreciation rate when determining the value of knowledge assets
+and patent stocks (Hall, 2007). However, arguably, trademarks become
+more valuable as time passes. They have no time limit, that is, the grant
+period (of trademarks) is infinite if renewal fees are paid continuously,
+generally every 10 years, and the trademark is used on the market.
+Therefore, over time, firms can continue to use their trademarks portfolio to generate value which is why we apply no depreciation rate to
+trademarks.
+
+In this study, we consider a trademark to be ‘dead’ if the renewal
+
+fee is not paid or if the registration office cancels the trademark as the
+result of a successful termination request from a competing firm. We
+handle the first type of case by including an estimated renewal rate, 𝑟.
+The average renewal rate of CTMs originating between 1996 and 2007
+is about 45% (EUIPO, 2018), so we set 𝑟 to 45%. The second case has
+no substantial impact in practice: EUIPO statistics for 2003 to 2013
+show only 8,305 trademark applications recorded as cancelled among
+the 896,169 trademark applications filed during this period (EUIPO,
+2018). Eq. (12) provides the estimation of the trademark stock:
+
+_𝑇𝑀𝑡[𝑠𝑡𝑜𝑐𝑘]_ = 𝑇𝑀𝑡[𝑓𝑙𝑜𝑤] −(1 − _𝑟)𝑇𝑀𝑡[𝑓𝑙𝑜𝑤]−10_ [+][ 𝑇𝑀]𝑡[𝑠𝑡𝑜𝑐𝑘]−1 (12)
+
+As noted earlier, although we do not compute initial trademarks
+
+stock, for simplicity we bundle trademark applications filed before
+1983. This affects 5% of the trademark applications. We then assume
+that trademarks are held in infinity after the first renewal. This assumption affects 8.6% of the trademark applications. These two actions
+have a negligible effect on trademark stocks, so our data provide a full
+history of Swedish trademarks. Also, as noted earlier, EUIPO trademark
+data are available only from 1996. However, a substantial number of
+applications in 1996 refer to international trademarks as firms applied
+for protection in Europe for pre-existing trademarks (Sandner and
+Block, 2011).
+
+_3.2.6. Control variables_
+
+Following prior studies, we include year and industry dummies to
+
+control for time and industry effects in the market valuation (Griliches,
+1981; Blundell et al., 1999; Hall et al., 2007; Sandner and Block, 2011).
+We use Standard Industry Classification (SIC) codes as the basis of our
+industry classifications, and sort all of the sample firms into categories,
+resulting in : Manufacturing, Paper, Public Utilities, Electronics, Trade,
+Finance, Transport Equipment and Services. However, 73% of firms are
+in the Manufacturing group, so to allow for more granularity among
+manufacturing industries, we subdivide Manufacturing, based on the
+first two numbers in the SIC code, and obtain: Other manufacturing,
+Other Metals, Mining & Construction, Machinery and Instruments (see
+Table 3). Thus, we have a total of 12 industry classes, with the largest
+class representing 14.6% of firms. Section 5.1 provides more detail on
+industry characteristics.
+
+
+_3.3. Econometric model_
+
+Next, we add the variables, relative to their appropriate bases to
+
+measure their respective intensities. IDR stock (D) relative total assets
+(A), R&D stock (RD) relative total assets (A); patent family stock (F)
+relative R&D stock (RD); citation stock (C) relative patent family stock
+(F); and trademark stock (M) relative total assets (A) (Eq. (13)).
+
+_𝑙𝑛_ _𝐴[𝑉][𝑖𝑡]𝑖𝑡_ = 𝑙𝑛𝑞𝑖𝑡 + (𝜎 −1)𝑙𝑛𝐴𝑖𝑡 (13)
+
++ 𝜎𝑙𝑛 1 + 𝛾1 _𝑅𝐷𝑖𝑡_ + 𝛾2 _𝐷𝑖𝑡_ + 𝛾3 _𝑇𝑀𝑖𝑡_ + 𝛾4 _𝐹𝑖𝑡_ + 𝛾5 _𝐶𝑖𝑡_
+( _𝐴𝑖𝑡_ _𝐴𝑖𝑡_ _𝐴𝑖𝑡_ _𝑅𝐷𝑖𝑡_ _𝐹𝑖𝑡_ )
+
+We do not hold unidentified firm-level components constant. By
+
+employing a pooled regression model, we examine the market value
+of the firms IPRs portfolio for a broad range of firms and industries,
+which, for our purposes, limits the impact of unidentified firm-level
+components (Sandner and Block, 2011). Tangible assets, knowledge
+assets and IPR portfolio change only slightly year on year; thus, were
+we to apply fixed firm-level effects, we would observe a relatively
+low degree of variance in the data. Significant deltas in the asset base
+within specific firms would need a rigid time interval, which we do not
+consider in this paper.
+
+To estimate Tobin’s q, we apply a Non-Linear Least Squares (NLLS)
+
+regression (Hall et al., 2007; Sandner and Block, 2011; Rahko, 2014).
+Prior studies using Ordinary Least Squares (OLS) use 𝑋 as an approximation for ln(1 + 𝑋). However, as Hall et al. (2007) suggest,
+this method of approximating X leads to imprecision when knowledge
+assets increase relative to physical assets. Instead, the NLLS technique
+allows accurate estimation of nonlinear functions where the market
+value equation is such a function. Due to nonlinearity, interpretation of
+the coefficients is not straightforward and the regressors use different
+units (e.g., SEK, IDRs, trademarks, patents etc.). To take account of
+non-linearity and allow easier comparison and interpretation of the coefficients, we apply elasticities to each of the main regressors associated
+with Tobin’s q.
+
+**4. Industrial design rights and the market value of Swedish firms,**
+**2003–2013**
+
+_4.1. Descriptive statistics_
+
+For the years 1984 to 2013, we combine IDRs, patents and trade
+marks at firm level to construct the IP portfolio. National IDR data
+extracted from the Swedish Design Database yielded 5592 records. We
+extracted 1,105,811 recorded RCD applications from EUIPO’s Open
+Dataset. We match these records to the financial dataset, which yielded
+a total of 1,890 records, representing 6609 IDRs from 94 firms. We
+match patent data to financial data by querying the 16 synonyms in
+the financial data by the four synonyms available in PATSTAT. This
+yields 94,207 matched records. These belong to 20,592 patent families
+and 148 firms. We extracted citation data separately from PATSTAT
+by matching patent family and citation IDs. We filtered the records
+by individual family-to-family citations. This results in 29,005 unique
+family-to-family citations attributable to 122 of the firms in our sample.
+We extracted 126,743 records of national trademark applications with
+company owners, from the Swedish Trademark Database. The EUIPO
+Open Dataset yields 1,478,599 CTM applications from 1996 to 2013.
+We checked for duplicates and matched 5,909 trademark applications
+to 270 of the firms in our sample.[7]
+
+We gathered financial data on all publicly listed firms on the
+
+NASDAQ Stockholm large, mid and small cap lists, between 2003 and
+2013. We account for firms on a month-to-month basis so as not to
+
+
+7 The earliest matched trademarks originate in 1885 and belong to Holmen
+AB and Swedish Match AB.
+
+
+-----
+
+**Table 2**
+Descriptive statistics.
+_Source: PATSTAT Online Autumn 2017 edition, EUIPO Open Dataset, Thomson Reuters Eikon database, Swedish Design Database, Swedish_
+Patent Database, and Swedish Trademark Database (PRV).
+
+mean sd min median max
+
+Tobin’s q 1.736 1.536 .304 1.275 10.05
+Market value (billion SEK)[a] 61.76 143.3 .089 13.76 1042.3
+Total assets (billion SEK)[a] 77.89 298.6 .062 10.40 2319.9
+Total debt (billion SEK)[a] 26.33 116.7 0 1.854 933.8
+Revenue (billion SEK) 32.99 50.30 .009 10.60 280.9
+R&D stock (billion SEK)[b] 5.450 17.00 .013 1.161 151.3
+R&D/Total assets[b] .207 .309 .003 .094 2.678
+Patent stock[b] 83.51 125.3 .039 9.109 542.6
+Patent stock/Total assets[b] 5.922 15.11 .018 1.834 142.0
+Patent stock/R&D stock[b] 35.81 75.79 .781 19.28 841.5
+Citation stock[b] 132.3 355.9 0 9.281 2698.2
+Citation stock/Patent stock[b] 1.138 1.537 0 7221 9.101
+Trademark stock[b] 37.29 54.50 .45 11.6 242.5
+Trademark stock/Total assets[b] 6.303 13.21 .009 1.805 89.22
+IDR stock 10.07 19.31 .063 1.991 109.1
+IDR stock/Total assets 1.493 2.858 .001 .473 18.09
+No R&D dummy .266 .442 0 0 1
+No Patent dummy .147 .355 0 0 1
+No Trademark dummy .088 .284 0 0 1
+
+_Notes: This table provides descriptive statistics for the main variables and the controls used in our analysis. n = 487 observations and n = 73_
+firms.
+a Prices deflated to real 2003 year prices using CPI data from Statistics Sweden.
+
+b Excludes observations with no reported R&D, patents or trademarks. R&D data are available for 357 observations. Patent data are available
+for 415 observations. Trademark data are available for 444 observations.
+
+**Table 3**
+Industry characteristics.
+_Source: PATSTAT Online Autumn 2017 edition, EUIPO Open Dataset, Thomson Reuters Eikon database, Swedish Design Database, Swedish_
+Patent Database, and Swedish Trademark Database (PRV).
+
+Observations Observations (%) Total assets[a] Tobin’s q Patent stock IDR stock Trademark stock
+
+Mining & Construction 22 4.52 48.12 0.66 3.23 0.73 16.75
+Other manufacturing 63 12.9 11.92 1.74 57.30 6.13 68.62
+Paper 39 8.0 81.32 0.79 83.96 17.17 15.16
+Other metals 56 11.5 8.26 1.41 23.57 2.58 14.31
+Machinery 71 14.6 31.92 1.70 126.73 14.25 30.02
+Electronics 36 7.4 22.39 2.31 58.33 17.98 70.62
+Instruments 57 11.7 10.09 2.93 10.30 1.61 7.38
+Public utilities 9 1.8 229.66 1.13 225.81 47.86 109.07
+Trade 27 5.5 17.36 3.57 0 1.01 26.67
+Finance 11 2.3 1982.06 0.44 245.80 35.66 36.65
+Transport equipment 41 8.4 94.40 0.97 207.92 12.64 33.91
+Services 55 11.3 11.52 1.62 26.13 10.40 34.25
+
+
+_Notes: This table Presents the industry distribution in our data. n = 487 observations from n = 73 firms._
+
+a SEK billions in 2003 real prices.
+
+
+lose firms not observed by the end of each financial year. This initial
+step yielded 3070 observations attributable to 400 firms. A total of
+33,110 IDRs, trademarks and patent families were matched. We adjust
+for missing values in the components of our dependent variable, Tobin’s
+q, and observations with no knowledge assets or IP, that is, no R&D,
+patents, trademarks or IDRs. This results in 2059 observations and
+269 firms. We adjust the dataset for extreme outliers, which affects
+104 observations.[8] This reduces the dataset to 1945 observations and
+268 firms. Finally, since this study’s main focus is the value of IDRs,
+we exclude firms with no IDRs. The final dataset consists of 487
+observations for 73 firms. Table 2 presents the descriptive statistics. The
+firms in our sample come from a range of industries. Table 3 shows the
+industry distribution and shows that Machinery, Other manufacturing
+and Instruments are the largest industries in the sample.
+
+Certain variables fluctuate across industries. For example, Tobin’s
+
+q varies considerably across industries, ranging from 0.44 to 3.57, although 8 of the 12 industries (66.7%) have an average Tobin’s q above
+
+8 Observations in the 1st and 99th percentile of Tobin’s q, R&D
+Stock/Total Assets, Patent Stock/Total Assets, Trademark Stock/Total Assets;
+IDR Stock/Total Assets were excluded.
+
+
+1. Average patent stock and IDR stock generally show a larger variation
+across industries compared to average trademark stock. None of the
+firms in the Trade category owns patents. Average trademark stock
+shows the lowest variance across industries. IDR stocks are generally
+small in all industries, with the lowest value in Mining & Construction.
+
+Table 4 presents the sample based on firm size, proxied by total
+
+assets. We split the sample into deciles based on total assets. We observe
+a Pareto distribution in which large firms have disproportionately large
+total assets compared to the mean. Smaller firms tend to have a higher
+Tobin’s q: the smallest firms in the sample have an average Tobin’s
+q of 2.50 while the largest firms have an average Tobin’s q of 0.80.
+Among our observations, the largest firms contribute to the majority of
+the patent stocks (deciles 8, 9 and 10).
+
+Unlike patent stocks, IDR stocks and trademarks stocks do not
+
+follow a linear relation to firm size. For average trademark stock, the
+minimum of 2.02 is in the 1st decile while and the maximum average
+of 75.31 is in the 9th decile; also, mid-sized firms and the largest firms
+have average trademark stocks. For average IDR stock, the minimum
+value of 1.53 is assigned to firms in the 2nd decile while the maximum
+of 39.46 applies to firms in the 10th decile. However, again, mid-sized
+firms have similar IDR stocks to firms in the 8th and 9th deciles.
+
+
+-----
+
+**Table 4**
+Characteristics by total assets.
+_Source: PATSTAT Online Autumn 2017 edition, EUIPO Open Dataset, Thomson Reuters Eikon database, Swedish Design Database, Swedish_
+Patent Database, and Swedish Trademark Database (PRV).
+
+Decile Observations Observations (%) Total assets[a] Tobin’s q Patent stock TM stock Des stock
+
+1 49 10.06 .26 2.50 2.57 4.21 1.76
+2 49 10.06 .58 2.29 6.70 8.68 1.53
+3 49 10.06 1.24 2.36 8.00 11.11 2.82
+4 48 9.86 2.48 1.40 4.95 12.41 1.68
+5 49 10.06 5.67 1.39 12.00 13.80 2.20
+6 49 10.06 19.44 1.86 76.38 49.99 12.16
+7 48 9.86 29.95 1.12 79.45 58.13 7.21
+8 49 10.06 43.03 2.37 100.27 51.28 12.57
+9 49 10.06 76.27 1.18 182.94 75.31 19.69
+10 48 9.86 608.26 .80 240.61 55.52 39.46
+
+Total 487 100 77.89 1.73 71.16 33.99 10.07
+
+_Notes: This table displays the distribution of our data by firm size measured as total assets. n = 487 observations from n = 73 firms._
+
+a Billion SEK real 2003 prices.
+
+
+**Table 5**
+Correlation matrix.
+_Source: PATSTAT Online Autumn 2017 edition, EUIPO Open Dataset, Thomson Reuters Eikon database, Swedish Design Database, Swedish_
+Patent Database, and Swedish Trademark Database (PRV).
+
+1 2 3 4 5 6 VIFs
+
+Tobin’s q
+log Total assets −0.349*** 3.20
+R&D/assets 0.271*** −0.286*** 1.83
+Patents/R&D 0.218*** −0.062 0.030 1.30
+Citations/Patents 0.109* 0.114* 0.372*** 0.121** 1.68
+Trademarks/assets 0.252*** −0.424*** 0.223*** 0.197*** 0.095* 1.68
+IDRs/assets 0.321*** −0.567*** 0.370*** 0.068 0.077 0.343*** 1.87
+
+_Notes: This table presents the Pearson correlation between our dependent and independent variables. VIFs = variance inflation factors. n = 487_
+observations from n = 73 firms.
+
+-  p<0.05.
+** p<0.01.
+*** p<0.001.
+
+
+We compute the correlations among our variables of interest (see
+
+Table 5). Statistically significant correlations are denoted with asterisks. All correlations with Tobin’s q are statistically significant at the
+5% level. With the exception of ln(Total Assets), all the regressors
+show some degree of a positive correlation to Tobin’s q. IDR stock,
+trademark stock and R&D intensity are correlated negatively to total
+assets. Both IDR stock and trademark stock are correlated positively
+to R&D intensity. Finally, IDR and trademark stocks are correlated
+since they follow similar patterns in terms of firm size (see Table 4).
+Since some of the correlation coefficients in Table 5 are above 0.3, we
+calculate the Variance Inflation Factor (VIF) values for all the variables
+to check for multicollinearity. Although total assets have a higher VIF
+than the other variables, all are well below the critical value of 10,
+which indicates no problems of multicollinearity.
+
+_4.2. Econometric results_
+
+Table 6 presents the results of the NLLS regressions. The natural
+
+logarithm of total assets has coefficients that vary between negative
+and positive in all the models and are significant in only two of the
+six models. However, there are slight indications of weak economies of
+scale among our firms and that larger firms are valued more highly.
+R&D intensity is positively related to Tobin’s q in all the models. In
+Models 3 and 4, the coefficient is above unity. If we include R&D
+intensity in the regression in Model 2, R2 increases from 0.434 to 0.467
+compared to Model 1. The elasticity of R&D intensity is similar to that
+in Rahko (2014). Sandner and Block (2011) find a considerably lower
+elasticity, of 2.75%, compared to the 7.50% we obtained. This elasticity
+can be interpreted as a 100% increase in R&D intensity has a positive
+impact of 7.50% on the firm’s market value. Among all our independent
+variables, R&D intensity impacts Tobin’s q the most. Swedish firms’
+
+
+R&D intensity is similar to that of German and French firms, but it
+is higher than for Finnish, Danish, UK and Italian firms (Hall and
+Oriani, 2006). US firms tend to outrival Swedish firms regarding R&D
+intensity (Hall and Oriani, 2006; Bloch, 2008; Rahko, 2014).
+
+Patent stock is positively related to R&D stock and shows a sig
+nificant Tobin’s q in all the models. Our findings suggest additional
+gains from of patent families to R&D spendings. It seems as financial
+markets reward R&D efforts aimed at patentable inventions (Rahko,
+2014). The positive relationship between patents based on R&D and
+market value, supports the idea that patents are used to commercialize
+products and to secure returns from R&D investments (Saracho, 2002).
+The patent family yield for R&D is related positively to Tobin’s q, which
+is consistent with the findings in Rahko (2014) and Hall et al. (2005).
+
+Our analysis does not suggest an association of patent value indi
+cators firms’ value; rather, the patent citation variable is insignificant
+or weakly negative which is not in line with earlier research (Hall
+et al., 2005; Sandner and Block, 2011; Rahko, 2014). The variable used
+here measures family-to-family citations whereas other studies sometimes rely on aggregate measures of citations, including self-citations.
+One explanation for the insignificance in our measure might be that
+restricting the citation variable to forward family-to-family citations
+limits the information incorporated to the extent that it does not signal
+patent value. It might also be an indication that financial markets value
+absolute patent stock and tend not to distinguish between ‘high’ or ‘low’
+value patents.
+
+Trademark stock to total assets is included only in Model 6, but
+
+shows a positive and significant relation to firm value, controlling
+for R&D, patents and IDRs. This is in line with Sandner and Block
+(2011) and Greenhalgh and Rogers (2007). However, Bosworth and
+Rogers (2001) find no such relationship. The result could be interpreted
+as showing that trademarks serve a valuable function in hampering
+
+
+-----
+
+**Table 6**
+The effect of industrial design rights on the market value of firms.
+_Source: PATSTAT Online Autumn 2017 edition, EUIPO Open Dataset, Thomson Reuters Eikon database, Swedish Design Database, Swedish_
+Patent Database, and Swedish Trademark Database (PRV).
+
+Dependent variable: Tobin’s q
+
+(1) (2) (3) (4) (5) (6)
+
+Constant −0.402*** −0.557*** −0.764*** −0.765*** −0.730*** −1.016***
+
+(0.0956) (0.116) (0.116) (0.117) (0.118) (0.117)
+Log Total assets −0.0249* 0.00713 0.0208 0.0212 0.0481*** 0.0834***
+
+(0.0139) (0.0149) (0.0143) (0.0144) (0.0177) (0.0173)
+R&D/assets 0.872** 1.049*** 1.052*** 0.902**
+
+(0.351) (0.387) (0.387) (0.387)
+Patents/R&D 0.00537*** 0.00538*** 0.00515***
+
+(0.000959) (0.000959) (0.00105)
+Citations/patents −0.00423 −0.0364***
+
+(0.0176) (0.0121)
+IDR/assets 0.126*** 0.0777**
+
+(0.0352) (0.0315)
+Trademarks/assets 0.0198***
+(0.00394)
+No R&D 0.150* 0.245*** 0.243*** 0.129*
+
+(0.0898) (0.0909) (0.0922) (0.0775)
+No patents 0.133 0.132 0.00111
+(0.105) (0.105) (0.102)
+No trademarks 0.404***
+(0.104)
+Year dummies Yes Yes Yes Yes Yes Yes
+Industry dummies Yes Yes Yes Yes Yes Yes
+
+Observations 487 487 487 487 487 487
+_𝑅[2]_ 0.434 0.467 0.510 0.510 0.479 0.560
+Adjusted 𝑅[2] 0.408 0.440 0.482 0.481 0.453 0.531
+
+Elasticities
+R&D/assets 0.091*** 0.095*** 0.095*** 0.075***
+
+(0.027) (0.025) (0.025) (0.026)
+Patents/R&D 0.082*** 0.082*** 0.074***
+
+(0.011) (0.011) (0.012)
+Citations/Patents −0.003 −0.026***
+
+(0.012) (0.010)
+IDR/assets 0.114*** 0.060***
+
+(0.022) (0.019)
+Trademarks/assets 0.056***
+(0.010)
+
+_Notes: NLLS regressions. This table displays the effect of different knowledge assets and IPRs on the market value of firms measured as Tobin’s q._
+A full set of year (10 categories) and industry (12 categories) dummies is included in all models. The reference group is Mining & Construction.
+The reference year is 2003. Robust standard errors in parentheses.
+
+-  𝑝< 0.10.
+** 𝑝< 0.05.
+*** 𝑝< 0.01.
+
+
+counterfeiting, infringement and dilution of company brands (Kopp and
+Suter, 2000). The elasticity of trademarks in Model 6 is similar to the
+results of earlier studies (Greenhalgh and Rogers, 2007; Sandner and
+Block, 2011). The effect of trademarks on the market value of firms in
+Sweden seems to be in line with effects found on other European firms.
+
+Finally, in Models 5 and 6, we include our main variable of interest,
+
+ratio of IDRs to total assets. In Model 5, we include it without other IP
+and R&D. The coefficient of 0.126 is strongly positive and, if interpreted
+as the shadow value of IDRs, indicates that one additional IDR unit
+is valued at SEK 126 million. This is comparable to the numbers
+in Sandner and Block (2011) for trademarks. In Model 6, where we
+control for patents, trademarks and R&D the coefficient decreases to
+0.077 but remains significant at the 5% level.
+
+To make our results comparable to previous research, we calculate
+
+elasticities with respect to Tobin’s q for all the variables. We find
+significant elasticities for all the variables except citations to patent
+stock (Model 4). The elasticity of R&D goes from around 9% in Models
+2, 3, and 4, to 7.5% in Model 6. This is higher than in Sandner and
+Block (2011) and Rahko (2014), but lower than in Hall et al. (2007).
+The elasticity of patent stock to R&D is of a similar magnitude in all the
+models. To compare models (Table 6), we use R2 values. Compared to
+the baseline Model 1, which includes only total assets, the R2 values
+
+
+increase from 0.434 to 0.510 if we include both R&D intensity and
+patent stock to R&D. The R2 in Model 5, which includes only IDR stock,
+is slightly lower, but increases to 0.560 for the full model (Model 6)
+which includes all the variables.
+
+_4.3. Robustness checks_
+
+To confirm the results of the NLLS regressions, we run the same
+
+models, but using a regular OLS framework.[9] Table 7 presents the
+results of the OLS regressions. The OLS regressions are qualitatively
+similar to the results for the NLLS regressions. All the signs of the
+coefficients are similar across both the NLLS and OLS regressions;
+however, citations to patent stock are not significant in any of the
+models, pointing, again, to a weak relationship between this variable
+and the market value of the firms in our sample.
+
+9 We also estimated the NLLS and OLS regressions on an extended dataset
+which includes n = 541 observations. This dataset was not adjusted for extreme
+outliers. The results for the NLLS using the extended dataset show no major
+differences from the results for the primary dataset.
+
+
+-----
+
+**Table 7**
+Robustness check — OLS regressions.
+_Source: PATSTAT Online Autumn 2017 edition, EUIPO Open Dataset, Thomson Reuters Eikon database, Swedish Design Database, Swedish_
+Patent Database, and Swedish Trademark Database (PRV).
+
+Dependent variable: Tobin’s q
+
+(1) (2) (3) (4) (5) (6)
+
+log Total Assets −0.0249* −0.000696 0.0134 0.0130 0.0497*** 0.0706***
+
+(0.0139) (0.0156) (0.0154) (0.0157) (0.0173) (0.0172)
+R&D/Total Assets 0.468** 0.539** 0.534** 0.464** 0.448*
+
+(0.230) (0.234) (0.240) (0.228) (0.235)
+Patent Stock/R&D Stock 0.00213*** 0.00212*** 0.00212*** 0.00191***
+
+(0.000333) (0.000338) (0.000293) (0.000303)
+Citation Stock/Patent Stock 0.00318 −0.00702 −0.0234
+(0.0159) (0.0148) (0.0145)
+IDR Stock/Total Assets 0.0480*** 0.0419***
+
+(0.0141) (0.0133)
+Trademark Stock/Total Assets 0.00902***
+(0.00172)
+No R&D (dummy) 0.0810 0.139 0.140 0.153* 0.0698
+(0.0905) (0.0907) (0.0912) (0.0856) (0.0809)
+No Patent (dummy) 0.105 0.106 0.0472 0.0112
+(0.106) (0.105) (0.104) (0.101)
+No Trademark (dummy) 0.377***
+(0.106)
+Constant −0.402*** −0.501*** −0.666*** −0.664*** −0.851*** −0.907***
+
+(0.0956) (0.116) (0.116) (0.117) (0.122) (0.114)
+
+Observations 487 487 487 487 487 487
+_𝑅[2]_ 0.434 0.460 0.498 0.498 0.521 0.549
+
+_Notes: OLS regressions. This table displays the effect of different knowledge assets and IPRs on firms’ market value, measured as Tobin’s q. All_
+the models include a full set of year (10 cats) and industry (12 cats) dummies. The reference group is Mining & Construction; the reference
+year is 2003. Robust standard errors in parentheses.
+
+-  𝑝< 0.10.
+** 𝑝< 0.05.
+*** 𝑝< 0.01.
+
+
+**5. Concluding discussion**
+
+_5.1. Limitations and further research_
+
+This study serves as a first attempt to investigate the relation
+ship between IDR ownership and firms’ market value and is associated with several limitations that can be addressed in future research.
+Some of these limitations concerns the empirical data while others are
+associated with the analytical approach.
+
+Empirically, the IPR data used include only European and Swedish
+
+coverage. Therefore, we cannot claim to have complete IPR portfolios
+for the firms in the study as they might own IPRs in countries outside of
+Sweden or the EU. However, there is little reason to expect bias in the
+matching process. Thus, our conclusions about the difference between
+and relative importance of separate IP stocks should hold. At the same
+time, future research would benefit from a more global scope (Alcacer
+et al., 2017) which would allow also for taking into account variegated
+jurisdictional regulations and procedures with respect to IDRs. The
+study is also limited to Swedish firms and Swedish stock markets. One
+drawback of this sample in conjunction with strictly selecting firms
+that owns three different types of IPR is that the number of observations drop. Using datasets with broader geographical coverage (Ghisetti
+et al., 2021) could allow for more robust and more fine-grained analyses. Moreover, although arguably Sweden is an interesting context
+due to its design-intensity, general innovativeness and the international presence of investors, attractiveness and expectations among
+investors may be biased. Therefore, further studies in other countries
+and institutional settings are necessary to validate and generalize the
+findings presented here. Another potential limitation of the study is the
+unobserved variables. We employ control variables for time, industry,
+IPR and R&D, but do not consider other potentially important variables
+such as firm size, firm age and IPR complementarity that might affect
+firms’ market value. The set of variables we use is similar to those
+used in other studies in the field (Hall et al., 2005, 2007; Sandner and
+Block, 2011; Rahko, 2014), but using more variables in future studies
+is desirable.
+
+
+Analytically, the market value approach introduces some simplify
+ing assumptions. For instance, it treats knowledge assets homogenously
+and functionally equal, but as our findings indicate knowledge assets at
+least to some degree are heterogeneous. In particular this should hold
+with respect to R&D expenditures in relation to IPR, but potentially
+also between patents, trademarks and IDRs. The advantage of the
+market value approach is that it makes comparison of results to other
+similar studies that have omitted IDRs possible (e.g. Sandner and Block,
+2011; Rahko, 2014; Dosso and Vezzani, 2020) fairly straightforward.
+However, to account for knowledge asset heterogeneity, future model
+specification could use a sequential specification (e.g. Crépon et al.,
+1998). Such an approach could also allow for analyzing an important
+feature highlighted in the design literature, namely between design
+value creation and design value capture (Åman et al., 2017; Montresor
+and Vezzani, 2020). Further, our study uses IDR data combined with
+data on patents and trademarks, but we do not analyze complementarities or compositional effects of IPR-bundles (Greenhalgh and Longland,
+2005). Since IDRs may overlap with patents for some important features of technological innovations (Filitz et al., 2015), future studies
+could investigate how IDRs and patents are used in combination. Also,
+we use only IDR stocks. Future research could extend the scope of indicators to include, for instance IDR quality, such as renewals, Locarno
+classes and appeals.
+
+_5.2. Contributions and implications_
+
+
+The study reveals potential market value of IDRs and contributes
+
+to our empirical knowledge of this growing phenomenon. Our findings
+from the analysis of the impact of R&D intensity patents, trademarks,
+and IDRs of firms in a design-intensive country as Sweden with ownership of all three types of IPRs demonstrate that financial markets indeed
+value firms’ ownership of IDRs. Our findings hold when we control for
+R&D, patents and trademarks. Since IDRs capture aspects of innovation
+not covered or protected by patents and trademarks, this supports the
+suggestion that IDRs offer a rich and relatively unexplored area for
+
+
+-----
+
+further research (Filitz et al., 2015). By analyzing IDRs in relation to
+patents, trademarks and R&D in the same dataset, we show that while
+R&D adds the most to market value, IDRs are (almost) on par with
+patents and trademarks.
+
+The study also contributes to the theoretical understanding of design
+
+knowledge and valuation of design rights by financial markets. When
+compared to patents, IDRs in theory appear a relatively weak form of
+IPR which give rise to uncertainty regarding uncontested IDRs as a measure of firm appropriability and value capture (Filippetti et al., 2019;
+Filitz et al., 2015; Galindo-Rueda and Millot, 2015). This is mainly due
+to multiple design filings in a single application, ex post determination
+of novelty, and lacking enforceability when tried in court. Still, the
+findings of this study show that despite the uncertainty surrounding
+the quality of IDRs financial markets evaluate them positively.
+
+Drawing upon our conceptual framework, we suggest three explana
+tions to this observation. Explanations that we hope that can be further
+developed and tested in future research. First, a particular characteristic
+of IDRs as an IPR is their explicit product connection. The design of a
+product or service refers to ornamental, often visual, and sometimes
+tactile features. Such features are crucial to the appearance of the
+product and the emotions evoked by its user. Accordingly, IDRs operate
+directly in the market processes in which firms compete with their
+products, for instance allowing for differentiation strategies (Walsh,
+1996). Compared to other IPRs, the holding of IDRs signals potential value capture closely associated with discernible product markets
+where firms are competing.
+
+Second, assuming that design capability is an unobservable an
+tecedent of IDRs, such innovative capabilities are attributable to firms
+competitive advantage (as expected by shareholders). While the underlying activities undertaken to allow for IDR registration have not
+been studied here, drawing upon the knowledge based view of the
+firm (KBV), our findings lend support to prior theoretical conjectures
+that design is a distinguishable innovative capability that firms can use
+to reap competitive advantage (d’Ippolito, 2014; Galindo-Rueda and
+Millot, 2015; Ghisetti et al., 2021).
+
+Third, and related, underlying knowledge bases differ between IPRs.
+
+Patents are associated with underlying scientific principles and technological paradigms that can be applied in a range of products (Pavitt,
+1984). Trademarks draws upon market knowledge and are used more
+broadly for corporate branding to appeal to customers (Castaldi, 2020).
+In comparison, design is more coupled with embodied aesthetic knowledge (Ewenstein and Whyte, 2007). Arguably, not only do such design
+capabilities important provide market value in their own right, but they
+may also serve an important function for firms’ ability to innovate as
+they operate between technological knowledge (as captured in patents)
+and market knowledge (as measured by trademarks), allowing for
+‘‘knowledge integration by design’’ (Åman et al., 2017).
+
+Our findings have some implications for managers and policy mak
+ers. In practice, and on a general level, our results indicate that the
+firm’s IPR strategy (Reitzig, 2004; Candelin-Palmqvist et al., 2012)
+affects shareholder value. However, research and literature on IPR
+management has until recently by and large been informed by what
+we know about patents as IPR. While recent research has added to the
+understanding of trademarks as IPRs and IPR strategies (Castaldi, 2020;
+Dosso and Vezzani, 2020), design rights to a large extent is unchartered
+territory. More specifically, while IDRs and patents appear similar,
+there are important differences both in terms of underlying knowledge
+base (science vs arts) as well as formal claim procedures, jurisdictions
+and enforceability. Accordingly, also expectations on what they can
+provide in terms of competitive advantage and value may differ among
+stakeholders. For managers, collaborators and investors, managing such
+expectations in accordance with the ‘‘face value’’ of IDRs will become
+increasingly important as the use of this specific type of IPR continues
+to grow. Similar implications should be valid also for economic policy.
+Additionally, while it has been argued that IDRs lends itself both as an
+opportunity and indicator for ‘‘low-tech’’ innovation (Filitz et al., 2015;
+Galindo-Rueda and Millot, 2015; Filippetti et al., 2019), our findings
+suggest a prevalence of IDRs also in allegedly ‘‘high-tech’’ industries.
+
+
+**CRediT authorship contribution statement**
+
+**David E. Andersson: Writing – review & editing, Investigation,**
+
+Formal analysis, Conceptualization, Methodology, Software, Writing –
+original draft, Supervision. Anton Ekman: Writing – review & editing,
+Conceptualization, Data curation, Writing – original draft, Investigation. Anton Huila: Writing – review & editing, Conceptualization,
+Data curation, Writing – original draft, Investigation. Fredrik Tell:
+Writing – review & editing, Conceptualization, Writing – original draft,
+Supervision, Investigation.
+
+**Declaration of competing interest**
+
+The authors declare that they have no known competing finan
+cial interests or personal relationships that could have appeared to
+influence the work reported in this paper.
+
+**Data availability**
+
+Data will be made available on request.
+
+**References**
+
+[Alcacer, Juan, Beukel, Karin, Cassiman, Bruno, 2017. apturing value from intellectual](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb1)
+
+[property in a global environment. In: Thomas, C., Yeung, B.Y. (Eds.), Advances in](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb1)
+[Strategic Management: Geography, Location, and Strategy, Vol. 36. Emerald Group](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb1)
+[in Strategic Management, Bingley, pp. 163–228.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb1)
+
+[Alegre, Joaquín, Pla-Barber, José, Chiva, Ricardo, Villar, Cristina, 2012. Organisational](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb2)
+
+[learning capability, product innovation performance and export intensity. Technol.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb2)
+[Anal. Strateg. Manage. 24 (5), 511–526.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb2)
+
+[Åman, Per, Andersson, Hans, Hobday, Mike, 2017. The scope of design knowledge:](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb3)
+
+[integrating the technically rational and human-centered dimensions. Des. Issues 33](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb3)
+[(2), 58–69.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb3)
+
+[Arundel,](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb4) Anthony, 2001. The relative [effectiveness](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb4) of patents and secrecy for
+
+[appropriation. Res. Policy 30 (4), 611–624.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb4)
+
+[Barney, Jay, 1991. Firm resources and sustained competitive advantage. J. Manage. 17](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb5)
+
+[(1), 99–120.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb5)
+
+[Barney, Jay B., Hesterly, William S., 2010. Strategic Management and Competitive](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb6)
+
+[Advantage: Concepts, Vol. 408. Prentice hall Englewood Cliffs, NJ.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb6)
+
+[Bascavusoglu-Moreau,](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb7) E., Tether, B.S., 2011. Registered designs & business
+
+[performance–exploring the link. The Economics of Design Rights. An Intellectual](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb7)
+[Property Office Report.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb7)
+
+[Belcher, Alice, Hassard, John, Procter, Stephen, 2002. R&D Decisions: Strategy Policy](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb8)
+
+[and Innovations. Routledge.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb8)
+
+[Bloch, Carter, 2008. The market valuation of knowledge assets. Econ. Innov. New](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb9)
+
+[Techn. 17 (3), 269–284.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb9)
+
+[Bloom, Nicholas, Van Reenen, John, 2002. Patents, real options and firm performance.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb10)
+
+[Econ. J. 112 (478), C97–C116.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb10)
+
+[Blundell, Richard, Bond, Stephen, Devereux, Michael, Schiantarelli, Fabio, 1992.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb11)
+
+[Investment and Tobin’s Q: Evidence from company panel data. J. Econometrics](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb11)
+[51 (1–2), 233–257.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb11)
+
+[Blundell, Richard, Griffith, Rachel, Van Reenen, John, 1999. Market share, market value](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb12)
+
+[and innovation in a panel of British manufacturing firms. Rev. Econom. Stud. 66](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb12)
+[(3), 529–554.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb12)
+
+[Bosworth, Derek, Rogers, Mark, 2001. Market value, R&D and intellectual property: an](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb13)
+
+[empirical analysis of large Australian firms. Econ. Rec. 77 (239), 323–337.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb13)
+
+[Candelin-Palmqvist, Hanni, Sandberg, Birgitta, Mylly, Ulla-Maija, 2012. Intellectual](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb14)
+
+[property rights in innovation management research: A review. Technovation 32](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb14)
+[(9–10), 502–512.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb14)
+
+[Candi, Marina, Gemser, Gerda, 2010. An agenda for research on the relationships](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb15)
+
+[between industrial design and performance. Int. J. Des. 4 (3), 67–77.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb15)
+
+[Candi, Marina, Saemundsson, Rögnvaldur J., 2011. Exploring the relationship between](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb16)
+
+[aesthetic design as an element of new service development and performance. J.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb16)
+[Prod. Innov. Manage. 28 (4), 536–557.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb16)
+
+[Castaldi, Carolina, 2020. All the great things you can do with trademark data: Taking](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb17)
+
+[stock and looking ahead. Strateg. Organ. 18 (3), 472–484.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb17)
+
+[Castaldi, Carolina, Dosso, Mafini, 2018. From R&D to Market: Using Trademarks to](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb18)
+
+[Capture the Market Capability of Top R&D Investors. Tech. Rep., JRC working](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb18)
+[papers on Corporate R&D and Innovation.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb18)
+
+[Castaldi, Carolina, Mendonça, Sandro, 2022. Regions and trademarks: research opportu-](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb19)
+
+[nities and policy insights from leveraging trademarks in regional innovation studies.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb19)
+[Reg. Stud. 56 (2), 177–189.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb19)
+
+[Chen, Yu-Shan, Chang, Ke-Chiun, 2010. The relationship between a firm’s patent quality](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb20)
+
+[and its market value—the case of US pharmaceutical industry. Technol. Forecast.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb20)
+[Soc. Change 77 (1), 20–33.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb20)
+
+
+-----
+
+[Cockburn, Iain, Griliches, Zvi, 1988. The estimation and measurement of spillover](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb21)
+
+[effects of R&D investment-industry effects and appropriability measures in the stock](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb21)
+[market’s valuation of R&D and patents. Am. Econ. Rev. 78 (2), 419–423.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb21)
+
+[Cornell, INSEAD, WIPO, 2017. The Global Innovation Index 2017: Innovation Feeding](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb22)
+
+[the World. Tech. Rep., Ithaca, Fontainebleau, and Geneva.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb22)
+
+[Crépon, Bruno, Duguet, Emmanuel, Mairesse, Jacques, 1998. Research, innovation and](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb23)
+
+[productivity: an econometric analysis at the firm level. Econ. Innov. New Technol.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb23)
+[7 (2), 115–158.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb23)
+
+[Czarnitzki, Dirk, Hall, Bronwyn H., Oriani, Raffaele, 2006. The Market Valuation](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb24)
+
+[of Knowledge Assets in US and European Firms. Edward Elgar Publishing, pp.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb24)
+[111–131.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb24)
+
+[DaDalt, Peter J., Donaldson, Jeffrey R., Garner, Jacqueline L., 2003. Will any q do? J.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb25)
+
+[Financial Res. 26 (4), 535–551.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb25)
+
+[Dierickx, Ingemar, Cool, Karel, 1989. Asset stock accumulation and the sustainability](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb26)
+
+[of competitive advantage: Reply. Manage. Sci. 35 (12), 1514.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb26)
+
+[d’Ippolito, Beatrice, 2014. The importance of design for firms’ competitiveness: A review](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb27)
+
+[of the literature. Technovation 34 (11), 716–730.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb27)
+
+[Dosso, Mafini, Vezzani, Antonio, 2020. Firm market valuation and intellectual property](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb28)
+
+[assets. Ind. Innov. 27 (7), 705–729.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb28)
+
+[EUIPO, 2011. Annual Report 2010. European Intellectual Property Office, Alicante,](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb29)
+
+[Spain,](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb29)
+
+[EUIPO, 2018. Statistics of European Union Trademarks (Annual Report). European](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb30)
+
+[Intellectual Property Office, Alicante, Spain,](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb30)
+
+[Ewenstein, Boris, Whyte, Jennifer, 2007. Beyond words: Aesthetic knowledge and](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb31)
+
+[knowing in organizations. Organ. Stud. 28 (5), 689–708.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb31)
+
+[Fama, Eugene F., 1970. Efficient capital markets: A review of theory and empirical](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb32)
+
+[work. J. Finance 25 (2), 383–417.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb32)
+
+[Filippetti, Andrea, D’Ippolito, Beatrice, 2017. Appropriability of design innovation](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb33)
+
+[across organisational boundaries: exploring collaborative relationships between](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb33)
+[manufacturing firms and designers in Italy. Ind. Innov. 24 (6), 613–632.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb33)
+
+[Filippetti, Andrea, Gkotsis, Petros, Vezzani, Antonio, Zinilli, Antonio, 2019. How to](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb34)
+
+[Survive an Economic Crisis? Lessons from the Innovation Profiles of EU Regions.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb34)
+[European Commission.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb34)
+
+[Filitz, Rainer, Henkel, Joachim, Tether, Bruce S., 2015. Protecting aesthetic innova-](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb35)
+
+[tions? An exploration of the use of registered community designs. Res. Policy 44](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb35)
+[(6), 1192–1206.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb35)
+
+[Fjællegaard, Cecilie Bryld, Beukel, Karin, Alkærsig, Lars, 2019. Designers as the](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb36)
+
+[determinants of design innovations. Creativity Innov. Manag. 28 (2), 144–156.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb36)
+
+[Galindo-Rueda, Fernando, Millot, Valentine, 2015. Measuring Design and Its Role](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb37)
+
+[in Innovation. OECD Science, Technology and Industry Working Papers, OECD](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb37)
+[Publishing.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb37)
+
+[Gemser, Gerda, Leenders, Mark AAM, 2001. How integrating industrial design in the](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb38)
+
+[product development process impacts on company performance. J. Prod. Innov.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb38)
+[Manage. 18 (1), 28–38.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb38)
+
+[Ghisetti, Claudia, Montresor, Sandro, 2019. Design and eco-innovation: micro-evidence](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb39)
+
+[from the Eurobarometer survey. Ind. Innov. 26 (10), 1208–1241.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb39)
+
+[Ghisetti, Claudia, Montresor, Sandro, Vezzani, Antonio, 2021. Design and environmental](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb40)
+
+[technologies: Does ‘green-matching’actually help? Res. Policy 50 (5), 104208.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb40)
+
+[Ghosh, E., Khan, A.B., 2018. Lacking a European touch: The Delhi high court design](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb41)
+
+[law ruling in crocs inc v. Liberty shoes. Stockholm Intellect. Prop. Law Rev. 1 (1).](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb41)
+
+[Grant,](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb42) Robert M., 1991. The [resource-based](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb42) theory of competitive advantage:
+
+[implications for strategy formulation. Calif. Manage. Rev. 33 (3), 114–135.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb42)
+
+[Grant, Robert M., 1996. Toward a knowledge-based theory of the firm. Strateg. Manag.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb43)
+
+J. [17 (S2), 109–122.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb43)
+
+[Greenhalgh, Christine, Longland, Mark, 2005. Running to stand still?–The value of R&D,](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb44)
+
+[patents and trade marks in innovating manufacturing firms. Int. J. Econ. Bus. 12](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb44)
+[(3), 307–328.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb44)
+
+[Greenhalgh, Christine, Rogers, Mark, 2006. Trade Marks and Market Value in UK Firms.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb45)
+
+[Tech. Rep., Melbourne Institute Working Paper Series wp2006n04, Melbourne](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb45)
+[Institute of Applied Economic and Social Research, The University of Melbourne.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb45)
+
+[Greenhalgh, Christine, Rogers, Mark, 2007. The value of intellectual property rights to](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb46)
+
+[firms and society. Oxf. Rev. Econ. Policy 23 (4), 541–567.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb46)
+
+[Griffiths, William, Jensen, Paul H., Webster, Elizabeth, 2011. What creates abnormal](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb47)
+
+[profits? Scott. J. Political Econ. 58 (3), 323–346.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb47)
+
+[Griliches, Zvi, 1981. Market value, R&D, and patents. Econ. Lett. 7 (2), 183–187.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb48)
+[Griliches, Zvi, Hall, Bronwyn H., Pakes, Ariel, 1991. R&D, patents, and market value](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb49)
+
+[revisited: is there a second (technological opportunity) factor? Econ. Innov. New](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb49)
+[Technol. 1 (3), 183–201.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb49)
+
+[Hall, Bronwyn H., 1999. Innovation and Market Value. Tech. Rep., National Bureau of](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb50)
+
+[Economic Research.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb50)
+
+[Hall, Bronwyn H., 2007. Measuring the Returns to R&D: The Depreciation Problem.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb51)
+
+[Tech. Rep., National Bureau of Economic Research.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb51)
+
+[Hall, Bronwyn H., Jaffe, Adam, Trajtenberg, Manuel, 2005. Market value and patent](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb52)
+
+[citations. Rand J. Econ. 16–38.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb52)
+
+[Hall, Bronwyn H., MacGarvie, Megan, 2010. The private value of software patents. Res.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb53)
+
+[Policy 39 (7), 994–1009.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb53)
+
+[Hall, Bronwyn H., Mansfield, Edwin, Jaffe, Adam B., 1993. Industrial research during](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb54)
+
+[the 1980s: Did the rate of return fall? Brook. Pap. Econ. Activity. Microecon. 1993](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb54)
+[(2), 289–343.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb54)
+
+
+[Hall, Bronwyn H., Oriani, Raffaele, 2006. Does the market value R&D investment by](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb55)
+
+[European firms? Evidence from a panel of manufacturing firms in France, Germany,](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb55)
+[and Italy. Int. J. Ind. Organ. 24 (5), 971–993.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb55)
+
+[Hall, Bronwyn H., Thoma, Grid, Torrisi, Salvatore, 2007. The market value of patent](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb56)
+
+[and R&D: evidence from european firms. In: Academy of Management Proceedings,](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb56)
+[Vol. 2007. (1), Academy of Management Briarcliff Manor, NY 10510, pp. 1–6.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb56)
+
+[Harhoff, Dietmar, Narin, Francis, Scherer, Frederic M, Vopel, Katrin, 1999. Citation](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb57)
+
+[frequency and the value of patented inventions. Rev. Econ. Stat. 81 (3), 511–515.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb57)
+
+[Harhoff, Dietmar, Scherer, Frederic M., Vopel, Katrin, 2003. Citations, family size,](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb58)
+
+[opposition and the value of patent rights. Res. Policy 32 (8), 1343–1363.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb58)
+
+[Heikkilä, Jussi, Peltoniemi, Mirva, 2019. Great expectations: Learning the boundaries](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb59)
+
+[of design rights. Res. Policy 48 (9), 103795.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb59)
+
+[Heneghan, Kieran, 2016. EU-level protection of designs? The registered community](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb60)
+
+[design [IP Corner]. IEEE Consum. Electron. Mag. 5 (1), 129–132.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb60)
+
+[Hirsch, Barry T., Seaks, Terry G., 1993. Functional form in regression models of Tobin’s](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb61)
+
+[q. Rev. Econ. Stat. 381–385.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb61)
+
+[Holgersson, Marcus, van Santen, Sarah, 2018. The business of intellectual property: a](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb62)
+
+[literature review of IP management research. Stockholm Intellect. Prop. Law Rev.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb62)
+[1 (1), 44–63.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb62)
+
+[Kogut, Bruce, Zander, Udo, 1992. Knowledge of the firm, combinative capabilities, and](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb63)
+
+[the replication of technology. Organ. Sci. 3 (3), 383–397.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb63)
+
+[Kopp, Steven W., Suter, Tracy A., 2000. Trademark strategies online: Implications for](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb64)
+
+[intellectual property protection. J. Public Policy Mark. 19 (1), 119–131.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb64)
+
+[Lee, Mingook, Lee, Sungjoo, 2017. Identifying new business opportunities from com-](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb65)
+
+[petitor intelligence: An integrated use of patent and trademark databases. Technol.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb65)
+[Forecast. Soc. Change 119, 170–183.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb65)
+
+[Lindenberg, Eric B., Ross, Stephen A., 1981. Tobin’s q ratio and industrial organization.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb66)
+
+[J. Bus. 1–32.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb66)
+
+[Marco, Alan C., 2007. The dynamics of patent citations. Econom. Lett. 94 (2), 290–296.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb67)
+[Marsili, Orietta, Salter, Ammon, 2006. The dark matter of innovation: design and](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb68)
+
+[innovative performance in Dutch manufacturing. Technol. Anal. Strateg. Manage.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb68)
+[18 (5), 515–534.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb68)
+
+[Mehta, Aditi, Rysman, Marc, Simcoe, Tim, 2010. Identifying the age profile of patent](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb69)
+
+[citations: New estimates of knowledge diffusion. J. Appl. Econometrics 25 (7),](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb69)
+[1179–1204.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb69)
+
+[Montgomery, Cynthia A., Wernerfelt, Birger, 1988. Diversification, ricardian rents, and](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb70)
+
+[Tobin–Q. Rand J. Econ. 19, 623–632.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb70)
+
+[Montresor, Sandro, Vezzani, Antonio, 2020. Design centrality, design investments and](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb71)
+
+[innovation performance: an empirical analysis of European firms. Ind. Corp. Change](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb71)
+[29 (2), 351–374.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb71)
+
+[Nelson, Richard R., 1991. Why do firms differ, and how does it matter? Strateg. Manag.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb72)
+
+J. [12 (S2), 61–74.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb72)
+
+[Nesta, Lionel, Saviotti, Pier-Paolo, 2006. Firm knowledge and market value in](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb73)
+
+[biotechnology. Ind. Corp. Change 15 (4), 625–652.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb73)
+
+[Pavitt, Keith, 1984. Sectoral patterns of technical change: towards a taxonomy and a](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb74)
+
+[theory. Res. Policy 13 (6), 343–373.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb74)
+
+[Pemberton,](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb75) Malcolm, Rau, Nicholas, [2011.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb75) Mathematics for Economists: An
+
+[Introductory Textbook. University of Toronto Press.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb75)
+
+[Perfect, Steven B., Wiles, Kenneth W., 1994. Alternative constructions of Tobin’s q: An](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb76)
+
+[empirical comparison. J. Empir. Finance 1 (3–4), 313–341.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb76)
+
+[Pinate, Adriana C, Faggian, Alessandra, Di Berardino, Claudio, Castaldi, Carolina, 2022.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb77)
+
+[The heterogenous relationship between migration and innovation: Evidence from](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb77)
+[Italy. Ind. Innov. 1–25.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb77)
+
+[Rahko, Jaana, 2014. Market value of R&D, patents, and organizational capital: Finnish](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb78)
+
+[evidence. Econ. Innov. New Technol. 23 (4), 353–377.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb78)
+
+[Reitzig, Markus, 2004. Strategic management of intellectual property. MIT Sloan Manag.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb79)
+
+[Rev. 45 (3), 35.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb79)
+
+[Roberts, Peter W., 1999. Product innovation, product–market competition and persistent](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb80)
+
+[profitability in the US pharmaceutical industry. Strateg. Manag. J. 20 (7), 655–670.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb80)
+
+[Ross, Stephen A., 1983. Accounting and economics. Account. Rev. 58 (2), 375–380.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb81)
+[Sandner, P.G., Block, J., 2011. The market value of R&D, patents and trademarks. Res.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb82)
+
+[Policy 40 (96), 985.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb82)
+
+[Saracho, Ana I., 2002. Patent licensing under strategic delegation. J. Econ. Manag.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb83)
+
+[Strategy 11 (2), 225–251.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb83)
+
+[Sisodia, Rajendra S., 1992. Competitive advantage through design. J. Bus. Strategy 13](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb84)
+
+[(6), 33–40.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb84)
+
+Statistics Sweden, 2022. Foreign Ownership of Shares in Companies Quoted on
+
+Swedish Marketplaces, by Country. Twice a Year 1999M12 - 2022M12. Tech. Rep.,
+[Statistical database, https://www.statistikdatabasen.scb.se.](https://www.statistikdatabasen.scb.se)
+
+[Teece, David J., 1982. Towards an economic theory of the multiproduct firm. J. Econ.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb86)
+
+[Behav. Organ. 3 (1), 39–63.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb86)
+
+[Teece, David J., 1986. Profiting from technological innovation: Implications for](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb87)
+
+[integration, collaboration, licensing and public policy. Res. Policy 15, 285–305.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb87)
+
+[Teece, David J., 2000. Strategies for managing knowledge assets: the role of firm](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb88)
+
+[structure and industrial context. Long range Plan. 33 (1), 35–54.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb88)
+
+[Tobin, James, 1969. A general equilibrium approach to monetary theory. J. Money](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb89)
+
+[Credit Bank 1 (1), 15–29.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb89)
+
+[Toivanen, Otto, Stoneman, Paul, Bosworth, Derek, 2002. Innovation and the market](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb90)
+
+[value of UK firms, 1989–1995. Oxf. Bull. Econ. Stat. 64 (1), 39–61.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb90)
+
+
+-----
+
+[USCC Global Innovation Policy Center, 2022. Why Is IP Important? Tech. Rep., The](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb91)
+
+[U.S. Chamber of Commerce’s Global Innovation Policy Center.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb91)
+
+[Walsh, Vivien, 1996. Design, innovation and the boundaries of the firm. Res. Policy](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb92)
+
+[25 (4), 509–529.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb92)
+
+[WIPO, 2003. What Is Intellectual Property?, No. 450. WIPO.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb93)
+[WIPO, 2004. WIPO Intellectual Property Handbook: Policy, Law and Use, Vol. 489.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb94)
+
+[WIPO.](http://refhub.elsevier.com/S0040-1625(23)00512-7/sb94)
+
+**David E. Andersson is post-doctoral researcher at the Department of Business Stud-**
+ies, Uppsala University. His research focuses on markets for technology, economics
+of innovation and the management of intellectual property rights, innovation and
+technology.
+
+
+**Anton Ekman is a manager at Deloitte. He is responsible for M&A transactions services**
+and stationed in Stockholm, Sweden.
+
+**Anton Huila is a senior consultant at EY working within the areas of risk management**
+and financial services.
+
+**Fredrik Tell is professor and chair at the Department of Business Studies, Uppsala**
+University. His research is concerned with strategic temporal work and the relationship
+between the future and the present, development of organizational knowledge and
+capabilities, intellectual property rights and markets for technology and digitalization
+and changing organizational routines.
+
+
+-----
+

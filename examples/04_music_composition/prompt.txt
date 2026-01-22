@@ -1,0 +1,39 @@
+Please compose a short piece of piano music with the following requirements:
+
+【Music Style】
+- Type: Light music / Ambient
+- Mood: Calm, healing, slightly melancholic
+- Purpose: Suitable as background music for short videos
+
+【Technical Specifications】
+- Duration: 20-30 seconds
+- Format: MIDI file (primary) + WAV/MP3 if possible
+- BPM: 90-110 (moderate tempo)
+- Key: C Major or A minor
+
+【Arrangement Requirements】
+
+1. **Main Instrument**: Piano only
+
+2. **Song Structure**:
+   ```
+   Intro (4 bars) → Main Theme (8 bars) → Outro (4 bars)
+   ```
+
+3. **Melody Characteristics**:
+   - Simple, memorable melody
+   - Flowing rhythm, not too slow
+
+【Output Files】
+
+1. `composition.mid` - MIDI file
+
+2. `sheet_music.md` - Simple notation of the melody and chords
+
+3. Optional: If audio synthesis tools are available, generate `preview.wav`
+
+【Technical Implementation】
+You can use:
+- midiutil (Python MIDI library)
+- music21 (Python music analysis/composition library)
+- Or generate MIDI bytes directly with code

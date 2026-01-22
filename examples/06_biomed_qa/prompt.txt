@@ -1,0 +1,6 @@
+The parents of a 30-month-old girl are concerned about her developmental progress compared to her peers in day care. She can retrieve a familiar object upon verbal request (without gestures), use 10 single words, and bring items to her parents to show them. However, she is unable to kick a ball, stack more than two blocks, follow two-step commands, or identify pictures in a book when asked.  
+
+What is this child’s approximate developmental age?
+Answer Choices: (A) 18 months (B) 16 months (C) 17 months (D) 15 months (E) 21 months (F) 20 months (G) 22 months (H) 14 months (I) 12 months (J) 24 months
+
+Please provide your answer in the answer field with only the choice letter, e.g., "answer": "A".

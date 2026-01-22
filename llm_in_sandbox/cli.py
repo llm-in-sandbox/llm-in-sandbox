@@ -1,0 +1,453 @@
+#!/usr/bin/env python
+"""
+LLM-in-Sandbox CLI - Run LLM agents in local Docker containers
+
+Usage:
+    # First time: build the Docker image (only needed once)
+    llm-in-sandbox build
+    
+    # Or pull a pre-built image
+    docker pull python:3.12-slim
+    
+    # Run the agent
+    llm-in-sandbox run --query "Your task description"
+
+Example:
+    # Build the default Docker image
+    llm-in-sandbox build
+    
+    # Run with a query
+    llm-in-sandbox run \
+        --query "Create a Python script that prints Hello World" \
+        --llm_name "openai/gpt-4" \
+        --max_steps 30
+"""
+import os
+import sys
+import json
+import yaml
+import logging
+import datetime
+import warnings
+import subprocess
+from pathlib import Path
+from typing import Optional
+from importlib import resources
+
+# Suppress pydantic serialization warnings from litellm
+warnings.filterwarnings("ignore", message="Pydantic serializer warnings")
+
+import docker
+import fire
+from rich.console import Console
+from rich.panel import Panel
+from rich.table import Table
+
+from .docker_runtime import DockerRuntime
+from .agent import Agent, AgentArgs, get_logger
+from .trajectory import Trajectory
+
+# Rich console
+console = Console()
+
+# Default Docker image name and version
+DEFAULT_DOCKER_IMAGE = "cdx123/llm-in-sandbox:v0.1"
+SETTINGS_ENV_VAR = "LLM_IN_SANDBOX_CONFIG"
+DEFAULT_SETTINGS_LOCATIONS = [
+    Path.cwd() / "llm-in-sandbox.yaml",
+    Path.cwd() / "llm_in_sandbox.yaml",
+    Path.home() / ".llm-in-sandbox" / "config.yaml",
+    Path.home() / ".llm-in-sandbox.yaml",
+]
+
+
+def get_default_config_path() -> Path:
+    """Get the default prompt config file path."""
+    # Try to get from package resources
+    try:
+        with resources.files("llm_in_sandbox.config") as config_dir:
+            return Path(config_dir) / "general.yaml"
+    except (TypeError, FileNotFoundError):
+        # Fallback to relative path
+        return Path(__file__).parent / "config" / "general.yaml"
+
+
+def load_runtime_settings(explicit_path: Optional[str] = None):
+    """Load CLI defaults (llm_name/llm_base_url) from YAML config files."""
+    candidates = []
+    seen = set()
+
+    def _add_candidate(candidate):
+        if not candidate:
+            return
+        path = Path(candidate).expanduser()
+        if path in seen:
+            return
+        seen.add(path)
+        candidates.append(path)
+
+    _add_candidate(explicit_path)
+    _add_candidate(os.environ.get(SETTINGS_ENV_VAR))
+    for default_path in DEFAULT_SETTINGS_LOCATIONS:
+        _add_candidate(default_path)
+
+    for candidate in candidates:
+        if candidate.is_file():
+            with open(candidate, "r") as f:
+                data = yaml.safe_load(f) or {}
+            return data, candidate
+
+    return {}, None
+
+
+def find_dockerfile() -> Optional[Path]:
+    """Find the Dockerfile for building the default image."""
+    # Try 1: Development mode - docker/ is sibling to llm_in_sandbox/
+    script_dir = Path(__file__).parent
+    dev_docker_dir = script_dir.parent / "docker"
+    if (dev_docker_dir / "Dockerfile").exists():
+        return dev_docker_dir / "Dockerfile"
+    
+    # Try 2: Installed mode - check sys.prefix for shared data
+    installed_docker_dir = Path(sys.prefix) / "share" / "llm-in-sandbox" / "docker"
+    if (installed_docker_dir / "Dockerfile").exists():
+        return installed_docker_dir / "Dockerfile"
+    
+    return None
+
+
+def ensure_docker_image(image_name: str, logger) -> bool:
+    """Check if Docker image exists. Return True if exists, False otherwise."""
+    client = docker.from_env()
+    
+    try:
+        client.images.get(image_name)
+        return True  # Image exists
+    except docker.errors.ImageNotFound:
+        return False
+
+
+def build_docker_image(
+    image_name: str = DEFAULT_DOCKER_IMAGE,
+    force: bool = False,
+):
+    """
+    Build the Docker image for LLM-in-Sandbox.
+    
+    This command builds the default Docker image used by the agent.
+    You only need to run this once before using the 'run' command.
+    
+    Args:
+        image_name: Docker image name to build (default: llm-in-sandbox:v0.1)
+        force: Force rebuild even if image already exists
+    
+    Example:
+        llm-in-sandbox build
+        llm-in-sandbox build --force  # Force rebuild
+        llm-in-sandbox build --image_name my-custom-image:v1
+    """
+    logger = get_logger("llm-in-sandbox")
+    client = docker.from_env()
+    
+    # Check if image already exists
+    if not force:
+        try:
+            client.images.get(image_name)
+            console.print(Panel.fit(
+                f"[green]✅ Docker image '{image_name}' already exists![/green]\n"
+                f"[dim]Use --force to rebuild[/dim]",
+                border_style="green",
+            ))
+            return
+        except docker.errors.ImageNotFound:
+            pass
+    
+    # Find Dockerfile
+    dockerfile = find_dockerfile()
+    if dockerfile is None:
+        console.print(Panel.fit(
+            f"[red]❌ Cannot find Dockerfile to build '{image_name}'[/red]\n"
+            f"[dim]Please build manually: docker build -t {image_name} <path-to-dockerfile>[/dim]",
+            border_style="red",
+        ))
+        sys.exit(1)
+    
+    # Build image
+    console.print()
+    console.print(Panel.fit(
+        f"[yellow]🐳 Building Docker image '{image_name}'...[/yellow]\n"
+        f"[dim]Dockerfile: {dockerfile}[/dim]",
+        border_style="yellow",
+    ))
+    console.print()
+    
+    docker_dir = dockerfile.parent
+    try:
+        result = subprocess.run(
+            ["docker", "build", "-t", image_name, "-f", str(dockerfile), str(docker_dir)],
+            check=True,
+        )
+        console.print()
+        console.print(Panel.fit(
+            f"[green]✅ Docker image '{image_name}' built successfully![/green]\n"
+            f"[dim]You can now run: llm-in-sandbox run --query \"Your task\"[/dim]",
+            border_style="green",
+        ))
+    except subprocess.CalledProcessError as e:
+        console.print(Panel.fit(
+            f"[red]❌ Failed to build Docker image (exit code {e.returncode})[/red]",
+            border_style="red",
+        ))
+        sys.exit(1)
+    except FileNotFoundError:
+        console.print(Panel.fit(
+            f"[red]❌ Docker not found. Please install Docker first.[/red]",
+            border_style="red",
+        ))
+        sys.exit(1)
+
+
+def load_prompt_config(config_path: str) -> dict:
+    """Load prompt configuration from a yaml file."""
+    with open(config_path, "r") as f:
+        config = yaml.safe_load(f)
+    return config
+
+
+def run_agent_query(
+    query: str,
+    llm_name: Optional[str] = None,
+    docker_image: str = DEFAULT_DOCKER_IMAGE,
+    max_steps: int = 100,
+    temperature: float = 1.0,
+    max_token_limit: int = 64000,
+    max_tokens_per_call: int = 64000,
+    input_dir: Optional[str] = None,
+    output_dir: Optional[str] = None,
+    llm_base_url: Optional[str] = None,
+    api_key: Optional[str] = None,
+    prompt_config: Optional[str] = None,
+    save_litellm_response: bool = False,
+    extra_body: Optional[str] = None,
+    settings: Optional[str] = None,
+):
+    """
+    Run an LLM agent in a Docker container to complete a task.
+    
+    Args:
+        query: The task description / problem statement
+        llm_name: LLM model name 
+        docker_image: Docker image to use (default: cdx123/llm-in-sandbox:v0.1)
+        max_steps: Maximum number of steps (default: 100)
+        temperature: Temperature for LLM (default: 1.0)
+        max_token_limit: Maximum token limit for the whole trajectory (default: 64000)
+        max_tokens_per_call: Maximum tokens per LLM API call (default: 64000)
+        input_dir: Local directory to copy into container at /testbed/input
+        output_dir: Local directory to save container's /testbed/output contents
+        llm_base_url: LLM API base URL (default: from LLM_BASE_URL env var)
+        api_key: API key for the LLM service (default: from OPENAI_API_KEY env var)
+        prompt_config: Path to yaml file with system_prompt and instance_prompt (default: ./config/general.yaml)
+        save_litellm_response: Whether to save full litellm responses
+        extra_body: Extra JSON body to include in LLM API calls, e.g., '{"chat_template_kwargs": {"thinking": True}}'
+        settings: Optional path to a YAML file that provides defaults such as llm_name and llm_base_url
+    
+    Returns:
+        Trajectory object with all steps and results
+    """
+    logger = get_logger("llm-in-sandbox")
+
+    runtime_settings, runtime_settings_path = load_runtime_settings(settings)
+    if runtime_settings_path:
+        logger.info(f"Loaded runtime settings from: {runtime_settings_path}")
+
+    def _with_setting(value, key):
+        if value in (None, ""):
+            return runtime_settings.get(key)
+        return value
+
+    llm_name = _with_setting(llm_name, "llm_name")
+    llm_base_url = _with_setting(llm_base_url, "llm_base_url")
+    api_key = _with_setting(api_key, "api_key")
+    prompt_config = _with_setting(prompt_config, "prompt_config")
+
+    if not llm_name:
+        raise ValueError(
+            "llm_name is required. Provide --llm_name or set it in a settings YAML file."
+        )
+    
+    # Set API key based on model type
+    if api_key:
+        os.environ["OPENAI_API_KEY"] = str(api_key)
+        os.environ["ANTHROPIC_API_KEY"] = str(api_key)
+    else:
+        # Set dummy key if not provided (some servers don't need auth)
+        if not os.environ.get("OPENAI_API_KEY"):
+            os.environ["OPENAI_API_KEY"] = "dummy"
+        if not os.environ.get("ANTHROPIC_API_KEY"):
+            os.environ["ANTHROPIC_API_KEY"] = "dummy"
+    
+    # Load prompt config from yaml (use default if not provided)
+    config_path = prompt_config if prompt_config else get_default_config_path()
+    if Path(config_path).exists():
+        logger.info(f"Loading prompt config from: {config_path}")
+        config = load_prompt_config(config_path)
+        system_prompt = config.get("system_prompt", "")
+        instance_prompt = config.get("instance_prompt", "")
+    else:
+        raise FileNotFoundError(f"Prompt config not found: {config_path}")
+    
+    # Auto-add openai/ prefix for custom LLM endpoints
+    if not llm_name.startswith(("openai/", "anthropic/", "azure/", "hosted_vllm/")):
+        llm_name = f"openai/{llm_name}"
+        logger.info(f"Auto-added 'openai/' prefix to model: {llm_name}")
+    
+    # Set up output directory with timestamp
+    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    if output_dir is None:
+        output_dir = Path.cwd() / "output" / timestamp
+    else:
+        output_dir = Path(output_dir) / timestamp
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Set LLM base URL
+    if llm_base_url:
+        os.environ["LLM_BASE_URL"] = llm_base_url
+    
+    # Ensure Docker image exists (auto-build if default image)
+    if not ensure_docker_image(docker_image, logger):
+        console.print(Panel.fit(
+            f"[red]❌ Docker image '{docker_image}' not found![/red]\n"
+            f"[dim]Please build it first: llm-in-sandbox build[/dim]",
+            border_style="red",
+        ))
+        sys.exit(1)
+    
+    # Initialize Docker runtime
+    logger.info(f"Starting Docker container...")
+    runtime = DockerRuntime(
+        docker_image=docker_image,
+        repo_path="/testbed",
+        logger=logger,
+    )
+    
+    # Setup input/output directories in container
+    runtime.run("mkdir -p /testbed/input /testbed/output")
+    
+    # Copy input files to container if provided
+    if input_dir and os.path.isdir(input_dir):
+        logger.info(f"Copying input files from {input_dir} to /testbed/input")
+        runtime.copy_dir_to_container(input_dir, "/testbed/input")
+    
+    def _fix_string_bools(obj):
+        """Recursively convert string 'true'/'false' to bool True/False."""
+        if isinstance(obj, dict):
+            return {k: _fix_string_bools(v) for k, v in obj.items()}
+        elif isinstance(obj, list):
+            return [_fix_string_bools(item) for item in obj]
+        elif isinstance(obj, str):
+            if obj.lower() == 'true':
+                return True
+            elif obj.lower() == 'false':
+                return False
+        return obj
+    
+    try:
+        # Handle extra_body: could be dict (from fire) or JSON string
+        extra_body_dict = None
+        if extra_body:
+            if isinstance(extra_body, dict):
+                extra_body_dict = extra_body
+            elif isinstance(extra_body, str):
+                try:
+                    extra_body_dict = json.loads(extra_body)
+                except json.JSONDecodeError as e:
+                    logger.error(f"Failed to parse extra_body JSON: {e}")
+                    raise ValueError(f"Invalid extra_body JSON: {extra_body}")
+            # Fix string bools like 'true' -> True
+            extra_body_dict = _fix_string_bools(extra_body_dict)
+            logger.info(f"Using extra_body: {extra_body_dict}")
+        
+        # Initialize agent
+        agent_args = AgentArgs(
+            system_prompt=system_prompt,
+            instance_prompt=instance_prompt,
+            llm_name=llm_name,
+            llm_base_url=llm_base_url or os.environ.get("LLM_BASE_URL"),
+            save_litellm_response=save_litellm_response,
+            output_dir=str(output_dir),
+            extra_body=extra_body_dict,
+        )
+        agent = Agent(args=agent_args, logger=logger)
+        
+        # Run agent
+        logger.info(f"Starting agent...")
+        trajectory = agent.run(
+            runtime=runtime,
+            problem_statement=query,
+            max_steps=max_steps,
+            temperature=temperature,
+            max_token_limit=max_token_limit,
+            max_tokens_per_call=max_tokens_per_call,
+        )
+        
+        # Copy output files from container to files/ subdirectory
+        files_dir = output_dir / "files"
+        files_dir.mkdir(parents=True, exist_ok=True)
+        logger.info(f"Copying output files from container /testbed/output to {files_dir}")
+        try:
+            runtime.copy_from_container("/testbed/output", str(files_dir))
+        except Exception as e:
+            logger.warning(f"Could not copy output from container: {e}")
+        
+        # Save trajectory
+        trajectory_file = output_dir / "trajectory.json"
+        
+        with open(trajectory_file, "w") as f:
+            json.dump(trajectory.to_dict(), f, indent=2, ensure_ascii=False)
+        
+        # Pretty completion banner
+        console.print()
+        console.print(Panel.fit(
+            f"[bold green]✅ Agent completed in {len(trajectory.steps)} steps[/bold green]",
+            border_style="green",
+        ))
+        
+        # Print output paths
+        console.print()
+        console.print("[bold]📦 Output saved to:[/bold]")
+        paths_table = Table(show_header=False, box=None, padding=(0, 2))
+        paths_table.add_column("Label", style="bold blue")
+        paths_table.add_column("Path", style="white")
+        paths_table.add_row("Agent output files", str(files_dir))
+        paths_table.add_row("Execution trajectory", str(trajectory_file))
+        console.print(paths_table)
+        
+        # Print answer.txt if exists
+        answer_file = files_dir / "answer.txt"
+        if answer_file.exists():
+            answer_content = answer_file.read_text().strip()
+            if answer_content:
+                console.print()
+                console.print(Panel(
+                    f"{answer_content}\n\n[dim]📁 {answer_file}[/dim]",
+                    title="[bold cyan]📄 Answer[/bold cyan]",
+                    border_style="cyan",
+                    padding=(1, 2),
+                ))
+        
+    finally:
+        # Clean up
+        logger.info(f"Cleaning up Docker container...")
+        runtime.close()
+
+
+def main():
+    """Main entry point for CLI."""
+    fire.Fire({
+        "run": run_agent_query,
+        "build": build_docker_image,
+    })
+
+
+if __name__ == "__main__":
+    main()
