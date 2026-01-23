@@ -7,11 +7,11 @@
 
 Enabling LLMs to explore within a code sandbox (i.e., a virtual computer) to elicit general agentic intelligence.
 
-<p align="center">
-  <img src="https://llm-in-sandbox.github.io/assets/intro.png" alt="Experiment Results" width="800">
+<p align="left">
+  <img src="https://llm-in-sandbox.github.io/assets/intro.png" alt="Experiment Results" width="600">
 </p>
 
-<p align="center">
+<p align="left">
   <a href="https://www.youtube.com/watch?v=Ols-XrOwIHo&t=1s">
     <img src="https://img.youtube.com/vi/Ols-XrOwIHo/maxresdefault.jpg" alt="Demo Video" width="600">
   </a>
