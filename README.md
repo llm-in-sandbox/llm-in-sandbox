@@ -2,7 +2,7 @@
 
 <p align="left">
   <a href="https://llm-in-sandbox.github.io">🌐 Project Page</a> •
-  <a href="https://arxiv.org/abs/xxxx.xxxxx">📄 Paper</a>
+  <a href="https://arxiv.org/abs/2601.16206">📄 Paper</a>
 </p>
 
 Enabling LLMs to explore within a code sandbox (i.e., a virtual computer) to elicit general agentic intelligence.
