@@ -7,3 +7,4 @@ __pycache__/
 *dummy*
 dist/
 demo_page/
+uv.lock

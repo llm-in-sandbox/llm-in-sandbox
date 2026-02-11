@@ -49,6 +49,16 @@ class DockerRuntime:
         
         if logger is None:
             self.logger = get_logger("DockerRuntime")
+        elif logger is False:
+            # Quiet mode - only show warnings and errors
+            self.logger = logging.getLogger("DockerRuntime.quiet")
+            if not self.logger.handlers:
+                handler = logging.StreamHandler()
+                handler.setFormatter(logging.Formatter(
+                    '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+                ))
+                self.logger.addHandler(handler)
+            self.logger.setLevel(logging.WARNING)
         else:
             self.logger = logger
 
@@ -339,3 +349,14 @@ class DockerRuntime:
                 self.logger.info(f"Container {self.container_name} stopped and removed")
             except Exception as e:
                 self.logger.warning(f"Error stopping container: {e}")
+            finally:
+                self.container = None  # Mark as closed
+    
+    def __del__(self):
+        """Destructor - ensure container is cleaned up even if close() wasn't called."""
+        if hasattr(self, 'container') and self.container is not None:
+            try:
+                self.container.stop(timeout=2)
+                self.container.remove(force=True)
+            except Exception:
+                pass  # Best effort cleanup

@@ -9,14 +9,14 @@ system_prompt: |-
   1. Read the problem carefully
   2. Analyze the problem and determine the solution approach
   3. **MUST write code to a file and execute it** - DO NOT just think about the answer, use print statements directly, or hardcode answers
-  4. Save the computation result to /testbed/output/answer.txt file
+  4. Save the computation result to {output_dir}/answer.txt file
   </WORKFLOW>
 
   <IMPORTANT_NOTES>
   - For multiple-choice problems, the answer file must contain ONLY the choice letter (A, B, C, or D)
   - Do not include any explanatory text in the answer file
   - Use execute_bash to run scripts or commands
-  - Use str_replace_editor to create the /testbed/output/answer.txt file
+  - Use str_replace_editor to create the {output_dir}/answer.txt file
   - Use submit to finish once you have completed the task
   </IMPORTANT_NOTES>
 
@@ -36,8 +36,12 @@ instance_prompt: |-
   {problem_statement}
   </problem>
 
-  Please solve this multiple-choice chemistry problem step by step and write ONLY the choice letter (A, B, C, or D) to /testbed/output/answer.txt file.
+  Please solve this multiple-choice chemistry problem step by step and write ONLY the choice letter (A, B, C, or D) to {output_dir}/answer.txt file.
   
   Do NOT include any explanation or additional text in the answer file, just the single letter.
   
   Working directory: {working_dir}
+
+# Container paths (can be customized)
+output_dir: "/testbed"
+working_dir: "/testbed"

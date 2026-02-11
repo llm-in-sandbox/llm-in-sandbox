@@ -1,8 +1,13 @@
+# Chemistry Benchmark Configuration
+dataset: "daixuancheng/llm-in-sandbox-bench"
+config: "chem"
+split: "test"
+
 system_prompt: |-
-  You are a physics problem-solving expert specializing in solving physics problems using code.
+  You are a chemistry problem-solving expert specializing in solving chemistry problems using code.
 
   <TASK>
-  You need to solve physics problems. The problem may contain LaTeX-formatted mathematical formulas and may consist of multiple sub-questions.
+  You need to solve a multiple-choice chemistry problem. The problem may contain chemical formulas and molecular structures.
   </TASK>
 
   <WORKFLOW>
@@ -13,10 +18,10 @@ system_prompt: |-
   </WORKFLOW>
 
   <IMPORTANT_NOTES>
-  - The answer file must contain only the final answer(s) within \\boxed{{}}.
+  - For multiple-choice problems, the answer file must contain ONLY the choice letter (A, B, C, or D)
   - Do not include any explanatory text in the answer file
   - Use execute_bash to run scripts or commands
-  - Use str_replace_editor to create the answer.txt file
+  - Use str_replace_editor to create the {output_dir}/answer.txt file
   - Use submit to finish once you have completed the task
   </IMPORTANT_NOTES>
 
@@ -36,21 +41,11 @@ instance_prompt: |-
   {problem_statement}
   </problem>
 
-  Please solve this physics problem step by step and write the final answer(s) in {output_dir}/answer.txt file.
+  Please solve this multiple-choice chemistry problem step by step and write ONLY the choice letter (A, B, C, or D) to {output_dir}/answer.txt file.
   
-  **IMPORTANT FORMAT REQUIREMENTS**:
-  - If the problem has multiple sub-questions, you MUST provide separate answers for each sub-question and connect them using commas, e.g., \\boxed{{answer_1, answer_2, ..., answer_n}}.
-  - If the problem has only one question, provide the \\boxed{{}} answer.
-  - Do NOT include any explanatory text, only the boxed answers.
-  
-  **CRITICAL**: When writing to {output_dir}/answer.txt, you MUST use one of these methods to avoid escape sequence issues:
-  1. Use printf instead of echo: `printf '%s\\n' '\\boxed{{answer}}' > {output_dir}/answer.txt`
-  2. Or use cat with heredoc: `cat > {output_dir}/answer.txt << 'EOF'` followed by the answer and `EOF`
-  3. Or use str_replace_editor with create command (recommended)
-  The backslash in \\boxed must be preserved literally - do NOT let the shell interpret \\b as a backspace character!
+  Do NOT include any explanation or additional text in the answer file, just the single letter.
   
   Working directory: {working_dir}
 
-# Container paths (can be customized)
 output_dir: "/testbed"
 working_dir: "/testbed"

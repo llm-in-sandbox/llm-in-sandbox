@@ -1,3 +1,19 @@
+# -----------------------------------------------------------------------------
+# Dataset Configuration
+# -----------------------------------------------------------------------------
+# Option 1: Local JSON file
+dataset: "json"
+data_files: "demo/data.json"
+split: "train"
+
+# Option 2: HuggingFace dataset (uncomment to use)
+# dataset: "daixuancheng/llm-in-sandbox-bench"
+# config: "math"
+# split: "test"
+
+# -----------------------------------------------------------------------------
+# Prompt Configuration (for LLM-in-Sandbox mode)
+# -----------------------------------------------------------------------------
 system_prompt: |-
   You are an expert specializing in solving complex problems using code.
 
@@ -52,7 +68,7 @@ instance_prompt: |-
   Input files (if any): {input_dir}
   Output directory: {output_dir}
 
-# Container paths for input/output (NOTE that these are paths within the sandbox container, NOT your local machine)
-working_dir: "/testbed"
+# Paths for input/output within the sandbox container, NOT your local machine (default: /testbed/input, /testbed/output)
 input_dir: "/testbed/input"
 output_dir: "/testbed/output"
+working_dir: "/testbed"

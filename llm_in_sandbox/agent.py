@@ -17,13 +17,11 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.text import Text
 from rich.logging import RichHandler
+from rich.markup import escape
 
 from .action import Action
 from .trajectory import TrajectoryStep, Trajectory
 from .tools import str_replace_editor_tool, execute_bash_tool, submit_tool
-
-# Rich console for pretty output
-console = Console()
 
 
 def get_logger(name: str) -> logging.Logger:
@@ -65,10 +63,10 @@ class AgentArgs:
     llm_name: str
     llm_base_url: Optional[str] = None
     max_retries: int = 5
-    timeout: int = 3000
     save_litellm_response: bool = False
     output_dir: Optional[str] = None
     extra_body: Optional[Dict[str, Any]] = None
+    quiet: bool = False  # Disable console output (for benchmark mode)
 
 
 class Agent:
@@ -79,12 +77,25 @@ class Agent:
     def __init__(self, args: AgentArgs, logger=None):
         self.args = args
         self.llm_name = args.llm_name
+        self.quiet = args.quiet  # Disable console output (for benchmark mode)
         
-        # Set up logger
+        # Console for output (quiet mode captures to StringIO for later retrieval)
+        if self.quiet:
+            import io
+            self._console_buffer = io.StringIO()
+            self.console = Console(file=self._console_buffer, record=True, force_terminal=True, width=100)
+        else:
+            self._console_buffer = None
+            self.console = Console()
+        
+        # Set up logger (disable in quiet mode)
         if logger is None:
             self.logger = get_logger("Agent")
         else:
             self.logger = logger
+        
+        if self.quiet:
+            self.logger.setLevel(logging.WARNING)  # Only show warnings and errors
         
         # Configure LLM base URL
         self.llm_base_url = args.llm_base_url
@@ -95,9 +106,8 @@ class Agent:
         self.system_prompt_template = args.system_prompt
         self.instance_prompt_template = args.instance_prompt
         self.max_retries = args.max_retries
-        self.llm_timeout = args.timeout
         
-        # Extra body params (e.g., {"chat_template_kwargs": {"thinking": True}})
+        # Extra body params (e.g., {"chat_template_kwargs": {"thinking": True}
         self.extra_body = args.extra_body
         
         self.logger.info(f"Initialized Agent with LLM: {self.llm_name}")
@@ -114,6 +124,12 @@ class Agent:
         # Initialize trajectory
         self.trajectory_steps: List[TrajectoryStep] = []
         self.history: List[Dict[str, str]] = []
+
+    def get_console_output(self) -> str:
+        """Get captured console output (only available in quiet mode)."""
+        if self.quiet and hasattr(self.console, 'export_text'):
+            return self.console.export_text()
+        return ""
 
     def reset(self):
         """Reset the agent's trajectory."""
@@ -132,7 +148,7 @@ class Agent:
     def model_query(
         self,
         messages: List[Dict[str, str]],
-        temperature: float = 0,
+        temperature: float = 1.0,
         max_tokens_per_call: int = 65536,
         max_token_limit: int = 65536,
     ) -> Tuple[Any, float]:
@@ -164,10 +180,8 @@ class Agent:
                 if "o3" not in self.llm_name and "o4" not in self.llm_name:
                     kwargs["temperature"] = temperature
                 
-                # Extra params for non-OpenAI models
+                # Merge user's extra_body if provided
                 extra_params = {}
-                
-                # Use custom extra_body if provided
                 if self.extra_body:
                     extra_params["extra_body"] = self.extra_body
 
@@ -175,7 +189,7 @@ class Agent:
                     model=self.llm_name,
                     tools=tools,
                     messages=messages_,
-                    timeout=self.llm_timeout,
+                    timeout=1200,  # 20 min HTTP timeout (includes queue + generation)
                     api_base=self.llm_base_url,
                     max_tokens=max_tokens_per_call,
                     **extra_params,
@@ -185,12 +199,56 @@ class Agent:
                 
                 # Save litellm request and response if enabled
                 if self.save_litellm_response and self.output_dir:
-                    self._save_litellm_response(messages_, response, extra_params, kwargs)
+                    self._save_litellm_response(messages_, response, tools, extra_params, kwargs)
                 
                 break
                 
             except Exception as e:
+                error_msg = str(e)
                 self.logger.error(f"LLM query failed @ {retries}: {e}")
+                
+                # Check if it's a token limit error
+                if "token" in error_msg.lower() and ("exceed" in error_msg.lower() or "limit" in error_msg.lower() or "maximum" in error_msg.lower()):
+                    self.logger.warning(f"⚠️ Token limit error detected, attempting to handle...")
+                    
+                    # Parse error message:
+                    # "maximum context length of 163840 tokens. You requested a total of 179069 tokens: 113533 tokens from the input messages and 65536 tokens for the completion"
+                    context_match = re.search(r'(?:maximum|context)[^\d]*(\d+)\s*tokens', error_msg, re.IGNORECASE)
+                    input_match = re.search(r'(\d+)\s*tokens?\s*(?:from\s*(?:the\s*)?(?:input|messages?)|in\s*(?:the\s*)?(?:input|prompt|messages?))', error_msg, re.IGNORECASE)
+                    
+                    max_context = int(context_match.group(1)) if context_match else None
+                    current_input_tokens = int(input_match.group(1)) if input_match else None
+                    
+                    # Minimum completion tokens to preserve
+                    min_completion_tokens = 8192
+                    
+                    self.logger.warning(f"📊 Parsed error: max_context={max_context}, input={current_input_tokens}, max_tokens_per_call={max_tokens_per_call}")
+                    
+                    if max_context and current_input_tokens:
+                        # Strategy 1: Reduce max_tokens (completion tokens)
+                        available_for_completion = max_context - current_input_tokens - 100  # 100 buffer
+                        
+                        if available_for_completion >= min_completion_tokens:
+                            new_max_tokens = min(available_for_completion, max_tokens_per_call)
+                            if new_max_tokens < max_tokens_per_call:
+                                self.logger.warning(f"📉 Token limit exceeded, reducing max_tokens: {max_tokens_per_call} -> {new_max_tokens} (input {current_input_tokens}, context {max_context})")
+                                max_tokens_per_call = new_max_tokens
+                                continue
+                        
+                        # Not enough space even with min_completion_tokens
+                        self.logger.warning(f"⚠️ Input tokens ({current_input_tokens}) too large, cannot fit in context ({max_context}) with min completion space")
+                        raise
+                    else:
+                        # Cannot parse complete info, try reducing max_tokens
+                        if max_tokens_per_call > min_completion_tokens:
+                            new_max_tokens = max(int(max_tokens_per_call * 0.5), min_completion_tokens)
+                            self.logger.warning(f"📉 Token limit exceeded (incomplete parse), reducing max_tokens: {max_tokens_per_call} -> {new_max_tokens}")
+                            max_tokens_per_call = new_max_tokens
+                            continue
+                        else:
+                            self.logger.warning(f"⚠️ max_tokens already at minimum ({min_completion_tokens}), cannot reduce further")
+                            raise
+                
                 retries += 1
                 
                 if "RateLimitError" in str(e):
@@ -202,11 +260,11 @@ class Agent:
         exec_time = time.time() - start_time
         return response, exec_time
 
-    def _save_litellm_response(self, messages: List[Dict], response, extra_params: Dict, kwargs: Dict):
+    def _save_litellm_response(self, messages: List[Dict], response, tools: List[Dict], extra_params: Dict, kwargs: Dict):
         """Save litellm request and response to output_dir for debugging."""
         try:
             self.llm_call_count += 1
-            save_path = os.path.join(self.output_dir, "litellm_logs")
+            save_path = self.output_dir
             os.makedirs(save_path, exist_ok=True)
             
             # Save request
@@ -264,7 +322,7 @@ class Agent:
         max_steps: int = 30,
         max_token_limit: int = 65536,
         max_tokens_per_call: int = 65536,
-        temperature: float = 0,
+        temperature: float = 1.0,
     ) -> Trajectory:
         """
         Run the agent on the task.
@@ -297,7 +355,6 @@ class Agent:
         if self.instance_prompt_template:
             user_prompt = self.instance_prompt_template.format(
                 problem_statement=problem_statement,
-                working_dir="/testbed",
             )
         else:
             user_prompt = problem_statement
@@ -309,14 +366,14 @@ class Agent:
         ]
         
         # Print prompts
-        console.print(Panel(
-            system_prompt[:1000] + "..." if len(system_prompt) > 1000 else system_prompt,
+        self.console.print(Panel(
+            escape(system_prompt[:2000] + "..." if len(system_prompt) > 2000 else system_prompt),
             title="[bold cyan]SYSTEM PROMPT[/bold cyan]",
             border_style="cyan",
             padding=(0, 1),
         ))
-        console.print(Panel(
-            user_prompt[:1000] + "..." if len(user_prompt) > 1000 else user_prompt,
+        self.console.print(Panel(
+            escape(user_prompt[:2000] + "..." if len(user_prompt) > 2000 else user_prompt),
             title="[bold cyan]USER PROMPT[/bold cyan]",
             border_style="cyan",
             padding=(0, 1),
@@ -327,8 +384,8 @@ class Agent:
         
         while not done and step_count < max_steps:
             # Pretty step header
-            console.print()
-            console.rule(f"[bold blue]Step {step_count + 1}/{max_steps}[/bold blue]", style="blue")
+            self.console.print()
+            self.console.rule(f"[bold blue]Step {step_count + 1}/{max_steps}[/bold blue]", style="blue")
             
             # Add step count message to history (R2E style: remaining = max - current)
             steps_remaining = max_steps - step_count
@@ -366,8 +423,8 @@ class Agent:
             # Pretty print reasoning_content if present
             if reasoning_content:
                 thought_display = reasoning_content[:2000] + "..." if len(reasoning_content) > 2000 else reasoning_content
-                console.print(Panel(
-                    thought_display,
+                self.console.print(Panel(
+                    escape(thought_display),
                     title="[bold magenta]🧠 REASONING CONTENT[/bold magenta]",
                     border_style="magenta",
                     padding=(0, 1),
@@ -379,8 +436,8 @@ class Agent:
             # Pretty print thought
             if thought:
                 thought_display = thought[:1000] + "..." if len(thought) > 1000 else thought
-                console.print(Panel(
-                    thought_display,
+                self.console.print(Panel(
+                    escape(thought_display),
                     title="[bold magenta]💭 THOUGHT[/bold magenta]",
                     border_style="magenta",
                     padding=(0, 1),
@@ -392,8 +449,8 @@ class Agent:
                 params_str = json.dumps(action.parameters, indent=2, ensure_ascii=False)
                 if len(params_str) > 300:
                     params_str = params_str[:300] + "..."
-                action_text += f"\n{params_str}"
-            console.print(Panel(
+                action_text += f"\n{escape(params_str)}"
+            self.console.print(Panel(
                 action_text,
                 title="[bold yellow]⚡ ACTION[/bold yellow]",
                 border_style="yellow",
@@ -405,8 +462,8 @@ class Agent:
             
             # Pretty print observation
             obs_display = observation[:800] + "..." if len(observation) > 800 else observation
-            console.print(Panel(
-                obs_display,
+            self.console.print(Panel(
+                escape(obs_display),
                 title="[bold green]👁 OBSERVATION[/bold green]",
                 border_style="green",
                 padding=(0, 1),
@@ -432,12 +489,18 @@ class Agent:
                 assistant_msg_dict = dict(assistant_msg)
             self.history.append(assistant_msg_dict)
             
-            # Add tool result
+            # Add tool result or CONTINUE_MSG
             if action.function_name and tool_call_id:
                 self.history.append({
                     "role": "tool",
                     "tool_call_id": tool_call_id,
                     "content": observation,
+                })
+            elif not action.function_name:
+                # Model didn't use tool_calls, send CONTINUE_MSG as user message
+                self.history.append({
+                    "role": "user",
+                    "content": observation,  # This is CONTINUE_MSG
                 })
             
             # Check if done
@@ -459,8 +522,13 @@ class Agent:
 
     def _execute_action(self, action: Action, runtime) -> str:
         """Execute an action in the runtime."""
-        if not action.function_name:
-            return "No action provided."
+        from .observation import Observation
+        
+        if not action.function_name or not isinstance(action.parameters, dict):
+            # Use Observation class to return CONTINUE_MSG
+            # This handles: empty function_name, or malformed parameters (e.g., str instead of dict)
+            obs = Observation(bash_output="", error_code=0, action=action)
+            return str(obs)
         
         if action.function_name == "execute_bash":
             command = action.parameters.get("command", "")
@@ -469,8 +537,6 @@ class Agent:
             # Use demux_run to get separate stdout and stderr
             stdout, stderr, exit_code = runtime.demux_run(command)
             
-            # Import Observation to format output with separated stdout/stderr
-            from .observation import Observation
             obs = Observation(
                 bash_output=stdout + stderr,  # Combined for backward compatibility
                 error_code=exit_code,
@@ -481,11 +547,13 @@ class Agent:
             return str(obs)
         
         elif action.function_name == "str_replace_editor":
-            return self._execute_str_replace_editor(action, runtime)
+            result = self._execute_str_replace_editor(action, runtime)
+            obs = Observation(bash_output=result, error_code=0, action=action)
+            return str(obs)
         
         elif action.function_name == "submit":
-            submission = action.parameters.get("submission", "")
-            return f"Submitted: {submission}"
+            obs = Observation(bash_output="", error_code=0, action=action)
+            return str(obs)
         
         else:
             return f"Unknown action: {action.function_name}"
@@ -494,15 +562,21 @@ class Agent:
         """Execute str_replace_editor action."""
         SNIPPET_LINES = 4
         MAX_RESPONSE_LEN = 10000
+        TRUNCATED_MESSAGE = (
+            "<response clipped><NOTE>To save on context only part of this file has been "
+            "shown to you. You should retry this tool after you have searched inside the file "
+            "with `grep -n` in order to find the line numbers of what you are looking for.</NOTE>"
+        )
         
-        def maybe_truncate(content: str, max_len: int = MAX_RESPONSE_LEN) -> str:
-            if len(content) <= max_len:
+        def maybe_truncate(content: str, truncate_after: int = MAX_RESPONSE_LEN) -> str:
+            if not truncate_after or len(content) <= truncate_after:
                 return content
-            return content[:max_len] + "\n<response clipped>"
+            return content[:truncate_after] + TRUNCATED_MESSAGE
         
         def make_output(file_content: str, file_descriptor: str, init_line: int = 1) -> str:
             """Format file content with line numbers like cat -n."""
             file_content = maybe_truncate(file_content)
+            file_content = file_content.expandtabs()
             lines = file_content.split("\n")
             numbered = "\n".join(f"{i + init_line:6}\t{line}" for i, line in enumerate(lines))
             return f"Here's the result of running `cat -n` on {file_descriptor}:\n{numbered}\n"
@@ -521,19 +595,24 @@ class Agent:
             path_type = path_type.strip()
             
             if path_type == "dir":
-                # List directory contents up to 2 levels deep (non-hidden files)
-                cmd = f"find {path} -maxdepth 2 -not -name '.*' -not -path '*/\\.*' | head -100"
+                # List directory contents up to 2 levels deep (only .py and .rst files, like R2E-Gym)
+                cmd = f"find {path} -maxdepth 2 -not -path '*/.*' \\( -type d -o -name '*.py' -o -name '*.rst' \\) | head -100"
                 output, _ = runtime.run(cmd)
                 if output:
                     return f"Here's the files and directories up to 2 levels deep in {path}, excluding hidden:\n{output}"
                 return f"(empty directory: {path})"
             elif path_type == "file":
+                # Only allow viewing .py and .rst files (like R2E-Gym)
+                if not (path.endswith('.py') or path.endswith('.rst')):
+                    return f"ERROR: Viewing non-Python files is disallowed for saving context. File '{path}' is not a .py or .rst file."
+                
                 view_range = params.get("view_range")
                 # Read full file first
                 file_content, _ = runtime.run(f"cat {path}")
                 if not file_content:
                     return f"(empty file: {path})"
                 
+                file_content = file_content.expandtabs()
                 lines = file_content.split('\n')
                 total_lines = len(lines)
                 
@@ -569,7 +648,7 @@ class Agent:
             # Escape the text for shell
             escaped_text = file_text.replace("'", "'\"'\"'")
             cmd = f"mkdir -p $(dirname {path}) && echo '{escaped_text}' > {path}"
-            _, exit_code = runtime.run(cmd)
+            output, exit_code = runtime.run(cmd)
             if "Error" in str(exit_code):
                 return f"Error creating file: {output}"
             
@@ -590,6 +669,11 @@ class Agent:
             file_content, _ = runtime.run(f"cat {path}")
             if not file_content:
                 return f"Error: Could not read file {path}"
+            
+            # Expand tabs (like R2E-Gym)
+            file_content = file_content.expandtabs()
+            old_str = old_str.expandtabs()
+            new_str = new_str.expandtabs() if new_str else ""
             
             # Check occurrences
             occurrences = file_content.count(old_str)
@@ -632,6 +716,9 @@ class Agent:
             
             # Read the file
             file_content, _ = runtime.run(f"cat {path}")
+            # Expand tabs (like R2E-Gym)
+            file_content = file_content.expandtabs() if file_content else ""
+            new_str = new_str.expandtabs()
             lines = file_content.split('\n') if file_content else []
             
             # Validate insert_line

@@ -20,13 +20,18 @@ Enabling LLMs to explore within a code sandbox (i.e., a virtual computer) to eli
   <em>▶️ Click to watch the demo video</em>
 </p>
 
-
-
 **Features:**
-- 🌍 General-purpose: works beyond coding—scientific reasoning, long-cotext understanding, video production, travel planning, and more
+- 🌍 General-purpose: works beyond coding—scientific reasoning, long-context understanding, video production, travel planning, and more
 - 🐳 Isolated execution environment via Docker containers
 - 🔌 Compatible with OpenAI, Anthropic, and self-hosted servers (vLLM, SGLang, etc.)
 - 📁 Flexible I/O: mount any input files, export any output files
+
+## Table of Contents
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [More Examples](#more-examples)
+- [Benchmark and Reproduction](#benchmark-and-reproduction)
+- [Citation](#citation)
 
 ## Installation
 
@@ -55,7 +60,6 @@ Modify [Dockerfile](./docker/Dockerfile) and build your own image:
 
 ```bash
 llm-in-sandbox build
-# Then use: --docker_image llm-in-sandbox:v0.1
 ```
 
 </details>
@@ -85,7 +89,8 @@ vllm serve Qwen/Qwen3-Coder-30B-A3B-Instruct \
     --served-model-name qwen3_coder \
     --enable-auto-tool-choice \
     --tool-call-parser qwen3_coder \
-    --tensor-parallel-size 8
+    --tensor-parallel-size 8  \
+    --enable-prefix-caching
 ```
 
 **2. Run agent (in a new terminal once server is ready):**
@@ -158,9 +163,16 @@ output/2026-01-16_14-30-00/
 
 ## More Examples
 
-We provide examples across diverse non-coding domains: scientific reasoning, long-cotext understanding, instruction following, travel planning, video production, music composition, poster design, and more.
+We provide examples across diverse non-coding domains: scientific reasoning, long-context understanding, instruction following, travel planning, video production, music composition, poster design, and more.
 
 👉 See [examples/README.md](./examples/README.md) for the full list.
+
+## Benchmark and Reproduction
+
+Reproduce our paper results, evaluate any LLM in the sandbox, or add your own tasks.
+
+👉 See [llm_in_sandbox/benchmark/README.md](./llm_in_sandbox/benchmark/README.md)
+
 
 ## Contact Us
 

@@ -1,26 +1,6 @@
 #!/usr/bin/env python
 """
 LLM-in-Sandbox CLI - Run LLM agents in local Docker containers
-
-Usage:
-    # First time: build the Docker image (only needed once)
-    llm-in-sandbox build
-    
-    # Or pull a pre-built image
-    docker pull python:3.12-slim
-    
-    # Run the agent
-    llm-in-sandbox run --query "Your task description"
-
-Example:
-    # Build the default Docker image
-    llm-in-sandbox build
-    
-    # Run with a query
-    llm-in-sandbox run \
-        --query "Create a Python script that prints Hello World" \
-        --llm_name "openai/gpt-4" \
-        --max_steps 30
 """
 import os
 import sys
@@ -42,6 +22,7 @@ import fire
 from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
+from rich.markup import escape
 
 from .docker_runtime import DockerRuntime
 from .agent import Agent, AgentArgs, get_logger
@@ -236,8 +217,8 @@ def run_agent_query(
     docker_image: str = DEFAULT_DOCKER_IMAGE,
     max_steps: int = 100,
     temperature: float = 1.0,
-    max_token_limit: int = 64000,
-    max_tokens_per_call: int = 64000,
+    max_token_limit: int = 65536,
+    max_tokens_per_call: int = 65536,
     input_dir: Optional[str] = None,
     output_dir: Optional[str] = None,
     llm_base_url: Optional[str] = None,
@@ -256,10 +237,10 @@ def run_agent_query(
         docker_image: Docker image to use (default: cdx123/llm-in-sandbox:v0.1)
         max_steps: Maximum number of steps (default: 100)
         temperature: Temperature for LLM (default: 1.0)
-        max_token_limit: Maximum token limit for the whole trajectory (default: 64000)
-        max_tokens_per_call: Maximum tokens per LLM API call (default: 64000)
-        input_dir: Local directory to copy into container at /testbed/input
-        output_dir: Local directory to save container's /testbed/output contents
+        max_token_limit: Maximum token limit for the whole trajectory
+        max_tokens_per_call: Maximum tokens per LLM API call
+        input_dir: Local directory to copy into container at container's {input_dir}
+        output_dir: Local directory to save container's {output_dir} contents
         llm_base_url: LLM API base URL (default: from LLM_BASE_URL env var)
         api_key: API key for the LLM service (default: from OPENAI_API_KEY env var)
         prompt_config: Path to yaml file with system_prompt and instance_prompt (default: ./config/general.yaml)
@@ -309,6 +290,13 @@ def run_agent_query(
         config = load_prompt_config(config_path)
         system_prompt = config.get("system_prompt", "")
         instance_prompt = config.get("instance_prompt", "")
+        # Get container paths from config (defaults: /testbed, /testbed/input, /testbed/output)
+        working_dir = config.get("working_dir", "/testbed")
+        container_input_dir = config.get("input_dir", "/testbed/input")
+        container_output_dir = config.get("output_dir", "/testbed/output")
+        # Replace placeholders in prompts
+        system_prompt = system_prompt.replace("{input_dir}", container_input_dir).replace("{output_dir}", container_output_dir).replace("{working_dir}", working_dir)
+        instance_prompt = instance_prompt.replace("{input_dir}", container_input_dir).replace("{output_dir}", container_output_dir).replace("{working_dir}", working_dir)
     else:
         raise FileNotFoundError(f"Prompt config not found: {config_path}")
     
@@ -342,17 +330,14 @@ def run_agent_query(
     logger.info(f"Starting Docker container...")
     runtime = DockerRuntime(
         docker_image=docker_image,
-        repo_path="/testbed",
+        repo_path=working_dir,
         logger=logger,
     )
     
-    # Setup input/output directories in container
-    runtime.run("mkdir -p /testbed/input /testbed/output")
-    
     # Copy input files to container if provided
     if input_dir and os.path.isdir(input_dir):
-        logger.info(f"Copying input files from {input_dir} to /testbed/input")
-        runtime.copy_dir_to_container(input_dir, "/testbed/input")
+        logger.info(f"Copying input files from {input_dir} to container's {container_input_dir}")
+        runtime.copy_dir_to_container(input_dir, container_input_dir)
     
     def _fix_string_bools(obj):
         """Recursively convert string 'true'/'false' to bool True/False."""
@@ -409,9 +394,9 @@ def run_agent_query(
         # Copy output files from container to files/ subdirectory
         files_dir = output_dir / "files"
         files_dir.mkdir(parents=True, exist_ok=True)
-        logger.info(f"Copying output files from container /testbed/output to {files_dir}")
+        logger.info(f"Copying output files from container's {container_output_dir} to {files_dir}")
         try:
-            runtime.copy_from_container("/testbed/output", str(files_dir))
+            runtime.copy_from_container(container_output_dir, str(files_dir))
         except Exception as e:
             logger.warning(f"Could not copy output from container: {e}")
         
@@ -445,7 +430,7 @@ def run_agent_query(
             if answer_content:
                 console.print()
                 console.print(Panel(
-                    f"{answer_content}\n\n[dim]📁 {answer_file}[/dim]",
+                    f"{escape(answer_content)}\n\n[dim]📁 {answer_file}[/dim]",
                     title="[bold cyan]📄 Answer[/bold cyan]",
                     border_style="cyan",
                     padding=(1, 2),
@@ -457,11 +442,140 @@ def run_agent_query(
         runtime.close()
 
 
+def run_benchmark(
+    task: str,
+    llm_name: str = None,
+    docker_image: str = DEFAULT_DOCKER_IMAGE,
+    max_steps: int = 100,
+    temperature: float = None,
+    max_token_limit: int = 65536,
+    max_tokens_per_call: int = 65536,
+    max_response_len: int = 65536,
+    output_dir: str = None,
+    llm_base_url: str = None,
+    api_key: str = None,
+    extra_body: str = None,
+    settings: str = None,
+    num_workers: int = None,
+    start_id: int = None,
+    end_id: int = None,
+    mode: str = "llm-in-sandbox",
+    save_litellm_response: bool = False,
+):
+    """
+    Run benchmark on a specific task.
+    
+    Args:
+        mode: "llm-in-sandbox" (default) or "llm" (vanilla LLM without sandbox)
+    
+    Example:
+        llm-in-sandbox benchmark --task math --llm_name openai/gpt-5 --num_workers 4
+        llm-in-sandbox benchmark --task math --llm_name openai/gpt-5 --mode llm
+    """
+    from llm_in_sandbox.benchmark.runner import run_benchmark as _run_benchmark
+    
+    logger = get_logger("llm-in-sandbox")
+    runtime_settings, _ = load_runtime_settings(settings)
+    
+    # Resolve parameters: CLI args > env vars > settings file > defaults
+    llm_name = llm_name or os.environ.get("LLM_NAME") or runtime_settings.get("llm_name")
+    llm_base_url = llm_base_url or os.environ.get("LLM_BASE_URL") or runtime_settings.get("llm_base_url")
+    api_key = api_key or os.environ.get("LLM_API_KEY") or runtime_settings.get("api_key")
+    if temperature is None:
+        temperature = float(os.environ.get("LLM_TEMPERATURE", "1.0"))
+    if num_workers is None:
+        num_workers = int(os.environ.get("LLM_NUM_WORKERS", "1"))
+    
+    if not llm_name:
+        raise ValueError("llm_name is required")
+    
+    # Set API keys (use placeholder for local vLLM)
+    api_key = api_key or "sk-placeholder"
+    os.environ["OPENAI_API_KEY"] = os.environ["ANTHROPIC_API_KEY"] = str(api_key)
+    if llm_base_url:
+        os.environ["LLM_BASE_URL"] = llm_base_url
+    if not llm_name.startswith(("openai/", "anthropic/", "azure/", "hosted_vllm/")):
+        llm_name = f"openai/{llm_name}"
+    
+    # Setup output directory: output/{timestamp}_{task}_{llm_name}_{mode}/
+    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    mode_suffix = "vanillaLLM" if mode == "llm" else "LLMinSandbox"
+    llm_name_safe = llm_name.replace("/", "_")  # openai/qwen3_coder -> openai_qwen3_coder
+    output_dir = Path(output_dir or Path.cwd() / "output") / f"{timestamp}_{task}_{llm_name_safe}_{mode_suffix}"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Validate mode
+    if mode not in ("llm", "llm-in-sandbox"):
+        raise ValueError(f"Invalid mode: {mode}. Must be 'llm' or 'llm-in-sandbox'")
+    
+    # Only check docker image for llm-in-sandbox mode
+    if mode == "llm-in-sandbox":
+        if not ensure_docker_image(docker_image, logger):
+            console.print(f"[red]Docker image '{docker_image}' not found![/red]")
+            sys.exit(1)
+    
+    def _fix_string_bools(obj):
+        """Recursively convert string 'true'/'false' to bool True/False."""
+        if isinstance(obj, dict):
+            return {k: _fix_string_bools(v) for k, v in obj.items()}
+        elif isinstance(obj, list):
+            return [_fix_string_bools(item) for item in obj]
+        elif isinstance(obj, str):
+            if obj.lower() == 'true':
+                return True
+            elif obj.lower() == 'false':
+                return False
+        return obj
+    
+    # Handle extra_body: could be dict (from fire) or JSON string
+    extra_body_dict = None
+    if extra_body:
+        if isinstance(extra_body, dict):
+            extra_body_dict = extra_body
+        elif isinstance(extra_body, str):
+            try:
+                extra_body_dict = json.loads(extra_body)
+            except json.JSONDecodeError as e:
+                logger.error(f"Failed to parse extra_body JSON: {e}")
+                raise ValueError(f"Invalid extra_body JSON: {extra_body}")
+        # Fix string bools like 'true' -> True
+        extra_body_dict = _fix_string_bools(extra_body_dict)
+        logger.info(f"Using extra_body: {extra_body_dict}")
+    
+    # Agent configuration (passed to subprocesses)
+    agent_config = {
+        "docker_image": docker_image,
+        "llm_name": llm_name,
+        "llm_base_url": llm_base_url or os.environ.get("LLM_BASE_URL"),
+        "max_steps": max_steps,
+        "temperature": temperature,
+        "max_token_limit": max_token_limit,
+        "max_tokens_per_call": max_tokens_per_call,
+        "max_response_len": max_response_len,
+        "extra_body": extra_body_dict,
+        "save_litellm_response": save_litellm_response,
+    }
+    
+    # Run benchmark
+    results = _run_benchmark(
+        task_name=task,
+        agent_config=agent_config,
+        output_dir=str(output_dir),
+        num_workers=num_workers,
+        start_id=start_id,
+        end_id=end_id,
+        mode=mode,
+    )
+    
+    return results
+
+
 def main():
     """Main entry point for CLI."""
     fire.Fire({
         "run": run_agent_query,
         "build": build_docker_image,
+        "benchmark": run_benchmark,
     })
 
 

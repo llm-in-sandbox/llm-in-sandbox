@@ -2,8 +2,7 @@ from typing import Dict
 from .action import Action
 
 CONTINUE_MSG = """
-You forgot to use a function call in your response.
-If you think you have completed the task, please use the `submit` tool to finish.
+You forgot to use a function call in your response. 
 YOU MUST USE A FUNCTION CALL IN EACH RESPONSE.
 
 IMPORTANT: YOU SHOULD NEVER ASK FOR HUMAN HELP.
@@ -61,7 +60,7 @@ class Observation:
                     if stdout_str.strip():
                         output_parts.append(f"\\[STDOUT]\n{stdout_str}")
                     else:
-                        output_parts.append("\\[STDOUT]\n(no output)")
+                        output_parts.append("\\[STDOUT]\n")
                     
                     if stderr_str.strip():
                         output_parts.append(f"\\[STDERR]\n{stderr_str}")

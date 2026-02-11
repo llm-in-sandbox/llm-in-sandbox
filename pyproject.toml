@@ -4,8 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "llm-in-sandbox"
-version = "0.1.0"
-description = "A lightweight framework that connects LLMs to a virtual computer (Docker-based sandbox) to build general-purpose agents"
+version = "0.2.0"
+description = "Enabling LLMs to explore within a code sandbox (i.e., a virtual computer) to elicit general agentic intelligence."
 readme = "README.md"
 license = "Apache-2.0"
 requires-python = ">=3.10"
@@ -47,6 +47,7 @@ dependencies = [
     "fire>=0.5.0",
     "pydantic>=2.0.0",
     "rich>=13.0.0",
+    "datasets>=4.0.0",
 ]
 
 [project.optional-dependencies]

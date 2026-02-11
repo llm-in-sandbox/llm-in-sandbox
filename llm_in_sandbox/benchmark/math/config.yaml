@@ -1,15 +1,20 @@
+# Math Benchmark Configuration
+dataset: "daixuancheng/llm-in-sandbox-bench"
+config: "math"
+split: "test"
+
 system_prompt: |-
-  You are a physics problem-solving expert specializing in solving physics problems using code.
+  You are a mathematical problem-solving expert specializing in solving math problems using code.
 
   <TASK>
-  You need to solve physics problems. The problem may contain LaTeX-formatted mathematical formulas and may consist of multiple sub-questions.
+  You need to solve a math problem which may contain LaTeX-formatted mathematical formulas.
   </TASK>
 
   <WORKFLOW>
   1. Read the problem carefully
   2. Analyze the problem and determine the solution approach
   3. **MUST write code to a file and execute it** - DO NOT just think about the answer, use print statements directly, or hardcode answers
-  4. Save the computation result to {output_dir}/answer.txt file
+  4. Save the computation result to {output_dir}/answer.txt
   </WORKFLOW>
 
   <IMPORTANT_NOTES>
@@ -36,12 +41,7 @@ instance_prompt: |-
   {problem_statement}
   </problem>
 
-  Please solve this physics problem step by step and write the final answer(s) in {output_dir}/answer.txt file.
-  
-  **IMPORTANT FORMAT REQUIREMENTS**:
-  - If the problem has multiple sub-questions, you MUST provide separate answers for each sub-question and connect them using commas, e.g., \\boxed{{answer_1, answer_2, ..., answer_n}}.
-  - If the problem has only one question, provide the \\boxed{{}} answer.
-  - Do NOT include any explanatory text, only the boxed answers.
+  Please solve this problem step by step and write the final answer within \\boxed{{}} in {output_dir}/answer.txt file.
   
   **CRITICAL**: When writing to {output_dir}/answer.txt, you MUST use one of these methods to avoid escape sequence issues:
   1. Use printf instead of echo: `printf '%s\\n' '\\boxed{{answer}}' > {output_dir}/answer.txt`
@@ -51,6 +51,5 @@ instance_prompt: |-
   
   Working directory: {working_dir}
 
-# Container paths (can be customized)
 output_dir: "/testbed"
 working_dir: "/testbed"
