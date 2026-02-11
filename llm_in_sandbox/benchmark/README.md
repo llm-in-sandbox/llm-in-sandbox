@@ -46,14 +46,11 @@ python3 -m sglang.launch_server \
     --host 0.0.0.0 \
     --port 8000
 ```
-
-> **Very Important!** DeepSeek-V3.2-Thinking requires an `--extra_body` flag when running benchmarks:
-> ```bash
-> llm-in-sandbox benchmark --task math ... --extra_body '{"chat_template_kwargs": {"thinking": True}}'
-> ```
 </details>
 
 ### 2. Once the server is ready, open a new terminal and set Environment Variables
+<details open>
+<summary>Environment Variables for Qwen3-Coder-30B-A3B-Instruct</summary>
 
 ```bash
 export LLM_NAME=qwen3_coder                   # must match --served-model-name
@@ -63,6 +60,23 @@ export LLM_NUM_WORKERS=8
 export LLM_TEMPERATURE=0.7
 # export LLM_API_KEY=your-api-key             # optional for local servers
 ```
+
+</details>
+
+<details>
+<summary>Environment Variables for Qwen3-4B-Instruct-2507</summary>
+
+```bash
+export LLM_NAME=qwen3-4b-instruct
+export LLM_BASE_URL=http://localhost:8000/v1
+export LLM_NUM_WORKERS=8
+# Temperature: 0.7 for Qwen3 series, 1.0 for all other LLMs evaluated in our paper
+export LLM_TEMPERATURE=0.7
+# export LLM_API_KEY=your-api-key             # optional for local servers
+```
+
+</details>
+
 <details>
 <summary>Environment Variables for DeepSeek-V3.2-Thinking</summary>
 
@@ -75,6 +89,10 @@ export LLM_TEMPERATURE=1.0
 # export LLM_API_KEY=your-api-key             # optional for local servers
 ```
 
+> **Very Important!** DeepSeek-V3.2-Thinking requires an `--extra_body` flag when running benchmarks:
+> ```bash
+> llm-in-sandbox benchmark --task math ... --extra_body '{"chat_template_kwargs": {"thinking": True}}'
+> ```
 </details>
 
 ### 3. Run a Task

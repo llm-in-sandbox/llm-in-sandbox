@@ -107,7 +107,7 @@ class Agent:
         self.instance_prompt_template = args.instance_prompt
         self.max_retries = args.max_retries
         
-        # Extra body params (e.g., {"chat_template_kwargs": {"thinking": True}
+        # Extra body params (e.g., {"chat_template_kwargs": {"thinking": True}))
         self.extra_body = args.extra_body
         
         self.logger.info(f"Initialized Agent with LLM: {self.llm_name}")
@@ -199,7 +199,7 @@ class Agent:
                 
                 # Save litellm request and response if enabled
                 if self.save_litellm_response and self.output_dir:
-                    self._save_litellm_response(messages_, response, tools, extra_params, kwargs)
+                    self._save_litellm_response(messages_, response, extra_params, kwargs)
                 
                 break
                 
@@ -260,7 +260,7 @@ class Agent:
         exec_time = time.time() - start_time
         return response, exec_time
 
-    def _save_litellm_response(self, messages: List[Dict], response, tools: List[Dict], extra_params: Dict, kwargs: Dict):
+    def _save_litellm_response(self, messages: List[Dict], response, extra_params: Dict, kwargs: Dict):
         """Save litellm request and response to output_dir for debugging."""
         try:
             self.llm_call_count += 1

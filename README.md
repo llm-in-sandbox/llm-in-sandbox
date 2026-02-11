@@ -26,6 +26,9 @@ Enabling LLMs to explore within a code sandbox (i.e., a virtual computer) to eli
 - 🔌 Compatible with OpenAI, Anthropic, and self-hosted servers (vLLM, SGLang, etc.)
 - 📁 Flexible I/O: mount any input files, export any output files
 
+## News
+- **[2026-02]** v0.2.0: Added [benchmark module](./llm_in_sandbox/benchmark/README.md) for reproducing paper results, evaluating any LLM, and adding your own tasks.
+
 ## Table of Contents
 - [Installation](#installation)
 - [Quick Start](#quick-start)
