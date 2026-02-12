@@ -3,7 +3,8 @@
 <p align="left">
   <a href="https://llm-in-sandbox.github.io">🌐 Project Page</a> •
   <a href="https://arxiv.org/abs/2601.16206">📄 Paper</a> •
-  <a href="https://huggingface.co/papers/2601.16206">🤗 Huggingface</a>
+  <a href="https://huggingface.co/papers/2601.16206">🤗 Huggingface</a>•
+  <a href="https://github.com/llm-in-sandbox/llm-in-sandbox-rl">💻 LLM-in-Sandbox-RL</a>
 </p>
 
 Enabling LLMs to explore within a code sandbox (i.e., a virtual computer) to elicit general agentic intelligence.
@@ -27,7 +28,8 @@ Enabling LLMs to explore within a code sandbox (i.e., a virtual computer) to eli
 - 📁 Flexible I/O: mount any input files, export any output files
 
 ## News
-- **[2026-02]** v0.2.0: Added [benchmark module](./llm_in_sandbox/benchmark/README.md) for reproducing paper results, evaluating any LLM, and adding your own tasks.
+- **[2026-02-12]** Released code and data for LLM-in-Sandbox Reinforcement Learning at [LLM-in-Sandbox-RL](https://github.com/llm-in-sandbox/llm-in-sandbox-rl).
+- **[2026-02-11]** v0.2.0: Added [benchmark module](./llm_in_sandbox/benchmark/README.md) for reproducing paper results, evaluating any LLM, and adding your own tasks.
 
 ## Table of Contents
 - [Installation](#installation)
