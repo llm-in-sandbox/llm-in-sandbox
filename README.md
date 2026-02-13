@@ -28,7 +28,7 @@ Enabling LLMs to explore within a code sandbox (i.e., a virtual computer) to eli
 - 📁 Flexible I/O: mount any input files, export any output files
 
 ## News
-- **[2026-02-12]** Released code and data for LLM-in-Sandbox Reinforcement Learning at [LLM-in-Sandbox-RL](https://github.com/llm-in-sandbox/llm-in-sandbox-rl).
+- **[2026-02-12]** Released code, data, and wandb log for LLM-in-Sandbox Reinforcement Learning at [LLM-in-Sandbox-RL](https://github.com/llm-in-sandbox/llm-in-sandbox-rl).
 - **[2026-02-11]** v0.2.0: Added [benchmark module](./llm_in_sandbox/benchmark/README.md) for reproducing paper results, evaluating any LLM, and adding your own tasks.
 
 ## Table of Contents
