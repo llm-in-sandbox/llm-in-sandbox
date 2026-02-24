@@ -3,13 +3,15 @@
 <p align="left">
   <a href="https://llm-in-sandbox.github.io">🌐 Project Page</a> •
   <a href="https://arxiv.org/abs/2601.16206">📄 Paper</a> •
-  <a href="https://huggingface.co/papers/2601.16206">🤗 Huggingface</a>•
+  <a href="https://huggingface.co/papers/2601.16206">🤗 Huggingface</a> •
+  <a href="https://huggingface.co/collections/daixuancheng/llm-in-sandbox">📦 Model and Data</a> •
+  <a href="https://www.youtube.com/shorts/9sjjLT2qyBE">🎬 Youtube Video</a> •
   <a href="https://github.com/llm-in-sandbox/llm-in-sandbox-rl">💻 LLM-in-Sandbox-RL</a>
 </p>
 
 ### Give your LLM a computer, unlocking general agentic intelligence
 
-As vibe coding becomes common and [🦞 OpenClaw](https://github.com/openclaw/openclaw) draws widespread attention, we present **the first systematic study** showing that placing an LLM inside a sandbox with terminal, file system, and internet access lets it significantly outperform standalone LLMs across chemistry, physics, math, biomedicine, long-context understanding, and instruction-following with no extra training. RL further amplifies the gains.
+As vibe coding becomes common and [🦞 OpenClaw](https://github.com/openclaw/openclaw) draws widespread attention, we present **the first systematic study** showing that placing an LLM inside a code sandbox with basic computer capabilities lets it significantly outperform standalone LLMs across chemistry, physics, math, biomedicine, long-context understanding, and instruction-following with no extra training. RL further amplifies the gains.
 
 - 📈 Consistent improvements across diverse non-code domains
 - 🧠 File system as long-term memory, up to 8× token savings
