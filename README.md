@@ -7,7 +7,16 @@
   <a href="https://github.com/llm-in-sandbox/llm-in-sandbox-rl">💻 LLM-in-Sandbox-RL</a>
 </p>
 
-Enabling LLMs to explore within a code sandbox (i.e., a virtual computer) to elicit general agentic intelligence.
+### Give your LLM a computer, unlocking general agentic intelligence
+
+As vibe coding becomes common and [🦞 OpenClaw](https://github.com/openclaw/openclaw) draws widespread attention, we present **the first systematic study** showing that placing an LLM inside a sandbox with terminal, file system, and internet access lets it significantly outperform standalone LLMs across chemistry, physics, math, biomedicine, and more, with no extra training. RL further amplifies the gains.
+
+- 📈 Consistent improvements across diverse non-code domains
+- 🧠 File system as long-term memory, up to 8× token savings
+- 🐳 Docker isolation for security (vs. unrestricted setups like 🦞 OpenClaw)
+- 🔌 Works with OpenAI, Anthropic, vLLM, SGLang, etc.
+
+Feel free to open an issue if you have any questions or run into any problems. We'd be happy to help!
 
 <p align="left">
   <img src="https://llm-in-sandbox.github.io/assets/intro.png" alt="Experiment Results" width="600">
@@ -20,12 +29,6 @@ Enabling LLMs to explore within a code sandbox (i.e., a virtual computer) to eli
   <br>
   <em>▶️ Click to watch the demo video</em>
 </p>
-
-**Features:**
-- 🌍 General-purpose: works beyond coding—scientific reasoning, long-context understanding, video production, travel planning, and more
-- 🐳 Isolated execution environment via Docker containers
-- 🔌 Compatible with OpenAI, Anthropic, and self-hosted servers (vLLM, SGLang, etc.)
-- 📁 Flexible I/O: mount any input files, export any output files
 
 ## News
 - **[2026-02-12]** Released code, data, and wandb log for LLM-in-Sandbox Reinforcement Learning at [LLM-in-Sandbox-RL](https://github.com/llm-in-sandbox/llm-in-sandbox-rl).
@@ -181,8 +184,7 @@ Reproduce our paper results, evaluate any LLM in the sandbox, or add your own ta
 
 ## Contact Us
 
-Daixuan Cheng: daixuancheng6@gmail.com  
-Shaohan Huang: shaohanh@microsoft.com  
+Feel free to open an issue if you have any questions or run into any problems, we’d be happy to help! You can also reach us directly at `daixuancheng6@gmail.com` and `shaohanh@microsoft.com`.
 
 ## Acknowledgment
 
