@@ -9,7 +9,7 @@
 
 ### Give your LLM a computer, unlocking general agentic intelligence
 
-As vibe coding becomes common and [🦞 OpenClaw](https://github.com/openclaw/openclaw) draws widespread attention, we present **the first systematic study** showing that placing an LLM inside a sandbox with terminal, file system, and internet access lets it significantly outperform standalone LLMs across chemistry, physics, math, biomedicine, and more, with no extra training. RL further amplifies the gains.
+As vibe coding becomes common and [🦞 OpenClaw](https://github.com/openclaw/openclaw) draws widespread attention, we present **the first systematic study** showing that placing an LLM inside a sandbox with terminal, file system, and internet access lets it significantly outperform standalone LLMs across chemistry, physics, math, biomedicine, long-context understanding, and instruction-following with no extra training. RL further amplifies the gains.
 
 - 📈 Consistent improvements across diverse non-code domains
 - 🧠 File system as long-term memory, up to 8× token savings
