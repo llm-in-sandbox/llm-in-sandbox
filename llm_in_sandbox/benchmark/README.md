@@ -33,6 +33,21 @@ vllm serve Qwen/Qwen3-4B-Instruct-2507 \
 </details>
 
 <details>
+<summary>💡 Qwen3-4B-Instruct-2507 after LLM-in-Sandbox-RL (vLLM)</summary>
+
+[daixuancheng/Qwen3-4B-Instruct-2507-LLM-in-Sandbox-RL](https://huggingface.co/daixuancheng/Qwen3-4B-Instruct-2507-LLM-in-Sandbox-RL) is the model checkpoint trained with [LLM-in-Sandbox-RL](https://github.com/llm-in-sandbox/llm-in-sandbox-rl) in our paper.
+```bash
+vllm serve daixuancheng/Qwen3-4B-Instruct-2507-LLM-in-Sandbox-RL \
+    --served-model-name qwen3-4b-instruct-sandbox-rl \
+    --enable-prefix-caching \
+    --tensor-parallel-size 4 \
+    --enable-auto-tool-choice \
+    --tool-call-parser hermes
+```
+</details>
+
+
+<details>
 <summary>DeepSeek-V3.2-Thinking (SGLang)</summary>
 
 ```bash
@@ -68,6 +83,20 @@ export LLM_TEMPERATURE=0.7
 
 ```bash
 export LLM_NAME=qwen3-4b-instruct
+export LLM_BASE_URL=http://localhost:8000/v1
+export LLM_NUM_WORKERS=8
+# Temperature: 0.7 for Qwen3 series, 1.0 for all other LLMs evaluated in our paper
+export LLM_TEMPERATURE=0.7
+# export LLM_API_KEY=your-api-key             # optional for local servers
+```
+
+</details>
+
+<details>
+<summary>💡 Environment Variables for Qwen3-4B-Instruct-2507 after LLM-in-Sandbox-RL</summary>
+
+```bash
+export LLM_NAME=qwen3-4b-instruct-sandbox-rl
 export LLM_BASE_URL=http://localhost:8000/v1
 export LLM_NUM_WORKERS=8
 # Temperature: 0.7 for Qwen3 series, 1.0 for all other LLMs evaluated in our paper
