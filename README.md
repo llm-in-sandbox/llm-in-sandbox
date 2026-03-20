@@ -5,7 +5,8 @@
   <a href="https://arxiv.org/abs/2601.16206">📄 Paper</a> •
   <a href="https://huggingface.co/papers/2601.16206">🤗 Huggingface</a> •
   <a href="https://huggingface.co/collections/daixuancheng/llm-in-sandbox">📦 Model and Data</a> •
-  <a href="https://www.youtube.com/shorts/9sjjLT2qyBE">🎬 Youtube Video</a> •
+  <a href="https://www.youtube.com/shorts/9sjjLT2qyBE">🎬 Youtube</a> •
+  <a href="./assets/slides.pdf">📽️ Slides</a> •
   <a href="https://github.com/llm-in-sandbox/llm-in-sandbox-rl">💻 LLM-in-Sandbox-RL</a>
 </p>
 
