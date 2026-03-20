@@ -1,7 +1,7 @@
 <h1 align="left">LLM-in-Sandbox</h1>
 
 <p align="left">
-  <a href="https://llm-in-sandbox.github.io">🌐 Project Page</a> •
+  <a href="https://llm-in-sandbox.github.io">🌐 Project</a> •
   <a href="https://arxiv.org/abs/2601.16206">📄 Paper</a> •
   <a href="https://huggingface.co/papers/2601.16206">🤗 Huggingface</a> •
   <a href="https://huggingface.co/collections/daixuancheng/llm-in-sandbox">📦 Model and Data</a> •
