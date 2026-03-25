@@ -34,6 +34,8 @@ Feel free to open an issue if you have any questions or run into any problems. W
 </p>
 
 ## News
+- **[2026-03-25]** Released [Awesome Computer-Use Agents](https://github.com/cdxeve/awesome-computer-use-agents), a curated list tracking the development of computer-use agents across terminal and GUI paradigms, with an accompanying [overview report](https://github.com/cdxeve/awesome-computer-use-agents/blob/main/computer_use_agent_overview.pdf).
+- **[2026-03-20]** Uploaded [talk slides on "LLM-in-Sandbox: From Coding Agent to General Agent"](https://github.com/llm-in-sandbox/llm-in-sandbox/blob/main/assets/slides.pdf).
 - **[2026-02-12]** Released [code](https://github.com/llm-in-sandbox/llm-in-sandbox-rl), [model & data](https://huggingface.co/collections/daixuancheng/llm-in-sandbox), and [wandb log](https://wandb.ai/785219929/LLM-in-Sandbox-RL/runs/3oi7t055?nw=nwuser785219929) for LLM-in-Sandbox Reinforcement Learning at [LLM-in-Sandbox-RL](https://github.com/llm-in-sandbox/llm-in-sandbox-rl).
 - **[2026-02-11]** [v0.2.0](https://github.com/llm-in-sandbox/llm-in-sandbox/releases/tag/v0.2.0): Added [benchmark module](./llm_in_sandbox/benchmark/README.md) for reproducing paper results, evaluating any LLM, and adding your own tasks.
 - **[2026-01-23]** Released [paper](https://arxiv.org/abs/2601.16206), [project page](https://llm-in-sandbox.github.io), and [code](https://github.com/llm-in-sandbox/llm-in-sandbox). Honored as [#1 paper of the day on Hugging Face](https://huggingface.co/papers/2601.16206).
