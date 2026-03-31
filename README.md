@@ -52,6 +52,19 @@ Feel free to open an issue if you have any questions or run into any problems. W
 
 **Requirements:** Python 3.10+, [Docker](https://docs.docker.com/engine/install/)
 
+### 1. Install Docker
+
+Skip this if Docker is already installed.
+
+```bash
+curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh
+dockerd > /var/log/dockerd.log 2>&1 &
+```
+
+Or follow the [official Docker docs](https://docs.docker.com/engine/install/).
+
+#### 2. Install llm-in-sandbox
+
 ```bash
 pip install llm-in-sandbox
 ```
