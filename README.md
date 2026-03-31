@@ -52,7 +52,7 @@ Feel free to open an issue if you have any questions or run into any problems. W
 
 **Requirements:** Python 3.10+, [Docker](https://docs.docker.com/engine/install/)
 
-### 1. Install Docker
+#### 1. Install Docker
 
 Skip this if Docker is already installed.
 
