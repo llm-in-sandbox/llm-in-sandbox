@@ -8,7 +8,8 @@
   <a href="https://huggingface.co/collections/daixuancheng/llm-in-sandbox">📦 Model & Data</a> •
   <a href="https://www.youtube.com/shorts/9sjjLT2qyBE">🎬 Youtube</a> •
   <a href="./assets/slides.pdf">📽️ Slides</a> •
-  <a href="https://github.com/cdxeve/awesome-computer-use-agents">🕶️ Awesome Computer-Use-Agent</a>
+  <a href="https://github.com/cdxeve/awesome-computer-use-agents">🕶️ Awesome Computer-Use-Agent</a> •
+  <a href="https://github.com/cdxeve/scale-openclaw/tree/main">🦞 Scale-OpenClaw</a>
 </p>
 
 ### Give your LLM a computer, unlocking general agentic intelligence
@@ -35,6 +36,7 @@ Feel free to open an issue if you have any questions or run into any problems. W
 </p>
 
 ## News
+- **[2026-04-11]** Released [scale-openclaw](https://github.com/cdxeve/scale-openclaw/tree/main) — collect 🦞 OpenClaw trajectories at scale on a single machine, Docker-free.
 - **[2026-03-25]** Released [Awesome Computer-Use Agents](https://github.com/cdxeve/awesome-computer-use-agents), a curated list tracking the development of computer-use agents across terminal and GUI paradigms, with an accompanying [overview report](https://github.com/cdxeve/awesome-computer-use-agents/blob/main/computer_use_agent_overview.pdf).
 - **[2026-03-20]** Uploaded [talk slides on "LLM-in-Sandbox: From Coding Agent to General Agent"](https://github.com/llm-in-sandbox/llm-in-sandbox/blob/main/assets/slides.pdf).
 - **[2026-02-12]** Released [code](https://github.com/llm-in-sandbox/llm-in-sandbox-rl), [model & data](https://huggingface.co/collections/daixuancheng/llm-in-sandbox), and [wandb log](https://wandb.ai/785219929/LLM-in-Sandbox-RL/runs/3oi7t055?nw=nwuser785219929) for LLM-in-Sandbox Reinforcement Learning at [LLM-in-Sandbox-RL](https://github.com/llm-in-sandbox/llm-in-sandbox-rl).
