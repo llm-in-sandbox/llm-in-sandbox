@@ -231,8 +231,8 @@ Apache License 2.0. See [LICENSE](./LICENSE) for details.
 ## Citation
 If you find our work helpful, please cite us:
 ```bibtex
-@article{cheng2026llm,
-  title={Llm-in-sandbox elicits general agentic intelligence},
+@article{cheng2026computer,
+  title={Computer environments elicit general agentic intelligence in llms},
   author={Cheng, Daixuan and Huang, Shaohan and Gu, Yuxian and Song, Huatong and Chen, Guoxin and Dong, Li and Zhao, Wayne Xin and Wen, Ji-Rong and Wei, Furu},
   journal={arXiv preprint arXiv:2601.16206},
   year={2026}
